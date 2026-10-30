@@ -1,0 +1,3130 @@
+{
+  "numero": 61,
+  "frase": "open-pit mining",
+  "consulta": "(TITLE-ABS({open-pit mining})) AND (DOCTYPE(ar) OR DOCTYPE(re))",
+  "cursor_solicitado": "rO0ABXNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHABM6EndAALODQ5MzkxNTQzNDg=",
+  "cursor_siguiente": "rO0ABXNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHABM3rZdAALODQ5NDUyNDE3OTM=",
+  "reportado": 1830,
+  "descargados_acumulados": 1525,
+  "entry": [
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/84988369893"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/84988369893?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84988369893&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=84988369893&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/84988369893",
+      "dc:identifier": "SCOPUS_ID:84988369893",
+      "eid": "2-s2.0-84988369893",
+      "dc:title": "Sensitivity analysis and 3D-displacement inversion of rock parameters for high steep slope in open-pit mining",
+      "dc:creator": "Zhou C.",
+      "prism:publicationName": "Open Civil Engineering Journal",
+      "prism:eIssn": "18741495",
+      "prism:volume": "10",
+      "prism:pageRange": "448-460",
+      "prism:coverDate": "2016-07-01",
+      "prism:coverDisplayDate": "1 July 2016",
+      "prism:doi": "10.2174/10.2174/1874149501610010448",
+      "dc:description": "Due to the complexity of multiple rocks and multiple parameters circumstance, various parameters are often reduced to only one parameter empirically to generalize geological conditions, ignoring the really influential parameters. A developed method was presented as a complement to 3D displacement inversion to obtain the relative important parameters under complex conditions with limited computational work. Furthermore, this method was applied to a high steep slope in open-pit mining to investigate field applicability of the developed system. Back analysis was conducted in the reality of the east open-pit working area of Daye Iron Mine and propositional steps were presented for parameters solving in complex circumstance. Firstly, multi-factor and single-factor sensitivity analysis were carried out to classify rock mass and mechanical parameters respectively according to the extent of their effects on deformations. Secondly, based on the results, main influence factors were selected as inversion parameters and taken into a 3D calculating model to get the displacement field and stress field, all of which would be the artificial network training samples together with inversion parameters. Thirdly, taking the real deformations as input for the trained back propagation (BP) neural network, the real material mechanical parameters could be obtained. Finally, the results of trained neural network have been confirmed by field monitoring data and provide a reference to obtain the matter parameters in complicated environment for other similar projects.",
+      "citedby-count": "3",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60006019",
+          "afid": "60006019",
+          "affilname": "China University of Geosciences",
+          "affiliation-city": "Wuhan",
+          "affiliation-country": "China"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "4"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/8530921700",
+          "authid": "8530921700",
+          "authname": "Zhou C.",
+          "surname": "Zhou",
+          "given-name": "C. B.",
+          "initials": "C.B.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60006019"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/56043643600",
+          "authid": "56043643600",
+          "authname": "He R.",
+          "surname": "He",
+          "given-name": "R.",
+          "initials": "R.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60006019"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57203872337",
+          "authid": "57203872337",
+          "authname": "Jiang N.",
+          "surname": "Jiang",
+          "given-name": "N.",
+          "initials": "N.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60006019"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "4",
+          "author-url": "https://api.elsevier.com/content/author/author_id/55910368800",
+          "authid": "55910368800",
+          "authname": "Lu S.",
+          "surname": "Lu",
+          "given-name": "S. W.",
+          "initials": "S.W.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60006019"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "Back analysis | BP neural network | High steep slope | Rock mechanical parameters | Sensitivity analysis",
+      "source-id": "19700186831",
+      "fund-acr": "NSFC",
+      "fund-no": "41072219",
+      "fund-sponsor": "National Natural Science Foundation of China",
+      "openaccess": "1",
+      "openaccessFlag": true,
+      "freetoread": {
+        "value": [
+          {
+            "$": "all"
+          },
+          {
+            "$": "publisherhybridgold"
+          }
+        ]
+      },
+      "freetoreadLabel": {
+        "value": [
+          {
+            "$": "All Open Access"
+          },
+          {
+            "$": "Hybrid Gold"
+          }
+        ]
+      }
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/84975757520"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/84975757520?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84975757520&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=84975757520&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/84975757520",
+      "dc:identifier": "SCOPUS_ID:84975757520",
+      "eid": "2-s2.0-84975757520",
+      "dc:title": "Optimization of Open-Pit Mining by the Gradient Method",
+      "dc:creator": "Grigorenko N.",
+      "prism:publicationName": "Computational Mathematics and Modeling",
+      "prism:issn": "1046283X",
+      "prism:eIssn": "1573837X",
+      "prism:volume": "27",
+      "prism:issueIdentifier": "3",
+      "prism:pageRange": "351-359",
+      "prism:coverDate": "2016-07-01",
+      "prism:coverDisplayDate": "1 July 2016",
+      "prism:doi": "10.1007/s10598-016-9326-1",
+      "dc:description": "A model of a two-dimensional open-pit mine is proposed and an optimal control problem is formulated with mixed constraints on the control parameters and an integral objective functional. The problem is discretized in one of the phase variables and solved by the gradient projection method with penalty functions. Numerical results illustrating the the method are also represented.",
+      "citedby-count": "2",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60007457",
+          "afid": "60007457",
+          "affilname": "Lomonosov Moscow State University",
+          "affiliation-city": "Moscow",
+          "affiliation-country": "Russian Federation"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "3"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/6603688620",
+          "authid": "6603688620",
+          "authname": "Grigorenko N.",
+          "surname": "Grigorenko",
+          "given-name": "N. L.",
+          "initials": "N.L.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60007457"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/9244327300",
+          "authid": "9244327300",
+          "authname": "Kamzolkin D.",
+          "surname": "Kamzolkin",
+          "given-name": "D. V.",
+          "initials": "D.V.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60007457"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/16023123000",
+          "authid": "16023123000",
+          "authname": "Pivovarchuk D.",
+          "surname": "Pivovarchuk",
+          "given-name": "D. G.",
+          "initials": "D.G.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60007457"
+            }
+          ]
+        }
+      ],
+      "source-id": "144954",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/84975686310"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/84975686310?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84975686310&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=84975686310&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/84975686310",
+      "dc:identifier": "SCOPUS_ID:84975686310",
+      "eid": "2-s2.0-84975686310",
+      "dc:title": "Optimization of Economic Indicators in Open-Pit Mining",
+      "dc:creator": "Grigorenko N.L.",
+      "prism:publicationName": "Computational Mathematics and Modeling",
+      "prism:issn": "1046283X",
+      "prism:eIssn": "1573837X",
+      "prism:volume": "27",
+      "prism:issueIdentifier": "3",
+      "prism:pageRange": "360-372",
+      "prism:coverDate": "2016-07-01",
+      "prism:coverDisplayDate": "1 July 2016",
+      "prism:doi": "10.1007/s10598-016-9327-0",
+      "dc:description": "We investigate the application of the Real Options approach to the optimization of open-pit mining. The Real Options approach introduces investment as an additional control parameter for profit maximization. In the context of applying the Real Options approach to open-pit mining optimization, we consider a model with two-stage investments. Open-pit mining requires both extracting and processing capacities. These capacities in turn require investments, which are divided into two parts: investments to create the initial capacities and investments to increase existing capacities in the process of mining. The initial and augmented capacities as well as the capacity augmentation time are control parameters that can be chosen with the objective of increasing the mining profits. In this article, we assume that the market price of the mineral is a random process described by a stochastic differential equation. A control strategy is a rule that at every time instant, making use of the available information, determines the mining rate, establishes if additional investments are required at the given time, and if yes, calculates the investment amount. The problem involves the construction of an optimal mining control strategy that maximizes the mean discounted profit from the open-pit mine.",
+      "citedby-count": "1",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60007457",
+          "afid": "60007457",
+          "affilname": "Lomonosov Moscow State University",
+          "affiliation-city": "Moscow",
+          "affiliation-country": "Russian Federation"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "3"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/6603688620",
+          "authid": "6603688620",
+          "authname": "Grigorenko N.L.",
+          "surname": "Grigorenko",
+          "given-name": "N. L.",
+          "initials": "N.L.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60007457"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/9244327300",
+          "authid": "9244327300",
+          "authname": "Kamzolkin D.V.",
+          "surname": "Kamzolkin",
+          "given-name": "D. V.",
+          "initials": "D.V.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60007457"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/16023123000",
+          "authid": "16023123000",
+          "authname": "Pivovarchuk D.G.",
+          "surname": "Pivovarchuk",
+          "given-name": "D. G.",
+          "initials": "D.G.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60007457"
+            }
+          ]
+        }
+      ],
+      "source-id": "144954",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/84964004941"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/84964004941?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84964004941&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=84964004941&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/84964004941",
+      "dc:identifier": "SCOPUS_ID:84964004941",
+      "eid": "2-s2.0-84964004941",
+      "dc:title": "Rock Mass Deformation Characteristics in High-Steep Slopes Influenced by Open-Pit to Underground Mining",
+      "dc:creator": "Zhou C.",
+      "prism:publicationName": "Geotechnical and Geological Engineering",
+      "prism:issn": "09603182",
+      "prism:eIssn": "15731529",
+      "prism:volume": "34",
+      "prism:issueIdentifier": "3",
+      "prism:pageRange": "847-866",
+      "prism:coverDate": "2016-06-01",
+      "prism:coverDisplayDate": "1 June 2016",
+      "prism:doi": "10.1007/s10706-016-0009-7",
+      "dc:description": "In Daye Iron Mine, the open-pit mining has ended and the underground mining started in 2003. The present pit slopes are as high as 430 m and the slope angle is up to 43°. During the process of open-pit to underground mining, the high-steep pit slopes would be affected by both open-pit mining and underground mining, and its deformation characteristics would become more complex. So in this paper, the trinity method of numerical simulation, model experiment and field test was adopted to analyze the displacement and stress fields systematically. The results show that: (1) Prominent rebound deformation occurs near the slope foot, which is induced by the unloading in open-pit mining. When it is backfilled to 0 m level, the rebound deformation decreases, which indicate that backfilling mass can restrict the deformation and improve the slope stability; (2) Subsidence dominates the slope deformation in open-pit to underground mining and it increases with an increasing elevation of monitoring point; the maximum horizontal displacement occurs in the lower part of the slopes, because the backfilled part is squeezed by both the north slope and the south slope, and it has a lower elastic modulus than the previous orebody; (3) The stress and its variability near the slope foot are much larger than other places, indicating that the slope foot is most affected by stress redistribution and stress concentration may occur here; the stress at other stress monitoring points changes little, indicating that the influence of open-pit to underground mining is local; (4) The effect of underground mining on the deformation of the faults is not prominent; (5) Mining operations in near-ground part affect more on the variation of deformation and stress of pit slopes than that in deeper part.",
+      "citedby-count": "10",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60006019",
+          "afid": "60006019",
+          "affilname": "China University of Geosciences",
+          "affiliation-city": "Wuhan",
+          "affiliation-country": "China"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "6"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/8530921700",
+          "authid": "8530921700",
+          "authname": "Zhou C.",
+          "surname": "Zhou",
+          "given-name": "Chuanbo",
+          "initials": "C.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60006019"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/55910368800",
+          "authid": "55910368800",
+          "authname": "Lu S.",
+          "surname": "Lu",
+          "given-name": "Shiwei",
+          "initials": "S.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60006019"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57203872337",
+          "authid": "57203872337",
+          "authname": "Jiang N.",
+          "surname": "Jiang",
+          "given-name": "Nan",
+          "initials": "N.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60006019"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "4",
+          "author-url": "https://api.elsevier.com/content/author/author_id/55236778000",
+          "authid": "55236778000",
+          "authname": "Zhang D.",
+          "surname": "Zhang",
+          "given-name": "Dingbang",
+          "initials": "D.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60006019"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "5",
+          "author-url": "https://api.elsevier.com/content/author/author_id/55836927700",
+          "authid": "55836927700",
+          "authname": "Zhang Z.",
+          "surname": "Zhang",
+          "given-name": "Zhihua",
+          "initials": "Z.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60006019"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "6",
+          "author-url": "https://api.elsevier.com/content/author/author_id/55363723000",
+          "authid": "55363723000",
+          "authname": "Miao G.",
+          "surname": "Miao",
+          "given-name": "Gaojian",
+          "initials": "G.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60006019"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "Deformation characteristics | High-steep slope | Model test | Numerical simulation | Open-pit to underground",
+      "source-id": "19690",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/84994475085"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/84994475085?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84994475085&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=84994475085&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/84994475085",
+      "dc:identifier": "SCOPUS_ID:84994475085",
+      "eid": "2-s2.0-84994475085",
+      "dc:title": "Sandhill fen, an initial trial for wetland species assembly on in-pit substrates: Lessons after three years",
+      "dc:creator": "Vitt D.H.",
+      "prism:publicationName": "Botany",
+      "prism:issn": "19162804",
+      "prism:volume": "94",
+      "prism:issueIdentifier": "11",
+      "prism:pageRange": "1015-1025",
+      "prism:coverDate": "2016-04-14",
+      "prism:coverDisplayDate": "14 April 2016",
+      "prism:doi": "10.1139/cjb-2015-0262",
+      "dc:description": "Open-pit mining of oil sands removes wetland plant communities from the landscape. Sandhill Water-shed, located on Syncrude Canada’s oil sands lease, is the first reclamation of a complex watershed that includes a 17 ha central wetland designed to develop into a rich fen. Here we sample the vegetation after three years. Of the 124 plant species recorded, 48% are peat-forming species, including 24 bryophyte species. We identified, using ordination techniques, four plant assemblages that vary in abundance of peat-forming plants. Each assemblage occurs in a spatially distinct area of Sandhill Fen, forming vegetation zones that are closely associated with height of water table. The plant assemblage distributed in the wettest areas has abundant marsh species. The assemblages in the driest areas of the fen have large numbers of upland and weed species and few species characteristic of fens. In between is a species assemblage with an abundance of species characteristic of natural peat-forming habitats. Two key findings are: water levels control spatial distributions of species assemblages, and non-peat-forming plant species are abundant and a concern for the establishment of peat-forming wetlands. Future designs should include plans for a number of interconnected site types such as marshes, fens, and riparian areas.",
+      "citedby-count": "43",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60029472",
+          "afid": "60029472",
+          "affilname": "Southern Illinois University Carbondale",
+          "affiliation-city": "Carbondale",
+          "affiliation-country": "United States"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "3"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/7004682744",
+          "authid": "7004682744",
+          "authname": "Vitt D.H.",
+          "surname": "Vitt",
+          "given-name": "Dale H.",
+          "initials": "D.H.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60029472"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/35885532100",
+          "authid": "35885532100",
+          "authname": "House M.",
+          "surname": "House",
+          "given-name": "Melissa",
+          "initials": "M.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60029472"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/56320653000",
+          "authid": "56320653000",
+          "authname": "Hartsock J.A.",
+          "surname": "Hartsock",
+          "given-name": "Jeremy A.",
+          "initials": "J.A.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60029472"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "Boreal | Bryophyte | Fen | Oil sands | Peatland | Plant assemblage | Reclamation | Sandhill fen",
+      "source-id": "12300154714",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/84964285860"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/84964285860?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84964285860&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=84964285860&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/84964285860",
+      "dc:identifier": "SCOPUS_ID:84964285860",
+      "eid": "2-s2.0-84964285860",
+      "dc:title": "Mission-critical mobile broadband communications in open-pit mines",
+      "dc:creator": "Garcia L.G.U.",
+      "prism:publicationName": "IEEE Communications Magazine",
+      "prism:issn": "01636804",
+      "prism:volume": "54",
+      "prism:issueIdentifier": "4",
+      "prism:pageRange": "62-69",
+      "prism:coverDate": "2016-04-01",
+      "prism:coverDisplayDate": "April 2016",
+      "prism:doi": "10.1109/MCOM.2016.7452267",
+      "dc:description": "The need for continuous safety improvements and increased operational efficiency is driving the mining industry through a transition toward automated operations. From a communications perspective, this transition introduces a new set of high-bandwidth business-critical and mission-critical applications that need to be met by the wireless network. This article introduces fundamental concepts behind open-pit mining and discusses why this ever-changing environment and strict industrial reliability requirements pose unique challenges to traditional broadband network planning and optimization techniques. On the other hand, unlike unpredictable disaster scenarios, mining is a carefully planned activity. Taking advantage of this predictability element, we propose a framework that integrates mine and radio network planning so that continuous and automated adaptation of the radio network becomes possible. The potential benefits of this framework are evaluated by means of an illustrative example.",
+      "citedby-count": "14",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60022195",
+          "afid": "60022195",
+          "affilname": "Massachusetts Institute of Technology",
+          "affiliation-city": "Cambridge",
+          "affiliation-country": "United States"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60022134",
+          "afid": "60022134",
+          "affilname": "Aalborg University",
+          "affiliation-city": "Aalborg",
+          "affiliation-country": "Denmark"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60022764",
+          "afid": "60022764",
+          "affilname": "Universidade Federal de Ouro Preto",
+          "affiliation-city": "Ouro Preto",
+          "affiliation-country": "Brazil"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/115406383",
+          "afid": "115406383",
+          "affilname": "Technological Institute of Development - INDT",
+          "affiliation-city": null,
+          "affiliation-country": "Brazil"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "8"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/35271869600",
+          "authid": "35271869600",
+          "authname": "Garcia L.G.U.",
+          "surname": "Garcia",
+          "given-name": "Luis G.Uzeda",
+          "initials": "L.G.U.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60022195"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/55204048400",
+          "authid": "55204048400",
+          "authname": "Almeida E.P.L.",
+          "surname": "Almeida",
+          "given-name": "Erika P.L.",
+          "initials": "E.P.L.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60022134"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57188923851",
+          "authid": "57188923851",
+          "authname": "Barbosa V.S.B.",
+          "surname": "Barbosa",
+          "given-name": "Viviane S.B.",
+          "initials": "V.S.B.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60022764"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "4",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57188925693",
+          "authid": "57188925693",
+          "authname": "Caldwell G.",
+          "surname": "Caldwell",
+          "given-name": "George",
+          "initials": "G.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "115406383"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "5",
+          "author-url": "https://api.elsevier.com/content/author/author_id/55934293100",
+          "authid": "55934293100",
+          "authname": "Rodriguez I.",
+          "surname": "Rodriguez",
+          "given-name": "Ignacio",
+          "initials": "I.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60022134"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "6",
+          "author-url": "https://api.elsevier.com/content/author/author_id/15924814100",
+          "authid": "15924814100",
+          "authname": "Lima H.",
+          "surname": "Lima",
+          "given-name": "Hernani",
+          "initials": "H.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60022764"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "7",
+          "author-url": "https://api.elsevier.com/content/author/author_id/7201363530",
+          "authid": "7201363530",
+          "authname": "Sorensen T.B.",
+          "surname": "Sorensen",
+          "given-name": "Troels B.",
+          "initials": "T.B.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60022134"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "8",
+          "author-url": "https://api.elsevier.com/content/author/author_id/35584209600",
+          "authid": "35584209600",
+          "authname": "Mogensen P.",
+          "surname": "Mogensen",
+          "given-name": "Preben",
+          "initials": "P.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60022134"
+            }
+          ]
+        }
+      ],
+      "article-number": "7452267",
+      "source-id": "17249",
+      "openaccess": "2",
+      "openaccessFlag": false,
+      "freetoread": {
+        "value": [
+          {
+            "$": "all"
+          },
+          {
+            "$": "repository"
+          },
+          {
+            "$": "repositoryvor"
+          }
+        ]
+      },
+      "freetoreadLabel": {
+        "value": [
+          {
+            "$": "All Open Access"
+          },
+          {
+            "$": "Green"
+          }
+        ]
+      }
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/84962440786"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/84962440786?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84962440786&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=84962440786&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/84962440786",
+      "dc:identifier": "SCOPUS_ID:84962440786",
+      "eid": "2-s2.0-84962440786",
+      "dc:title": "Pioneer vegetation as an indicator of the geochemical parameters in abandoned mine sites using hyperspectral airborne data",
+      "dc:creator": "Götze C.",
+      "prism:publicationName": "Environmental Earth Sciences",
+      "prism:issn": "18666280",
+      "prism:eIssn": "18666299",
+      "prism:volume": "75",
+      "prism:issueIdentifier": "7",
+      "prism:pageRange": null,
+      "prism:coverDate": "2016-04-01",
+      "prism:coverDisplayDate": "1 April 2016",
+      "prism:doi": "10.1007/s12665-016-5367-1",
+      "dc:description": "A general problem that is associated with open-pit mining is the total displacement of the former landscape’s geocomponents. Overburden conveyor bridges have an irreversible impact on the environment. The consequence of this is a completely new system—the so-called “post-mining landscapes”. These are characterized by extreme geochemical milieus, especially acidity, which is caused by weathering processes (acid mine drainage). These extreme environments are often left to natural succession because of the enormous costs and poor prospects of a successful reclamation. This study investigated the relationship between pioneer vegetation (e.g., Calamagrostis epigejos) and the geochemical properties of heap material using hyperspectral airborne HyMap data in the west Bohemian lignite district near Sokolov (Czech Republic). Thus, a fully constrained linear spectral unmixing algorithm was applied to link the geochemical parameters with fractional abundances. Due to the limitation of pure surfaces in the data set of such fragmented and mixed areas, a three-stage semiautomated endmember extraction was developed. The first stage included the selection of pure surface types using a decision tree with a self-developed narrow band and normalized difference indices. The second stage extracted the potential endmembers using the sequential maximum angle convex cone algorithm. The third stage identified the final endmembers and eliminated the spectral outliers by comparing the extractions to field/laboratory spectral libraries. The abundance fraction image of the pioneer vegetation, which was generated by the linear spectral unmixing, showed the spatial distribution and density of the vegetation. A linear regression model was used to calibrate the abundance image against the pH value. The regression model successfully predicted the pH values of the soil (R<sup>2</sup> = 0.67, RPD = 1.42). This method demonstrated that hyperspectral remote sensing data could be used for ecological medium- and long-term monitoring, as well as for spatial assessments in post-mining areas. In addition, this approach works with a small amount of geochemical measurements and the sparse availability of endmembers.",
+      "citedby-count": "28",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60014059",
+          "afid": "60014059",
+          "affilname": "Martin-Luther-Universität Halle-Wittenberg",
+          "affiliation-city": "Halle",
+          "affiliation-country": "Germany"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "3"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/36019845200",
+          "authid": "36019845200",
+          "authname": "Götze C.",
+          "surname": "Götze",
+          "given-name": "Christian",
+          "initials": "C.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60014059"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/59883298500",
+          "authid": "59883298500",
+          "authname": "Beyer F.",
+          "surname": "Beyer",
+          "given-name": "Florian",
+          "initials": "F.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60014059"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/10739769800",
+          "authid": "10739769800",
+          "authname": "Gläßer C.",
+          "surname": "Gläßer",
+          "given-name": "Cornelia",
+          "initials": "C.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60014059"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "Abandoned mine sites | Geochemical properties | Linear spectral unmixing | Sparse vegetation | Spectral mixture",
+      "article-number": "613",
+      "source-id": "19400158519",
+      "fund-acr": "UK",
+      "fund-no": "205/09/1989",
+      "fund-sponsor": "Univerzita Karlova v Praze",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/84961266421"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/84961266421?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84961266421&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=84961266421&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/84961266421",
+      "dc:identifier": "SCOPUS_ID:84961266421",
+      "eid": "2-s2.0-84961266421",
+      "dc:title": "Time–space characterization of vegetation in a semiarid mining area using empirical orthogonal function decomposition of MODIS NDVI time series",
+      "dc:creator": "Lei S.",
+      "prism:publicationName": "Environmental Earth Sciences",
+      "prism:issn": "18666280",
+      "prism:eIssn": "18666299",
+      "prism:volume": "75",
+      "prism:issueIdentifier": "6",
+      "prism:pageRange": null,
+      "prism:coverDate": "2016-03-01",
+      "prism:coverDisplayDate": "1 March 2016",
+      "prism:doi": "10.1007/s12665-015-5122-z",
+      "dc:description": "There are always different patterns of temporal variation determined by the heterogeneity of the surface coverage and influence factors at regional scale. Identification of the temporal patterns and positioning their spatial distribution are critical for rational use of nature resources and ecological protection. In this study, the empirical orthogonal function decomposition (EOFD) was proposed for the time–space characterization of vegetation in a semiarid mining area using 206 MODIS-NDVI images with a spatial resolution of 250 m and temporal resolution of 16 days. Four kinds of temporal patterns of the vegetation were decomposed, which are annual cycle, desertification, increase and degradation. Moreover, the spatial distributions of the decomposed temporal patterns were mapped. As a result, a much stronger relationship was found between the NDVI and rainfall, which is the key factor controlling the vegetation growth in the study area. The spatial distribution of the impacts on the vegetation from the underground coal mining, open-pit mining, and vegetation reconstruction was identified with the EOFD method and verified by site investigations. These results demonstrated that the EOFD method can decompose the whole temporal variation of vegetation into several different patterns of variations and help to distinguish between the influences from natural factors or anthropogenic activities. The EOFD method is determined by the temporal variations of the study area without human intervention; therefore, it is a promising methodology for time–space characterization with the aid of satellite images time series at a large scale.",
+      "citedby-count": "43",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60073460",
+          "afid": "60073460",
+          "affilname": "China University of Mining and Technology",
+          "affiliation-city": "Xuzhou",
+          "affiliation-country": "China"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "3"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/25028121800",
+          "authid": "25028121800",
+          "authname": "Lei S.",
+          "surname": "Lei",
+          "given-name": "Shaogang",
+          "initials": "S.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60073460"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57186100900",
+          "authid": "57186100900",
+          "authname": "Ren L.",
+          "surname": "Ren",
+          "given-name": "Lixin",
+          "initials": "L.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60073460"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/7103314735",
+          "authid": "7103314735",
+          "authname": "Bian Z.",
+          "surname": "Bian",
+          "given-name": "Zhengfu",
+          "initials": "Z.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60073460"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "Coal mining | Empirical orthogonal function | Semiarid environment | Vegetation",
+      "article-number": "516",
+      "source-id": "19400158519",
+      "fund-acr": "NSFC",
+      "fund-no": "U1361214",
+      "fund-sponsor": "National Natural Science Foundation of China",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/84959466171"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/84959466171?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84959466171&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=84959466171&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/84959466171",
+      "dc:identifier": "SCOPUS_ID:84959466171",
+      "eid": "2-s2.0-84959466171",
+      "dc:title": "Prediction for relocation scale of rural settlements based on farming radius in reclamation area of open-pit coal mine",
+      "dc:creator": "Hu X.",
+      "prism:publicationName": "Nongye Gongcheng Xuebao Transactions of the Chinese Society of Agricultural Engineering",
+      "prism:issn": "10026819",
+      "prism:volume": "32",
+      "prism:issueIdentifier": "3",
+      "prism:pageRange": "259-266",
+      "prism:coverDate": "2016-02-01",
+      "prism:coverDisplayDate": "1 February 2016",
+      "prism:doi": "10.11975/j.issn.1002-6819.2016.03.038",
+      "dc:description": "Mine reclamation has become a worldwide problem recently and has similar research directions both in China and abroad, including ecological restoration, mining technology, bioremediation technology, soil reconstruction techniques, soil quality testing, plant species selecting. The key target is to restore the ecological system and improve the environment. One of the main purposes of reclamation is to restore farmland, which is scarce in China. In addition, resettlement of residents and their living environment need to be taken into account. In this paper, the study area is the Pingshuo open-pit mine, which is located in Shuozhou City, Shanxi Province, China, and belongs to super-large open-pit mine with modern production. Mining activities began in 1987, and have lasted for 28 years until now. Fourteen rural settlements have moved, and resettlement population has reached 8400 by 2013. From the perspective of farming radius, buffer analysis of rural settlements was used to contrast the difference of farming radius before and after the open-pit mining by geographic information system (GIS) technology. Considering the impact of topography on farming radius, this paper calculated the terrain correction coefficient of farming radius in the study area using the achievements about relief amplitude, and the mean change-point analysis method was adopted to determine the best statistics grid unit to reflect terrain. Through buffer analysis, the result of spatial farming radius showed that the farming radius had a great change from 1986 to 2013 because of open-pit mining. Therefore, the best farming radius should be determined based on the result in 1986. Using the equation of farming radius, per capita arable land and the number of population were calculated through combining the method of \"the ratio of arable land area to settlements land area\" Finally, optimal farming radius was determined according to the calculation result about the terrain correction coefficient and the scale of arable land. We predicted the size and number of rural settlements after completing reclamation. The results showed that: 1) Affected by mining, the farming radius has expanded by 1500 m from 1986 to 2013, and the largest farming radius was 4500 m; 2) Determining the optimal statistics grid unit to calculate the value of relief amplitude, the result showed that 550 m × 550 m was the optimal statistics grid unit to reflect terrain in study area; 3) Based on the buffer analysis, digital elevation map neighbourhood analysis and forecasting, the terrain correction coefficient of farming radius was 1.6836, and the optimal actual farming radius was 1500 m, and therefore, the optimal spatial farming radius was 891 m. 4) On the premise of guaranteeing the arable land quantity unchanged, the total area of relocated rural settlements was about 651.24 hm<sup>2</sup>, and there were 67 rural settlements in total. Individual rural settlement area was predicted to be 9.72 hm<sup>2</sup>, and the control area of arable land was about 109.68 hm<sup>2</sup>. 5) The total relocated population would be about 29521 (7380 families). The results of this study can provide the reference for the implementment of relocating rural settlements and the reuse of reclaimed arable land in Pingshuo mining area.",
+      "citedby-count": "8",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60130029",
+          "afid": "60130029",
+          "affilname": "School of Land Science and Technology",
+          "affiliation-city": "Beijing",
+          "affiliation-country": "China"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60172258",
+          "afid": "60172258",
+          "affilname": "Key Laboratory of Land Consolidation and Rehabilitation",
+          "affiliation-city": "Beijing",
+          "affiliation-country": "China"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "2"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/56909100100",
+          "authid": "56909100100",
+          "authname": "Hu X.",
+          "surname": "Hu",
+          "given-name": "Xingding",
+          "initials": "X.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60130029"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/55649649900",
+          "authid": "55649649900",
+          "authname": "Bai Z.",
+          "surname": "Bai",
+          "given-name": "Zhongke",
+          "initials": "Z.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60130029"
+            },
+            {
+              "@_fa": "true",
+              "$": "60172258"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "Farming radius | Land use | Mining | Placement | Reclamation | Removal | Rural settlements",
+      "source-id": "62499",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85025105550"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85025105550?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85025105550&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85025105550&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85025105550",
+      "dc:identifier": "SCOPUS_ID:85025105550",
+      "eid": "2-s2.0-85025105550",
+      "dc:title": "Resource evaluation method for open-pit mining oil sands in the western Canada basin. Canada",
+      "dc:creator": "Tao G.L.",
+      "prism:publicationName": "Bulletin of Mineralogy Petrology and Geochemistry",
+      "prism:issn": "10072802",
+      "prism:volume": "35",
+      "prism:issueIdentifier": "1",
+      "prism:pageRange": "146-150",
+      "prism:coverDate": "2016-01-10",
+      "prism:coverDisplayDate": "10 January 2016",
+      "prism:doi": "10.3969/j.issn.1007-2802.2016.01.017",
+      "dc:description": "Open-pit mining is one of key methods for mining oil sands. In order to constructive dicisional suggestions for strategic investing and evaluating projects of open pit mining oil snads in Canada or in China, methods of oil sands resource evaluation and key parameters acquisition have been analyzed and discussed, and the specification issued by the Canadian government has been especially analyzed in this paper. Results indicate that the oil sand resources can be relative properly evaluated by using oil weight content or oil saturation methods, as those relevant key parameters, including oil content and oil saturation, can be measured through experiment and well survey. For the balance of efficiency and effectiveness in the open-pit mining process, the Canadian Government issued relevant guideline to constrain the amount of oil sand resources that must be obtained by the operators in terms of the lowest oil content, the lowest thickness of oil sand beds, and the largest TV/BIP values, and also to constrain the assessment of oil sands resources for open-pit mining in temis of the law.",
+      "citedby-count": "2",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60021623",
+          "afid": "60021623",
+          "affilname": "Sinopec",
+          "affiliation-city": "Beijing",
+          "affiliation-country": "China"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/113405062",
+          "afid": "113405062",
+          "affilname": "SinoCanada Petroleum Corporation",
+          "affiliation-city": "Calgary",
+          "affiliation-country": "Canada"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "8"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/56264503600",
+          "authid": "56264503600",
+          "authname": "Tao G.L.",
+          "surname": "Tao",
+          "given-name": "Guo Liang",
+          "initials": "G.L.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60021623"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/56294078500",
+          "authid": "56294078500",
+          "authname": "Tenger ",
+          "surname": "Tenger",
+          "given-name": null,
+          "initials": null,
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60021623"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/55599507100",
+          "authid": "55599507100",
+          "authname": "Cao T.T.",
+          "surname": "Cao",
+          "given-name": "Ting Ting",
+          "initials": "T.T.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60021623"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "4",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57195054600",
+          "authid": "57195054600",
+          "authname": "Bai S.S.",
+          "surname": "Bai",
+          "given-name": "Sen Shu",
+          "initials": "S.S.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60021623"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "5",
+          "author-url": "https://api.elsevier.com/content/author/author_id/56427173600",
+          "authid": "56427173600",
+          "authname": "Wang B.H.",
+          "surname": "Wang",
+          "given-name": "Bao Hua",
+          "initials": "B.H.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60021623"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "6",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57195060506",
+          "authid": "57195060506",
+          "authname": "Zhang L.H.",
+          "surname": "Zhang",
+          "given-name": "Lian Hua",
+          "initials": "L.H.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "113405062"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "7",
+          "author-url": "https://api.elsevier.com/content/author/author_id/55588478000",
+          "authid": "55588478000",
+          "authname": "Yin P.F.",
+          "surname": "Yin",
+          "given-name": "Peng Fei",
+          "initials": "P.F.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "113405062"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "8",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57195058965",
+          "authid": "57195058965",
+          "authname": "Xiao W.Q.",
+          "surname": "Xiao",
+          "given-name": "Wei Quan",
+          "initials": "W.Q.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "113405062"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "Government directive | Key parameters | Oil sands | Resource evaluation | Western Canada basin",
+      "source-id": "69809",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85041573902"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85041573902?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85041573902&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85041573902&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85041573902",
+      "dc:identifier": "SCOPUS_ID:85041573902",
+      "eid": "2-s2.0-85041573902",
+      "dc:title": "Engineering and information support for monitoring of fuel-power complex of the irkutsk oblast using the results of remote sensing",
+      "dc:creator": "Zen’kov I.V.",
+      "prism:publicationName": "Ecology and Industry of Russia",
+      "prism:issn": "18160395",
+      "prism:eIssn": "24136042",
+      "prism:volume": "20",
+      "prism:issueIdentifier": "6",
+      "prism:pageRange": "30-35",
+      "prism:coverDate": "2016-01-01",
+      "prism:coverDisplayDate": "2016",
+      "prism:doi": "10.18412/1816-0395-2016-6-30-35",
+      "dc:description": "There were given the results of remote sensing disturbed lands of Irkutsk Oblast’s fuel-power complex. It was established structure of disturbed lands in the open-pit mining, as well as the lands of thermal power plants involved in coal-fired generation of heat and electricity. For coal mines proposed the use of land reclamation technology when combined stripping works with mining engineering reclamation stage, and for thermal power given recommendations for the use of manual techniques of ash storage while reducing costs for the construction of embanks and the reduction of polluting emissions and harmful substances during construction.",
+      "citedby-count": "0",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60075528",
+          "afid": "60075528",
+          "affilname": "Reshetnev Siberian State University of Science and Technology",
+          "affiliation-city": "Krasnoyarsk",
+          "affiliation-country": "Russian Federation"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/120185604",
+          "afid": "120185604",
+          "affilname": "Berdsk division of Institute of Computation Technologies the RAS Siberian branch",
+          "affiliation-city": null,
+          "affiliation-country": "Russian Federation"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "3"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58561907200",
+          "authid": "58561907200",
+          "authname": "Zen’kov I.V.",
+          "surname": "Zen’kov",
+          "given-name": "I. V.",
+          "initials": "I.V.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60075528"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/56958587000",
+          "authid": "56958587000",
+          "authname": "Yuronen Y.P.",
+          "surname": "Yuronen",
+          "given-name": "Yu P.",
+          "initials": "Y.P.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60075528"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57191431437",
+          "authid": "57191431437",
+          "authname": "Nefedov B.N.",
+          "surname": "Nefedov",
+          "given-name": "B. N.",
+          "initials": "B.N.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "120185604"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "Ash storage | Coal pit | Environmental efficiency | Fuel-power complex | Land recultivation | Thermal power",
+      "source-id": "21100841705",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85032498788"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85032498788?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85032498788&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85032498788&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85032498788",
+      "dc:identifier": "SCOPUS_ID:85032498788",
+      "eid": "2-s2.0-85032498788",
+      "dc:title": "Organization of dumping stations with combined transport types in iron ore deposits mining",
+      "dc:creator": "Shustov O.",
+      "prism:publicationName": "Mining of Mineral Deposits",
+      "prism:issn": "24153435",
+      "prism:eIssn": "24153443",
+      "prism:volume": "10",
+      "prism:issueIdentifier": "2",
+      "prism:pageRange": "78-84",
+      "prism:coverDate": "2016-01-01",
+      "prism:coverDisplayDate": "2016",
+      "prism:doi": "10.15407/mining10.02.078",
+      "dc:description": "Purpose. To develop the methodology for selecting appropriate type of open-pit transport in conditions of mining sinking to the maximum depth of opencast mining. Methods. Comprise determining costs for maintenance of open-pit transport in different combinations of in-pit and main line together with dumping stations of the relevant construction for small, middle and large extension pits. Findings. The proposed optimization of dumping stations placement with combined operation of automobile and railway vehicles allows to exclude utilization of dumping excavators. The efficiency of dumping stations building of block structures is confirmed which allows to decrease total number of dump trucks by 20–30% for the average rock transportation distance of about 1.5–2 km. The arrangement of dumping stations in the goaf on barrow benches with their further exploitation proves the possibility of effective mining of inclined and upridging deposits. Originality consists in determination of the application field for various types of open-pit transport in changing working area parameters. They are related to sinking of mining, mining intensity and formation of goaf for mining waste storage. Practical implications. The research results allow to develop recommendations for using economical types of transport in accordance with the established open-pit mining mode.",
+      "citedby-count": "15",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60028371",
+          "afid": "60028371",
+          "affilname": "Dnipro University of Technology",
+          "affiliation-city": "Dnipro",
+          "affiliation-country": "Ukraine"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "2"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57196274096",
+          "authid": "57196274096",
+          "authname": "Shustov O.",
+          "surname": "Shustov",
+          "given-name": "Oleksandr",
+          "initials": "O.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60028371"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57196280509",
+          "authid": "57196280509",
+          "authname": "Dryzhenko A.",
+          "surname": "Dryzhenko",
+          "given-name": "Anatolii",
+          "initials": "A.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60028371"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "Dumping station | Goaf | Inside dumps | Mining mode | Pit capacity | Sinking rate of mining | Type of open-pit transport | Working area",
+      "source-id": "21100914192",
+      "openaccess": "1",
+      "openaccessFlag": true,
+      "freetoread": {
+        "value": [
+          {
+            "$": "all"
+          },
+          {
+            "$": "publisherhybridgold"
+          }
+        ]
+      },
+      "freetoreadLabel": {
+        "value": [
+          {
+            "$": "All Open Access"
+          },
+          {
+            "$": "Hybrid Gold"
+          }
+        ]
+      }
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85021288895"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85021288895?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85021288895&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85021288895&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85021288895",
+      "dc:identifier": "SCOPUS_ID:85021288895",
+      "eid": "2-s2.0-85021288895",
+      "dc:title": "Maximising Coal Recovery in Open-Pit Mining: Reducing Coal-Fines-Production improves Cost Situation for Miners",
+      "dc:creator": "Adams M.",
+      "prism:publicationName": "Bulk Solids Handling",
+      "prism:issn": "01739980",
+      "prism:volume": "36",
+      "prism:issueIdentifier": "6",
+      "prism:pageRange": "38-40",
+      "prism:coverDate": "2016-01-01",
+      "prism:coverDisplayDate": "2016",
+      "dc:description": "Wirtgen has conducted several large-scale field tests to address the fines problem and proved that it is possible to reduce the level of coal fines in the run-of-mine (ROM) material. A Wirtgen surface miner is a crawler-mounted mining machine with a rotating cutting drum for rock penetration mounted at the center of gravity. This ensures that the full machine weight of the miner can be transformed into rock penetration force. The cutting drum transfers the material onto a conveyor belt from which it is directly loaded onto a dump truck. In one coal mine, Wirtgen surface miners are operating alongside dozers that employ the conventional rip-and-stack method. In view of the current coal prices, the mine was optimizing every step of the operation. This included optimizing the process for target size material, enabling most of the material to be processed in the cheaper coarse circuit of the processing plant. The test proved the suitability of the surface miner for this kind of operation once more: The machine delivered coal with a lower fines level and more target size material than the conventional dozer rip-and-stack method. Rehandling contributes significantly to the material degradation occurring during the mining process. Simulating the rehandling of material, Wirtgen conducted a study to establish the amount of material degradation that does occur. Looking at the complete mining operation, using a surface miner simplifies mining operation and reduces the number of process steps resulting in immediate cost savings.",
+      "citedby-count": "0",
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "2"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57194620499",
+          "authid": "57194620499",
+          "authname": "Adams M.",
+          "surname": "Adams",
+          "given-name": "Michaela",
+          "initials": "M."
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57038760100",
+          "authid": "57038760100",
+          "authname": "Linnemann M.",
+          "surname": "Linnemann",
+          "given-name": "Mario",
+          "initials": "M."
+        }
+      ],
+      "source-id": "16361",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85009727209"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85009727209?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85009727209&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85009727209&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85009727209",
+      "dc:identifier": "SCOPUS_ID:85009727209",
+      "eid": "2-s2.0-85009727209",
+      "dc:title": "Reduction in seismic impact of large-scale blasting in open pit mines on the stability of rocks and underground structures in hybrid coal mining",
+      "dc:creator": "Viktorov S.D.",
+      "prism:publicationName": "Gornyi Zhurnal",
+      "prism:issn": "00172278",
+      "prism:issueIdentifier": "12",
+      "prism:pageRange": "59-64",
+      "prism:coverDate": "2016-01-01",
+      "prism:coverDisplayDate": "2016",
+      "prism:doi": "10.17580/GZH.2016.12.13",
+      "dc:description": "Hybrid open-pit/underground mineral mining faces a critical problem connected with negative impact produced by large-scale blasting in open pit mines on the stability of underground excavations beneath the pit bottom. In order to mitigate this impact, the scale of blasts is decreased at the same increase in the blasting frequency, which has a negative impact on operation of heavy duty open-pit mining machines. The article proposes a modeled and experimentally justified method to reduce seismic effect of a blast on underlying rock mass by creating a barrier in the form of a pre-broken rock mass (a rock cushion) on the way of a blast wave. The barrier is generated by advanced short-delayed blasting of a small portion at the bottom of distributed pattern of blasthole charges. The damping effect of a large-scale blast through the rock cushion is proved by the commercial trails of the proposed technology in Zarechny Open-Pit Coal Mine, SUEK-Kuzbass (Kiselevsk, Kemerovo Region). The analyzes of seismic records obtained in the lower lying excavations of Taldinskaya-Zapadnaya Mine-2 show that the amplitude of the seismic signals in the range between 30 and 200 Hz decreases not less than by 30 % as compared with the check standard-technology blasting. The next-series large-scale tests demonstrate a decrease in the seismic impact on the underground excavations not less than by 68 % at the reduced seismic impact on the surface not less than by 46 %. The study has been supported by the Ministry of Education and Science of the Russian Federation in the framework of the Federal Targeted Program on R&D in Priority Areas of Advancement in the Science and Technology of Russia for 2014-2020.",
+      "citedby-count": "3",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60021331",
+          "afid": "60021331",
+          "affilname": "Russian Academy of Sciences",
+          "affiliation-city": "Moscow",
+          "affiliation-country": "Russian Federation"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "3"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/6701915299",
+          "authid": "6701915299",
+          "authname": "Viktorov S.D.",
+          "surname": "Viktorov",
+          "given-name": "S. D.",
+          "initials": "S.D.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60021331"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/56438797200",
+          "authid": "56438797200",
+          "authname": "Zakharov V.N.",
+          "surname": "Zakharov",
+          "given-name": "V. N.",
+          "initials": "V.N.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60021331"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/59158053700",
+          "authid": "59158053700",
+          "authname": "Zakalinsky V.M.",
+          "surname": "Zakalinsky",
+          "given-name": "V. M.",
+          "initials": "V.M.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60021331"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "Basting | Blast wave | Charge design | Gas-impermeable barrier | Numerical modeling | Open-pit mining | Seismograms | Underground excavations",
+      "source-id": "19712",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85007358373"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85007358373?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85007358373&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85007358373&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85007358373",
+      "dc:identifier": "SCOPUS_ID:85007358373",
+      "eid": "2-s2.0-85007358373",
+      "dc:title": "Simulation of a geomechanical monitoring algorithm for open-pit mining",
+      "dc:creator": "Argimbaev K.R.",
+      "prism:publicationName": "Research Journal of Applied Sciences",
+      "prism:issn": "1815932X",
+      "prism:eIssn": "19936079",
+      "prism:volume": "11",
+      "prism:issueIdentifier": "9",
+      "prism:pageRange": "811-815",
+      "prism:coverDate": "2016-01-01",
+      "prism:coverDisplayDate": "2016",
+      "prism:doi": "10.3923/rjasci.2016.811.815",
+      "dc:description": "This study contains the results of simulation of a geomechanical monitoring algorithm aimed at identification of unstable sections of open-pit sides and refuse piles of overburden rocks as well as at remedying uncontrollable water influx into barrow pit. The geotechnological conditions of exploitation are characterized by major tectonic disturbances and areas of rocks with low structural behavior which substantially release the cutoff mass. Currently, the following factors shall be taken into consideration during the exploitation of deep levels: pit wall stability time and multiple dynamic loads from huge blasts which generally minimize the wall stability. Thus, the final purpose of geomechanical monitoring is to obtain scientifically proven information which would make it possible to forecast the development of deformation processes, select the technological elements of exploitation and the parameters of pit walls to ensure the maximum efficiency and safety of mining. The long-term pit walls deformation in time forecast developed in the monitoring system is based on the results of the assessment of tectonic disturbances geodynamics at the regional level, structural features of the geology aspects of the open-pit field and geomechanical features of slips to determine the pit wall stability. Pit wall deformation forecast map is a statistically probable model of pit wall deformation in time. The probability factor contour defines the boundaries of the areas which have different deformation probability factors. The various methods to obtain information for geomechanical monitoring have been assessed.",
+      "citedby-count": "3",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60029071",
+          "afid": "60029071",
+          "affilname": "Saint Petersburg Mining University",
+          "affiliation-city": "Saint Petersburg",
+          "affiliation-country": "Russian Federation"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "1"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/55973653400",
+          "authid": "55973653400",
+          "authname": "Argimbaev K.R.",
+          "surname": "Argimbaev",
+          "given-name": "Kaerbek Rafkatovich",
+          "initials": "K.R.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60029071"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "Barrow pit | Forecasting | Geomechanical monitoring | Monitoring methods | Pit wall stability | Stability level | Stress-strain state",
+      "source-id": "17600155110",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85007350807"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85007350807?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85007350807&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85007350807&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85007350807",
+      "dc:identifier": "SCOPUS_ID:85007350807",
+      "eid": "2-s2.0-85007350807",
+      "dc:title": "Simulation of rock mass stress-strain behavior using the method of equivalent materials during ore deposit open-pit mining",
+      "dc:creator": "Argimbaev K.R.",
+      "prism:publicationName": "Research Journal of Applied Sciences",
+      "prism:issn": "1815932X",
+      "prism:eIssn": "19936079",
+      "prism:volume": "11",
+      "prism:issueIdentifier": "9",
+      "prism:pageRange": "894-899",
+      "prism:coverDate": "2016-01-01",
+      "prism:coverDisplayDate": "2016",
+      "prism:doi": "10.3923/rjasci.2016.894.899",
+      "dc:description": "This study contains the results of simulation the slopes deformation process with equivalent materials. It provides basic areas of mass deformation and fracture, identifies empirical dependence of the deformation value on the pit depth and these results are compared to earlier obtained results of the numerical simulation. The objective of this simulation is improving the accuracy of the information about deformation processes by ensuring rock mass fall parameters management. The concept of this method is described below. Rock in the open-pit side is modeled from synthetic materials which are choosing in such a way that physical and mechanical properties of these materials would in a certain way, correlate to the physical and mechanical constants of simulated rock. The obtained information about rock mass stress-strain behavior will provide a possibility to predict the state of rock mass slope and reduce the risk of technogenic accidents occurrence.",
+      "citedby-count": "3",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60029071",
+          "afid": "60029071",
+          "affilname": "Saint Petersburg Mining University",
+          "affiliation-city": "Saint Petersburg",
+          "affiliation-country": "Russian Federation"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "1"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/55973653400",
+          "authid": "55973653400",
+          "authname": "Argimbaev K.R.",
+          "surname": "Argimbaev",
+          "given-name": "Kaerbek Rafkatovich",
+          "initials": "K.R.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60029071"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "Continuous medium | Deformation | Method of equivalent materials | Pit depth | Rock mass | Simulation | Stability factor | Stress-strain behavior",
+      "source-id": "17600155110",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/84990833567"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/84990833567?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84990833567&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=84990833567&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/84990833567",
+      "dc:identifier": "SCOPUS_ID:84990833567",
+      "eid": "2-s2.0-84990833567",
+      "dc:title": "Assessment of the stress-strain state ofthe foliated cutoff mass",
+      "dc:creator": "Argimbaev K.R.",
+      "prism:publicationName": "International Journal of Ecology and Development",
+      "prism:issn": "09729984",
+      "prism:eIssn": "09737308",
+      "prism:volume": "31",
+      "prism:issueIdentifier": "4",
+      "prism:pageRange": "68-77",
+      "prism:coverDate": "2016-01-01",
+      "prism:coverDisplayDate": "2016",
+      "dc:description": "As deepening increases and the new levels appear during the open-pit mining, the accumulation of fatigue stresses occurs. These stresses lead to deformations of slopes in a form of slough, collapses, balmstones, and, in some cases, landslides. Open-pit walls and benches are complex engineering constructions, the state of which determines the safety of mining. During open-pit mining, there is always a need to provide stability of pit walls, i.e. it is necessary to provide such stress-strain state of cutoff mass, which ensures that external forces affecting the rock mass do not exceed the internal forces of rock mass resistance and cannot lead to its destruction. Thus, the assessment of the stress-strain state is a crucial task at hand. This paper presents the results of the research on assessment of the stress-strain state of the foliated cutoff mass allowing for water influence, the results of the numerical modeling, the dependency of stress distribution on various distances; it outlines the areas of influence of the pit with 450m depth and 39.8° angle of slip on the stress-strain state of cutoff mass, and the influence of ground waters on the nature of pit wall deformation.",
+      "citedby-count": "2",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60029071",
+          "afid": "60029071",
+          "affilname": "Saint Petersburg Mining University",
+          "affiliation-city": "Saint Petersburg",
+          "affiliation-country": "Russian Federation"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "1"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/55973653400",
+          "authid": "55973653400",
+          "authname": "Argimbaev K.R.",
+          "surname": "Argimbaev",
+          "given-name": "Kaerbek Rafkatovich",
+          "initials": "K.R.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60029071"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "Deformation | Glide surface | Numerical simulation | Rock mass | Stress-strain state",
+      "source-id": "17700156220",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/84986616809"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/84986616809?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84986616809&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=84986616809&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/84986616809",
+      "dc:identifier": "SCOPUS_ID:84986616809",
+      "eid": "2-s2.0-84986616809",
+      "dc:title": "Ecosystem evolution and ecological storage in outsize open-pit mining area",
+      "dc:creator": "Zhang X.R.",
+      "prism:publicationName": "Shengtai Xuebao",
+      "prism:issn": "10000933",
+      "prism:volume": "36",
+      "prism:issueIdentifier": "16",
+      "prism:pageRange": "5038-5048",
+      "prism:coverDate": "2016-01-01",
+      "prism:coverDisplayDate": "2016",
+      "prism:doi": "10.5846/stxb201501260205",
+      "dc:description": "Open-pit mining area is an area greatly disturbed by human activities. Landscape change in this area, caused by large-scale exploitation of mineral resources, leads to differences in ecosystem evolution between mining area and the natural environment. The ecosystem in a mining area plays a significant role in the human society. Its healthy development contributes significantly to the sustainable economic development of the whole society. In order to better understand the ecosystem in a mining area and provide scientific basis for its management, it is necessary to analyze and evaluate evolution process. This paper analyzes the process of ecosystem evolution and calculates the ecological storage in the Pingshuo outsized open-it coalmine in Shanxi Province, China. The ecological storage model, which is based on the theory of ecosystem service value, comprises state evaluation, process evaluation and capability evaluation, and describes the ecological condition of study area with respect to the static state, changes and conversion direction. The land use information studied herein was extracted from remote sensing images made in 1986, 2000 and 2013. The results indicate the following: 1) The area of arable land and forestland decreases sharply, while urban and rural construction land and destruction land increase dramatically. 2) The evolutionnary process of ecosystem in the Pingshuo mining area can be divided into three stages: the origin stage, the destruction stage, and the reconstruction stage. The characteristics of land use in each stage are different as the diversity of landscape increases 3) The ecosystem types of the Pingshuo mining area include farmland, forest, grassland, urban, and industrial ecosystem. The conversions among these ecosystem types in the periods 1986-2000 and 2000-2013, caused by urban expansion, severe mining activities and land reclamation were very active; 4) The ecological storage state shows a trend of deterioration, the ecological storage process presents a reverse process, and the ecological storage capacity influenced by land reclamation and eco-engineering tends to be higher. In addition, of the image of the ecosystem evolution cycle has been mapped according to the development of mining industry. The image indicates that: the evolution of an ecosystem in open-pit mining area reflects the change in land use; the results of the ecological storage model are in relative accordance with the current conditions at the mining site; and timely and effective land reclamation and other eco-engineering practices can improve the ecological condition of a mining area. This paper presents the first systematic analysis of the evolutionary process of the ecosystem in the Pingshuo mining area relative to the change in land use, and employs for the first time the ecological storage model on the open-pit mine to evaluate the ecological condition of an outsized open-pit coalmine. The findings of this paper provide references for land reclamation and ecological restoration of outsize open-pit mining areas in China.",
+      "citedby-count": "9",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60278193",
+          "afid": "60278193",
+          "affilname": "Ministry of Natural Resources of the People's Republic of China",
+          "affiliation-city": "Beijing",
+          "affiliation-country": "China"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60130029",
+          "afid": "60130029",
+          "affilname": "School of Land Science and Technology",
+          "affiliation-city": "Beijing",
+          "affiliation-country": "China"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "6"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/56604933400",
+          "authid": "56604933400",
+          "authname": "Zhang X.R.",
+          "surname": "Zhang",
+          "given-name": "Xiao Ran",
+          "initials": "X.R.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60130029"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/55649649900",
+          "authid": "55649649900",
+          "authname": "Bai Z.K.",
+          "surname": "Bai",
+          "given-name": "Zhong Ke",
+          "initials": "Z.K.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60130029"
+            },
+            {
+              "@_fa": "true",
+              "$": "60278193"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/35214460100",
+          "authid": "35214460100",
+          "authname": "Cao Y.G.",
+          "surname": "Cao",
+          "given-name": "Yin Gui",
+          "initials": "Y.G.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60130029"
+            },
+            {
+              "@_fa": "true",
+              "$": "60278193"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "4",
+          "author-url": "https://api.elsevier.com/content/author/author_id/55726118600",
+          "authid": "55726118600",
+          "authname": "Zhao Z.Q.",
+          "surname": "Zhao",
+          "given-name": "Zhong Qiu",
+          "initials": "Z.Q.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60130029"
+            },
+            {
+              "@_fa": "true",
+              "$": "60278193"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "5",
+          "author-url": "https://api.elsevier.com/content/author/author_id/56523549400",
+          "authid": "56523549400",
+          "authname": "Lu Y.Q.",
+          "surname": "Lu",
+          "given-name": "Yuan Qing",
+          "initials": "Y.Q.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60130029"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "6",
+          "author-url": "https://api.elsevier.com/content/author/author_id/56523735000",
+          "authid": "56523735000",
+          "authname": "Pan J.",
+          "surname": "Pan",
+          "given-name": "Jian",
+          "initials": "J.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60130029"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "Ecological storage | Ecosystem evolution | Ecosystem services value | Land-use transformation | Open-pit mining area",
+      "source-id": "130109",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/84979713566"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/84979713566?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84979713566&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=84979713566&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/84979713566",
+      "dc:identifier": "SCOPUS_ID:84979713566",
+      "eid": "2-s2.0-84979713566",
+      "dc:title": "Monitoring of the industrial process impact on the environment in an open pit",
+      "dc:creator": "Argimbaev K.R.",
+      "prism:publicationName": "International Journal of Ecology and Development",
+      "prism:issn": "09729984",
+      "prism:eIssn": "09737308",
+      "prism:volume": "31",
+      "prism:issueIdentifier": "3",
+      "prism:pageRange": "23-28",
+      "prism:coverDate": "2016-01-01",
+      "prism:coverDisplayDate": "2016",
+      "dc:description": "Environmental monitoring is defined as a set of observations, estimates, and forecasts carried out based on scientifically proven programs and recommendations and managerial alternate decisions developed on their basis that are required and sufficient for environmental management and environmental safety. This paper considers the Russian experience in monitoring the impact of industrial processes in the course of open-pit mining, specifies basic methods of monitoring, and contains data on the environmental impact of industrial processes in an open-pit.",
+      "citedby-count": "4",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60029071",
+          "afid": "60029071",
+          "affilname": "Saint Petersburg Mining University",
+          "affiliation-city": "Saint Petersburg",
+          "affiliation-country": "Russian Federation"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "1"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/55973653400",
+          "authid": "55973653400",
+          "authname": "Argimbaev K.R.",
+          "surname": "Argimbaev",
+          "given-name": "Kaerbek Rafkatovich",
+          "initials": "K.R.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60029071"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "Concentration | Environment | Monitoring | Open pit | Pollutants",
+      "source-id": "17700156220",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/84978696298"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/84978696298?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84978696298&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=84978696298&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/84978696298",
+      "dc:identifier": "SCOPUS_ID:84978696298",
+      "eid": "2-s2.0-84978696298",
+      "dc:title": "Development of numerical models for rock mass stress-strain behavior forecasting during ore deposit open-pit mining",
+      "dc:creator": "Argimbaev K.R.",
+      "prism:publicationName": "Research Journal of Applied Sciences",
+      "prism:issn": "1815932X",
+      "prism:eIssn": "19936079",
+      "prism:volume": "11",
+      "prism:issueIdentifier": "6",
+      "prism:pageRange": "281-286",
+      "prism:coverDate": "2016-01-01",
+      "prism:coverDisplayDate": "2016",
+      "prism:doi": "10.3923/rjasci.2016.281.286",
+      "dc:description": "Results of numerical models for rock mass stress-strain behavior presented in the paper allow to reduce the risk of technogenic accidents during mineral deposits open-pit mining with taking into account the construction sequence, the pit depth and the degree of water cut. The methods in which the continuous medium is approximated by a discrete model at the stage of the numerical model development are referred to the computational methods of rock mass stress-strain behavior forecasting. In this case where further idealization when formulating and solving equations is not applied, integration is replaced by finite summation and partial differential equations are replaced by systems of linear algebraic or ordinary differential equations. In addition, the continuous medium is replaced by a discrete model having a finite number of degrees of freedom.",
+      "citedby-count": "9",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60029071",
+          "afid": "60029071",
+          "affilname": "Saint Petersburg Mining University",
+          "affiliation-city": "Saint Petersburg",
+          "affiliation-country": "Russian Federation"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "2"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/55973653400",
+          "authid": "55973653400",
+          "authname": "Argimbaev K.R.",
+          "surname": "Argimbaev",
+          "given-name": "Kaerbek Rafkatovich",
+          "initials": "K.R.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60029071"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/56048185100",
+          "authid": "56048185100",
+          "authname": "Kholodjakov H.A.",
+          "surname": "Kholodjakov",
+          "given-name": "Henry Alexandrovich",
+          "initials": "H.A.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60029071"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "Continuous medium | Deformation | Finite element method | Numerical simulation | Pit dept | Stability factor | Stress-strain behavior",
+      "source-id": "17600155110",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/84960339653"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/84960339653?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84960339653&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=84960339653&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/84960339653",
+      "dc:identifier": "SCOPUS_ID:84960339653",
+      "eid": "2-s2.0-84960339653",
+      "dc:title": "The cross-border leaf: Coca consumption among nitrate-mining workers in the norte grande of Chile (1900-1930)",
+      "dc:creator": "Miranda S.G.",
+      "prism:publicationName": "Historia Critica",
+      "prism:issn": "01211617",
+      "prism:eIssn": "19006152",
+      "prism:volume": "2016",
+      "prism:issueIdentifier": "59",
+      "prism:pageRange": "101-121",
+      "prism:coverDate": "2016-01-01",
+      "prism:coverDisplayDate": "January-March 2016",
+      "prism:doi": "10.7440/histcrit59.2016.06",
+      "dc:description": "Bolivian workers have crossed the Andes and participated in the nitrate-mining projects from the beginning of the cycle of expansion of that industry in the 19th century until its definitive ending with the crisis of 1930. Along with the arrival of these workers in the towns and camps of Tarapacá and Antofagasta, came a variety of goods that formed an essential part of their diet, including coca leaves. Although the consumption of this product is associated with high-altitude mining and underground mining, this article studies the importance it had in desert and open-pit mining. It also analyzes the commerce of coca in the local stores known as pulperías, and the opinion of public officials regarding the social and labor impact of this cross-border leaf. A historiographical study was done of press archives and official documents located in Chile and Bolivia, to contrast the hypotheses on the subject, leading to conclude that the consumption of coca was generalized among workers of almost all types in the nitrate-mining industry. With respect to nationalities, the consumption of coca was not limited exclusively to Bolivians, but was common among Peruvian and Chilean workers as well.",
+      "citedby-count": "2",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60010144",
+          "afid": "60010144",
+          "affilname": "Universidad Arturo Prat",
+          "affiliation-city": "Iquique",
+          "affiliation-country": "Chile"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "1"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/8342824500",
+          "authid": "8342824500",
+          "authname": "Miranda S.G.",
+          "surname": "Miranda",
+          "given-name": "Sergio González",
+          "initials": "S.G.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60010144"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "Chile | Coca leaf | Consumption (thesaurus) | Cross-border circuits (author’s keywords) | Nitrate-mining industry",
+      "source-id": "5600155211",
+      "openaccess": "1",
+      "openaccessFlag": true,
+      "freetoread": {
+        "value": [
+          {
+            "$": "all"
+          },
+          {
+            "$": "publisherfullgold"
+          },
+          {
+            "$": "repository"
+          },
+          {
+            "$": "repositoryvor"
+          },
+          {
+            "$": "repositoryam"
+          }
+        ]
+      },
+      "freetoreadLabel": {
+        "value": [
+          {
+            "$": "All Open Access"
+          },
+          {
+            "$": "Gold"
+          },
+          {
+            "$": "Green"
+          }
+        ]
+      }
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/84942522588"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/84942522588?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84942522588&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=84942522588&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "full-text",
+          "@href": "https://api.elsevier.com/content/article/eid/1-s2.0-S1365160915300368"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/84942522588",
+      "dc:identifier": "SCOPUS_ID:84942522588",
+      "eid": "2-s2.0-84942522588",
+      "dc:title": "Blast vibration effects in an underground mine caused by open-pit mining",
+      "dc:creator": "Singh P.K.",
+      "prism:publicationName": "International Journal of Rock Mechanics and Mining Sciences",
+      "prism:issn": "13651609",
+      "prism:volume": "80",
+      "prism:pageRange": "79-88",
+      "prism:coverDate": "2015-12-01",
+      "prism:coverDisplayDate": "December 01, 2015",
+      "prism:doi": "10.1016/j.ijrmms.2015.09.009",
+      "pii": "S1365160915300368",
+      "dc:description": "The Rampura Agucha open-pit lead zinc mine is producing 5.7 Mt/a of ore and has started its underground part, which is slated to produce initially 2-2.4 Mt/a and 4.5 Mt/a in the near future. The open-pit mine is currently working at 326 m depth and is designed to reach 421. m deep. It has been planned to operate the underground mine maintaining 50. m parting from the planned ultimate level of the open-pit mine. Presently, open-pit and underground mines are being operated simultaneously. The present average depth of underground working lies between 370 and 410 m below the surface level. Sometimes explosives up to 95,978 kg are being detonated in a blast round in open-pit mine for speedy removal of overburden. The impact of 86 open-pit blasts has been documented in the underground openings and 258 blast vibration data has been recorded. The vibrations were recorded simultaneously in the roof, sidewalls and at floor levels. The highest levels of vibrations were recorded in the roof and the lowest levels at the corresponding floor levels. The pillars experienced lower level of vibrations than those of the roof. Blast designs were optimised at open-pit mine to control vibration in view of long-term safety and stability of the underground openings. The underground development face blasts were also optimised for the safety and stability of underground workings. Vibrations generated due to detonation of explosives with shock tubes and electronic delay detonators have been recorded in underground openings for comparative assessment. Ground vibration recorded at roof, pillar and floor were analysed separately and threshold value of the vibration for the safety of underground workings has been determined based on the Rock Mass Rating of the roof rock and accordingly blast designs have been optimised.",
+      "citedby-count": "81",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60008898",
+          "afid": "60008898",
+          "affilname": "Indian Institute of Technology (Indian School of Mines), Dhanbad",
+          "affiliation-city": "Dhanbad",
+          "affiliation-country": "India"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60008988",
+          "afid": "60008988",
+          "affilname": "Technische Universität Bergakademie Freiberg",
+          "affiliation-city": "Freiberg",
+          "affiliation-country": "Germany"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60020895",
+          "afid": "60020895",
+          "affilname": "Central Institute of Mining and Fuel Research India",
+          "affiliation-city": "Dhanbad",
+          "affiliation-country": "India"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "5"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57220983883",
+          "authid": "57220983883",
+          "authname": "Singh P.K.",
+          "surname": "Singh",
+          "given-name": "P. K.",
+          "initials": "P.K.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60020895"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/10738771700",
+          "authid": "10738771700",
+          "authname": "Roy M.P.",
+          "surname": "Roy",
+          "given-name": "M. P.",
+          "initials": "M.P.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60020895"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/55485565100",
+          "authid": "55485565100",
+          "authname": "Paswan R.K.",
+          "surname": "Paswan",
+          "given-name": "Ranjit K.",
+          "initials": "R.K.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60020895"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "4",
+          "author-url": "https://api.elsevier.com/content/author/author_id/55844904200",
+          "authid": "55844904200",
+          "authname": "Dubey R.K.",
+          "surname": "Dubey",
+          "given-name": "R. K.",
+          "initials": "R.K.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60008898"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "5",
+          "author-url": "https://api.elsevier.com/content/author/author_id/35614644400",
+          "authid": "35614644400",
+          "authname": "Drebenstedt C.",
+          "surname": "Drebenstedt",
+          "given-name": "C.",
+          "initials": "C.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60008988"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "Blast design | Blast vibration | Open-pit blasting | Underground protection | Underground stability",
+      "source-id": "16352",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/84940209836"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/84940209836?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84940209836&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=84940209836&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "full-text",
+          "@href": "https://api.elsevier.com/content/article/eid/1-s2.0-S092876551500055X"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/84940209836",
+      "dc:identifier": "SCOPUS_ID:84940209836",
+      "eid": "2-s2.0-84940209836",
+      "dc:title": "The rise and fall of an industry: Entry in U.S. copper mining, 1835-1986",
+      "dc:creator": "Slade M.",
+      "prism:publicationName": "Resource and Energy Economics",
+      "prism:issn": "09287655",
+      "prism:volume": "42",
+      "prism:pageRange": "141-169",
+      "prism:coverDate": "2015-11-01",
+      "prism:coverDisplayDate": "November 01, 2015",
+      "prism:doi": "10.1016/j.reseneeco.2015.08.001",
+      "pii": "S092876551500055X",
+      "dc:description": "The principal forces that led to the rise and fall of the U.S. copper industry are explored: cost-lowering technical change, formation of expectations, consolidation of the industry, and depletion of investment opportunities. I find that the introduction of the steam shovel, which enabled open-pit mining, was the most important technological breakthrough. Revisions of expectations of success were statistically significant but economically less important. Contrary to the conventional wisdom, concentration of ownership encouraged entry. Finally, depletion was primarily responsible for the decline in entry in later years. However, the same forces that led to success also contributed to decline.",
+      "citedby-count": "9",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60010365",
+          "afid": "60010365",
+          "affilname": "The University of British Columbia",
+          "affiliation-city": "Vancouver",
+          "affiliation-country": "Canada"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "1"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/7101725712",
+          "authid": "7101725712",
+          "authname": "Slade M.",
+          "surname": "Slade",
+          "given-name": "Margaret E.",
+          "initials": "M.E.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60010365"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "Copper | Count data | Entry | Exhaustible resources | Investment | Mining",
+      "source-id": "27614",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/84939430349"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/84939430349?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84939430349&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=84939430349&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "full-text",
+          "@href": "https://api.elsevier.com/content/article/eid/1-s2.0-S092585741530118X"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/84939430349",
+      "dc:identifier": "SCOPUS_ID:84939430349",
+      "eid": "2-s2.0-84939430349",
+      "dc:title": "Coarse woody debris extract decreases nitrogen availability in two reclaimed oil sands soils in Canada",
+      "dc:creator": "Kwak J.H.",
+      "prism:publicationName": "Ecological Engineering",
+      "prism:issn": "09258574",
+      "prism:volume": "84",
+      "prism:pageRange": "13-21",
+      "prism:coverDate": "2015-11-01",
+      "prism:coverDisplayDate": "November 01, 2015",
+      "prism:doi": "10.1016/j.ecoleng.2015.07.012",
+      "pii": "S092585741530118X",
+      "dc:description": "Forest floor mineral soil mix (FMM) and peat mineral soil mix (PMM) are common cover soils and sources of organic matter for reclamation of open-pit mining disturbed land in the Athabasca oil sands region. Coarse woody debris (CWD) can be an additional source of organic matter and can provide nutrient and habitat for plant growth. However, the effect of CWD on nitrogen (N) cycling in reclaimed oil sands soils has not been studied. A laboratory incubation experiment was conducted to assess chemical effects of a CWD extract on gross and net N transformation rates in FMM and PMM using the <sup>15</sup>N pool dilution method. The CWD extract was used to simulate CWD leachates (with rainwater as a control) that are produced in the field. The effect of the simulated CWD leachate on the cover soils was studied in a 2 (FMM vs PMM)×2 (CWD extract vs rainwater addition) factorial design. There was no difference in gross N mineralization rates between FMM and PMM, although net N mineralization rates were greater in FMM than in PMM (p<0.001) due to greater NH<inf>4</inf><sup>+</sup> immobilization rates in PMM. Gross and net nitrification rates were greater in FMM than in PMM (p<0.001). The ratio of gross nitrification to gross NH<inf>4</inf><sup>+</sup> immobilization rates (N/IA) was greater in FMM than in PMM (p<0.001), as the greater NH<inf>4</inf><sup>+</sup> immobilization rates in PMM decreased gross nitrification rates by decreasing NH<inf>4</inf><sup>+</sup> availability. Addition of the CWD extract decreased gross (p<0.01) and net (p<0.001) N mineralization rates, increased (p<0.001) NH<inf>4</inf><sup>+</sup> immobilization and decreased (p<0.001) gross nitrification rates in both cover soils. The N/IA ratios were decreased by the CWD extract addition, indicating that heterotrophic NH<inf>4</inf><sup>+</sup> immobilization was superior to autotrophic nitrification due to the high C/N ratio of the CWD extract. We conclude that FMM will have greater N availability for oil sands reclamation than PMM. Leachates from CWD would decrease N availability by decreasing gross N mineralization and nitrification rates and by increasing N immobilization rates.",
+      "citedby-count": "15",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60030835",
+          "afid": "60030835",
+          "affilname": "University of Alberta",
+          "affiliation-city": "Edmonton",
+          "affiliation-country": "Canada"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60020345",
+          "afid": "60020345",
+          "affilname": "Brandenburg University of Technology Cottbus-Senftenberg",
+          "affiliation-city": "Cottbus",
+          "affiliation-country": "Germany"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "4"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/35198445700",
+          "authid": "35198445700",
+          "authname": "Kwak J.H.",
+          "surname": "Kwak",
+          "given-name": "Jin Hyeob",
+          "initials": "J.H.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60030835"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/7405608250",
+          "authid": "7405608250",
+          "authname": "Chang S.X.",
+          "surname": "Chang",
+          "given-name": "Scott X.",
+          "initials": "S.X.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60030835"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/6701785316",
+          "authid": "6701785316",
+          "authname": "Naeth M.A.",
+          "surname": "Naeth",
+          "given-name": "M. Anne",
+          "initials": "M.A.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60030835"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "4",
+          "author-url": "https://api.elsevier.com/content/author/author_id/7003591718",
+          "authid": "7003591718",
+          "authname": "Schaaf W.",
+          "surname": "Schaaf",
+          "given-name": "Wolfgang",
+          "initials": "W.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60020345"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "<sup>15</sup>N pool dilution | Gross N mineralization rates | Gross NH<inf>4</inf><sup>+</sup> immobilization rates | Gross nitrification rates | Oil sands reclamation",
+      "source-id": "20291",
+      "fund-acr": "HAI",
+      "fund-sponsor": "Helmholtz-Alberta Initiative",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/84945241793"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/84945241793?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84945241793&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=84945241793&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/84945241793",
+      "dc:identifier": "SCOPUS_ID:84945241793",
+      "eid": "2-s2.0-84945241793",
+      "dc:title": "Fine root dynamics in lodgepole pine and white spruce stands along productivity gradients in reclaimed oil sands sites",
+      "dc:creator": "Jamro G.M.",
+      "prism:publicationName": "Ecology and Evolution",
+      "prism:eIssn": "20457758",
+      "prism:volume": "5",
+      "prism:issueIdentifier": "20",
+      "prism:pageRange": "4655-4670",
+      "prism:coverDate": "2015-10-01",
+      "prism:coverDisplayDate": "October 2015",
+      "prism:doi": "10.1002/ece3.1742",
+      "dc:description": "Open-pit mining activities in the oil sands region of Alberta, Canada, create disturbed lands that, by law, must be reclaimed to a land capability equivalent to that existed before the disturbance. Re-establishment of forest cover will be affected by the production and turnover rate of fine roots. However, the relationship between fine root dynamics and tree growth has not been studied in reclaimed oil sands sites. Fine root properties (root length density, mean surface area, total root biomass, and rates of root production, turnover, and decomposition) were assessed from May to October 2011 and 2012 using sequential coring and ingrowth core methods in lodgepole pine (Pinus contorta Dougl.) and white spruce (Picea glauca (Moench.) Voss) stands. The pine and spruce stands were planted on peat mineral soil mix placed over tailings sand and overburden substrates, respectively, in reclaimed oil sands sites in Alberta. We selected stands that form a productivity gradient (low, medium, and high productivities) of each tree species based on differences in tree height and diameter at breast height (DBH) increments. In lodgepole pine stands, fine root length density and fine root production, and turnover rates were in the order of high > medium > low productivity sites and were positively correlated with tree height and DBH and negatively correlated with soil salinity (P < 0.05). In white spruce stands, fine root surface area was the only parameter that increased along the productivity gradient and was negatively correlated with soil compaction. In conclusion, fine root dynamics along the stand productivity gradients were closely linked to stand productivity and were affected by limiting soil properties related to the specific substrate used for reconstructing the reclaimed soil. Understanding the impact of soil properties on fine root dynamics and overall stand productivity will help improve land reclamation outcomes.",
+      "citedby-count": "14",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60030835",
+          "afid": "60030835",
+          "affilname": "University of Alberta",
+          "affiliation-city": "Edmonton",
+          "affiliation-country": "Canada"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60062370",
+          "afid": "60062370",
+          "affilname": "Sindh Agriculture University",
+          "affiliation-city": "Tando Jam",
+          "affiliation-country": "Pakistan"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "5"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/21234263600",
+          "authid": "21234263600",
+          "authname": "Jamro G.M.",
+          "surname": "Jamro",
+          "given-name": "Ghulam Murtaza",
+          "initials": "G.M.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60030835"
+            },
+            {
+              "@_fa": "true",
+              "$": "60062370"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/7405608250",
+          "authid": "7405608250",
+          "authname": "Chang S.X.",
+          "surname": "Chang",
+          "given-name": "Scott X.",
+          "initials": "S.X.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60030835"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/6701785316",
+          "authid": "6701785316",
+          "authname": "Naeth M.A.",
+          "surname": "Naeth",
+          "given-name": "M. Anne",
+          "initials": "M.A.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60030835"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "4",
+          "author-url": "https://api.elsevier.com/content/author/author_id/56015223400",
+          "authid": "56015223400",
+          "authname": "Duan M.",
+          "surname": "Duan",
+          "given-name": "Min",
+          "initials": "M.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60030835"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "5",
+          "author-url": "https://api.elsevier.com/content/author/author_id/56015996600",
+          "authid": "56015996600",
+          "authname": "House J.",
+          "surname": "House",
+          "given-name": "Jason",
+          "initials": "J.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60030835"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "Boreal forest | Fine root | Ingrowth core | Oil sands reclamation | Overburden | Sequential coring | Tailings sand",
+      "source-id": "21100264002",
+      "fund-acr": "HAI",
+      "fund-sponsor": "Helmholtz-Alberta Initiative",
+      "openaccess": "1",
+      "openaccessFlag": true,
+      "freetoread": {
+        "value": [
+          {
+            "$": "all"
+          },
+          {
+            "$": "publisherfullgold"
+          },
+          {
+            "$": "repository"
+          },
+          {
+            "$": "repositoryam"
+          }
+        ]
+      },
+      "freetoreadLabel": {
+        "value": [
+          {
+            "$": "All Open Access"
+          },
+          {
+            "$": "Gold"
+          },
+          {
+            "$": "Green"
+          }
+        ]
+      }
+    }
+  ],
+  "completa": false,
+  "cuota_restante": "19798",
+  "fecha_guardado_utc": "2026-10-19T16:11:41.936861+00:00"
+}

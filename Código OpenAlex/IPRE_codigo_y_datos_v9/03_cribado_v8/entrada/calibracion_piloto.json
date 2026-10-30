@@ -1,0 +1,492 @@
+{
+  "version": "postpiloto_2_2026_10_05",
+  "criterio_propuesto": "v8_propuesta_1",
+  "estado_criterio": "calibrado_en_piloto_no_aplicado_al_corpus",
+  "actor_nuevas_sugerencias": "asistente_IA",
+  "actor_piloto_humano": "Joaquin Leon",
+  "modelo_y_parametros_de_etapas_previas": "no_reconstruidos",
+  "autoriza_cambio_automatico_corpus": false,
+  "piloto_original": {
+    "version": "piloto20_v7_2026_10_05",
+    "finalidad": "piloto_de_calibracion_con_sugerencias_visibles",
+    "alcance": "agregar_al_nucleo_de_desempeno_operacional_no_al_corpus_general",
+    "decisiones_acumuladas": [
+      {
+        "codigo": "P01",
+        "openalex_id": "https://openalex.org/W2800956698",
+        "decision_v7": "IN",
+        "sugerencia_IA": "IN",
+        "decision_humana": "IN",
+        "motivo": "Confirmo la sugerencia de IA y su fundamento.",
+        "fecha": "2026-10-05T14:44:13.872Z"
+      },
+      {
+        "codigo": "P02",
+        "openalex_id": "https://openalex.org/W4308694276",
+        "decision_v7": "IN",
+        "sugerencia_IA": "IN",
+        "decision_humana": "IN",
+        "motivo": "Confirmo la sugerencia de IA y su fundamento.",
+        "fecha": "2026-10-05T14:44:39.101Z"
+      },
+      {
+        "codigo": "P03",
+        "openalex_id": "https://openalex.org/W4399348276",
+        "decision_v7": "IN",
+        "sugerencia_IA": "IN",
+        "decision_humana": "OUT",
+        "motivo": "No mide desempeño directamente es una revision de literatura no medicion de desempeño",
+        "fecha": "2026-10-05T14:45:58.507Z"
+      },
+      {
+        "codigo": "P04",
+        "openalex_id": "https://openalex.org/W2268135145",
+        "decision_v7": "IN",
+        "sugerencia_IA": "OUT",
+        "decision_humana": "TC",
+        "motivo": "Necesito ver si habla sobre el equipo de reigo o no",
+        "fecha": "2026-10-05T14:47:06.261Z"
+      },
+      {
+        "codigo": "P05",
+        "openalex_id": "https://openalex.org/W4392848649",
+        "decision_v7": "IN",
+        "sugerencia_IA": "IN",
+        "decision_humana": "IN",
+        "motivo": "Confirmo la sugerencia de IA y su fundamento.",
+        "fecha": "2026-10-05T14:47:35.575Z"
+      },
+      {
+        "codigo": "P06",
+        "openalex_id": "https://openalex.org/W7203871481",
+        "decision_v7": "IN",
+        "sugerencia_IA": "IN",
+        "decision_humana": "IN",
+        "motivo": "Confirmo la sugerencia de IA y su fundamento.",
+        "fecha": "2026-10-05T14:48:12.019Z"
+      },
+      {
+        "codigo": "P07",
+        "openalex_id": "https://openalex.org/W4403289398",
+        "decision_v7": "IN",
+        "sugerencia_IA": "IN",
+        "decision_humana": "OUT",
+        "motivo": "Mas mecanico que opeacional",
+        "fecha": "2026-10-05T14:48:40.584Z"
+      },
+      {
+        "codigo": "P08",
+        "openalex_id": "https://openalex.org/W2184568883",
+        "decision_v7": "IN",
+        "sugerencia_IA": "IN",
+        "decision_humana": "IN",
+        "motivo": "Confirmo la sugerencia de IA y su fundamento.",
+        "fecha": "2026-10-05T14:48:58.219Z"
+      },
+      {
+        "codigo": "P09",
+        "openalex_id": "https://openalex.org/W800909139",
+        "decision_v7": "OUT",
+        "sugerencia_IA": "OUT",
+        "decision_humana": "OUT",
+        "motivo": "Confirmo la sugerencia de IA y su fundamento.",
+        "fecha": "2026-10-05T14:49:15.287Z"
+      },
+      {
+        "codigo": "P10",
+        "openalex_id": "https://openalex.org/W4283794543",
+        "decision_v7": "OUT",
+        "sugerencia_IA": "OUT",
+        "decision_humana": "OUT",
+        "motivo": "Confirmo la sugerencia de IA y su fundamento.",
+        "fecha": "2026-10-05T14:49:39.361Z"
+      },
+      {
+        "codigo": "P11",
+        "openalex_id": "https://openalex.org/W4401180877",
+        "decision_v7": "OUT",
+        "sugerencia_IA": "OUT",
+        "decision_humana": "OUT",
+        "motivo": "Confirmo la sugerencia de IA y su fundamento.",
+        "fecha": "2026-10-05T14:50:02.983Z"
+      },
+      {
+        "codigo": "P12",
+        "openalex_id": "https://openalex.org/W1632353107",
+        "decision_v7": "OUT",
+        "sugerencia_IA": "OUT",
+        "decision_humana": "OUT",
+        "motivo": "no mide desempeño de equipos",
+        "fecha": "2026-10-05T14:50:29.047Z"
+      },
+      {
+        "codigo": "P13",
+        "openalex_id": "https://openalex.org/W3034013617",
+        "decision_v7": "OUT",
+        "sugerencia_IA": "OUT",
+        "decision_humana": "OUT",
+        "motivo": "Se aleja del desempeño propio del equipo y propone una arquitectura de control",
+        "fecha": "2026-10-05T14:52:00.665Z"
+      },
+      {
+        "codigo": "P14",
+        "openalex_id": "https://openalex.org/W4409729851",
+        "decision_v7": "OUT",
+        "sugerencia_IA": "OUT",
+        "decision_humana": "OUT",
+        "motivo": "Confirmo la sugerencia de IA y su fundamento.",
+        "fecha": "2026-10-05T14:53:17.217Z"
+      },
+      {
+        "codigo": "P15",
+        "openalex_id": "https://openalex.org/W4295024922",
+        "decision_v7": "OUT",
+        "sugerencia_IA": "OUT",
+        "decision_humana": "OUT",
+        "motivo": "Confirmo la sugerencia de IA y su fundamento.",
+        "fecha": "2026-10-05T14:53:32.170Z"
+      },
+      {
+        "codigo": "P16",
+        "openalex_id": "https://openalex.org/W2351726681",
+        "decision_v7": "OUT",
+        "sugerencia_IA": "IN",
+        "decision_humana": "OUT",
+        "motivo": "Mide caracteristicas del equipo pero no desempeño",
+        "fecha": "2026-10-05T14:54:03.834Z"
+      },
+      {
+        "codigo": "P17",
+        "openalex_id": "https://openalex.org/W3002998664",
+        "decision_v7": "OUT",
+        "sugerencia_IA": "OUT",
+        "decision_humana": "OUT",
+        "motivo": "Confirmo la sugerencia de IA y su fundamento.",
+        "fecha": "2026-10-05T14:54:16.319Z"
+      },
+      {
+        "codigo": "P18",
+        "openalex_id": "https://openalex.org/W7141318525",
+        "decision_v7": "OUT",
+        "sugerencia_IA": "IN",
+        "decision_humana": "IN",
+        "motivo": "Confirmo la sugerencia de IA y su fundamento.",
+        "fecha": "2026-10-05T14:54:33.127Z"
+      },
+      {
+        "codigo": "P19",
+        "openalex_id": "https://openalex.org/W2396568635",
+        "decision_v7": "OUT",
+        "sugerencia_IA": "OUT",
+        "decision_humana": "OUT",
+        "motivo": "Confirmo la sugerencia de IA y su fundamento.",
+        "fecha": "2026-10-05T14:54:45.634Z"
+      },
+      {
+        "codigo": "P20",
+        "openalex_id": "https://openalex.org/W4313147474",
+        "decision_v7": "OUT",
+        "sugerencia_IA": "OUT",
+        "decision_humana": "OUT",
+        "motivo": "Confirmo la sugerencia de IA y su fundamento.",
+        "fecha": "2026-10-05T14:54:59.314Z"
+      }
+    ],
+    "pendientes": []
+  },
+  "recomendaciones_posteriores": [
+    {
+      "codigo": "P04",
+      "openalex_id": "https://openalex.org/W2268135145",
+      "titulo": "Selection, performance and economic evaluation of dust palliatives on surface mine haul roads",
+      "decision_v7": "IN",
+      "sugerencia_IA_piloto": "OUT",
+      "decision_humana_original": "TC",
+      "motivo_humano_original": "Necesito ver si habla sobre el equipo de reigo o no",
+      "sugerencia_IA_actual": "IN",
+      "evidencia": "Texto completo: figura 5 y tabla IX (p. 447), tabla X (p. 448). Evalúa equipos/costos de riego y frecuencias de aplicación; excluye beneficios de ciclo del acarreo.",
+      "fundamento_IA_actual": "IN como tarea auxiliar con frecuencia y costo evaluados. Mi OUT inicial era demasiado restrictivo para el alcance de apoyo operacional.",
+      "fuente": "https://www.saimm.co.za/Journal/v107n07p435.pdf",
+      "nivel_lectura": "secciones_de_texto_completo"
+    },
+    {
+      "codigo": "P07",
+      "openalex_id": "https://openalex.org/W4403289398",
+      "titulo": "Analysis of the mining equipment replacement time. A case study focused on drilling rig",
+      "decision_v7": "IN",
+      "sugerencia_IA_piloto": "IN",
+      "decision_humana_original": "OUT",
+      "motivo_humano_original": "Mas mecanico que opeacional",
+      "sugerencia_IA_actual": "IN",
+      "evidencia": "Resumen publicado: seis perforadoras, disponibilidad y producción para decidir reemplazo. No se obtuvo texto completo.",
+      "fundamento_IA_actual": "IN si el núcleo admite reemplazo ligado a desempeño del equipo. Si mantienes OUT, aclara si excluyes esa clase de decisión del núcleo.",
+      "fuente": "https://doi.org/10.1016/j.rineng.2024.103057",
+      "nivel_lectura": "resumen_publicado"
+    }
+  ],
+  "eventos_humanos_posteriores": [
+    {
+      "codigo": "P04",
+      "openalex_id": "https://openalex.org/W2268135145",
+      "decision_humana_anterior": "TC",
+      "decision_humana_nueva": "IN",
+      "sugerencia_IA_piloto": "OUT",
+      "sugerencia_IA_actual": "IN",
+      "motivo_humano_nuevo": null,
+      "fuente_decision": "mensaje_chat",
+      "actor": "Joaquín León",
+      "tipo_evento": "reconsideracion_humana_de_calibracion",
+      "mensaje_humano_literal": "p4 y p7 in",
+      "fecha_recepcion_utc": "2026-10-05T15:41:18Z",
+      "fecha_fuente": "marca_temporal_del_mensaje_en_chat",
+      "nota_motivo": "El mensaje comunica IN para ambas fichas; no añade un motivo ni una confirmación textual del fundamento.",
+      "fundamento_IA_previo_a_la_nueva_decision": "IN como tarea auxiliar con frecuencia y costo evaluados. Mi OUT inicial era demasiado restrictivo para el alcance de apoyo operacional.",
+      "fuente_evidencia_IA": "https://www.saimm.co.za/Journal/v107n07p435.pdf",
+      "nivel_lectura_IA": "secciones_de_texto_completo"
+    },
+    {
+      "codigo": "P07",
+      "openalex_id": "https://openalex.org/W4403289398",
+      "decision_humana_anterior": "OUT",
+      "decision_humana_nueva": "IN",
+      "sugerencia_IA_piloto": "IN",
+      "sugerencia_IA_actual": "IN",
+      "motivo_humano_nuevo": null,
+      "fuente_decision": "mensaje_chat",
+      "actor": "Joaquín León",
+      "tipo_evento": "reconsideracion_humana_de_calibracion",
+      "mensaje_humano_literal": "p4 y p7 in",
+      "fecha_recepcion_utc": "2026-10-05T15:41:18Z",
+      "fecha_fuente": "marca_temporal_del_mensaje_en_chat",
+      "nota_motivo": "El mensaje comunica IN para ambas fichas; no añade un motivo ni una confirmación textual del fundamento.",
+      "fundamento_IA_previo_a_la_nueva_decision": "IN si el núcleo admite reemplazo ligado a desempeño del equipo. Si mantienes OUT, aclara si excluyes esa clase de decisión del núcleo.",
+      "fuente_evidencia_IA": "https://doi.org/10.1016/j.rineng.2024.103057",
+      "nivel_lectura_IA": "resumen_publicado"
+    }
+  ],
+  "fuentes_locales": [
+    {
+      "archivo": "Registro_y_resultado_piloto20_2026_10_05.md",
+      "sha256": "e158a4df99aabe435264dbc8ca52cf542193ce28ab5f4c7a9ab095468f5c9afd"
+    },
+    {
+      "archivo": "P04_saimm_2007.pdf",
+      "url": "https://www.saimm.co.za/Journal/v107n07p435.pdf",
+      "sha256": "78af9d7a1f36935735e9847dfcc74f7e13286d9fa37f8c75be988f48603bb801",
+      "secciones_consultadas": "modelos de frecuencia/costo, tablas VI/IX/X, figura 5",
+      "pagina_verificada_visualmente": 447
+    }
+  ],
+  "P07_texto_completo_leido": false,
+  "criterio_de_trabajo": "v8_calibrada_1",
+  "estado_humano_actual_piloto": [
+    {
+      "codigo": "P01",
+      "openalex_id": "https://openalex.org/W2800956698",
+      "decision_v7": "IN",
+      "sugerencia_IA": "IN",
+      "decision_humana": "IN",
+      "motivo": "Confirmo la sugerencia de IA y su fundamento.",
+      "fecha": "2026-10-05T14:44:13.872Z",
+      "decision_humana_actual": "IN"
+    },
+    {
+      "codigo": "P02",
+      "openalex_id": "https://openalex.org/W4308694276",
+      "decision_v7": "IN",
+      "sugerencia_IA": "IN",
+      "decision_humana": "IN",
+      "motivo": "Confirmo la sugerencia de IA y su fundamento.",
+      "fecha": "2026-10-05T14:44:39.101Z",
+      "decision_humana_actual": "IN"
+    },
+    {
+      "codigo": "P03",
+      "openalex_id": "https://openalex.org/W4399348276",
+      "decision_v7": "IN",
+      "sugerencia_IA": "IN",
+      "decision_humana": "OUT",
+      "motivo": "No mide desempeño directamente es una revision de literatura no medicion de desempeño",
+      "fecha": "2026-10-05T14:45:58.507Z",
+      "decision_humana_actual": "OUT"
+    },
+    {
+      "codigo": "P04",
+      "openalex_id": "https://openalex.org/W2268135145",
+      "decision_v7": "IN",
+      "sugerencia_IA": "OUT",
+      "decision_humana": "TC",
+      "motivo": "Necesito ver si habla sobre el equipo de reigo o no",
+      "fecha": "2026-10-05T14:47:06.261Z",
+      "decision_humana_actual": "IN"
+    },
+    {
+      "codigo": "P05",
+      "openalex_id": "https://openalex.org/W4392848649",
+      "decision_v7": "IN",
+      "sugerencia_IA": "IN",
+      "decision_humana": "IN",
+      "motivo": "Confirmo la sugerencia de IA y su fundamento.",
+      "fecha": "2026-10-05T14:47:35.575Z",
+      "decision_humana_actual": "IN"
+    },
+    {
+      "codigo": "P06",
+      "openalex_id": "https://openalex.org/W7203871481",
+      "decision_v7": "IN",
+      "sugerencia_IA": "IN",
+      "decision_humana": "IN",
+      "motivo": "Confirmo la sugerencia de IA y su fundamento.",
+      "fecha": "2026-10-05T14:48:12.019Z",
+      "decision_humana_actual": "IN"
+    },
+    {
+      "codigo": "P07",
+      "openalex_id": "https://openalex.org/W4403289398",
+      "decision_v7": "IN",
+      "sugerencia_IA": "IN",
+      "decision_humana": "OUT",
+      "motivo": "Mas mecanico que opeacional",
+      "fecha": "2026-10-05T14:48:40.584Z",
+      "decision_humana_actual": "IN"
+    },
+    {
+      "codigo": "P08",
+      "openalex_id": "https://openalex.org/W2184568883",
+      "decision_v7": "IN",
+      "sugerencia_IA": "IN",
+      "decision_humana": "IN",
+      "motivo": "Confirmo la sugerencia de IA y su fundamento.",
+      "fecha": "2026-10-05T14:48:58.219Z",
+      "decision_humana_actual": "IN"
+    },
+    {
+      "codigo": "P09",
+      "openalex_id": "https://openalex.org/W800909139",
+      "decision_v7": "OUT",
+      "sugerencia_IA": "OUT",
+      "decision_humana": "OUT",
+      "motivo": "Confirmo la sugerencia de IA y su fundamento.",
+      "fecha": "2026-10-05T14:49:15.287Z",
+      "decision_humana_actual": "OUT"
+    },
+    {
+      "codigo": "P10",
+      "openalex_id": "https://openalex.org/W4283794543",
+      "decision_v7": "OUT",
+      "sugerencia_IA": "OUT",
+      "decision_humana": "OUT",
+      "motivo": "Confirmo la sugerencia de IA y su fundamento.",
+      "fecha": "2026-10-05T14:49:39.361Z",
+      "decision_humana_actual": "OUT"
+    },
+    {
+      "codigo": "P11",
+      "openalex_id": "https://openalex.org/W4401180877",
+      "decision_v7": "OUT",
+      "sugerencia_IA": "OUT",
+      "decision_humana": "OUT",
+      "motivo": "Confirmo la sugerencia de IA y su fundamento.",
+      "fecha": "2026-10-05T14:50:02.983Z",
+      "decision_humana_actual": "OUT"
+    },
+    {
+      "codigo": "P12",
+      "openalex_id": "https://openalex.org/W1632353107",
+      "decision_v7": "OUT",
+      "sugerencia_IA": "OUT",
+      "decision_humana": "OUT",
+      "motivo": "no mide desempeño de equipos",
+      "fecha": "2026-10-05T14:50:29.047Z",
+      "decision_humana_actual": "OUT"
+    },
+    {
+      "codigo": "P13",
+      "openalex_id": "https://openalex.org/W3034013617",
+      "decision_v7": "OUT",
+      "sugerencia_IA": "OUT",
+      "decision_humana": "OUT",
+      "motivo": "Se aleja del desempeño propio del equipo y propone una arquitectura de control",
+      "fecha": "2026-10-05T14:52:00.665Z",
+      "decision_humana_actual": "OUT"
+    },
+    {
+      "codigo": "P14",
+      "openalex_id": "https://openalex.org/W4409729851",
+      "decision_v7": "OUT",
+      "sugerencia_IA": "OUT",
+      "decision_humana": "OUT",
+      "motivo": "Confirmo la sugerencia de IA y su fundamento.",
+      "fecha": "2026-10-05T14:53:17.217Z",
+      "decision_humana_actual": "OUT"
+    },
+    {
+      "codigo": "P15",
+      "openalex_id": "https://openalex.org/W4295024922",
+      "decision_v7": "OUT",
+      "sugerencia_IA": "OUT",
+      "decision_humana": "OUT",
+      "motivo": "Confirmo la sugerencia de IA y su fundamento.",
+      "fecha": "2026-10-05T14:53:32.170Z",
+      "decision_humana_actual": "OUT"
+    },
+    {
+      "codigo": "P16",
+      "openalex_id": "https://openalex.org/W2351726681",
+      "decision_v7": "OUT",
+      "sugerencia_IA": "IN",
+      "decision_humana": "OUT",
+      "motivo": "Mide caracteristicas del equipo pero no desempeño",
+      "fecha": "2026-10-05T14:54:03.834Z",
+      "decision_humana_actual": "OUT"
+    },
+    {
+      "codigo": "P17",
+      "openalex_id": "https://openalex.org/W3002998664",
+      "decision_v7": "OUT",
+      "sugerencia_IA": "OUT",
+      "decision_humana": "OUT",
+      "motivo": "Confirmo la sugerencia de IA y su fundamento.",
+      "fecha": "2026-10-05T14:54:16.319Z",
+      "decision_humana_actual": "OUT"
+    },
+    {
+      "codigo": "P18",
+      "openalex_id": "https://openalex.org/W7141318525",
+      "decision_v7": "OUT",
+      "sugerencia_IA": "IN",
+      "decision_humana": "IN",
+      "motivo": "Confirmo la sugerencia de IA y su fundamento.",
+      "fecha": "2026-10-05T14:54:33.127Z",
+      "decision_humana_actual": "IN"
+    },
+    {
+      "codigo": "P19",
+      "openalex_id": "https://openalex.org/W2396568635",
+      "decision_v7": "OUT",
+      "sugerencia_IA": "OUT",
+      "decision_humana": "OUT",
+      "motivo": "Confirmo la sugerencia de IA y su fundamento.",
+      "fecha": "2026-10-05T14:54:45.634Z",
+      "decision_humana_actual": "OUT"
+    },
+    {
+      "codigo": "P20",
+      "openalex_id": "https://openalex.org/W4313147474",
+      "decision_v7": "OUT",
+      "sugerencia_IA": "OUT",
+      "decision_humana": "OUT",
+      "motivo": "Confirmo la sugerencia de IA y su fundamento.",
+      "fecha": "2026-10-05T14:54:59.314Z",
+      "decision_humana_actual": "OUT"
+    }
+  ],
+  "resumen_actual": {
+    "total_fichas": 20,
+    "IN": 8,
+    "OUT": 12,
+    "TC": 0,
+    "pendientes_piloto": [],
+    "es_validacion_ciega": false
+  }
+}

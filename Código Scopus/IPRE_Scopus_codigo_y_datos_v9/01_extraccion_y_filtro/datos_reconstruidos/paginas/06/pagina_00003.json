@@ -1,0 +1,4513 @@
+{
+  "numero": 3,
+  "frase": "surface mine",
+  "consulta": "(TITLE-ABS({surface mine})) AND (DOCTYPE(ar) OR DOCTYPE(re))",
+  "cursor_solicitado": "rO0ABXNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHABNNh1dAALODUxOTI3MTc4OTE=",
+  "cursor_siguiente": "rO0ABXNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHABNLFldAALODUxODU1NzU4NTE=",
+  "reportado": 838,
+  "descargados_acumulados": 75,
+  "entry": [
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85187185943"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85187185943?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85187185943&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85187185943&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85187185943",
+      "dc:identifier": "SCOPUS_ID:85187185943",
+      "eid": "2-s2.0-85187185943",
+      "dc:title": "A Novel Approach in Predicting Dump Truck Tyre Life in a Mine Based on Multilayer Perceptron Neural Network Optimised with Particle Swarm Optimisation",
+      "dc:creator": "Koomson S.E.K.",
+      "prism:publicationName": "Mining Metallurgy and Exploration",
+      "prism:issn": "25243462",
+      "prism:eIssn": "25243470",
+      "prism:volume": "41",
+      "prism:issueIdentifier": "2",
+      "prism:pageRange": "769-786",
+      "prism:coverDate": "2024-04-01",
+      "prism:coverDisplayDate": "April 2024",
+      "prism:doi": "10.1007/s42461-024-00954-y",
+      "dc:description": "Tyre hours/life deficit is a major operational challenge facing the mining industry which adversely affects materials production and costs. An accurate forecast of the tyre life is key in addressing this menace. This study for the first time employed the hybrid intelligent technique by utilising three metaheuristic optimisation algorithms, including particle swarm optimisation (PSO), genetic algorithm (GA), and whale optimisation algorithm (WOA), as trainers for the parametric weights and biases to optimise multilayer perceptron neural network (MLPNN) for enhancing prediction of on-site dump truck tyre life in the mine. Four hybrid models known as PSO-MLPNN, WOA-MLPNN, GA-MLPNN, and BP-MLPNN were developed using a total of 157 tyre dataset records obtained from a surface mine in Ghana. In assessing the prediction performances for the models developed, five statistical performance metrics of variance accounted for (VAF), Nash–Sutcliffe efficiency index (NASH), coefficient of determination (r<sup>2</sup>), mean absolute percentage error (MAPE), and correlation coefficient (r) were utilised. Moreover, ranking, uncertainty analysis and Bayesian information criterion (BIC) techniques were utilised to establish the most effective hybrid model, whereas sensitivity analysis was conducted on the input parameters. Results achieved showed that PSO-MLPNN was the best for prediction because it had the least MAPE value of 1.196% and relatively high values of VAF (99.642%), NASH (0.996), r<sup>2</sup> (0.996), and r (0.998). Besides, PSO-MLPNN had the best selection criteria values of 6, 7.1725, and 444.834 for the ranking, uncertainty analysis and BIC respectively. Hence, PSO-MLPNN is recommended for the prediction of on-site dump truck tyre life for the studied mine.",
+      "citedby-count": "2",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60116800",
+          "afid": "60116800",
+          "affilname": "University of Mines and Technology",
+          "affiliation-city": "Tarkwa",
+          "affiliation-country": "Ghana"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "3"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58652653100",
+          "authid": "58652653100",
+          "orcid": "0009-0007-3203-1994",
+          "authname": "Koomson S.E.K.",
+          "surname": "Koomson",
+          "given-name": "Solomon Evans Kweku",
+          "initials": "S.E.K.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60116800"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/6507912038",
+          "authid": "6507912038",
+          "orcid": "0000-0002-9536-0871",
+          "authname": "Temeng V.A.",
+          "surname": "Temeng",
+          "given-name": "Victor Amoako",
+          "initials": "V.A.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60116800"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/56431142700",
+          "authid": "56431142700",
+          "orcid": "0000-0002-9940-1845",
+          "authname": "Ziggah Y.Y.",
+          "surname": "Ziggah",
+          "given-name": "Yao Yevenyo",
+          "initials": "Y.Y.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60116800"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "Dump truck tyres | Hybrid intelligent technique | Materials transportation system | The optimisation technique | Tyre hours/life",
+      "source-id": "21100920033",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85188262340"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85188262340?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85188262340&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85188262340&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85188262340",
+      "dc:identifier": "SCOPUS_ID:85188262340",
+      "eid": "2-s2.0-85188262340",
+      "dc:title": "Hypoxaemia and risk of asphyxia during underground work in artisanal cobalt mines",
+      "dc:creator": "Musa Obadia P.",
+      "prism:publicationName": "Occupational Medicine",
+      "prism:issn": "09627480",
+      "prism:eIssn": "14718405",
+      "prism:volume": "74",
+      "prism:issueIdentifier": "2",
+      "prism:pageRange": "178-185",
+      "prism:coverDate": "2024-03-01",
+      "prism:coverDisplayDate": "1 March 2024",
+      "prism:doi": "10.1093/occmed/kqae008",
+      "dc:description": "Background: More than half the cobalt needed for vehicle electrification originates from the southern part of the Democratic Republic of the Congo (DRC), with a substantial part being extracted by artisanal miners. Aims: To investigate oxygen saturation during underground work among cobalt artisanal miners. Methods: In a field survey, we measured oxygen saturation (SpO<inf>2</inf>) and heart rate by pulse oximetry in 86 miners from two underground mines and 24 miners from a surface mine at four different time points: before descent into the mine (T1), at 50 minutes in the mine (T2), upon leaving the shaft (T3), and 10 minutes after having left the mine (T4). Results: Miners working underground (-36 to -112 meters) were somewhat older (34.8 ± 6.7 years) than those working in the surface mine (32.0 ± 6.5 years), and they worked more hours daily (12.6 ± 1.2 hours) than controls (9.0 ± 0.0 hours). All participants had SpO<inf>2</inf> >95% at T1 and T4. At T2, SpO<inf>2</inf> dropped below 93% and 80% in 35% and 10% underground miners, respectively; SpO<inf>2</inf> was still <93% at T3 in 13%. SpO<inf>2</inf> remained stable among surface miners. Later, we showed that underground ambient oxygen levels decreased well below 21% in several pits. Conclusions: Pulse oximetry revealed relevant hypoxaemia during underground work in a substantial proportion of artisanal miners. Such hypoxaemia without evidence of underlying cardiovascular disease is indicative of low ambient oxygen, due to insufficient mine ventilation. This may cause deaths from asphyxia. The hazards of low ambient oxygen in artisanal mines must be prevented by appropriate technical measures ensuring the supply of sufficient fresh air.",
+      "citedby-count": "4",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60121251",
+          "afid": "60121251",
+          "affilname": "Departement Maatschappelijke Gezondheidszorg en Eerstelijnszorg",
+          "affiliation-city": "Leuven",
+          "affiliation-country": "Belgium"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60072532",
+          "afid": "60072532",
+          "affilname": "University of Lubumbashi",
+          "affiliation-city": "Lubumbashi",
+          "affiliation-country": "Democratic Republic Congo"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60139069",
+          "afid": "60139069",
+          "affilname": "Université Catholique de Bukavu",
+          "affiliation-city": "Bukavu",
+          "affiliation-country": "Democratic Republic Congo"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/118580948",
+          "afid": "118580948",
+          "affilname": "Institut Supérieur des Techniques Médicales de Lubumbashi",
+          "affiliation-city": "Lubumbashi",
+          "affiliation-country": "Democratic Republic Congo"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/112798854",
+          "afid": "112798854",
+          "affilname": "Southern Africa Medical Unit",
+          "affiliation-city": "Cape Town",
+          "affiliation-country": "South Africa"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/126785191",
+          "afid": "126785191",
+          "affilname": "Université de Kolwezi",
+          "affiliation-city": "Kolwezi",
+          "affiliation-country": "Democratic Republic Congo"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/124573601",
+          "afid": "124573601",
+          "affilname": "Belgian Center for Occupational Hygiene",
+          "affiliation-city": "Zwijnaarde",
+          "affiliation-country": "Belgium"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/131126611",
+          "afid": "131126611",
+          "affilname": "Expertise Centre on Mining Governance (CEGEMI)",
+          "affiliation-city": "Bukavu",
+          "affiliation-country": "Democratic Republic Congo"
+        }
+      ],
+      "pubmed-id": "38332656",
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "9"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57194741885",
+          "authid": "57194741885",
+          "authname": "Musa Obadia P.",
+          "surname": "Musa Obadia",
+          "given-name": "P.",
+          "initials": "P.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60072532"
+            },
+            {
+              "@_fa": "true",
+              "$": "60121251"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57209532382",
+          "authid": "57209532382",
+          "authname": "Pyana Kitenge J.",
+          "surname": "Pyana Kitenge",
+          "given-name": "J.",
+          "initials": "J.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60072532"
+            },
+            {
+              "@_fa": "true",
+              "$": "60121251"
+            },
+            {
+              "@_fa": "true",
+              "$": "60072532"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57210015831",
+          "authid": "57210015831",
+          "authname": "Carsi Kuhangana T.",
+          "surname": "Carsi Kuhangana",
+          "given-name": "T.",
+          "initials": "T.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60072532"
+            },
+            {
+              "@_fa": "true",
+              "$": "60121251"
+            },
+            {
+              "@_fa": "true",
+              "$": "126785191"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "4",
+          "author-url": "https://api.elsevier.com/content/author/author_id/60780320200",
+          "authid": "60780320200",
+          "authname": "Verpaele S.",
+          "surname": "Verpaele",
+          "given-name": "S.",
+          "initials": "S.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "124573601"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "5",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58974920500",
+          "authid": "58974920500",
+          "authname": "Ndala Nyongonyi A.",
+          "surname": "Ndala Nyongonyi",
+          "given-name": "A.",
+          "initials": "A.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60072532"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "6",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57204687895",
+          "authid": "57204687895",
+          "authname": "Kayembe Kitenge T.",
+          "surname": "Kayembe Kitenge",
+          "given-name": "T.",
+          "initials": "T.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60072532"
+            },
+            {
+              "@_fa": "true",
+              "$": "118580948"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "7",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57202776078",
+          "authid": "57202776078",
+          "authname": "Katoto P.D.M.",
+          "surname": "Katoto",
+          "given-name": "P. D.M.",
+          "initials": "P.D.M.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60139069"
+            },
+            {
+              "@_fa": "true",
+              "$": "131126611"
+            },
+            {
+              "@_fa": "true",
+              "$": "112798854"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "8",
+          "author-url": "https://api.elsevier.com/content/author/author_id/56177477700",
+          "authid": "56177477700",
+          "authname": "Banza Lubaba Nkulu C.",
+          "surname": "Banza Lubaba Nkulu",
+          "given-name": "C.",
+          "initials": "C.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60072532"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "9",
+          "author-url": "https://api.elsevier.com/content/author/author_id/7101629097",
+          "authid": "7101629097",
+          "orcid": "0000-0003-0571-4689",
+          "authname": "Nemery B.",
+          "surname": "Nemery",
+          "given-name": "B.",
+          "initials": "B.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60121251"
+            }
+          ]
+        }
+      ],
+      "source-id": "50020",
+      "fund-acr": "ARES",
+      "fund-sponsor": "Académie de recherche et d'enseignement supérieur",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85182598390"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85182598390?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85182598390&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85182598390&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "full-text",
+          "@href": "https://api.elsevier.com/content/article/eid/1-s2.0-S0269749124000423"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85182598390",
+      "dc:identifier": "SCOPUS_ID:85182598390",
+      "eid": "2-s2.0-85182598390",
+      "dc:title": "Legacy coal mining impacts downstream ecosystems for decades in the Canadian Rockies",
+      "dc:creator": "Cooke C.A.",
+      "prism:publicationName": "Environmental Pollution",
+      "prism:issn": "02697491",
+      "prism:eIssn": "18736424",
+      "prism:volume": "344",
+      "prism:pageRange": null,
+      "prism:coverDate": "2024-03-01",
+      "prism:coverDisplayDate": "1 March 2024",
+      "prism:doi": "10.1016/j.envpol.2024.123328",
+      "pii": "S0269749124000423",
+      "dc:description": "Mountaintop removal coal mining leaves a legacy of disturbed landscapes and abandoned infrastructure with clear impacts on water resources; however, the intensity and persistence of this water pollution remains poorly characterized. Here we examined the downstream impacts of over a century of coal mining in the Crowsnest Pass (Alberta, Canada). Water samples were collected downstream of two historical coal mines: Tent Mountain and Grassy Mountain. Tent Mountain hosts a partially reclaimed surface mine that closed in 1983. Selenium concentrations downstream of Tent Mountain reached 185 μg/L in a lake below the mine spoil pile, and up to 23 μg/L in Crowsnest Creek, which drains the lake and the mine property. Further downstream, a well-dated sediment core from Crowsnest Lake records increases in sediment, selenium, lead, carbon, nitrogen, and polycyclic aromatic compounds that closely tracked the history of mining at Tent Mountain. In contrast, episodic discharge of mine water from abandoned underground adits at Grassy Mountain drive periodic (but short-term) increases in iron, various metals, and suspended sediment. These results underscore the lasting downstream impacts of abandoned and even reclaimed coal mines.",
+      "citedby-count": "30",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60030835",
+          "afid": "60030835",
+          "affilname": "University of Alberta",
+          "affiliation-city": "Edmonton",
+          "affiliation-country": "Canada"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60002306",
+          "afid": "60002306",
+          "affilname": "University of Calgary",
+          "affiliation-city": "Calgary",
+          "affiliation-country": "Canada"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60078524",
+          "afid": "60078524",
+          "affilname": "Government of Alberta",
+          "affiliation-city": "Edmonton",
+          "affiliation-country": "Canada"
+        }
+      ],
+      "pubmed-id": "38195024",
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "3"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/14622328500",
+          "authid": "14622328500",
+          "orcid": "0000-0002-7417-5263",
+          "authname": "Cooke C.A.",
+          "surname": "Cooke",
+          "given-name": "Colin A.",
+          "initials": "C.A.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60030835"
+            },
+            {
+              "@_fa": "true",
+              "$": "60030835"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/16678422300",
+          "authid": "16678422300",
+          "authname": "Emmerton C.A.",
+          "surname": "Emmerton",
+          "given-name": "Craig A.",
+          "initials": "C.A.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60030835"
+            },
+            {
+              "@_fa": "true",
+              "$": "60030835"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/8134271900",
+          "authid": "8134271900",
+          "authname": "Drevnick P.E.",
+          "surname": "Drevnick",
+          "given-name": "Paul E.",
+          "initials": "P.E.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60078524"
+            },
+            {
+              "@_fa": "true",
+              "$": "60002306"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "Lead | Mercury | Mining | PACs | Pollution | Sediment | Selenium | Water quality",
+      "article-number": "123328",
+      "source-id": "23916",
+      "fund-no": "1004003",
+      "openaccess": "1",
+      "openaccessFlag": true,
+      "freetoread": {
+        "value": [
+          {
+            "$": "all"
+          },
+          {
+            "$": "publisherhybridgold"
+          }
+        ]
+      },
+      "freetoreadLabel": {
+        "value": [
+          {
+            "$": "All Open Access"
+          },
+          {
+            "$": "Hybrid Gold"
+          }
+        ]
+      }
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85192439809"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85192439809?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85192439809&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85192439809&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85192439809",
+      "dc:identifier": "SCOPUS_ID:85192439809",
+      "eid": "2-s2.0-85192439809",
+      "dc:title": "An Integrated Decision Support System for Low-Disturbance Surface Mining",
+      "dc:creator": "Tao Y.",
+      "prism:publicationName": "Applied Sciences Switzerland",
+      "prism:eIssn": "20763417",
+      "prism:volume": "14",
+      "prism:issueIdentifier": "4",
+      "prism:pageRange": null,
+      "prism:coverDate": "2024-02-01",
+      "prism:coverDisplayDate": "February 2024",
+      "prism:doi": "10.3390/app14041672",
+      "dc:description": "Low-disturbance mining in surface mining (LDM) can transform traditional surface mine production systems into a more sustainable model by reducing the disturbance of surface mining, minimizing pollutant emissions, and reducing ecological impacts. The purpose of this paper is to explore the LDM evaluation method by applying multi-criteria decision-making to provide technical support for LDM implementation. Therefore, an evaluation method based on the combination of the fuzzy analytical hierarchy process (F-AHP) and grey clustering was proposed. Analyzed in terms of the current status of the evaluation indicators (reality) and the significance of the development of the LDM (desirability). Determined the weights and low-disturbance (LD) levels of the evaluation indicators. Combined with the fuzzy technique for order preference by similarity to an ideal solution (F-TOPSIS), the low-disturbance open pit mining paths are ranked, and finally, the decision support system for low-disturbance mining in surface mining is constructed. This study not only enriches the existing literature on related technologies but also lays the foundation for further research on LDM and provides exploratory insights for deeper improvement of LD level in surface mining.",
+      "citedby-count": "2",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60108755",
+          "afid": "60108755",
+          "affilname": "China University of Mining & Technology, Beijing",
+          "affiliation-city": "Beijing",
+          "affiliation-country": "China"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "2"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57477454300",
+          "authid": "57477454300",
+          "authname": "Tao Y.",
+          "surname": "Tao",
+          "given-name": "Yabin",
+          "initials": "Y.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60108755"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/7404864527",
+          "authid": "7404864527",
+          "authname": "Zhang R.",
+          "surname": "Zhang",
+          "given-name": "Ruixin",
+          "initials": "R.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60108755"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "fuzzy analytical hierarchy process | fuzzy-TOPSIS | grey cluster analysis | low-disturbance mining in surface mining | multiple criteria decision-making (MCDM)",
+      "article-number": "1672",
+      "source-id": "21100829268",
+      "openaccess": "1",
+      "openaccessFlag": true,
+      "freetoread": {
+        "value": [
+          {
+            "$": "all"
+          },
+          {
+            "$": "publisherfullgold"
+          }
+        ]
+      },
+      "freetoreadLabel": {
+        "value": [
+          {
+            "$": "All Open Access"
+          },
+          {
+            "$": "Gold"
+          }
+        ]
+      }
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85180305669"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85180305669?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85180305669&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85180305669&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85180305669",
+      "dc:identifier": "SCOPUS_ID:85180305669",
+      "eid": "2-s2.0-85180305669",
+      "dc:title": "LiDAR-Camera Fusion in Perspective View for 3D Object Detection in Surface Mine",
+      "dc:creator": "Ai Y.",
+      "prism:publicationName": "IEEE Transactions on Intelligent Vehicles",
+      "prism:eIssn": "23798858",
+      "prism:volume": "9",
+      "prism:issueIdentifier": "2",
+      "prism:pageRange": "3721-3730",
+      "prism:coverDate": "2024-02-01",
+      "prism:coverDisplayDate": "1 February 2024",
+      "prism:doi": "10.1109/TIV.2023.3343377",
+      "dc:description": "LiDAR-Camera fusion can effectively provide the complementary geometric and appearance information for 3D object detection task of autonomous driving system. However, current dominant methods designed for urban scenes often fuse multi-modal information into a Bird's-Eye-View (BEV) feature representation and have a relatively short perception range, which limits their application in surface mine. To achieve long-range perception in surface mine, we utilize a solid-state LiDAR (i.e. Livox Horizon) that has a large perception range (over 200 meters). Accordingly, we propose PVFusion, a novel 3D object detection method that only fuses LiDAR and camera information in Perspective View (PV). Specifically, we first generate the multi-channel depth map via point cloud projection and Depth Map Densification (DMD). Then, we extract visual-depth features and local geometry features from depth-enhanced camera image and point cloud respectively. To better fuse multi-modal information, we propose an Attentional Feature Fusion (AFF) module to dynamically fuse visual-depth features and local geometry features into fused PV features. Moreover, we design a three-branch detection head that leverages a Depth Decoupling Strategy (DDS) to improve the depth estimation for distant objects. We conduct extensive experiments on our surface mine dataset and verify the effectiveness of the proposed PVFusion.",
+      "citedby-count": "15",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60027363",
+          "afid": "60027363",
+          "affilname": "University of Chinese Academy of Sciences",
+          "affiliation-city": "Beijing",
+          "affiliation-country": "China"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60073652",
+          "afid": "60073652",
+          "affilname": "Tongji University",
+          "affiliation-city": "Shanghai",
+          "affiliation-country": "China"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60073460",
+          "afid": "60073460",
+          "affilname": "China University of Mining and Technology",
+          "affiliation-city": "Xuzhou",
+          "affiliation-country": "China"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60108755",
+          "afid": "60108755",
+          "affilname": "China University of Mining & Technology, Beijing",
+          "affiliation-city": "Beijing",
+          "affiliation-country": "China"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60018486",
+          "afid": "60018486",
+          "affilname": "Institute of Automation Chinese Academy of Sciences",
+          "affiliation-city": "Beijing",
+          "affiliation-country": "China"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60357249",
+          "afid": "60357249",
+          "affilname": "Waytous",
+          "affiliation-city": "Beijing",
+          "affiliation-country": "China"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "8"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/7004752786",
+          "authid": "7004752786",
+          "orcid": "0000-0002-2673-1368",
+          "authname": "Ai Y.",
+          "surname": "Ai",
+          "given-name": "Yunfeng",
+          "initials": "Y.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60027363"
+            },
+            {
+              "@_fa": "true",
+              "$": "60357249"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58461813800",
+          "authid": "58461813800",
+          "orcid": "0009-0007-3382-0653",
+          "authname": "Yang X.",
+          "surname": "Yang",
+          "given-name": "Xue",
+          "initials": "X.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60357249"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57209772789",
+          "authid": "57209772789",
+          "orcid": "0000-0003-2261-3724",
+          "authname": "Song R.",
+          "surname": "Song",
+          "given-name": "Ruiqi",
+          "initials": "R.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60018486"
+            },
+            {
+              "@_fa": "true",
+              "$": "60073652"
+            },
+            {
+              "@_fa": "true",
+              "$": "60357249"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "4",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57561652900",
+          "authid": "57561652900",
+          "orcid": "0009-0005-0539-6053",
+          "authname": "Cui C.",
+          "surname": "Cui",
+          "given-name": "Chenglin",
+          "initials": "C.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60027363"
+            },
+            {
+              "@_fa": "true",
+              "$": "60357249"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "5",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58774574900",
+          "authid": "58774574900",
+          "orcid": "0009-0001-0293-4144",
+          "authname": "Li X.",
+          "surname": "Li",
+          "given-name": "Xinqing",
+          "initials": "X.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60027363"
+            },
+            {
+              "@_fa": "true",
+              "$": "60357249"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "6",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58751797200",
+          "authid": "58751797200",
+          "orcid": "0009-0008-5143-8471",
+          "authname": "Cheng Q.",
+          "surname": "Cheng",
+          "given-name": "Qi",
+          "initials": "Q.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60108755"
+            },
+            {
+              "@_fa": "true",
+              "$": "60073460"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "7",
+          "author-url": "https://api.elsevier.com/content/author/author_id/50562167400",
+          "authid": "50562167400",
+          "orcid": "0000-0003-1050-1282",
+          "authname": "Tian B.",
+          "surname": "Tian",
+          "given-name": "Bin",
+          "initials": "B.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60018486"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "8",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57201430734",
+          "authid": "57201430734",
+          "orcid": "0000-0003-4925-0572",
+          "authname": "Chen L.",
+          "surname": "Chen",
+          "given-name": "Long",
+          "initials": "L.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60018486"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "3D object detection | autonomous driving | LiDAR-Camera fusion | perspective view",
+      "source-id": "21100976127",
+      "fund-acr": "NKRDPC",
+      "fund-no": "2022YFB4703703",
+      "fund-sponsor": "National Key Research and Development Program of China",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85216875058"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85216875058?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85216875058&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85216875058&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85216875058",
+      "dc:identifier": "SCOPUS_ID:85216875058",
+      "eid": "2-s2.0-85216875058",
+      "dc:title": "Assessment of the concentration of toxic metals (aluminum, cadmium and manganese) in the soil and evergreen plant species at the Sastavci surface mine and its vicinity",
+      "dc:creator": "Tomović M.",
+      "prism:publicationName": "Journal of the Serbian Chemical Society",
+      "prism:issn": "03525139",
+      "prism:eIssn": "18207421",
+      "prism:volume": "89",
+      "prism:issueIdentifier": "12",
+      "prism:pageRange": "1629-1645",
+      "prism:coverDate": "2024-01-01",
+      "prism:coverDisplayDate": "2024",
+      "prism:doi": "10.2298/JSC240401063T",
+      "dc:description": "The study aims to determine the concentration of Al<sup>3+</sup>, Cd<sup>2+</sup> and Mn<sup>2+</sup> in the soil and parts of evergreen plant species – juniper and white pine – at the surface mine Sastavci (Badanj) and its vicinity in order to determine the possibility of using evergreen plants as an ecological indicator or for phytoremediation. Globally, as a result of various anthropogenic activities such as traffic, agricultural activities, waste incineration, industrial production, mining, etc., it represents a serious problem leading to pollution with toxic and potentially toxic metal cations. One of the more innovative techniques used for the remediation of mining areas is phytoremediation. By applying phytoremediation, certain plant species in polluted areas have the ability to act as accumulators or hyper-accumulators, absorbing toxic metals from the soil through the plant roots and transporting them to the upper parts. This research has been conducted to determine the concentration of Al<sup>3+</sup>, Cd<sup>2+</sup> and Mn<sup>2+</sup> at the surface mine itself and its surroundings, as well as to monitor the distribution of metal cations in the system of roots, branches, needles, and fruits of the evergreen plant species – white pine and juniper. The results showed that the sampled soil was contaminated with Cd in zones I and II for both plant species, since the concentrations exceeded the limit values, while the concentration of Cd in zone III, as well as in the control zone was below the determination limits for both plant species. The concentration of Mn in the soil from the white pine and juniper zone was above the world average in all three zones, as well as in the control zone itself. The soil was most enriched with the analysed elements in the surface mine of zoneс I and II. According to the analysis of elements in the parts of white pine, roots, branches, needles and fruits, the highest concentration of Al was detected in the root in zone I, while the lowest concentration was recorded in the fruit (cones) in the control zone, an increased concentration of Cd was recorded in the branches in zones I and II, and the highest concentration of Mn was recorded in needles in zone II. The highest Al concentration was recorded in the juniper root in zone I and the lowest in the juniper fruit in the control zone, the Cd concentration was the highest in the juniper root zone I, and the lowest in the juniper fruit and the highest Mn concentration was recorded in the juniper needles in zone I. Based on the obtained values of the coefficient of biological absorption, it can be concluded that white pine is not suitable for phytoextraction or phytostabilization of the tested elements. The analysis of biological factors (bioconcentration, translocation and bioaccumulation factor) indicated a possible usage of juniper in phytoextraction for Cd only.",
+      "citedby-count": "0",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60068801",
+          "afid": "60068801",
+          "affilname": "University of Novi Sad",
+          "affiliation-city": "Novi Sad",
+          "affiliation-country": "Serbia"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60104721",
+          "afid": "60104721",
+          "affilname": "University of Pristina - Kosovska Mitrovica",
+          "affiliation-city": "Kosovska Mitrovica",
+          "affiliation-country": "Serbia"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "6"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57194135399",
+          "authid": "57194135399",
+          "authname": "Tomović M.",
+          "surname": "Tomović",
+          "given-name": "Milica",
+          "initials": "M.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60104721"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/45661469600",
+          "authid": "45661469600",
+          "authname": "Grahovac J.",
+          "surname": "Grahovac",
+          "given-name": "Jovana",
+          "initials": "J.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60068801"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/12760761700",
+          "authid": "12760761700",
+          "authname": "Dodić J.",
+          "surname": "Dodić",
+          "given-name": "Jelena",
+          "initials": "J.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60068801"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "4",
+          "author-url": "https://api.elsevier.com/content/author/author_id/39262161000",
+          "authid": "39262161000",
+          "authname": "Radojković M.",
+          "surname": "Radojković",
+          "given-name": "Marija",
+          "initials": "M.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60068801"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "5",
+          "author-url": "https://api.elsevier.com/content/author/author_id/55960115100",
+          "authid": "55960115100",
+          "authname": "Elezović N.",
+          "surname": "Elezović",
+          "given-name": "Nataša",
+          "initials": "N.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60104721"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "6",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57209567456",
+          "authid": "57209567456",
+          "authname": "Pantić K.",
+          "surname": "Pantić",
+          "given-name": "Krstimir",
+          "initials": "K.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60104721"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "ICP-MS | ICP-OES | juniper | phytoremediation | trace elements | white pine",
+      "source-id": "21535",
+      "openaccess": "1",
+      "openaccessFlag": true,
+      "freetoread": {
+        "value": [
+          {
+            "$": "all"
+          },
+          {
+            "$": "publisherfullgold"
+          },
+          {
+            "$": "repository"
+          },
+          {
+            "$": "repositoryam"
+          }
+        ]
+      },
+      "freetoreadLabel": {
+        "value": [
+          {
+            "$": "All Open Access"
+          },
+          {
+            "$": "Gold"
+          },
+          {
+            "$": "Green"
+          }
+        ]
+      }
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85203160252"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85203160252?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85203160252&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85203160252&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85203160252",
+      "dc:identifier": "SCOPUS_ID:85203160252",
+      "eid": "2-s2.0-85203160252",
+      "dc:title": "Evaluating the efficacy of air-decking technique for surface mine blasts",
+      "dc:creator": "Balakrishnan V.",
+      "prism:publicationName": "International Journal of Mining and Mineral Engineering",
+      "prism:issn": "1754890X",
+      "prism:eIssn": "17548918",
+      "prism:volume": "15",
+      "prism:issueIdentifier": "3",
+      "prism:pageRange": "351-362",
+      "prism:coverDate": "2024-01-01",
+      "prism:coverDisplayDate": "2024",
+      "prism:doi": "10.1504/IJMME.2024.140700",
+      "dc:description": "The study underlines the effect of air-decking on rock fragmentation, blast induced ground vibration, and air overpressure. Five trial blasts have been conducted in a nearby limestone mine using wooden spacers as air-decks of 1.2 m length to replace about 20% of the explosive by weight. Also, the continuous velocity of detonation in a blast hole is measured. It is observed that the detonation wave, which comes across such large non-explosive zones, gets attenuated as no explosive is available, and the detonation becomes completely dead. The fragmentation achieved in the experimental trial blasts presented in the paper produced a significant number of boulders. The introduction of air decks in the column replaces the explosive, which leads to a reduction in the maximum charge per delay. The air-deck technique is found feasible in regions that have restrictions on the charge per delay due to excessive ground vibration and air overpressure.",
+      "citedby-count": "1",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60020895",
+          "afid": "60020895",
+          "affilname": "Central Institute of Mining and Fuel Research India",
+          "affiliation-city": "Dhanbad",
+          "affiliation-country": "India"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "1"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57203241337",
+          "authid": "57203241337",
+          "authname": "Balakrishnan V.",
+          "surname": "Balakrishnan",
+          "given-name": "Vineeth",
+          "initials": "V.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60020895"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "air-deck technique | explosive consumption reduction techniques | rock fragmentation | velocity of detonation",
+      "source-id": "21100202510",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85201718833"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85201718833?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85201718833&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85201718833&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85201718833",
+      "dc:identifier": "SCOPUS_ID:85201718833",
+      "eid": "2-s2.0-85201718833",
+      "dc:title": "Studies of technological indicators of surface mine operation in the states of Jharkhand and West Bengal on the territory of India based on space monitoring data",
+      "dc:creator": "Vokin V.N.",
+      "prism:publicationName": "Ugol",
+      "prism:issn": "00415790",
+      "prism:eIssn": "24128333",
+      "prism:issueIdentifier": "7",
+      "prism:pageRange": "109-112",
+      "prism:coverDate": "2024-01-01",
+      "prism:coverDisplayDate": "2024",
+      "prism:doi": "10.18796/0041-5790-2024-7-109-112",
+      "dc:description": "The article presents the results of studying the technological and technical aspects of surface mining operations at coal deposits in the states of Jharkhand and West Bengal in India. Remote sensing studies and analytical calculations revealed the number of mining and haulage machines working in the coal pits, as well as determined the annual volume of overburden excavation and coal mining. Satellite observations revealed a stable trend of surface coal mining in the surveyed states.",
+      "citedby-count": "0",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60075346",
+          "afid": "60075346",
+          "affilname": "Siberian Federal University",
+          "affiliation-city": "Krasnoyarsk",
+          "affiliation-country": "Russian Federation"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60075528",
+          "afid": "60075528",
+          "affilname": "Reshetnev Siberian State University of Science and Technology",
+          "affiliation-city": "Krasnoyarsk",
+          "affiliation-country": "Russian Federation"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60121871",
+          "afid": "60121871",
+          "affilname": "Le Quy Don Technical University",
+          "affiliation-city": "Hanoi",
+          "affiliation-country": "Viet Nam"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/131303849",
+          "afid": "131303849",
+          "affilname": "Siberian Research Institute of Mining and Surveying",
+          "affiliation-city": "Krasnoyarsk",
+          "affiliation-country": "Russian Federation"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "13"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57193734965",
+          "authid": "57193734965",
+          "authname": "Vokin V.N.",
+          "surname": "Vokin",
+          "given-name": "V. N.",
+          "initials": "V.N.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60075346"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58561907200",
+          "authid": "58561907200",
+          "authname": "Zenkov I.V.",
+          "surname": "Zenkov",
+          "given-name": "I. V.",
+          "initials": "I.V.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "131303849"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57035066200",
+          "authid": "57035066200",
+          "authname": "Trinh L.H.",
+          "surname": "Trinh",
+          "given-name": "Le Hung",
+          "initials": "L.H.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60121871"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "4",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57207845392",
+          "authid": "57207845392",
+          "authname": "Karacheva G.A.",
+          "surname": "Karacheva",
+          "given-name": "G. A.",
+          "initials": "G.A.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60075528"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "5",
+          "author-url": "https://api.elsevier.com/content/author/author_id/56958587000",
+          "authid": "56958587000",
+          "authname": "Yuronen Y.P.",
+          "surname": "Yuronen",
+          "given-name": "Yu P.",
+          "initials": "Y.P.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60075528"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "6",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57200444863",
+          "authid": "57200444863",
+          "authname": "Kiryushina E.V.",
+          "surname": "Kiryushina",
+          "given-name": "E. V.",
+          "initials": "E.V.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60075346"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "7",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58705697500",
+          "authid": "58705697500",
+          "authname": "Cherepanov E.V.",
+          "surname": "Cherepanov",
+          "given-name": "E. V.",
+          "initials": "E.V.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60075346"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "8",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57196469108",
+          "authid": "57196469108",
+          "authname": "Raevich K.V.",
+          "surname": "Raevich",
+          "given-name": "K. V.",
+          "initials": "K.V.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60075346"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "9",
+          "author-url": "https://api.elsevier.com/content/author/author_id/55973178700",
+          "authid": "55973178700",
+          "authname": "Latyntsev A.A.",
+          "surname": "Latyntsev",
+          "given-name": "A. A.",
+          "initials": "A.A.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60075346"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "10",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57191373366",
+          "authid": "57191373366",
+          "authname": "Pavlova P.L.",
+          "surname": "Pavlova",
+          "given-name": "P. L.",
+          "initials": "P.L.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60075346"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "11",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58723323700",
+          "authid": "58723323700",
+          "authname": "Kuzina L.N.",
+          "surname": "Kuzina",
+          "given-name": "L. N.",
+          "initials": "L.N.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60075346"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "12",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57374044000",
+          "authid": "57374044000",
+          "authname": "Lunev A.S.",
+          "surname": "Lunev",
+          "given-name": "A. S.",
+          "initials": "A.S.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60075346"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "13",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58705553900",
+          "authid": "58705553900",
+          "authname": "Shtresler K.A.",
+          "surname": "Shtresler",
+          "given-name": "K. A.",
+          "initials": "K.A.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60075346"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "annual volume of coal mining | coal mining industry | coal-fired power generation | coalpits | fuel and energy complex | Jharkhand and West Bengal states | mining | Remote sensing of the Earth | Republic of India | transportation machines",
+      "source-id": "17768",
+      "openaccess": "1",
+      "openaccessFlag": true,
+      "freetoread": {
+        "value": [
+          {
+            "$": "all"
+          },
+          {
+            "$": "publisherfree2read"
+          }
+        ]
+      },
+      "freetoreadLabel": {
+        "value": [
+          {
+            "$": "All Open Access"
+          },
+          {
+            "$": "Bronze"
+          }
+        ]
+      }
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85201671795"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85201671795?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85201671795&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85201671795&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85201671795",
+      "dc:identifier": "SCOPUS_ID:85201671795",
+      "eid": "2-s2.0-85201671795",
+      "dc:title": "Automation of the pH control process in treatment of surface coal mine runoff water",
+      "dc:creator": "Ivanov P.P.",
+      "prism:publicationName": "Ugol",
+      "prism:issn": "00415790",
+      "prism:eIssn": "24128333",
+      "prism:issueIdentifier": "7",
+      "prism:pageRange": "84-90",
+      "prism:coverDate": "2024-01-01",
+      "prism:coverDisplayDate": "2024",
+      "prism:doi": "10.18796/0041-5790-2024-7-84-90",
+      "dc:description": "Development of the coal mining industry in Kuzbass is shifting towards the expansion of surface coal mining, increasing the man-made load on the environment, in particular, intensifying pollution of the surface and ground waters within the coal mining territory. To ensure the required level of surface mine runoff water treatment, a reactant-based processing technology is recommended, which implies treatment of the runoff water with coagulating and flocculating agents. However, to ensure efficiency of the coagulation process it is necessary to maintain the pH level in the runoff water within the range of 7.5-8.5 units. This condition requires an obligatory pH correction by introducing a continuous mixer into the process flow and development of an automatic control system for the neutralization process. The main challenge in designing systems for automatic pH control is the non-linear nature of the titration curve, the static and dynamic characteristics of the process, as well as a significant difference between the rates of the mixing flows (wastewater and the reactant). Continuous closed-loop automated control systems (ACS) implementing the proportional-integral or the proportional-integral differential controls are the most common ways of addressing this challenge. However, finding the optimal settings of these regulators is a complex mathematical problem which is further complicated by the previously mentioned specific technological features of the neutralization process, as well as by the need for constant manual adjustment of the system caused by rigid tuning of the regulator parameters. This fact explains the need to search for new control methods, in particular, to use fuzzy logic in solving control tasks for nonlinear processes, which was implemented in this work.",
+      "citedby-count": "1",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60004615",
+          "afid": "60004615",
+          "affilname": "Siberian State Medical University",
+          "affiliation-city": "Tomsk",
+          "affiliation-country": "Russian Federation"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60028325",
+          "afid": "60028325",
+          "affilname": "Kemerovo State University",
+          "affiliation-city": "Kemerovo",
+          "affiliation-country": "Russian Federation"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "5"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57214880844",
+          "authid": "57214880844",
+          "authname": "Ivanov P.P.",
+          "surname": "Ivanov",
+          "given-name": "P. P.",
+          "initials": "P.P.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60028325"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57220039444",
+          "authid": "57220039444",
+          "authname": "Pachkin S.G.",
+          "surname": "Pachkin",
+          "given-name": "S. G.",
+          "initials": "S.G.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60028325"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/59285241700",
+          "authid": "59285241700",
+          "authname": "Ivanova V.P.",
+          "surname": "Ivanova",
+          "given-name": "V. P.",
+          "initials": "V.P.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60004615"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "4",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57190975113",
+          "authid": "57190975113",
+          "authname": "Semenov A.G.",
+          "surname": "Semenov",
+          "given-name": "A. G.",
+          "initials": "A.G.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60028325"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "5",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57189052967",
+          "authid": "57189052967",
+          "authname": "Mikhaylova E.S.",
+          "surname": "Mikhaylova",
+          "given-name": "E. S.",
+          "initials": "E.S.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60028325"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "fuzzy logic controller | neutralization | nonlinear characteristics | pH control | Surface mine runoff water | treatment",
+      "source-id": "17768",
+      "fund-acr": "Minobrnauka",
+      "fund-no": "075-15–2022-1201",
+      "fund-sponsor": "Ministry of Education and Science of the Russian Federation",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85197916496"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85197916496?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85197916496&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85197916496&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85197916496",
+      "dc:identifier": "SCOPUS_ID:85197916496",
+      "eid": "2-s2.0-85197916496",
+      "dc:title": "Improvement of technology for the development of complex-structured carbonate deposits with the use of modernized surface mine",
+      "dc:creator": "Cheban A.Y.",
+      "prism:publicationName": "Mining Informational and Analytical Bulletin",
+      "prism:issn": "02361493",
+      "prism:issueIdentifier": "7-1",
+      "prism:pageRange": "15-24",
+      "prism:coverDate": "2024-01-01",
+      "prism:coverDisplayDate": "2024",
+      "prism:doi": "10.25018/0236_1493_2024_71_0_15",
+      "dc:description": "Complex-structural carbonate deposits are characterized by high variability in the qualitative characteristics of the layers of useful stratum, and therefore, in order to obtain the greatest economic effect in the development of such reserves, it is necessary to ensure high-quality selective extraction of raw materials. Carbonate massifs are composed mainly of rocks of low strength, the selective layer-by-layer mass excavation of which can be effectively carried out using surface miners, however, the presence of separate layers of relatively strong rocks makes mechanical loosening difficult, reduces the productivity of combines and can lead to their breakdowns. For the development of gently sloping complex-structured seams, a technical and technological solution is proposed using a modernized surface miner, which provides preliminary softening of a layer of strong rocks by means of a unit for cutting discontinuous slots with the supply of a solution of surfactants into them, followed by mechanical loosening of the softened layer. Mechanical loosening of layers composed of rocks of low strength is carried out without their preliminary softening. A dependence is proposed for determining the width of intermittent slots to accommodate the required volume of solution in them. The miner is also equipped with a storage hopper, which provides the possibility of non-stop loosening of the array when replacing dump trucks under loading. The implementation of the proposed solution will increase the productivity of the excavation and reduce the cost of mining operations.",
+      "citedby-count": "0",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60110364",
+          "afid": "60110364",
+          "affilname": "Institute of Mining FEB RAS",
+          "affiliation-city": "Khabarovsk",
+          "affiliation-country": "Russian Federation"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "1"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/7003725774",
+          "authid": "7003725774",
+          "orcid": "0000-0003-2707-626X",
+          "authname": "Cheban A.Y.",
+          "surname": "Cheban",
+          "given-name": "A. Yu",
+          "initials": "A.Y.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60110364"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "hard rock layer | mechanical excavation | preliminary softening | productivity | storage hopper",
+      "source-id": "21100898936",
+      "fund-acr": "FEB RAS",
+      "fund-no": "075-15-2021-663",
+      "fund-sponsor": "Far East Branch, Russian Academy of Sciences",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85188576096"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85188576096?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85188576096&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85188576096&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85188576096",
+      "dc:identifier": "SCOPUS_ID:85188576096",
+      "eid": "2-s2.0-85188576096",
+      "dc:title": "A comprehensive review on application of drone, virtual reality and augmented reality with their application in dragline excavation monitoring in surface mines",
+      "dc:creator": "Singh P.",
+      "prism:publicationName": "Geomatics Natural Hazards and Risk",
+      "prism:issn": "19475705",
+      "prism:eIssn": "19475713",
+      "prism:volume": "15",
+      "prism:issueIdentifier": "1",
+      "prism:pageRange": null,
+      "prism:coverDate": "2024-01-01",
+      "prism:coverDisplayDate": "2024",
+      "prism:doi": "10.1080/19475705.2024.2327399",
+      "dc:description": "Application of drone technology combined with LiDAR and Virtual Reality/Augmented Reality in surface mining operational optimization is growing on a high trajectory. The mining sector has demonstrated increased interest in using drones for everyday tasks such as bench face mapping, dump planning, dragline dump disposal as per balance diagram in surface mining. One of the key requirements in dragline mining is the application of 3-dimensional mapping of the dragline dump area and dump space management for the dragline dump in a safe and efficient manner. The drone can assist in judicious disposal of a dump near the dragline bench mining keeping in mind the available dump/pit space and slope stability requirements. This research article presents a review of drone technology and how LiDAR and Virtual Reality/Augmented Reality Technology based on cloud computing architecture can accelerate the mine planning activity for dragline dump disposal for a simple side cast mining method. Furthermore, it discusses the current applications of AI-driven 3D computer vision techniques in automating data analytics with point clouds for the extraction of terrain parameters and plan efficient dump disposal strategies by proper positioning of dragline in a large surface mine.",
+      "citedby-count": "18",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60028333",
+          "afid": "60028333",
+          "affilname": "UNSW Sydney",
+          "affiliation-city": "Sydney",
+          "affiliation-country": "Australia"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60008898",
+          "afid": "60008898",
+          "affilname": "Indian Institute of Technology (Indian School of Mines), Dhanbad",
+          "affiliation-city": "Dhanbad",
+          "affiliation-country": "India"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "re",
+      "subtypeDescription": "Review",
+      "author-count": {
+        "@limit": "100",
+        "$": "4"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57212382040",
+          "authid": "57212382040",
+          "authname": "Singh P.",
+          "surname": "Singh",
+          "given-name": "Piyush",
+          "initials": "P.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60008898"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58954999200",
+          "authid": "58954999200",
+          "authname": "Murthy V.",
+          "surname": "Murthy",
+          "given-name": "Vmsr",
+          "initials": "V.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60008898"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/8304745200",
+          "authid": "8304745200",
+          "authname": "Kumar D.",
+          "surname": "Kumar",
+          "given-name": "Dheeraj",
+          "initials": "D.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60008898"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "4",
+          "author-url": "https://api.elsevier.com/content/author/author_id/55782832600",
+          "authid": "55782832600",
+          "authname": "Raval S.",
+          "surname": "Raval",
+          "given-name": "Simit",
+          "initials": "S.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60028333"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "cloud computing | deep learning | Dragline mining | drone | land environment | virtual and augmented reality",
+      "article-number": "2327399",
+      "source-id": "19700200835",
+      "fund-acr": "IIT",
+      "fund-no": "CIL(9)/2017-18/540/ME",
+      "fund-sponsor": "Indian Institute of Technology Mandi",
+      "openaccess": "1",
+      "openaccessFlag": true,
+      "freetoread": {
+        "value": [
+          {
+            "$": "all"
+          },
+          {
+            "$": "publisherfullgold"
+          }
+        ]
+      },
+      "freetoreadLabel": {
+        "value": [
+          {
+            "$": "All Open Access"
+          },
+          {
+            "$": "Gold"
+          }
+        ]
+      }
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85183876257"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85183876257?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85183876257&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85183876257&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85183876257",
+      "dc:identifier": "SCOPUS_ID:85183876257",
+      "eid": "2-s2.0-85183876257",
+      "dc:title": "The key concepts and construction strategy of intelligent surface mines",
+      "dc:creator": "Sun J.",
+      "prism:publicationName": "Zhongguo Kuangye Daxue Xuebao Journal of China University of Mining and Technology",
+      "prism:issn": "10001964",
+      "prism:volume": "53",
+      "prism:issueIdentifier": "1",
+      "prism:pageRange": "23-33",
+      "prism:coverDate": "2024-01-01",
+      "prism:coverDisplayDate": "January 2024",
+      "prism:doi": "10.13247/j.cnki.jcumt.20220585",
+      "dc:description": "From the perspective of information theory, systematic theory, and cybernetics, the concept and definition of intelligent surface mine were expounded, proposed that the core of intelligent surface mine is to obtain quantitative data based on information technology, Based on this, scientific decisions were made, and scientifically control the large system. The basic concepts of key terms such as \"informatization, digitization, automation, and intelligence\" in the construction of intelligent surface mines were given, and the logical relationship between key concepts was analyzed, Based on the logical relationship of \"digitization, automation and intelligence\", the principle of \"digitization, automation and intelligence\" synchronous construction of surface mines was proposed, and the main construction directions of three stages were induced, the synchronous development strategy of \"application generation, layout generation, and exploration generation\" for intelligent surface mines was proposed. It is pointed out that in terms of the overall investment proportion of the current mining enterprises, it is necessary to ensure \"application generation > layout generation > exploration generation\".",
+      "citedby-count": "9",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60023380",
+          "afid": "60023380",
+          "affilname": "Chongqing University",
+          "affiliation-city": "Chongqing",
+          "affiliation-country": "China"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60032758",
+          "afid": "60032758",
+          "affilname": "Liaoning Technical University",
+          "affiliation-city": "Fuxin",
+          "affiliation-country": "China"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60118696",
+          "afid": "60118696",
+          "affilname": "College of Resources and Civil Engineering",
+          "affiliation-city": "Shenyang",
+          "affiliation-country": "China"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60060517",
+          "afid": "60060517",
+          "affilname": "North China Institute of Science and Technology",
+          "affiliation-city": "Beijing",
+          "affiliation-country": "China"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/112294390",
+          "afid": "112294390",
+          "affilname": "Ltd.",
+          "affiliation-city": "Xi'an",
+          "affiliation-country": "China"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/106539902",
+          "afid": "106539902",
+          "affilname": "Gannan University of Science and Technology",
+          "affiliation-city": "Ganzhou",
+          "affiliation-country": "China"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/130816977",
+          "afid": "130816977",
+          "affilname": "Beijing Sino-mine Surface Mining Institute of Science and Technology",
+          "affiliation-city": "Beijing",
+          "affiliation-country": "China"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/130817959",
+          "afid": "130817959",
+          "affilname": "Open-pit Mining Technology Research Branch",
+          "affiliation-city": "Shenyang",
+          "affiliation-country": "China"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "9"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57190754958",
+          "authid": "57190754958",
+          "authname": "Sun J.",
+          "surname": "Sun",
+          "given-name": "Jiandong",
+          "initials": "J.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60060517"
+            },
+            {
+              "@_fa": "true",
+              "$": "130816977"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/7404864527",
+          "authid": "7404864527",
+          "authname": "Zhang R.",
+          "surname": "Zhang",
+          "given-name": "Ruixin",
+          "initials": "R.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60060517"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/8449383400",
+          "authid": "8449383400",
+          "authname": "Bai R.",
+          "surname": "Bai",
+          "given-name": "Runcai",
+          "initials": "R.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60032758"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "4",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58860874400",
+          "authid": "58860874400",
+          "authname": "Li H.",
+          "surname": "Li",
+          "given-name": "Huizhi",
+          "initials": "H.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "130817959"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "5",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58860360900",
+          "authid": "58860360900",
+          "authname": "Liu G.",
+          "surname": "Liu",
+          "given-name": "Guang",
+          "initials": "G.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "112294390"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "6",
+          "author-url": "https://api.elsevier.com/content/author/author_id/55727864200",
+          "authid": "55727864200",
+          "authname": "Sun X.",
+          "surname": "Sun",
+          "given-name": "Xiaoyu",
+          "initials": "X.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60118696"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "7",
+          "author-url": "https://api.elsevier.com/content/author/author_id/59843692700",
+          "authid": "59843692700",
+          "authname": "Wang Z.",
+          "surname": "Wang",
+          "given-name": "Zhongxin",
+          "initials": "Z.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "130817959"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "8",
+          "author-url": "https://api.elsevier.com/content/author/author_id/37020462400",
+          "authid": "37020462400",
+          "authname": "Zhao K.",
+          "surname": "Zhao",
+          "given-name": "Kui",
+          "initials": "K.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "106539902"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "9",
+          "author-url": "https://api.elsevier.com/content/author/author_id/35422067600",
+          "authid": "35422067600",
+          "authname": "Chen J.",
+          "surname": "Chen",
+          "given-name": "Jie",
+          "initials": "J.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60023380"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "basic concept | construction principle | development strategy | intelligence | surface mine",
+      "source-id": "18264",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85165302038"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85165302038?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85165302038&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85165302038&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85165302038",
+      "dc:identifier": "SCOPUS_ID:85165302038",
+      "eid": "2-s2.0-85165302038",
+      "dc:title": "A Real-Time Road Boundary Detection Approach in Surface Mine Based on Meta Random Forest",
+      "dc:creator": "Ai Y.",
+      "prism:publicationName": "IEEE Transactions on Intelligent Vehicles",
+      "prism:eIssn": "23798858",
+      "prism:volume": "9",
+      "prism:issueIdentifier": "1",
+      "prism:pageRange": "1989-2001",
+      "prism:coverDate": "2024-01-01",
+      "prism:coverDisplayDate": "1 January 2024",
+      "prism:doi": "10.1109/TIV.2023.3296767",
+      "dc:description": "Efficient and accurate road boundary detection is a fundamental building component of the perception system for autonomous driving. Specially, the challenges for road boundary detection in surface mine are high generalization error of model and difficulty in boundary generation, which caused by diversity of samples along with scarcity for corresponding samples and complexity of terrain respectively. Therefore, a novel road boundary detection framework, which execute in a high efficiency way with considerable performance, is proposed for the problems mentioned above. Firstly, point cloud pre-processing methods, including point cloud down-sampling, filtering and clustering, are conducted for achieving clusters of objects in surface mine. Then, a meta random forest classification method, which combines meta learning and random forest for enhancing the generalization ability of the model and overcoming sample scarcity of surface mine, is proposed for classifying point cloud clusters of retaining wall on both side of the road. At last, the boundary of unstructured road is generated by conducting a series of post-processing methods corresponds to the unevenness and irregularity of unstructured road. Experiments are carried out on the collected and labeled datasets of surface mine. The results illustrate that our proposed method can effectively detect road boundary of surface mine in real-time with considerable performance.",
+      "citedby-count": "22",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60027363",
+          "afid": "60027363",
+          "affilname": "University of Chinese Academy of Sciences",
+          "affiliation-city": "Beijing",
+          "affiliation-country": "China"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60073652",
+          "afid": "60073652",
+          "affilname": "Tongji University",
+          "affiliation-city": "Shanghai",
+          "affiliation-country": "China"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60018486",
+          "afid": "60018486",
+          "affilname": "Institute of Automation Chinese Academy of Sciences",
+          "affiliation-city": "Beijing",
+          "affiliation-country": "China"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60357249",
+          "afid": "60357249",
+          "affilname": "Waytous",
+          "affiliation-city": "Beijing",
+          "affiliation-country": "China"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "6"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/7004752786",
+          "authid": "7004752786",
+          "orcid": "0000-0002-2673-1368",
+          "authname": "Ai Y.",
+          "surname": "Ai",
+          "given-name": "Yunfeng",
+          "initials": "Y.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60027363"
+            },
+            {
+              "@_fa": "true",
+              "$": "60357249"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57209772789",
+          "authid": "57209772789",
+          "orcid": "0000-0003-2261-3724",
+          "authname": "Song R.",
+          "surname": "Song",
+          "given-name": "Ruiqi",
+          "initials": "R.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60018486"
+            },
+            {
+              "@_fa": "true",
+              "$": "60073652"
+            },
+            {
+              "@_fa": "true",
+              "$": "60357249"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58496971900",
+          "authid": "58496971900",
+          "orcid": "0000-0002-1139-6202",
+          "authname": "Huang C.",
+          "surname": "Huang",
+          "given-name": "Chongqing",
+          "initials": "C.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60027363"
+            },
+            {
+              "@_fa": "true",
+              "$": "60357249"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "4",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57561652900",
+          "authid": "57561652900",
+          "orcid": "0009-0005-0539-6053",
+          "authname": "Cui C.",
+          "surname": "Cui",
+          "given-name": "Chenglin",
+          "initials": "C.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60027363"
+            },
+            {
+              "@_fa": "true",
+              "$": "60357249"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "5",
+          "author-url": "https://api.elsevier.com/content/author/author_id/50562167400",
+          "authid": "50562167400",
+          "authname": "Tian B.",
+          "surname": "Tian",
+          "given-name": "Bin",
+          "initials": "B.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60018486"
+            },
+            {
+              "@_fa": "true",
+              "$": "60357249"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "6",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57201430734",
+          "authid": "57201430734",
+          "orcid": "0000-0003-2546-6926",
+          "authname": "Chen L.",
+          "surname": "Chen",
+          "given-name": "Long",
+          "initials": "L.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60018486"
+            },
+            {
+              "@_fa": "true",
+              "$": "60357249"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "autonomous driving | few shot classification | meta learning | Point Cloud | random forest | Road boundary detection",
+      "source-id": "21100976127",
+      "fund-acr": "NKRDPC",
+      "fund-no": "B019030051",
+      "fund-sponsor": "National Key Research and Development Program of China",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85179826721"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85179826721?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85179826721&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85179826721&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85179826721",
+      "dc:identifier": "SCOPUS_ID:85179826721",
+      "eid": "2-s2.0-85179826721",
+      "dc:title": "Multiscale influences on Elk (Cervus canadensis) calving site selection across a fragmented Appalachian landscape",
+      "dc:creator": "Hooven N.D.",
+      "prism:publicationName": "Journal of Mammalogy",
+      "prism:issn": "00222372",
+      "prism:eIssn": "15451542",
+      "prism:volume": "104",
+      "prism:issueIdentifier": "6",
+      "prism:pageRange": "1264-1278",
+      "prism:coverDate": "2023-12-01",
+      "prism:coverDisplayDate": "1 December 2023",
+      "prism:doi": "10.1093/jmammal/gyad091",
+      "dc:description": "Due to the vulnerability of neonatal ungulates, selection of a birth site can have important implications for offspring survival and thus fitness of the mother. We studied parturition site selection in cow Elk in southeastern Kentucky, United States, using a use-Availability framework to evaluate the effects of landscape variables sampled at multiple spatial grains on the relative probability of use of parturition sites. We identified 81 Elk parturition sites during May-Aug 2020-2022 and fit several candidate resource selection function models using a sample of 24,314 random locations to characterize habitat availability. Using an information-Theoretic approach to rank candidate models, we identified two top-performing models (cumulative ωi = 0.97), which indicated that at fine spatial grains (~10-and 30-m pixels) parturient cow Elk selected for intermediate canopy cover and lower terrain ruggedness compared to available locations. At coarse grains (250-1,000-m buffers/neighborhoods), Elk selected against vegetation greenness/biomass, for higher topographic positions, for closer proximity to major roads, and with higher solar radiation potential. We also found evidence that Elk responded positively to forest/open edge densities at coarse grains, demonstrating that calving habitat throughout the Kentucky Elk Restoration Zone is associated with heterogeneous landscapes resulting from surface mine reclamation. As a result, habitat management actions should aim to increase patchy, early successional shrub cover on gentle topography.",
+      "citedby-count": "1",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60015941",
+          "afid": "60015941",
+          "affilname": "University of Kentucky",
+          "affiliation-city": "Lexington",
+          "affiliation-country": "United States"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60018208",
+          "afid": "60018208",
+          "affilname": "Washington State University Pullman",
+          "affiliation-city": "Pullman",
+          "affiliation-country": "United States"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60007621",
+          "afid": "60007621",
+          "affilname": "Kentucky Department of Fish and Wildlife Resources",
+          "affiliation-city": "Frankfort",
+          "affiliation-country": "United States"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "7"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57449540300",
+          "authid": "57449540300",
+          "orcid": "0000-0002-5667-3437",
+          "authname": "Hooven N.D.",
+          "surname": "Hooven",
+          "given-name": "Nathan D.",
+          "initials": "N.D.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60018208"
+            },
+            {
+              "@_fa": "true",
+              "$": "60015941"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57449209800",
+          "authid": "57449209800",
+          "authname": "Williams K.E.",
+          "surname": "Williams",
+          "given-name": "Kathleen E.",
+          "initials": "K.E.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60015941"
+            },
+            {
+              "@_fa": "true",
+              "$": "60007621"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/55791914300",
+          "authid": "55791914300",
+          "authname": "Hast J.T.",
+          "surname": "Hast",
+          "given-name": "John T.",
+          "initials": "J.T.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60007621"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "4",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57191592624",
+          "authid": "57191592624",
+          "authname": "McDermott J.R.",
+          "surname": "McDermott",
+          "given-name": "Joseph R.",
+          "initials": "J.R.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60007621"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "5",
+          "author-url": "https://api.elsevier.com/content/author/author_id/6508226744",
+          "authid": "6508226744",
+          "authname": "Crank R.D.",
+          "surname": "Crank",
+          "given-name": "R. Daniel",
+          "initials": "R.D.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60007621"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "6",
+          "author-url": "https://api.elsevier.com/content/author/author_id/37051383400",
+          "authid": "37051383400",
+          "orcid": "0000-0001-5632-7756",
+          "authname": "Springer M.T.",
+          "surname": "Springer",
+          "given-name": "Matthew T.",
+          "initials": "M.T.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60015941"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "7",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57210181721",
+          "authid": "57210181721",
+          "authname": "Cox J.J.",
+          "surname": "Cox",
+          "given-name": "John J.",
+          "initials": "J.J.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60007621"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "birth site | Cervus canadensis | habitat selection | landscape | parturition | resource selection function | spatial grain | ungulate",
+      "source-id": "22578",
+      "fund-acr": "RMEF",
+      "fund-no": "1021936",
+      "fund-sponsor": "Rocky Mountain Elk Foundation",
+      "openaccess": "1",
+      "openaccessFlag": true,
+      "freetoread": {
+        "value": [
+          {
+            "$": "all"
+          },
+          {
+            "$": "publisherhybridgold"
+          }
+        ]
+      },
+      "freetoreadLabel": {
+        "value": [
+          {
+            "$": "All Open Access"
+          },
+          {
+            "$": "Hybrid Gold"
+          }
+        ]
+      }
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85172173575"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85172173575?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85172173575&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85172173575&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "full-text",
+          "@href": "https://api.elsevier.com/content/article/eid/1-s2.0-S0959652623031268"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85172173575",
+      "dc:identifier": "SCOPUS_ID:85172173575",
+      "eid": "2-s2.0-85172173575",
+      "dc:title": "A new method for pre-enrichment of gallium and lithium based on mode of occurrence in coal gangue from Antaibao surface mine, Shanxi Province, China",
+      "dc:creator": "Dai S.",
+      "prism:publicationName": "Journal of Cleaner Production",
+      "prism:issn": "09596526",
+      "prism:volume": "425",
+      "prism:pageRange": null,
+      "prism:coverDate": "2023-11-01",
+      "prism:coverDisplayDate": "1 November 2023",
+      "prism:doi": "10.1016/j.jclepro.2023.138968",
+      "pii": "S0959652623031268",
+      "dc:description": "The presence of a notable concentrations of gallium (Ga) and lithium (Li) in coal gangue, an industrial solid waste, has attracted widespread attention. However, utilization of these resources remains an economic challenge. This study entailed an investigation of the potential of the pre-enrichment of Ga and Li in coal gangue so as to effectively utilize coal gangue resources. The modes of occurrence of Ga and Li in coal gangue were studied using a sequential chemical extraction procedure (SCEP), mineral phase composition, time-of-flight secondary ion mass spectrometry (TOF-SIMS), and elemental content composition. The results indicate that the main mineral components of the coal gangue are mica, quartz, pyrite, and clay. Ga and Li are mainly associated with Al-containing minerals, such as mica and clay. Further, the main noncarrier minerals are quartz and pyrite. Ga and Al exhibit a high degree of correlation, whereas Li exhibits a predominant association with Al and Ti. Ga and Li are also negatively correlated with Fe and Sr. Moreover, sorting experiments demonstrated that the separation of Ga and Li from pre-enriched coal gangue is an effective and environmentally friendly method. This allowed for the discarding of 31.25% of the waste rock, with an Fe content of 32.69%. The concentrate products can potentially be high-quality raw materials for Ga and Li refining facilities, whereas the tailing products can serve as an effective source of iron ore raw materials.",
+      "citedby-count": "51",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60073460",
+          "afid": "60073460",
+          "affilname": "China University of Mining and Technology",
+          "affiliation-city": "Xuzhou",
+          "affiliation-country": "China"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "8"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57545162200",
+          "authid": "57545162200",
+          "authname": "Dai S.",
+          "surname": "Dai",
+          "given-name": "Shiqi",
+          "initials": "S.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60073460"
+            },
+            {
+              "@_fa": "true",
+              "$": "60073460"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58493932900",
+          "authid": "58493932900",
+          "authname": "Sun F.",
+          "surname": "Sun",
+          "given-name": "Fengshuai",
+          "initials": "F.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60073460"
+            },
+            {
+              "@_fa": "true",
+              "$": "60073460"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57875044600",
+          "authid": "57875044600",
+          "authname": "Wang L.",
+          "surname": "Wang",
+          "given-name": "Lei",
+          "initials": "L.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60073460"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "4",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58484680700",
+          "authid": "58484680700",
+          "authname": "Wang L.",
+          "surname": "Wang",
+          "given-name": "Lanhao",
+          "initials": "L.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60073460"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "5",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57193627448",
+          "authid": "57193627448",
+          "authname": "Zhang R.",
+          "surname": "Zhang",
+          "given-name": "Rui",
+          "initials": "R.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60073460"
+            },
+            {
+              "@_fa": "true",
+              "$": "60073460"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "6",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57410654100",
+          "authid": "57410654100",
+          "authname": "Guo H.",
+          "surname": "Guo",
+          "given-name": "Han",
+          "initials": "H.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60073460"
+            },
+            {
+              "@_fa": "true",
+              "$": "60073460"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "7",
+          "author-url": "https://api.elsevier.com/content/author/author_id/56637580300",
+          "authid": "56637580300",
+          "authname": "Xing Y.",
+          "surname": "Xing",
+          "given-name": "Yaowen",
+          "initials": "Y.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60073460"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "8",
+          "author-url": "https://api.elsevier.com/content/author/author_id/36496702000",
+          "authid": "36496702000",
+          "authname": "Gui X.",
+          "surname": "Gui",
+          "given-name": "Xiahui",
+          "initials": "X.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60073460"
+            },
+            {
+              "@_fa": "true",
+              "$": "60073460"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "Coal gangue | Elemental concentrations | Mineral phase composition | Mode of occurrence | X-ray fluorescence sorting",
+      "article-number": "138968",
+      "source-id": "19167",
+      "fund-acr": "NKRDPC",
+      "fund-no": "2021YFC2902605",
+      "fund-sponsor": "National Key Research and Development Program of China",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85164244394"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85164244394?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85164244394&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85164244394&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "full-text",
+          "@href": "https://api.elsevier.com/content/article/eid/1-s2.0-S0048969723037658"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85164244394",
+      "dc:identifier": "SCOPUS_ID:85164244394",
+      "eid": "2-s2.0-85164244394",
+      "dc:title": "Trace elements in the culturally significant plant Sarracenia purpurea in proximity to dust sources in the oil sands region of Alberta, Canada",
+      "dc:creator": "Dennett J.M.",
+      "prism:publicationName": "Science of the Total Environment",
+      "prism:issn": "00489697",
+      "prism:eIssn": "18791026",
+      "prism:volume": "896",
+      "prism:pageRange": null,
+      "prism:coverDate": "2023-10-20",
+      "prism:coverDisplayDate": "20 October 2023",
+      "prism:doi": "10.1016/j.scitotenv.2023.165142",
+      "pii": "S0048969723037658",
+      "dc:description": "Accessible populations of plants are critical to the meaningful exercise of Aboriginal and treaty rights in Canada. In the oil sands region of Alberta, populations of culturally significant plant species overlap with extensive oil and gas development. This has led to a host of questions and concerns related to plant health and integrity from both Indigenous communities and western scientists. Here, we assessed trace element concentrations in the northern pitcher-plant (tsala’ t'ile; Sarracenia purpurea L.) with a focus on elements associated with fugitive dust and bitumen. Plant leaves were collected using clean methods and washed prior to analyses in an ultra-clean, metal-free laboratory. Pitcher-plant was an excellent model for assessing the impacts of industrial development on a culturally important, vulnerable species. Although concentrations of trace elements in pitcher-plant were low and not indicative of a toxicological concern, we saw clear dust signatures in plant tissues related to road and surface mine proximity. Elements associated with fugitive dust and bitumen extraction declined exponentially with increasing distance from a surface mine, a well-established regional pattern. However, our analyses also captured localized spikes in trace element concentrations within 300 m of unpaved roads. These local patterns are more poorly quantified at the regional scale but are indicative of the burden to Indigenous harvesters wishing to access plant populations that are not impacted by dust. Further work to directly quantify dust loads on culturally significant plants will help to define the amount of harvesting area lost to Indigenous communities due to dust impacts.",
+      "citedby-count": "3",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60030835",
+          "afid": "60030835",
+          "affilname": "University of Alberta",
+          "affiliation-city": "Edmonton",
+          "affiliation-country": "Canada"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/125811537",
+          "afid": "125811537",
+          "affilname": "Moccasin Flower Consulting",
+          "affiliation-city": "Slave Lake",
+          "affiliation-country": "Canada"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/129937402",
+          "afid": "129937402",
+          "affilname": "General Delivery Chard",
+          "affiliation-city": "Alberta",
+          "affiliation-country": "Canada"
+        }
+      ],
+      "pubmed-id": "37379909",
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "6"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57189969771",
+          "authid": "57189969771",
+          "authname": "Dennett J.M.",
+          "surname": "Dennett",
+          "given-name": "J. M.",
+          "initials": "J.M.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60030835"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58332141100",
+          "authid": "58332141100",
+          "authname": "Dersch A.",
+          "surname": "Dersch",
+          "given-name": "A.",
+          "initials": "A.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "125811537"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58477914000",
+          "authid": "58477914000",
+          "authname": "Chipewyan Prairie First Nation ",
+          "surname": "Chipewyan Prairie First Nation",
+          "given-name": null,
+          "initials": null,
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "129937402"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "4",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57159998700",
+          "authid": "57159998700",
+          "authname": "Barraza F.",
+          "surname": "Barraza",
+          "given-name": "F.",
+          "initials": "F.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60030835"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "5",
+          "author-url": "https://api.elsevier.com/content/author/author_id/56219788700",
+          "authid": "56219788700",
+          "authname": "Shotyk W.",
+          "surname": "Shotyk",
+          "given-name": "W.",
+          "initials": "W.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60030835"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "6",
+          "author-url": "https://api.elsevier.com/content/author/author_id/7402454506",
+          "authid": "7402454506",
+          "authname": "Nielsen S.E.",
+          "surname": "Nielsen",
+          "given-name": "S. E.",
+          "initials": "S.E.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60030835"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "Carnivorous plant | Fugitive dust | Indigenous knowledge | Oil sands | Veegation | Wild foods",
+      "article-number": "165142",
+      "source-id": "25349",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85174317105"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85174317105?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85174317105&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85174317105&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85174317105",
+      "dc:identifier": "SCOPUS_ID:85174317105",
+      "eid": "2-s2.0-85174317105",
+      "dc:title": "A Rule-based Expert System for Selection of Rehabilitation Strategies for Abandoned Mines in South Africa",
+      "dc:creator": "Mhlongo S.E.",
+      "prism:publicationName": "Journal of Mining and Environment",
+      "prism:issn": "22518592",
+      "prism:eIssn": "22518606",
+      "prism:volume": "14",
+      "prism:issueIdentifier": "4",
+      "prism:pageRange": "1171-1181",
+      "prism:coverDate": "2023-10-01",
+      "prism:coverDisplayDate": "October 2023",
+      "prism:doi": "10.22044/jme.2023.13255.2429",
+      "dc:description": "South Africa has 6100 documented abandoned mines. The government is responsible for the management and rehabilitation of these mines to address their environmental problems, physical hazards, and socio-economic issues. In general, rehabilitating abandoned mines involves making a series of critical decisions about the strategies to be implemented in rehabilitating the major features of these mines. This paper presents an expert system developed to aid in selecting appropriate strategies for rehabilitating abandoned mines in South Africa. This system is known as the Expert System for Selection of Strategies for Rehabilitation of Abandoned Mines (ES-SRSA). The ES-Builder (Version 3.0, McGoo software) was used to design the knowledge and rule-based components of the expert system. The rules of the expert systems were developed based on the documented knowledge of the problems of abandoned mines in South Africa and the information gathered by the researcher through visits to selected abandoned mine sites in the country. The ES-SRSA provides 45 recommendations of suitable strategies for dealing with the different problems of features such as underground entries, mine waste, surface mine excavations, silos and orebins, and other features like dilapidated buildings/infrastructure. Most of the rules of this expert system encourage the repurposing and reuse of these mine features to improve the social and economic status of the host communities. The use of this expert system has the potential of contributing to the reduction of the risks of implementation of ineffective strategies for the rehabilitation of abandoned mines in a country like South Africa.",
+      "citedby-count": "4",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60032516",
+          "afid": "60032516",
+          "affilname": "University of Venda",
+          "affiliation-city": "Thohoyandou",
+          "affiliation-country": "South Africa"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "4"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/55858935500",
+          "authid": "55858935500",
+          "authname": "Mhlongo S.E.",
+          "surname": "Mhlongo",
+          "given-name": "Sphiwe Emmanuel",
+          "initials": "S.E.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60032516"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/55818948100",
+          "authid": "55818948100",
+          "authname": "Amponsah-Dacosta F.",
+          "surname": "Amponsah-Dacosta",
+          "given-name": "Francis",
+          "initials": "F.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60032516"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/6508225042",
+          "authid": "6508225042",
+          "authname": "Kadyamatimba A.",
+          "surname": "Kadyamatimba",
+          "given-name": "Armstrong",
+          "initials": "A.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60032516"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "4",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57220589296",
+          "authid": "57220589296",
+          "authname": "Akintola G.",
+          "surname": "Akintola",
+          "given-name": "George",
+          "initials": "G.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60032516"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "Abandoned mines | ES-builder | Expert system | Rehabilitation strategies",
+      "source-id": "21101073709",
+      "fund-acr": "UNIVEN",
+      "fund-sponsor": "University of Venda",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85169538518"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85169538518?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85169538518&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85169538518&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "full-text",
+          "@href": "https://api.elsevier.com/content/article/eid/1-s2.0-S0301420723008061"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85169538518",
+      "dc:identifier": "SCOPUS_ID:85169538518",
+      "eid": "2-s2.0-85169538518",
+      "dc:title": "Fuzzy cognitive-based goal programming for waste rock management with in-pit dumping priority: Towards sustainable mining",
+      "dc:creator": "Bakhtavar E.",
+      "prism:publicationName": "Resources Policy",
+      "prism:issn": "03014207",
+      "prism:volume": "86",
+      "prism:pageRange": null,
+      "prism:coverDate": "2023-10-01",
+      "prism:coverDisplayDate": "October 2023",
+      "prism:doi": "10.1016/j.resourpol.2023.104095",
+      "pii": "S0301420723008061",
+      "dc:description": "Internal (in-pit) dumping is a sustainable waste rock management approach that can mitigate the potential adverse environmental, social, and economic impacts of conventional off-site dumping. In this study, a fuzzy-weighted multi-objective programming model was developed to determine the best feasible waste scheduling strategy. Minimizing waste rock hauling cost, social complaints, environmental penalties, and operational issues are the main objectives of the model. A fuzzy cognitive map was incorporated into the model to analyze the objectives based on their causal relationships. Various weighting scenarios were used to assess the influence of prioritization of objectives on the waste scheduling results. The model was applied to a surface mine containing several lens-shaped limestone deposits. It was found that entirely dumping waste rock in the internal dumps (D1-D3) could lead to the lowest social, environmental, and operational issues under the causal weights of 0.272, 0.267, 0.230, and 0.230 for the social, environmental, economic, and operational objectives, respectively. However, the distances between the extraction sites and internal dumps are large compared to external dumps (K1 and K2), and dumping in the external dumps resulted in significantly more social complaints and environmental effects. A sensitivity analysis on the capacity of the preferred internal dump (D1) indicated that if its capacity is inadequate to accommodate all wastes, the less preferable internal dumps would be used, followed by external dumps.",
+      "citedby-count": "23",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60030434",
+          "afid": "60030434",
+          "affilname": "Qingdao University",
+          "affiliation-city": "Qingdao",
+          "affiliation-country": "China"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60012967",
+          "afid": "60012967",
+          "affilname": "University of British Columbia Okanagan",
+          "affiliation-city": "Kelowna",
+          "affiliation-country": "Canada"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60104370",
+          "afid": "60104370",
+          "affilname": "Urmia University of Technology",
+          "affiliation-city": "Urmia",
+          "affiliation-country": "Iran"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "5"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/26656516900",
+          "authid": "26656516900",
+          "orcid": "0000-0001-9524-2229",
+          "authname": "Bakhtavar E.",
+          "surname": "Bakhtavar",
+          "given-name": "Ezzeddin",
+          "initials": "E.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60104370"
+            },
+            {
+              "@_fa": "true",
+              "$": "60012967"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58560660000",
+          "authid": "58560660000",
+          "authname": "Saberi S.",
+          "surname": "Saberi",
+          "given-name": "Sahra",
+          "initials": "S.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60104370"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/55761715000",
+          "authid": "55761715000",
+          "authname": "Hu G.",
+          "surname": "Hu",
+          "given-name": "Guangji",
+          "initials": "G.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60030434"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "4",
+          "author-url": "https://api.elsevier.com/content/author/author_id/7003604679",
+          "authid": "7003604679",
+          "authname": "Sadiq R.",
+          "surname": "Sadiq",
+          "given-name": "Rehan",
+          "initials": "R.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60012967"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "5",
+          "author-url": "https://api.elsevier.com/content/author/author_id/8384286700",
+          "authid": "8384286700",
+          "authname": "Hewage K.",
+          "surname": "Hewage",
+          "given-name": "Kasun",
+          "initials": "K.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60012967"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "Fuzzy cognitive map | Goal programming | Internal (in-pit) dumping | Mine waste scheduling | Sustainable mining",
+      "article-number": "104095",
+      "source-id": "110031",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85164532112"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85164532112?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85164532112&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85164532112&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "full-text",
+          "@href": "https://api.elsevier.com/content/article/eid/1-s2.0-S0341816223003727"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85164532112",
+      "dc:identifier": "SCOPUS_ID:85164532112",
+      "eid": "2-s2.0-85164532112",
+      "dc:title": "Evaluating carbon dynamics in soil aggregates using δ13C following long-term vegetation restoration near a surface mine in a semi-arid region",
+      "dc:creator": "Bi Y.",
+      "prism:publicationName": "Catena",
+      "prism:issn": "03418162",
+      "prism:volume": "231",
+      "prism:pageRange": null,
+      "prism:coverDate": "2023-10-01",
+      "prism:coverDisplayDate": "October 2023",
+      "prism:doi": "10.1016/j.catena.2023.107281",
+      "pii": "S0341816223003727",
+      "dc:description": "The vegetation restoration of land post‑mining can promote soil structure development and increase organic carbon storage. The response of soil carbon sequestration pathways to different recovery modes is poorly understood, especially in soils of reclaimed surface-mine areas. Here, long-term carbon dynamics were characterized by examining aggregate-associated carbon contents and carbon flow pathways following vegetation restoration of reclaimed land near a surface mine. Six long-term restoration areas were represented by Populus alba trees, Amorpha fruticosa shrubs, and grassland. During the long-term restoration process the contribution of aggregates to SOC (12.5 to 46.1%), δ<sup>13</sup>C values (-25.91 to –23.65‰) and percentages of particulate organic carbon in large soil aggregates of tree plantations showed the maximum increase and shrubland showed the minimum. The direction of carbon flows was from small aggregates to silt + clay size classes, and tree plantations slowed the carbon flows of aggregates. With increasing soil depth, roots were more likely to be the starting point of carbon flow in aggregates. This analysis of the natural δ<sup>13</sup>C signature reveals the mechanism of organic carbon stabilization under long-term vegetation restoration near a surface mine in a semi-arid region.",
+      "citedby-count": "21",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60108755",
+          "afid": "60108755",
+          "affilname": "China University of Mining & Technology, Beijing",
+          "affiliation-city": "Beijing",
+          "affiliation-country": "China"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60030867",
+          "afid": "60030867",
+          "affilname": "Xi'an University of Science and Technology",
+          "affiliation-city": "Xi'an",
+          "affiliation-country": "China"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "6"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/8701261700",
+          "authid": "8701261700",
+          "authname": "Bi Y.",
+          "surname": "Bi",
+          "given-name": "Yinli",
+          "initials": "Y.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60030867"
+            },
+            {
+              "@_fa": "true",
+              "$": "60108755"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57428979900",
+          "authid": "57428979900",
+          "orcid": "0000-0002-1522-1266",
+          "authname": "Li M.",
+          "surname": "Li",
+          "given-name": "Mingchao",
+          "initials": "M.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60030867"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/55359801800",
+          "authid": "55359801800",
+          "authname": "Christie P.",
+          "surname": "Christie",
+          "given-name": "Peter",
+          "initials": "P.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60030867"
+            },
+            {
+              "@_fa": "true",
+              "$": "60108755"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "4",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57204965143",
+          "authid": "57204965143",
+          "authname": "Du X.",
+          "surname": "Du",
+          "given-name": "Xinpeng",
+          "initials": "X.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60108755"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "5",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58482808700",
+          "authid": "58482808700",
+          "authname": "Tian L.",
+          "surname": "Tian",
+          "given-name": "Lexuan",
+          "initials": "L.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60030867"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "6",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58157428900",
+          "authid": "58157428900",
+          "authname": "Gao X.",
+          "surname": "Gao",
+          "given-name": "Xuejiang",
+          "initials": "X.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60030867"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "13C natural abundance | Carbon stabilization pathways | Environmental factors | Soil aggregates | Vegetation restoration",
+      "article-number": "107281",
+      "source-id": "25155",
+      "fund-acr": "NSFC",
+      "fund-no": "51974326",
+      "fund-sponsor": "National Natural Science Foundation of China",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105007755390"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105007755390?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105007755390&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105007755390&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105007755390",
+      "dc:identifier": "SCOPUS_ID:105007755390",
+      "eid": "2-s2.0-105007755390",
+      "dc:title": "Analysis of roof hidden disaster-causing factors in Qinglongsi Coal Mine",
+      "dc:creator": "Xie P.",
+      "prism:publicationName": "China Mining Magazine",
+      "prism:issn": "10044051",
+      "prism:volume": "32",
+      "prism:pageRange": "229-236",
+      "prism:coverDate": "2023-10-01",
+      "prism:coverDisplayDate": "October 2023",
+      "prism:doi": "10.12075/j.issn.1004-4051.20230655",
+      "dc:description": "Roof disaster is the main disaster of safe, efficient, green and intelligent mining of mines, taking the Qinglongsi Coal Mine in Xinmin Mining Area as the research object, through aerial remote sensing image analysis, surface geological survey, geological drilling, drilling geophysical logging, drilling cross-section ratio analysis, fine description of drilling core, rock mechanical parameters testing, surface settlement monitoring, working surface mine pressure data monitoring, mineral pressure data analysis and other technical means, comprehensive analysis of the types of hidden disaster-causing factors, spatial distribution and risk of coal seam roof. It is found that there are hidden disaster-causing factors such as hard roof plates, excessive deep trench mining, crushed soft-weathered bedrock roofs, thin bedrock of open pits, backfilling of open pits, large-area overhangs in goaf areas, and concentrated coal pillars in coal mines, and put forward corresponding prevention and control measures and suggestions for the above hidden disaster-causing factors. The research results provide geological guarantee for safe and efficient mining of coal mines, and provide reference for the analysis and evaluation of hidden disaster-causing factors on the roof of adjacent mines and similar geological conditions.",
+      "citedby-count": "1",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60372101",
+          "afid": "60372101",
+          "affilname": "CCTEG Xi'an Research Institute (Group) Co.,Ltd",
+          "affiliation-city": "Xi'an",
+          "affiliation-country": "China"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/132674289",
+          "afid": "132674289",
+          "affilname": "Ltd.",
+          "affiliation-city": "Yulin",
+          "affiliation-country": "China"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "6"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/59939982700",
+          "authid": "59939982700",
+          "authname": "Xie P.",
+          "surname": "Xie",
+          "given-name": "Peng",
+          "initials": "P.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "132674289"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/38562362200",
+          "authid": "38562362200",
+          "authname": "Wang H.",
+          "surname": "Wang",
+          "given-name": "Haijun",
+          "initials": "H.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60372101"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/59939925300",
+          "authid": "59939925300",
+          "authname": "Yin J.",
+          "surname": "Yin",
+          "given-name": "Jiakuan",
+          "initials": "J.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "132674289"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "4",
+          "author-url": "https://api.elsevier.com/content/author/author_id/56942568500",
+          "authid": "56942568500",
+          "authname": "Wu Y.",
+          "surname": "Wu",
+          "given-name": "Yan",
+          "initials": "Y.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60372101"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "5",
+          "author-url": "https://api.elsevier.com/content/author/author_id/59939925400",
+          "authid": "59939925400",
+          "authname": "Li Y.",
+          "surname": "Li",
+          "given-name": "Yajun",
+          "initials": "Y.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "132674289"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "6",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57189619916",
+          "authid": "57189619916",
+          "authname": "Han K.",
+          "surname": "Han",
+          "given-name": "Ke",
+          "initials": "K.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60372101"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "coal mine safety | crushed soft roof | grouting reinforcement | hard roof | hidden disaster-causing factor | hydraulic fracturing | open pit backfill area | prevention and control technology | trench mining",
+      "source-id": "21101300614",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85163020513"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85163020513?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85163020513&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85163020513&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "full-text",
+          "@href": "https://api.elsevier.com/content/article/eid/1-s2.0-S2048405423000610"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85163020513",
+      "dc:identifier": "SCOPUS_ID:85163020513",
+      "eid": "2-s2.0-85163020513",
+      "dc:title": "Maceral and Organic Geochemical Characteristics of the No. 6 Coal Seam from the Haerwusu Surface Mine, Inner Mongolia, China",
+      "dc:creator": "Wang Z.",
+      "prism:publicationName": "Energy Exploration and Exploitation",
+      "prism:issn": "01445987",
+      "prism:eIssn": "20484054",
+      "prism:volume": "41",
+      "prism:issueIdentifier": "5",
+      "prism:pageRange": "1643-1662",
+      "prism:coverDate": "2023-09-01",
+      "prism:coverDisplayDate": "September 2023",
+      "prism:doi": "10.1177/01445987231176314",
+      "dc:description": "Haerwusu Surface Mine of the Jungar Coalfield is a large coal mine. Its coal formation environments have not been reported in detail. In order to reconstruct the paleoenvironment of the peat formation, nine samples were collected, and were analyzed using microscope, column chromatography, gas chromatography (GC), and gas chromatography–mass spectrometry (GC–MS). According to the results of the microscopic analysis, the average random vitrinite reflectance (R<inf>r</inf>) is 0.73%, indicating a low rank bituminous coal. Vitrinite group is the predominant macerals with an average content of 54.54%, followed by inertinite group with an average of 35.99%. The higher inertinite contents indicate widespread wildfire events during the peat formation. The distribution pattern of n-alkanes, the cross plot between Pr/n-C<inf>17</inf> and Ph/n-C<inf>18</inf>, the lower saturated/aromatic hydrocarbon ratios (0.22–0.68) and the presence of cadalene, retene, simonellite indicates that the organic matter is predominantly terrestrial higher plants with a small amount of aquatic organisms. The ternary diagram of Pr/Ph, Pr/n-C<inf>17</inf> and Ph/n-C<inf>18</inf> and the relative abundance of fluorene, dibenzofuran and dibenzothiophene indicate a continental–oceanic alternative facies. The higher contents of combustion-derived PAHs are also indicative of widespread wildfire events during peat formation.",
+      "citedby-count": "5",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60088081",
+          "afid": "60088081",
+          "affilname": "Hebei University of Engineering",
+          "affiliation-city": "Handan",
+          "affiliation-country": "China"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "3"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58306576300",
+          "authid": "58306576300",
+          "orcid": "0000-0002-3048-5366",
+          "authname": "Wang Z.",
+          "surname": "Wang",
+          "given-name": "Zewei",
+          "initials": "Z.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60088081"
+            },
+            {
+              "@_fa": "true",
+              "$": "60088081"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/55839844200",
+          "authid": "55839844200",
+          "authname": "Jin Z.",
+          "surname": "Jin",
+          "given-name": "Zhe",
+          "initials": "Z.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60088081"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57681140900",
+          "authid": "57681140900",
+          "orcid": "0009-0002-5174-7828",
+          "authname": "Wang J.",
+          "surname": "Wang",
+          "given-name": "Jun",
+          "initials": "J.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60088081"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "biomarker | inertinite | Jungar coalfield | low rank bituminous coal | paleoenvironment",
+      "source-id": "29383",
+      "fund-acr": "NSFC",
+      "fund-no": "41872173",
+      "fund-sponsor": "National Natural Science Foundation of China",
+      "openaccess": "1",
+      "openaccessFlag": true,
+      "freetoread": {
+        "value": [
+          {
+            "$": "all"
+          },
+          {
+            "$": "publisherfullgold"
+          },
+          {
+            "$": "repository"
+          },
+          {
+            "$": "repositoryam"
+          }
+        ]
+      },
+      "freetoreadLabel": {
+        "value": [
+          {
+            "$": "All Open Access"
+          },
+          {
+            "$": "Gold"
+          },
+          {
+            "$": "Green"
+          }
+        ]
+      }
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85183029113"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85183029113?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85183029113&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85183029113&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85183029113",
+      "dc:identifier": "SCOPUS_ID:85183029113",
+      "eid": "2-s2.0-85183029113",
+      "dc:title": "Evolution analysis of ecological spatial pattern in mining damage area of west surface mine in Fushun",
+      "dc:creator": "Li Y.",
+      "prism:publicationName": "Mining Safety and Environmental Protection",
+      "prism:issn": "10084495",
+      "prism:volume": "50",
+      "prism:issueIdentifier": "4",
+      "prism:pageRange": "142-148",
+      "prism:coverDate": "2023-08-01",
+      "prism:coverDisplayDate": "August 2023",
+      "prism:doi": "10.19835/j.issn.1008-4495.2023.04.023",
+      "dc:description": "Taking west surface mine in Fushun as an example,based on remote sensing,geographic information system and statistics,the evolution law and driving factors of landscape pattern in mining damage area were analyzed,and the evolution speed of landscape pattern was analyzed. Through the method of morphological spatial pattern analysis (MSPA) and the model of minimum cumulative resistance (MCR),the ecological source area of the west surface mine was identified. The ecological corridor was extracted,and the ecological spatial pattern was built to show the ecological sensitivity and the optimized area in the form of space. The results show that forest land,mining area and mining land are the main land use types in 2014,and forest land,mining land and transportation land are the main land use types in 2022. There is a large conversion area between different landscape types,and the comprehensive change rate of land use is high. Coupling the macro and micro pattern ecological network,through the macro and micro resistance surface,the minimum path of the connection between the macro ecological source and the corridor in the west surface mine is analyzed and judged,and the comprehensive ecological network of the study area is constructed.",
+      "citedby-count": "4",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/126205707",
+          "afid": "126205707",
+          "affilname": "Ltd.",
+          "affiliation-city": "Chongqing",
+          "affiliation-country": "China"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "3"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58838310400",
+          "authid": "58838310400",
+          "authname": "Li Y.",
+          "surname": "Li",
+          "given-name": "Yingjun",
+          "initials": "Y.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "126205707"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58839062500",
+          "authid": "58839062500",
+          "authname": "Xiao Y.",
+          "surname": "Xiao",
+          "given-name": "Yong",
+          "initials": "Y.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "126205707"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58839062600",
+          "authid": "58839062600",
+          "authname": "Hao X.",
+          "surname": "Hao",
+          "given-name": "Xiaoyu",
+          "initials": "X.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "126205707"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "ecological network | landscape pattern | minimum cumulative resistance model | morphological spatial pattern analysis | spatial pattern",
+      "source-id": "21101197355",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85154022228"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85154022228?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85154022228&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85154022228&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "full-text",
+          "@href": "https://api.elsevier.com/content/article/eid/1-s2.0-S0301420723002544"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85154022228",
+      "dc:identifier": "SCOPUS_ID:85154022228",
+      "eid": "2-s2.0-85154022228",
+      "dc:title": "A review of state-of-the-art techniques for the determination of the optimum cut-off grade of a metalliferous deposit with a bibliometric mapping in a surface mine planning context",
+      "dc:creator": "Biswas P.",
+      "prism:publicationName": "Resources Policy",
+      "prism:issn": "03014207",
+      "prism:volume": "83",
+      "prism:pageRange": null,
+      "prism:coverDate": "2023-06-01",
+      "prism:coverDisplayDate": "June 2023",
+      "prism:doi": "10.1016/j.resourpol.2023.103543",
+      "pii": "S0301420723002544",
+      "dc:description": "In terms of the global share, 95% of the non-metallic minerals, 90% of the metallic minerals, and about 60% of coal are being mined out through surface mining methods. In a mining operation, the grade-tonnage distribution of the deposit necessitates that not all of the material inside the open pit can be treated. Given this variability, it is critical to identify ore and waste elements correctly. The global population is expected to increase from 8 billion in 2022 to more than 9.7 billion in 2050. World metal consumption increases at around 3.2% per year, driving trade and economic diversification. Therefore, to guarantee a continuous supply of the minerals from the metalliferous surface mining industry in terms of techno-economic concerns, cut-off grade (COG) optimization is the key. The economic requirement aims towards the maximization of the return on investment, while techno-economic sustainability aims towards the maximization of resource recovery. Optimization of COG for surface mine design has come a long way in the last 60 years, primarily using analytical models based on the traditional methodology. In the past five years, non-conventional evolutionary algorithms have been extensively used. However, the analytical methods can be credited with the maximum amount of work, yet none can provide optimal outputs. This review article presents techniques, advancements, limitations, difficulties, bibliographic analysis, and potential future research paths in COG optimization for surface mine planning.",
+      "citedby-count": "8",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60008898",
+          "afid": "60008898",
+          "affilname": "Indian Institute of Technology (Indian School of Mines), Dhanbad",
+          "affiliation-city": "Dhanbad",
+          "affiliation-country": "India"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60080412",
+          "afid": "60080412",
+          "affilname": "Coal India Limited, Kolkata",
+          "affiliation-city": "Kolkata",
+          "affiliation-country": "India"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "3"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57197716208",
+          "authid": "57197716208",
+          "orcid": "0000-0002-3396-3386",
+          "authname": "Biswas P.",
+          "surname": "Biswas",
+          "given-name": "Pritam",
+          "initials": "P.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60008898"
+            },
+            {
+              "@_fa": "true",
+              "$": "60080412"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/56178579600",
+          "authid": "56178579600",
+          "orcid": "0000-0001-8971-4090",
+          "authname": "Sinha R.K.",
+          "surname": "Sinha",
+          "given-name": "Rabindra Kumar",
+          "initials": "R.K.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60008898"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/7402918188",
+          "authid": "7402918188",
+          "authname": "Sen P.",
+          "surname": "Sen",
+          "given-name": "Phalguni",
+          "initials": "P.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60008898"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "Conventional | Cut-off grade optimization | Non-conventional | NPV | Open-pit mining",
+      "article-number": "103543",
+      "source-id": "110031",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85159428865"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85159428865?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85159428865&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85159428865&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "full-text",
+          "@href": "https://api.elsevier.com/content/article/eid/1-s2.0-S0166516223000800"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85159428865",
+      "dc:identifier": "SCOPUS_ID:85159428865",
+      "eid": "2-s2.0-85159428865",
+      "dc:title": "Mineralogy and enrichment of critical elements (Li and Nb-Ta-Zr-Hf-Ga) in the Pennsylvanian coals from the Antaibao Surface Mine, Shanxi Province, China: derivation of pyroclastics and sediment-source regions",
+      "dc:creator": "Di S.",
+      "prism:publicationName": "International Journal of Coal Geology",
+      "prism:issn": "01665162",
+      "prism:volume": "273",
+      "prism:pageRange": null,
+      "prism:coverDate": "2023-05-15",
+      "prism:coverDisplayDate": "15 May 2023",
+      "prism:doi": "10.1016/j.coal.2023.104262",
+      "pii": "S0166516223000800",
+      "dc:description": "As a critical element, lithium plays an important role in a wide range of modern industries and in particular, battery storage and new energy technologies. Lithium in coal has attracted much attention in recent years because some coals are highly enriched in this element and consequently their corresponding coal combustion products may provide anm alternative source for this element. Previous studies showed that highly enriched Li in coals is generally associated with chlorite group minerals and in most cases attributed to the action of hydrothermal solutions. This paper provides mineralogical and geochemical data on the No. 9 Coal, the major minable coal from the Antaibao Surface Mine, Ningwu Coalfield, Shanxi Province, northern China, and focuses on the modes of occurrence and source of Li in this coal. The No. 9 Coal is a medium ash, medium sulfur, high volatile bituminous coal. The mineralogy of the No. 9 Coal is dominated by kaolinite, calcite, and pyrite, with minor amounts of anatase, rutile, goyazite, quartz, illite, boehmite, and bassanite, and traces of orthoclase, zircon and galena. The studied coal samples are characterized by high contents of Al<inf>2</inf>O<inf>3</inf> (39.80% on average) in comparison with average Chinese coals, and high concentrations of Li, Ga, Se, Zr, Nb, Ta and Th compared with world hard coals. In addition to Li and Al, the critical elements Nb, Ta, Zr, Hf, and Ga in this coal also have a potential economic significance. The geochemical indicators (high Al<inf>2</inf>O<inf>3</inf>/TiO<inf>2</inf>, low Nb/Yb ratios and the specific rare earth element distribution patterns) and the mineral compositions (e.g., very low content of boehmite) indicate that the mineral matter in most coal benches and host rocks is dominantly derived from the Precambrian calc-alkaline granites of the Yinshan and northern Trans North China Orogens, and possibly from the bauxite of the Benxi Formation. Additionally, the geochemical and mineralogical characteristics of the intra-seam partings and some coal benches (quartz-free, kaolinite-dominated mineralogy, high Al<inf>2</inf>O<inf>3</inf>/TiO<inf>2</inf> and Nb/Yb values) indicate that they were derived from an alkaline intermediate-felsic volcanic source. The highly enriched Li in the studied samples mainly occurs in kaolinite and is attributed to the input of material from sediment-source regions, rather than hydrothermal fluids. In addition, interaction of terrestrial and marine waters may have promoted the Li enrichment process in the partings.",
+      "citedby-count": "84",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60028333",
+          "afid": "60028333",
+          "affilname": "UNSW Sydney",
+          "affiliation-city": "Sydney",
+          "affiliation-country": "Australia"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60009415",
+          "afid": "60009415",
+          "affilname": "The University of Texas at Dallas",
+          "affiliation-city": "Richardson",
+          "affiliation-country": "United States"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60108755",
+          "afid": "60108755",
+          "affilname": "China University of Mining & Technology, Beijing",
+          "affiliation-city": "Beijing",
+          "affiliation-country": "China"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60011295",
+          "afid": "60011295",
+          "affilname": "Far East Geological Institute",
+          "affiliation-city": "Vladivostok",
+          "affiliation-country": "Russian Federation"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/128334796",
+          "afid": "128334796",
+          "affilname": "Shanxi Institute of Geology and Mineral Resources",
+          "affiliation-city": "Taiyuan",
+          "affiliation-country": "China"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "10"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57795523300",
+          "authid": "57795523300",
+          "authname": "Di S.",
+          "surname": "Di",
+          "given-name": "Shaobo",
+          "initials": "S.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60108755"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/7203008751",
+          "authid": "7203008751",
+          "authname": "Dai S.",
+          "surname": "Dai",
+          "given-name": "Shifeng",
+          "initials": "S.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60108755"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/7006486176",
+          "authid": "7006486176",
+          "authname": "Nechaev V.P.",
+          "surname": "Nechaev",
+          "given-name": "Victor P.",
+          "initials": "V.P.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60011295"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "4",
+          "author-url": "https://api.elsevier.com/content/author/author_id/7203015819",
+          "authid": "7203015819",
+          "authname": "French D.",
+          "surname": "French",
+          "given-name": "David",
+          "initials": "D.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60028333"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "5",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57210999332",
+          "authid": "57210999332",
+          "authname": "Graham I.T.",
+          "surname": "Graham",
+          "given-name": "Ian T.",
+          "initials": "I.T.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60028333"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "6",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57211733078",
+          "authid": "57211733078",
+          "authname": "Zhao L.",
+          "surname": "Zhao",
+          "given-name": "Lei",
+          "initials": "L.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60108755"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "7",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57195899803",
+          "authid": "57195899803",
+          "authname": "Finkelman R.B.",
+          "surname": "Finkelman",
+          "given-name": "Robert B.",
+          "initials": "R.B.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60108755"
+            },
+            {
+              "@_fa": "true",
+              "$": "60009415"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "8",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57236478500",
+          "authid": "57236478500",
+          "authname": "Wang H.",
+          "surname": "Wang",
+          "given-name": "Hongdong",
+          "initials": "H.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "128334796"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "9",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57795380800",
+          "authid": "57795380800",
+          "authname": "Zhang S.",
+          "surname": "Zhang",
+          "given-name": "Shaowei",
+          "initials": "S.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "128334796"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "10",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57795795400",
+          "authid": "57795795400",
+          "authname": "Hou Y.",
+          "surname": "Hou",
+          "given-name": "Yongjie",
+          "initials": "Y.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60108755"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "Critical elements in coal | High-Li coal | Modes of occurrence | Ningwu Coalfield | Pyroclastic origin | sediment-source regions",
+      "article-number": "104262",
+      "source-id": "27524",
+      "fund-acr": "NSFC",
+      "fund-no": "YDZX20201400001051",
+      "fund-sponsor": "National Natural Science Foundation of China",
+      "openaccess": "1",
+      "openaccessFlag": true,
+      "freetoread": {
+        "value": [
+          {
+            "$": "all"
+          },
+          {
+            "$": "publisherhybridgold"
+          }
+        ]
+      },
+      "freetoreadLabel": {
+        "value": [
+          {
+            "$": "All Open Access"
+          },
+          {
+            "$": "Hybrid Gold"
+          }
+        ]
+      }
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85185575851"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85185575851?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85185575851&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85185575851&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85185575851",
+      "dc:identifier": "SCOPUS_ID:85185575851",
+      "eid": "2-s2.0-85185575851",
+      "dc:title": "Fuel Consumption Prediction in Shovel-Truck System of Surface Mine Using Artificial Neural Network",
+      "dc:creator": "Arhinful K.O.",
+      "prism:publicationName": "Nipes Journal of Science and Technology Research",
+      "prism:issn": "27342352",
+      "prism:eIssn": "26825821",
+      "prism:volume": "5",
+      "prism:issueIdentifier": "2",
+      "prism:pageRange": "344-358",
+      "prism:coverDate": "2023-05-01",
+      "prism:coverDisplayDate": "May 2023",
+      "prism:doi": "10.5281/zenodo.8075149",
+      "dc:description": "The operations of a mine revolve around the budget, which describes the concept of cost of operations and returns generated. The fuel expended by each mining truck varies depending on differing conditions and is therefore difficult to be estimated based solely on manufacturers' manuals. Most mining companies have challenges forecasting the anticipated fuel consumption which has an essential influence on the budget. Usually, there is an under or overestimation of fuel consumed which goes beyond the stipulated allowable limits. BCM International Limited, Nzema, faces difficulties in accurately estimating fuel consumption for planning and budgeting purposes. A review of previous studies has shown that the Backpropagation Neural Network (BPNN) is a method noted for fuel consumption prediction. However, the prediction capability of the BPNN is dependent on the type of training algorithm used for the weight adaptation and bias assignment. Because of that, this study applied and tested three training algorithms namely the Levenberg Marquardt (LMA), Bayesian Regularisation (BRA) and the Scaled Conjugate Gradient (SCGA) to build an Artificial Neural Network (ANN) model to predict truck fuel consumption at BCM International Limited. The motive here was to select the best-performing training algorithm. It was deduced that the LMA produced the best model results with the least Mean Absolute Percentage Error (MAPE) value of 10.63% followed by SCGA and BRA. The model testing also revealed that the fuel consumed can be predicted from the input elements by approximately 96% using the LMA, 87% by BRA and 83% by the SCGA. The optimum BPNN structure with the LMA was 3-48-1 describing an input of three variables, 48 neurons in the hidden layer and one output.",
+      "citedby-count": "1",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60116800",
+          "afid": "60116800",
+          "affilname": "University of Mines and Technology",
+          "affiliation-city": "Tarkwa",
+          "affiliation-country": "Ghana"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "2"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/59486800700",
+          "authid": "59486800700",
+          "authname": "Arhinful K.O.",
+          "surname": "Arhinful",
+          "given-name": "Kofi Owusu",
+          "initials": "K.O.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60116800"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58643986700",
+          "authid": "58643986700",
+          "authname": "Agyei G.",
+          "surname": "Agyei",
+          "given-name": "George",
+          "initials": "G.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60116800"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "Artificial Neural Network | Backpropagation | Consumption | Fuel | Shovel-Truck System | Surface Mine",
+      "source-id": "21101264297",
+      "openaccess": "0",
+      "openaccessFlag": false
+    }
+  ],
+  "completa": false,
+  "cuota_restante": "19552",
+  "fecha_guardado_utc": "2026-10-19T16:18:48.672163+00:00"
+}

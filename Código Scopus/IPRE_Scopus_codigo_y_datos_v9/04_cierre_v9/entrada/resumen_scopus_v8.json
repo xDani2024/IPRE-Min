@@ -1,0 +1,64 @@
+{
+  "fuente": "Scopus",
+  "etapa": "v7_v8_cribado_calibrado",
+  "N_base_amplia_sin_alterar": 4614,
+  "N_dudosos_fase02": 1305,
+  "conteos_fase02": {
+    "OUT": 2857,
+    "IN_FUERTE": 202,
+    "DUDOSO": 1305,
+    "IN_SECUNDARIO": 250
+  },
+  "conteos_v7": {
+    "OUT": 4138,
+    "IN": 476
+  },
+  "conteos_propuesta_v8": {
+    "OUT": 1987,
+    "TC": 2318,
+    "IN": 309
+  },
+  "transiciones_v7_a_v8": {
+    "IN>IN": 199,
+    "IN>OUT": 34,
+    "IN>TC": 243,
+    "OUT>IN": 110,
+    "OUT>OUT": 1953,
+    "OUT>TC": 2075
+  },
+  "reglas_v8": {
+    "I01_TAREA_RESULTADO_EVALUADO": 309,
+    "O02_LITERATURA_SECUNDARIA": 64,
+    "O04_FOCO_ALTERNATIVO_IDENTIFICADO": 1730,
+    "O06_RESULTADO_DE_COMPONENTE": 4,
+    "O07_RESULTADO_DE_MINA_PROYECTO": 189,
+    "T02_DOCUMENTO_HIBRIDO": 1,
+    "T03_CONTEXTO_INSUFICIENTE": 5,
+    "T04_COMPONENTE_SIN_VINCULO_OPERACIONAL": 55,
+    "T05_RESULTADO_NO_ACREDITADO": 2257
+  },
+  "N_cambios_propuestos": 2462,
+  "auditorias_IA_openalex_heredadas": 0,
+  "piloto_humano_openalex_heredado": 0,
+  "v7_casos_auditados_manualmente": 0,
+  "v8_validacion_independiente_completada": false,
+  "texto_completo_leido": 0,
+  "llamadas_API": 0,
+  "fecha_utc": "2026-10-30T02:21:01.201000+00:00",
+  "nota": "Etiquetas automáticas. Fase 1 aún pendiente de validación documental. No sustituye revisión humana.",
+  "metodo": "Mismos patrones y orden de reglas v7/v8; sin heredar auditorías de IA ni juicios humanos de OpenAlex.",
+  "SHA256_entrada_fase02": "143375ac77b4ab5881fcfe5f1c605165fba7c23f69ad643dbde2af6243e0c810",
+  "SHA256_salidas": {
+    "matriz_scopus_v7.csv": "47d3fc44b57bf2862d177e411918741275d3dcfc9b3d09f76410142856dac464",
+    "decisiones_dudosos_scopus_v7.csv": "16ec977026b5609fa74ecb9a1f97a9f1205845199154a01e6df6dcad1d323528",
+    "matriz_completa_scopus_v8.csv": "4f5684a1abcbebde9ed0a3ce6b99d7aec6073cdbd425eba015e40aaf76004572",
+    "IN_propuesto_scopus_v8.csv": "84e27a2e3c97451b3eb7f0962d78a073e615b2f0124159d9e5a795c9b1699092",
+    "OUT_propuesto_scopus_v8.csv": "691a94878a2b1ead3b011cf0614f2d79014e25a1bf70cfe7a409174254c64ab2",
+    "TC_propuesto_scopus_v8.csv": "51d93faef3c90214ff605178bf39ce89a20634fc69863648ef9c833d39836485",
+    "cambios_propuestos_por_ID_scopus_v8.csv": "b1845b19f7c35e54dcb74baab0d1a656d5140868c654093a110116bd849d8c35",
+    "eventos_propuesta_scopus_v8.csv": "d49713b7ffd28aeac6cdf283e640ed3c537317a605992a183e8f2b25555f0f2c",
+    "casos_desarrollo_scopus_v8.csv": "a2699f0d5d913449bbd26f196003043404a4e4a0b2f9755418bc5baec4c43f3c",
+    "muestra_ciega_130_scopus_v8.csv": "0011ecda4bbd86020c86facf3681bf5d7f5fbce5bb547ad66ac4098f9636f5ac",
+    "clave_muestra_130_NO_ENTREGAR_A_REVISORES.csv": "02b1d3457f3c6342c4e3ba58f42d53dc95e0018726284e61d72d70bcad9b5735"
+  }
+}

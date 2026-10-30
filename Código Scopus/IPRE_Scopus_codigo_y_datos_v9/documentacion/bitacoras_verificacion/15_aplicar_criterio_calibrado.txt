@@ -1,0 +1,39 @@
+Archivo: /workspace/scratch/213718f401a5/validation/run1/motores/v6/codigo/salida/screening_operacional_scopus_fase02.csv
+Publicaciones: 4614 | categorías Fase 02: {'OUT': 2857, 'IN_FUERTE': 202, 'DUDOSO': 1305, 'IN_SECUNDARIO': 250}
+SHA-256 archivo de entrada: cd16d3cf782d0ff995be5a53991813b1e7fdbdf839e67e8d22987c17971e0825
+Carpeta de salida: /workspace/scratch/213718f401a5/validation/run1/motores/v8/salida
+Reglas v7 cargadas; sin importar historial ni ajustes IA de OpenAlex.
+Patrones v8 cargados y herencia histórica desactivada.
+Iniciando v8...
+v8 terminada en 16.7 segundos
+Conteos v8: {'OUT': 1987, 'TC': 2318, 'IN': 309}
+Transiciones v7→v8: {'OUT>OUT': 1953, 'IN>OUT': 34, 'OUT>TC': 2075, 'IN>IN': 199, 'OUT>IN': 110, 'IN>TC': 243}
+matriz_scopus_v7.csv : 4614
+decisiones_dudosos_scopus_v7.csv : 1305
+matriz_completa_scopus_v8.csv : 4614
+IN_propuesto_scopus_v8.csv : 309
+OUT_propuesto_scopus_v8.csv : 1987
+TC_propuesto_scopus_v8.csv : 2318
+cambios_propuestos_por_ID_scopus_v8.csv : 2462
+eventos_propuesta_scopus_v8.csv : 4614
+casos_desarrollo_scopus_v8.csv : 0
+muestra_ciega_130_scopus_v8.csv : 130
+clave_muestra_130_NO_ENTREGAR_A_REVISORES.csv : 130
+
+RESUMEN: {
+  "N_base_amplia_sin_alterar": 4614,
+  "conteos_v7": {
+    "OUT": 4138,
+    "IN": 476
+  },
+  "conteos_propuesta_v8": {
+    "OUT": 1987,
+    "TC": 2318,
+    "IN": 309
+  },
+  "N_cambios_propuestos": 2462
+}
+Resultados guardados en: /workspace/scratch/213718f401a5/validation/run1/motores/v8/salida
+Verificaciones de integridad y ausencia de decisiones heredadas: correctas.
+Reglas principales: [('T05_RESULTADO_NO_ACREDITADO', 2257), ('O04_FOCO_ALTERNATIVO_IDENTIFICADO', 1730), ('I01_TAREA_RESULTADO_EVALUADO', 309), ('O07_RESULTADO_DE_MINA_PROYECTO', 189), ('O02_LITERATURA_SECUNDARIA', 64), ('T04_COMPONENTE_SIN_VINCULO_OPERACIONAL', 55), ('T03_CONTEXTO_INSUFICIENTE', 5), ('O06_RESULTADO_DE_COMPONENTE', 4), ('T02_DOCUMENTO_HIBRIDO', 1)]
+Muestra para evaluación humana: 130

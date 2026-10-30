@@ -1,0 +1,116 @@
+{
+  "version": "01_scopus_desde_cero_v1",
+  "generado_utc": "2026-10-30T02:35:15.855291+00:00",
+  "fuente": "Scopus Search API view COMPLETE",
+  "modo": "COMPLETO",
+  "consulta_estilo": "EXACTA",
+  "frases": [
+    "open pit mining",
+    "open-pit mining",
+    "open pit mine",
+    "open-pit mine",
+    "surface mining",
+    "surface mine",
+    "opencast mining",
+    "open-cast mining",
+    "open cut mining",
+    "open-cut mining"
+  ],
+  "consulta_tipo": "TITLE-ABS de frases exactas, DOCTYPE ar/re",
+  "sin_limite_explicito_anios": true,
+  "sin_limite_explicito_idioma": true,
+  "doi_requerido": false,
+  "consultas": [
+    {
+      "frase": "open pit mining",
+      "completa": true,
+      "reportado_api": 1096,
+      "descargados": 1096
+    },
+    {
+      "frase": "open-pit mining",
+      "completa": true,
+      "reportado_api": 1830,
+      "descargados": 1830
+    },
+    {
+      "frase": "open pit mine",
+      "completa": true,
+      "reportado_api": 1320,
+      "descargados": 1320
+    },
+    {
+      "frase": "open-pit mine",
+      "completa": true,
+      "reportado_api": 2063,
+      "descargados": 2063
+    },
+    {
+      "frase": "surface mining",
+      "completa": true,
+      "reportado_api": 2335,
+      "descargados": 2335
+    },
+    {
+      "frase": "surface mine",
+      "completa": true,
+      "reportado_api": 838,
+      "descargados": 838
+    },
+    {
+      "frase": "opencast mining",
+      "completa": true,
+      "reportado_api": 764,
+      "descargados": 764
+    },
+    {
+      "frase": "open-cast mining",
+      "completa": true,
+      "reportado_api": 297,
+      "descargados": 297
+    },
+    {
+      "frase": "open cut mining",
+      "completa": true,
+      "reportado_api": 60,
+      "descargados": 60
+    },
+    {
+      "frase": "open-cut mining",
+      "completa": true,
+      "reportado_api": 80,
+      "descargados": 80
+    }
+  ],
+  "consultas_terminadas": true,
+  "extraccion_completa": true,
+  "filtro_automatico_ejecutado": true,
+  "filtro_validado_academicamente": false,
+  "filtro_completo": false,
+  "filas_descargadas": 10683,
+  "publicaciones_unicas": 9547,
+  "duplicados_eliminados": 1136,
+  "con_resumen": 9396,
+  "documentales_excluidos": 151,
+  "documentales_admisibles_provisionales": 9396,
+  "aceptados_amplios_provisionales": 4614,
+  "excluidos_amplios": 4782,
+  "pendientes_retractacion_y_paratexto": 9396,
+  "revision_humana_finalizada": false,
+  "sin_fusion_historica_openalex": true,
+  "nota": "Clasificaciones automáticas provisionales. No declarar replica documental exacta de OpenAlex ni corpus final mientras haya controles no verificados.",
+  "archivo_sha256": {
+    "alertas_calidad.csv": "0cff375bdf4f70fcd1cb381b6552c4a61d46f14b12e8850d97840f12252e6feb",
+    "clave_revision_amplia_NO_ENTREGAR_A_REVISORES.csv": "807710812bd2a21f44f5a50555c9434b7f62444fefb05d9f373cc3e550da330d",
+    "corpus_general_aceptado_provisional.csv": "4670ad0f69655c1c6e6c96a6ca61b232ebc387335901065f79355f2572dcf240",
+    "descarga_sin_deduplicar.csv": "47bcd194a13c3de9bf444494ecd49a5ea97015967623096e3bcd2c169680e453",
+    "excluidos_amplios_con_motivo.csv": "cc593eb7165e88a91201a55cc5a4dce7ffe08fd937d1bbb2304fd7d07e629c22",
+    "excluidos_documentales.csv": "31e933867305463ac9198fca9770482680c2259fe000fdd737eabb5821780445",
+    "muestra_revision_humana.csv": "b20749aa1d7979771ffd1a097700cf247f72ed97bbfcb7e5bf64eb1f9c4207f9",
+    "pendientes_control_retractacion_paratexto.csv": "1239d8afc68b2ea45a932963c4c3388cb877419f50c5182f5738418ae265b6f3",
+    "revision_amplia_ciega.csv": "5fe0b457ac63cfc7656672a37b87a9be97ca28cbe5ba2bed58599c2a92b679c7",
+    "universo_scopus_deduplicado.csv": "9d1725e39790de8f460d163f0d1f621fc5977ecbc32aec51de6676fb2b99ebcf"
+  },
+  "fecha_corte_controles_editoriales": "2026-10-19",
+  "criterio_fecha_corte": "ultima_pagina_guardada_utc"
+}

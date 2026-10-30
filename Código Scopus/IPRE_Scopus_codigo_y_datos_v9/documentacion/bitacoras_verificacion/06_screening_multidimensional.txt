@@ -1,0 +1,59 @@
+Directorio de trabajo: /workspace/scratch/213718f401a5
+Datos de Fase 01: /workspace/scratch/213718f401a5/validation/run1/filtro_amplio
+Salida Fase 02: /workspace/scratch/213718f401a5/validation/run1/motores/v6/codigo/salida
+No se utilizará Google Colab ni se volverán a descargar publicaciones.
+Carpeta de entrada: /workspace/scratch/213718f401a5/validation/run1/filtro_amplio
+Publicaciones Fase 01 aceptadas provisionalmente: 4614
+SHA-256 verificados: 8 / 8
+Filtro Fase 01 validado académicamente: False
+Controles pendientes retractación/paratexto: 9396
+Idioma sin informar: 4614 / 4614
+Alertas quality_flags: 4
+Optimización verificada: 100/100 decisiones completas idénticas a las funciones originales.
+Reglas originales de Joaquín: sin cambios. Optimización: solo caché para coincidencias repetidas.
+Cribado: 500 / 4614
+Cribado: 1000 / 4614
+Cribado: 1500 / 4614
+Cribado: 2000 / 4614
+Cribado: 2500 / 4614
+Cribado: 3000 / 4614
+Cribado: 3500 / 4614
+Cribado: 4000 / 4614
+Cribado: 4500 / 4614
+Cribado: 4614 / 4614
+
+Clasificaciones automáticas (sin auditoría dirigida ni revisión humana):
+  IN_FUERTE      : 202
+  IN_SECUNDARIO  : 250
+  DUDOSO         : 1,305
+  OUT            : 2,857
+Núcleo IN propuesto: 452
+Salidas CSV principales guardadas en: /workspace/scratch/213718f401a5/validation/run1/motores/v6/codigo/salida
+Muestra humana: 130 ; estratos: {'IN': 50, 'OUT': 50, 'DUDOSO_CENTRAL': 30}
+NO compartir la clave con los revisores durante la evaluación ciega.
+{
+  "entrada": 4614,
+  "decisiones": {
+    "IN_FUERTE": 202,
+    "IN_SECUNDARIO": 250,
+    "DUDOSO": 1305,
+    "OUT": 2857
+  },
+  "nucleo_IN": 452,
+  "muestra": {
+    "IN": 50,
+    "OUT": 50,
+    "DUDOSO_CENTRAL": 30
+  },
+  "pendientes": {
+    "aceptados_fase01_provisionales": 4614,
+    "filtro_fase01_validado_academicamente": false,
+    "retractacion_y_paratexto_pendientes_de_verificar": 9396,
+    "lengua_sin_informar_en_aceptados": 4614,
+    "quality_flags_no_vacios_en_aceptados": 4,
+    "auditoria_dirigida_48_heredada": false,
+    "reconciliacion_con_ids_openalex": false,
+    "correcciones_de_etiquetas_por_revisor": 0,
+    "filtro_fase02_validado_academicamente": false
+  }
+}

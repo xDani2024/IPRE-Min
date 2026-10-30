@@ -1,0 +1,69 @@
+{
+  "fuente": "Scopus",
+  "version": "Scopus_v9_pre_cierre_computacional_2026_10_19",
+  "fecha_utc": "2026-10-30T02:36:46.340761+00:00",
+  "tipo_resultado": "PRE_CIERRE_AUTOMATICO_NO_VALIDADO",
+  "protocolo_base": "22_cerrar_TC.py (Joaquín, v9)",
+  "base_amplia": 4614,
+  "conteos_v8": {
+    "OUT": 1987,
+    "TC": 2318,
+    "IN": 309
+  },
+  "TC_v8_evaluados": 2318,
+  "TC_resultado_computacional": {
+    "OUT": 2237,
+    "IN": 81
+  },
+  "v9_propuesta_computacional_total": {
+    "OUT": 4224,
+    "IN": 390
+  },
+  "reglas_TC": {
+    "D03_EVIDENCIA_OPERACIONAL_INSUFICIENTE": 1625,
+    "O03_DESARROLLO_ALGORITMICO": 208,
+    "O03_GEOTECNIA_CARTOGRAFIA": 133,
+    "O03_PLANIFICACION_VALOR_PROYECTO": 65,
+    "O03_AMBIENTE_SEGURIDAD": 98,
+    "I01_EVIDENCIA_OPERACIONAL_EN_FICHA": 81,
+    "O03_FRAGMENTACION_COMPONENTE": 30,
+    "O02_COMPONENTE_SIN_RESULTADO_DE_TAREA": 54,
+    "O05_CONTEXTO_SUBTERRANEO": 18,
+    "O01_SINTESIS_SECUNDARIA": 1,
+    "D02_CONTEXTO_NO_ACREDITADO": 5
+  },
+  "disposiciones_TC": {
+    "exclusion_documental": 1630,
+    "exclusion_por_foco": 607,
+    "inclusion_con_evidencia": 81
+  },
+  "todos_los_TC_con_propuesta_binaria": true,
+  "validacion_humana_independiente_realizada": false,
+  "auditorias_IA_directas_scopus_realizadas": 0,
+  "decisiones_humanas_openalex_heredadas": 0,
+  "decisiones_humanas_scopus_registradas": 0,
+  "revisiones_de_texto_completo": 0,
+  "IN_pendientes_revision": 390,
+  "OUT_seleccionados_muestra": 120,
+  "filas_originales_v8_preservadas": true,
+  "sha256_entrada": "4f5684a1abcbebde9ed0a3ce6b99d7aec6073cdbd425eba015e40aaf76004572",
+  "sha256_salidas": {
+    "Matriz_Scopus_4614_con_pre_cierre_v9.csv": "2250780ef1c0df637d12aa8b1a801c2395f0baec7aba0f9ac4f9c7b3fd32c8dc",
+    "IN_computacional_v9_PENDIENTE_REVISION.csv": "831eb220bd3da560098fcd838af86c87c8eb27b12dafcda3f4ed0f5745926e3f",
+    "OUT_computacional_v9_PENDIENTE_REVISION.csv": "b6bbd158537f77ea89ea0fe2324136d378ca8cafb069a44d58ffc4af0e4dd38a",
+    "Decisiones_TC_Scopus_v9.csv": "91353e2f66271ed586c22c266646ad15a21feea19950140e93bcfce34cc336ec",
+    "Resumen_por_ID_TC_scopus_v9.csv": "2b53f7847c4f1c1b9b608042b1c2898e5e21179798d245ea2923284d082a8b74",
+    "Nuevos_IN_desde_TC_PENDIENTE_REVISION.csv": "c8c7a0c2b9fdb2bc57614a8656fcbb96697536ea2df49d469c2088f241134e35",
+    "Revisar_TODOS_los_IN_v9.csv": "bd2fc1088d25c06cbcea829b4876c9b444b8726e8284725bd401f924ead227ce",
+    "Muestra_120_OUT_v9.csv": "3407223ff5c871bbae1c9533a953dae519eec6610a2e0be1cb24af09a6dc822b",
+    "Revision_independiente_ciega_v9.csv": "ecb7ac70fb4409efd04eefd1f22a7629d8644c052524f0938cf841daa3562e4b",
+    "Clave_revision_independiente_NO_ENTREGAR_A_REVISORES.csv": "c1b664b27504a2711a9e031964ba521a595cc787ee44b95f8cd9d4ba2114b497"
+  },
+  "limites": [
+    "Las auditorias directas IA de 118 registros OpenAlex no se transfieren a Scopus.",
+    "Los 40 juicios humanos de OpenAlex no se transfieren a Scopus.",
+    "OUT documental no demuestra irrelevancia del articulo completo.",
+    "Los IN no equivalen a un nucleo validado. Revisar inclusiones y exclusiones.",
+    "La Fase 1 continua con validacion documental pendiente de retractacion y paratexto."
+  ]
+}

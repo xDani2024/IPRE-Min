@@ -1,0 +1,131 @@
+{
+  "fecha_utc": "2026-09-28T20:08:43.719903+00:00",
+  "version": "v6_2026_09_28",
+  "total": 4735,
+  "decisiones": {
+    "DUDOSO": 1241,
+    "OUT": 3101,
+    "IN_SECUNDARIO": 212,
+    "IN_FUERTE": 181
+  },
+  "transiciones_anteriores_solo_auditoria": {
+    "G": {
+      "DUDOSO": 916,
+      "OUT": 2899,
+      "IN_SECUNDARIO": 15,
+      "IN_FUERTE": 2
+    },
+    "Q": {
+      "IN_SECUNDARIO": 124,
+      "DUDOSO": 262,
+      "IN_FUERTE": 111,
+      "OUT": 174
+    },
+    "I": {
+      "IN_SECUNDARIO": 69,
+      "IN_FUERTE": 68,
+      "DUDOSO": 60,
+      "OUT": 1
+    },
+    "PENDIENTE_NUEVO": {
+      "OUT": 27,
+      "IN_SECUNDARIO": 4,
+      "DUDOSO": 3
+    }
+  },
+  "motivos": {
+    "enlace_operacional_incompleto_en_resumen": 1103,
+    "mencion_incidental_de_operacion": 1318,
+    "foco_principal_exposicion_ambiental": 60,
+    "foco_principal_geotecnia_talud": 336,
+    "foco_principal_estrategia_vida_mina": 44,
+    "evaluacion_directa_de_desempeno_sin_intervencion_explicita": 111,
+    "foco_principal_geologia_exploracion": 138,
+    "sin_desempeno_ni_decision_operacional_demostrada": 906,
+    "vinculo_indirecto_o_documento_secundario": 168,
+    "proceso_decision_y_desempeno_vinculados": 138,
+    "foco_principal_ambiente_cierre": 62,
+    "foco_principal_seguridad_sin_desempeno": 26,
+    "foco_principal_efecto_voladura_no_operacional": 29,
+    "foco_subterraneo_o_extraccion_no_minera": 109,
+    "foco_principal_alternativo_con_enlace_posible": 84,
+    "foco_principal_deteccion_sin_resultado_tarea": 8,
+    "sin_contexto_cielo_abierto": 44,
+    "foco_principal_metalurgia_procesamiento": 11,
+    "idioma_o_resumen_insuficiente": 36,
+    "foco_principal_componente_aislado": 1,
+    "foco_principal_insumos_fuera_de_mina": 1,
+    "documento_editorial_sin_estudio": 2
+  },
+  "procesos": {
+    "tronadura": 843,
+    "carguio": 1223,
+    "transporte": 1171,
+    "desague_apoyo": 441,
+    "chancado_en_mina": 41,
+    "perforacion": 469,
+    "remocion_estéril": 629,
+    "botaderos_operacionales": 112,
+    "caminos_mina": 134,
+    "riego_polvo": 33
+  },
+  "equipos": {
+    "haul_truck": 681,
+    "shovel": 283,
+    "crusher_in_pit": 45,
+    "excavator": 291,
+    "conveyor": 164,
+    "spreader": 39,
+    "loader": 77,
+    "bucket_wheel_excavator": 66,
+    "dragline": 108,
+    "drill_rig": 37,
+    "dozer": 43,
+    "grader": 13,
+    "pump": 64,
+    "surface_miner": 30,
+    "locomotive": 11,
+    "water_truck": 2
+  },
+  "contribucion": {
+    "no_operacional": 2913,
+    "informacion_automatizacion": 264,
+    "diseno_planificacion": 49,
+    "auxiliares": 551,
+    "mantencion": 469,
+    "planificacion_operativa": 73,
+    "asignacion_optimizacion": 224,
+    "ejecucion_desempeno": 192
+  },
+  "alerta_metadata": 41,
+  "muestra": {
+    "IN": 50,
+    "OUT": 50,
+    "DUDOSO_CENTRAL": 30
+  },
+  "marcos_muestra_no_usados_en_desarrollo": {
+    "IN": 373,
+    "OUT": 3091,
+    "DUDOSO_CENTRAL": 924
+  },
+  "marco_muestra_dudoso_central": 924,
+  "auditoria_IA_dirigida": {
+    "total": 48,
+    "cambios": 36,
+    "confirmaciones": 12
+  },
+  "sha256_entrada": "d7efd9a2b02095aee3f5ea867296cd3c89d4912303c116e7deb5e94c73fea9ba",
+  "sha256_auditoria_dirigida": "c833d8fd6274292a0ba2e13ef56bc67c50addbae836b1ade6a857f6dfabad4aa",
+  "sha256_salidas": {
+    "IN_fuerte.csv": "239abccdc4028b0c542bef413e70ba4121eaadb60a58151839c9833b7812519f",
+    "IN_secundario.csv": "d1031c4e8d4b4272111cc27e789f9c5283189d33029ef649fe62aac84e2b00fe",
+    "OUT.csv": "c08985f8318a1213a11a7e16f2fc3cec37a3303f47b81d406363496d97991734",
+    "auditoria_IA_dirigida_48.csv": "db35cbce8e1341f46edc20207241796f6aa5a01ad58a267970eeb05c2c4ba424",
+    "clave_muestra_130_NO_ENTREGAR_A_REVISORES.csv": "2920e0b4f68e2d3d0a42fc72193a8560a7f63b304f7757fd5696b13335a22b10",
+    "corpus_IN_propuesto.csv": "5bf5f1a1785faf1a1b647a0a9a3809927bbd4eef9b8691a2fd0071fdb959653d",
+    "dudosos.csv": "08bf81ad9674289e6bd40f76b0f02d4beb42c5a9378ddb110945d3df1ccf429d",
+    "muestra_humana_ciega_130.csv": "803478d114f42413d49111569c2761598e2786541f19c2ccad9764e400d37b6e",
+    "screening_operacional_4735.csv": "72403c43392ef096b7a743abedc517c96727984fc187064390af74d1dafbcad6"
+  },
+  "aviso": "Clasificación computacional de apoyo, no revisión humana ni elegibilidad final. La cohorte DUDOSO se excluye del núcleo estricto y queda disponible para análisis de sensibilidad y texto completo."
+}

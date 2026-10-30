@@ -1,0 +1,7 @@
+# Origen de esta salida conciliada
+
+El 28-09-2026 se ejecutó `02_filtrar_y_unificar.py` versión `1.1_2026_09_28` sobre una entrada local reconstruida con las 4.735 filas incluidas y las 4.799 excluidas que entregó el usuario, es decir, **9.534 registros que ya habían pasado la segunda deduplicación**. Los ID de ambas particiones resultantes coinciden exactamente con los archivos recibidos. Se usaron el historial conservado de 4.773 decisiones provisionales y los metadatos de la extracción recibida.
+
+Esta verificación reproduce el filtro y permite generar el corpus, las equivalencias de ID y las muestras actualizadas. La cifra `filas_entrada: 9534` en `metadatos_y_flujo.json` corresponde a la entrada local reconstruida. **La extracción original** registró 9.844 filas descargadas, 9.540 únicas tras el primer paso y 9.534 únicas antes del filtro amplio. El archivo de entrada original `datos_openalex/universo_openalex.csv` no se proporcionó, por lo que esta ejecución local no reproduce los seis descartes de la segunda deduplicación ni la consulta API. Para una replicación desde la descarga, ejecutar el segundo script con ese universo original como entrada y guardar su bitácora separada.
+
+Los 18 pares de `correspondencias_ids_openalex.csv` conservan etiquetas previas como **provisionales**. Ninguna muestra está revisada por seres humanos. Las columnas de decisión humana están vacías. Mantener separadas las claves de las planillas ciegas para los revisores.

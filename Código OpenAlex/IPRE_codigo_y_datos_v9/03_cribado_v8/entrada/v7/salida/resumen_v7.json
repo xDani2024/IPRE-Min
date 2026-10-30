@@ -1,0 +1,62 @@
+{
+  "version": "v7_resolucion_nucleo_2026_09_28",
+  "entradas_sha256": {
+    "cola_dudosos_1241_v6.csv": "7ac559c431940a51e430e08141901536ea4ac74a589318c5c30dd862006f136a",
+    "screening_operacional_4735_v6.csv": "72403c43392ef096b7a743abedc517c96727984fc187064390af74d1dafbcad6",
+    "alertas_metadata_ampliadas_v6.csv": "5b117224b8dde0748cd44798fdba55152abbd8f4807f205d163032edaa40fc75",
+    "auditoria_dirigida_de_reglas.psv": "6c241a5a9d661b19283e88acb5c1e50a93ccf4d457ca53b149f85aba14369735"
+  },
+  "N_dudosos_v6": 1241,
+  "N_total": 4735,
+  "disposicion_dudosos": {
+    "OUT": 1164,
+    "IN": 77
+  },
+  "motivos_dudosos": {
+    "F01_RESUMEN_INVALIDO": 6,
+    "F04_VINCULO_NO_DEMOSTRADO": 773,
+    "F03_FOCO_ALTERNATIVO": 349,
+    "A01_RESCATE_RESULTADO_TAREA": 60,
+    "A02_METRICA_DEL_MODELO": 3,
+    "I01_VINCULO_A_B_C": 13,
+    "I02_DESEMPENO_TITULO_CONFIRMADO": 4,
+    "A03_FICHA_INSUFICIENTE": 1,
+    "A04_FOCO_ESTRATEGICO": 2,
+    "A05_FUERA_DE_MINA": 1,
+    "A06_COMPONENTE_AISLADO": 1,
+    "F02_CONTEXTO_NO_ACREDITADO": 28
+  },
+  "estado_documental_dudosos": {
+    "COTEJO_FUENTE": 14,
+    "TEXTO_COMPLETO_SI_SE_RESCATA": 795,
+    "EVIDENCIA_TITULO_RESUMEN": 355,
+    "PROPUESTA_TITULO_RESUMEN": 77
+  },
+  "prioridad_por_decision": {
+    "P0_COTEJAR_METADATOS": {
+      "OUT": 7
+    },
+    "P0_VERIFICAR_RESUMEN": {
+      "OUT": 6
+    },
+    "P1_ENLACE_CERCANO": {
+      "OUT": 228,
+      "IN": 47
+    },
+    "P2_ENLACE_PARCIAL": {
+      "OUT": 653,
+      "IN": 25
+    },
+    "P3_CONTROL_FRONTERA": {
+      "IN": 5,
+      "OUT": 270
+    }
+  },
+  "auditoria_casos": 68,
+  "cambios_auditoria": 68,
+  "decision_total": {
+    "OUT": 4265,
+    "IN": 470
+  },
+  "advertencia": "IN/OUT es una disposición provisional para el núcleo. OUT por evidencia insuficiente no afirma irrelevancia definitiva; no hay doble revisión humana ni cotejo de texto completo."
+}

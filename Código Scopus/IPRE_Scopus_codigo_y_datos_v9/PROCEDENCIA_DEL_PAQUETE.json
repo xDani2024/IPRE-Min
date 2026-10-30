@@ -1,0 +1,21 @@
+{
+  "fuente_datos": "Scopus(4).zip",
+  "referencia_estructura": "IPRE_codigo(2).zip",
+  "base_amplia": 4614,
+  "estado": "Reproducción técnica comprobada, revisión humana pendiente",
+  "adaptacion": "Rutas, carpetas, CLI y orquestación. Reglas preservadas de los notebooks Scopus aportados. Sin juicios OpenAlex transferidos.",
+  "sha256_zip_joaquin": "02a44ded1388a47765ce40a884274313b8c00b4b7b5ba4dcfc0f9f2d927098a0",
+  "sha256_zip_scopus": "1af6789db5d23f7d43f5a1900303e7013ba0d700c441f6bab071333053d40d36",
+  "cambios_implementacion": [
+    "Extracción Scopus y filtro con puntos de entrada separados",
+    "Motor de notebooks convertido a scripts CLI sin modificar reglas",
+    "Separación de v7 y v8 con CSV de enlace",
+    "Import requests diferido al método HTTP",
+    "Fecha de cohorte v8 conservada para reproducción exacta",
+    "Verificación independiente de columnas v8 y hashes v9",
+    "Salida nueva por corrida y bitácoras por etapa",
+    "Escritura v7 sincronizada y relectura para comprobar filas"
+  ],
+  "version_entrega": "Scopus_corregido_20261029",
+  "zip_scopus_recibido_sha256": "faf7fd00517d7c287c93b3fcf19ff2cfcd45bcbf7423b98b978a3ef93b0127f3"
+}

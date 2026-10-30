@@ -1,0 +1,93 @@
+{
+  "version": "1.1_2026_09_28",
+  "fecha_utc": "2026-09-28T15:17:29.063741+00:00",
+  "fuente": "archivos_nuevos",
+  "consulta_api_en_esta_ejecucion": false,
+  "consulta_documentada": "title_and_abstract.search.exact:\"open pit mining\"|\"open-pit mining\"|\"open pit mine\"|\"open-pit mine\"|\"surface mining\"|\"surface mine\"|\"opencast mining\"|\"open-cast mining\"|\"open cut mining\"|\"open-cut mining\",type:article|review,has_abstract:true,is_retracted:false,is_paratext:false",
+  "conteo_api_reportado": 9817,
+  "metadatos_primera_etapa": {
+    "generated_at_utc": "2026-09-28T14:41:17.199482+00:00",
+    "openalex_reported_total": 9817,
+    "retrieved_before_deduplication": 9844,
+    "duplicates_removed": 304,
+    "records_after_dedup_before_screening": 9540
+  },
+  "filas_entrada": 9534,
+  "tras_deduplicacion": 9534,
+  "duplicados_retirados": 0,
+  "incluidos_amplios": 4735,
+  "excluidos_amplios": 4799,
+  "coincidencia_ids_historicos": null,
+  "etiquetas_especificas": {
+    "G": 3832,
+    "Q": 671,
+    "I": 198,
+    "PENDIENTE_NUEVO": 34
+  },
+  "diferencias": {
+    "nuevo_incluido": 52,
+    "no_recuperado_en_nueva_cohorte": 74,
+    "sale_del_corpus_amplio": 16
+  },
+  "reconciliacion_ids": {
+    "correspondencias_bibliograficas": 18,
+    "nuevos_sin_historial_tras_reconciliacion": 34,
+    "no_recuperados_tras_reconciliacion": 56,
+    "archivo": "correspondencias_ids_openalex.csv",
+    "nota": "El cuadro de diferencias conserva los conteos brutos por ID; no sumar los pares como obras distintas."
+  },
+  "muestra": {
+    "I": {
+      "N": 198,
+      "n": 40
+    },
+    "Q": {
+      "N": 671,
+      "n": 60
+    },
+    "G": {
+      "N": 3832,
+      "n": 128
+    },
+    "PENDIENTE_NUEVO": {
+      "N": 34,
+      "n": 12
+    }
+  },
+  "control_exclusiones_amplias": {
+    "tema_excluido_en_titulo": {
+      "N": 1265,
+      "n": 21
+    },
+    "sin_foco_operacional_suficiente": {
+      "N": 3388,
+      "n": 57
+    },
+    "tema_periferico_en_titulo": {
+      "N": 74,
+      "n": 1
+    },
+    "metodo_subterraneo_fuera_de_alcance": {
+      "N": 72,
+      "n": 1
+    }
+  },
+  "sha256_codigo": "4e0a8ece2b9a278fc90fb1dcdc8a6897abc2463a928df34136566c85c63938d9",
+  "sha256_entradas": {
+    "universo_openalex.csv": "5f85cb95b26c499794de54a1d23c48af34de5e9d4558b19fff4aa3dc9afd284e",
+    "open_pit_extraction_metadata.json": "812fdeab058af0d3a2444d0ef192326fb88c3239db5694be87759dceff7a26a1",
+    "cribado_anterior_4773.csv": "c3a48f49a68c60b165f506392689396d6da0e384e17801058dbf3b7e154886f3"
+  },
+  "sha256_resultados": {
+    "clave_exclusiones_amplias_NO_ENTREGAR_A_REVISORES.csv": "70f58a4fee0d449845f68d34a052e72bf62afd684cd658542b1df9cd78712a8b",
+    "clave_muestra_240_NO_ENTREGAR_A_REVISORES.csv": "e04eba3b39e995a9a45cbf2a770c0a1cae98007fad0995b1b926d5b9ebacab2f",
+    "corpus_general_aceptado.csv": "d2660f83a4fe720c255681129e799987326692d222532999bb3fceb26604b99e",
+    "corpus_unificado_con_historial.csv": "d7efd9a2b02095aee3f5ea867296cd3c89d4912303c116e7deb5e94c73fea9ba",
+    "correspondencias_ids_openalex.csv": "c6cdeaf512afef9230373355bad03592fe025eb99f135bc6178515aaa960e12c",
+    "diferencias_con_corpus_anterior.csv": "48aa892d22ee7a2b92c331981f93935f28e636ceb3328cc1d4cafc03129b5141",
+    "excluidos_amplios_con_motivo.csv": "baf47998733ef21c469925dbb209a8e2edf393ad14b896ee72782563f00147ea",
+    "muestra_ciega_240.csv": "cd6540e527e3b1ece4d90ac05029a2c3f6530d0b84fc693ce9c9548ee94e42a4",
+    "muestra_ciega_exclusiones_amplias_80.csv": "b12d7cbc100d710517c2a652de6714c3b240672c95cc0b2fc582e3068ce79a55"
+  },
+  "nota": "I/Q/G son provisionales y no equivalen a validación humana; la muestra nueva requiere evaluación ciega."
+}

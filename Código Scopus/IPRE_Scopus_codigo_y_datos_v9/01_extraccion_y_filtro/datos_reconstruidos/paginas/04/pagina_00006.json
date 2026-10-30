@@ -1,0 +1,4203 @@
+{
+  "numero": 6,
+  "frase": "open-pit mine",
+  "consulta": "(TITLE-ABS({open-pit mine})) AND (DOCTYPE(ar) OR DOCTYPE(re))",
+  "cursor_solicitado": "rO0ABXNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHABNSaudAAMMTA1MDM0NzQ0NTk3",
+  "cursor_siguiente": "rO0ABXNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHABNSYxdAAMMTA1MDM2ODYyODU1",
+  "reportado": 2063,
+  "descargados_acumulados": 150,
+  "entry": [
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105038634802"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105038634802?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105038634802&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105038634802&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105038634802",
+      "dc:identifier": "SCOPUS_ID:105038634802",
+      "eid": "2-s2.0-105038634802",
+      "dc:title": "Financial modeling of mining projects at the feasibility study stage with account of stochastic dynamics of the mineral commodity prices",
+      "dc:creator": "Limareva Y.A.",
+      "prism:publicationName": "Gornaya Promyshlennost",
+      "prism:issn": "16099192",
+      "prism:eIssn": "25879138",
+      "prism:volume": "2026",
+      "prism:issueIdentifier": "2",
+      "prism:pageRange": "120-128",
+      "prism:coverDate": "2026-05-15",
+      "prism:coverDisplayDate": "15 May 2026",
+      "prism:doi": "10.30686/1609-9192-2026-2-120-128",
+      "dc:description": "The article discusses the development and testing of a comprehensive methodology for financial modeling of mining projects at the feasibility study stage, integrating stochastic modeling of the mineral commodity price dynamics and the Monte Carlo simulation. The relevance of the study is determined by the unprecedented volatility of the global commodity markets in 2023–2025: the gold price rose from $2,600/oz to a record high of $4,379/oz, the LME copper price reached $11,200/t with an annual increase of approximately 40%, creating a fundamentally new landscape of uncertainty for investment decisions. The aim of the study is to quantitatively assess the divergence between the deterministic and stochastic estimates of the key investment indicators for mining projects and to justify the methodological advantages of the probabilistic approach. The Geometric Brownian motion, the Ornstein–Uhlenbeck mean-reverting process, and the Schwartz–Smith two-factor model were applied as the stochastic price dynamics models with their parameters calibrated using the LME and COMEX futures contract data for the period of 2015– 2025. The empirical base includes technical and economic parameters of three typical projects: a copper open-pit mine (CAPEX $1,420 million), an underground gold mine (CAPEX $980 million), and a polymetallic copper-gold deposit (CAPEX $1,850 million). The results of 10,000 Monte Carlo simulations demonstrate a systematic divergence between the deterministic and stochastic NPV in the range of −10,9 to −18,2%, with the NPV coefficients of variation of 0,31–0,58 depending on the project type and the price dynamics model. The probability of a negative NPV, which cannot be detected using the deterministic approach, varies from 6,2% to 12,7%. The Schwartz–Smith two-factor model demonstrates the lowest RMS calibration error against the futures data (RMSE = 3,8% for copper). The results justify the need to integrate the stochastic methods into the conventional feasibility study practice and allow quantifying the “cost of uncertainty” for the investor.",
+      "citedby-count": "0",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60032982",
+          "afid": "60032982",
+          "affilname": "Financial University under the Government of the Russian Federation",
+          "affiliation-city": "Moscow",
+          "affiliation-country": "Russian Federation"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "4"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/56820125500",
+          "authid": "56820125500",
+          "orcid": "0000-0001-7941-1459",
+          "authname": "Limareva Y.A.",
+          "surname": "Limareva",
+          "given-name": "Yulia A.",
+          "initials": "Y.A.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60032982"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57673782300",
+          "authid": "57673782300",
+          "authname": "Zaychikova I.V.",
+          "surname": "Zaychikova",
+          "given-name": "Inna V.",
+          "initials": "I.V.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60032982"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/60629559200",
+          "authid": "60629559200",
+          "orcid": "0000-0002-6583-8950",
+          "authname": "Barkova N.Y.",
+          "surname": "Barkova",
+          "given-name": "Natalya Yu",
+          "initials": "N.Y.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60032982"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "4",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57216280890",
+          "authid": "57216280890",
+          "orcid": "0000-0001-7151-4891",
+          "authname": "Borodina O.A.",
+          "surname": "Borodina",
+          "given-name": "Olga A.",
+          "initials": "O.A.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60032982"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "feasibility study | financial modeling of mining projects | investment risk analysis | Monte Carlo simulation | net present value | Schwartz–Smith two-factor model | stochastic price dynamics",
+      "source-id": "21101038723",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105051500202"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105051500202?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105051500202&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105051500202&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105051500202",
+      "dc:identifier": "SCOPUS_ID:105051500202",
+      "eid": "2-s2.0-105051500202",
+      "dc:title": "Numerical simulation and schlieren imaging validation of a swirling air curtain at an open-pit mine discharge port",
+      "dc:creator": "Jingxu C.",
+      "prism:publicationName": "China Safety Science Journal",
+      "prism:issn": "10033033",
+      "prism:volume": "36",
+      "prism:issueIdentifier": "5",
+      "prism:pageRange": "150-158",
+      "prism:coverDate": "2026-05-01",
+      "prism:coverDisplayDate": "May 2026",
+      "prism:doi": "10.16265/j.cnki.issn1003-3033.2026.05.0355",
+      "dc:description": "To address the issues of high water consumption and the limited dust suppression range of traditional spray-based dust control technologies, a 1:1 geometric model of the discharge port in an open-pit mine was established using numerical simulation software. Based on the Realizable k-ɛ turbulence model, the velocity distribution of induced airflow at the discharge port was investigated. According to the flow field characteristics, a swirling air curtain dust control method was proposed. This method utilizes induced circulation to encapsulate dust particles and employs a dynamic pressure barrier to suppress their diffusion, thereby forming a closed airflow barrier that prevents dust escape. By combining numerical simulations with schlieren observations, the velocity distribution of the induced airflow was analyzed, and the integrity of the swirling air curtain under varying jet angles and airflow velocities was compared. The results indicate that the formation of the swirling air curtain is jointly governed by the jet angle and airflow velocity. As both parameters increase, the vortex core structure becomes more distinct, and the degree of flow field closure is significantly enhanced. When the jet angle ranges from 10<supr>°</supr> to 20<supr>°</supr> and the airflow velocity from 15 to 25 m/s, a stable closed reverse-pressure swirling forms at the discharge port, where induced entrainment and circulation effects are most pronounced. When the jet angle is 15<supr>°</supr> and the airflow velocity is 20 m/s, the negative pressure core remains most stable, and the swirling structure is most fully developed. In contrast, excessively large jet angles or overly high airflow velocities may lead to increased turbulent dissipation and vortex instability, resulting in the breakdown of the air curtain structure. Schlieren observation further confirm that the swirling structure is most complete under the condition of a 15<supr>°</supr> jet angle and 20 m/s airflow velocity, thereby verifying the reliability and effectiveness of the proposed swirling air curtain dust control method.",
+      "citedby-count": "0",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60108755",
+          "afid": "60108755",
+          "affilname": "China University of Mining & Technology, Beijing",
+          "affiliation-city": "Beijing",
+          "affiliation-country": "China"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60032758",
+          "afid": "60032758",
+          "affilname": "Liaoning Technical University",
+          "affiliation-city": "Fuxin",
+          "affiliation-country": "China"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60104165",
+          "afid": "60104165",
+          "affilname": "Inner Mongolia University of Science and Technology",
+          "affiliation-city": "Baotou",
+          "affiliation-country": "China"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/128785775",
+          "afid": "128785775",
+          "affilname": "Inner Mongolia Key Laboratory of Mining Engineering",
+          "affiliation-city": "Baotou",
+          "affiliation-country": "China"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "6"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/35214645400",
+          "authid": "35214645400",
+          "authname": "Jingxu C.",
+          "surname": "Jingxu",
+          "given-name": "Chen",
+          "initials": "C.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60104165"
+            },
+            {
+              "@_fa": "true",
+              "$": "60104165"
+            },
+            {
+              "@_fa": "true",
+              "$": "128785775"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/60930426500",
+          "authid": "60930426500",
+          "authname": "Yongkai Z.",
+          "surname": "Yongkai",
+          "given-name": "Zhi",
+          "initials": "Z.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60104165"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/60930561700",
+          "authid": "60930561700",
+          "authname": "Jie W.",
+          "surname": "Jie",
+          "given-name": "Wang",
+          "initials": "W.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60104165"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "4",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58559928200",
+          "authid": "58559928200",
+          "authname": "Deji J.",
+          "surname": "Deji",
+          "given-name": "Jing",
+          "initials": "J.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60032758"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "5",
+          "author-url": "https://api.elsevier.com/content/author/author_id/60930693000",
+          "authid": "60930693000",
+          "authname": "Yanchao G.",
+          "surname": "Yanchao",
+          "given-name": "Guo",
+          "initials": "G.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60104165"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "6",
+          "author-url": "https://api.elsevier.com/content/author/author_id/60930822300",
+          "authid": "60930822300",
+          "authname": "Yawen L.",
+          "surname": "Yawen",
+          "given-name": "Liu",
+          "initials": "L.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60108755"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "countercurrent air curtain | discharge port | jet angle | jet velocity | open-pit mine | schlieren imaging",
+      "source-id": "21101104290",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105043569025"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105043569025?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105043569025&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105043569025&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105043569025",
+      "dc:identifier": "SCOPUS_ID:105043569025",
+      "eid": "2-s2.0-105043569025",
+      "dc:title": "Development of a Long-term Mining Production Planning Model Considering Working Spaces for In-pit Crushers",
+      "dc:creator": "Asadi F.",
+      "prism:publicationName": "Journal of Mining and Environment",
+      "prism:issn": "22518592",
+      "prism:eIssn": "22518606",
+      "prism:volume": "17",
+      "prism:issueIdentifier": "3",
+      "prism:pageRange": "1145-1162",
+      "prism:coverDate": "2026-05-01",
+      "prism:coverDisplayDate": "May and June 2026",
+      "prism:doi": "10.22044/jme.2025.16077.3103",
+      "dc:description": "Designing and planning in open-pit mining encompass a series of processes that commence with the preparation of a block model. Subsequently, upon designing the final scope, it culminates with the timing and sequencing of mining blocks, with the aim to maximize the pit's value within specific technical and operational constraints. Mathematical programming methods have proven suitable for optimizing mine production scheduling. Previous studies have addressed various aspects, including the timing of deployment and periodic relocation of in-pit crushers. Nevertheless, significant challenges remain in integrating the in-pit crusher problem with production planning. This paper introduces a new mixed-integer linear programming model for long-term open-pit mine production planning, incorporating constrained pit deepening to enforce predominantly lateral progression throughout the planning horizon. To achieve this, the number of active benches in each time period was reduced, thereby decreasing the need for equipment movement between working benches. Furthermore, with the horizontal progression of the pit, more workspace became available for deploying in-pit crushers, reducing equipment movement costs between benches and overall transportation costs, ultimately lowering the mine's operational expenses. Finally, the proposed model was implemented at the Miduk copper mine. The results demonstrated that the proposed model successfully achieved the expected objectives, resulting in a 52.45% improvement in reducing the number of active benches and regarding execution time reduction, the model showed a 53.32% improvement.",
+      "citedby-count": "0",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60000159",
+          "afid": "60000159",
+          "affilname": "Yazd University",
+          "affiliation-city": "Yazd",
+          "affiliation-country": "Iran"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "3"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/59698178300",
+          "authid": "59698178300",
+          "authname": "Asadi F.",
+          "surname": "Asadi",
+          "given-name": "Fatemeh",
+          "initials": "F.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60000159"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/22940707300",
+          "authid": "22940707300",
+          "authname": "Gholamnejad J.",
+          "surname": "Gholamnejad",
+          "given-name": "Javad",
+          "initials": "J.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60000159"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/60851108400",
+          "authid": "60851108400",
+          "authname": "Dabagh A.",
+          "surname": "Dabagh",
+          "given-name": "Ali",
+          "initials": "A.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60000159"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "Active benches | Equipment movement | Long-term production scheduling | Mathematical programming | Practical plans",
+      "source-id": "21101073709",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105041925531"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105041925531?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105041925531&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105041925531&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105041925531",
+      "dc:identifier": "SCOPUS_ID:105041925531",
+      "eid": "2-s2.0-105041925531",
+      "dc:title": "Determining the Appropriate Rehabilitation Method in Open-Pit mines using Decision-Making Methods: A Case Study of the Zarshuran Gold Mine",
+      "dc:creator": "Monjezi M.",
+      "prism:publicationName": "Journal of Mining and Environment",
+      "prism:issn": "22518592",
+      "prism:eIssn": "22518606",
+      "prism:volume": "17",
+      "prism:issueIdentifier": "3",
+      "prism:pageRange": "1015-1033",
+      "prism:coverDate": "2026-05-01",
+      "prism:coverDisplayDate": "May and June 2026",
+      "prism:doi": "10.22044/jme.2025.15644.3004",
+      "dc:description": "Open-pit mine rehabilitation is essential for managing environmental impacts and achieving sustainable development after mining operations cease. The goal of this study is to find the best way to fix up the Zarshuran Gold Mine by ranking eight different ways to fix it up using the Fuzzy Analytic Hierarchy Process (FAHP). These options are restoring the mine to its original state, planting trees, building a wind farm, creating a recreational area, setting up pastures, farming, building a solar power plant, and creating a tourist attraction. A panel of twelve experts evaluated these alternatives according to ten key criteria: air temperature intensity, number of sunny days, soil conditions, distance from residential areas, topographic irregularity, vegetation density, average wind speed, local animal species, site access, and the size and shape of the mined area. The results indicate that the construction of a solar power plant is identified as the most suitable rehabilitation option for the Zarshuran Gold Mine, considering the region’s climatic conditions (particularly the high number of sunny days per year) and its potential for clean energy generation and revenue creation. This study emphasizes the importance of considering environmental, social, and technical criteria in the decision-making process for mine rehabilitation and provides a framework for selecting sustainable rehabilitation methods in similar mining contexts.",
+      "citedby-count": "0",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60032053",
+          "afid": "60032053",
+          "affilname": "Tarbiat Modares University",
+          "affiliation-city": "Tehran",
+          "affiliation-country": "Iran"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60007751",
+          "afid": "60007751",
+          "affilname": "Amirkabir University of Technology",
+          "affiliation-city": "Tehran",
+          "affiliation-country": "Iran"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "6"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/56447171500",
+          "authid": "56447171500",
+          "authname": "Monjezi M.",
+          "surname": "Monjezi",
+          "given-name": "Masoud",
+          "initials": "M.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60032053"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/60693326700",
+          "authid": "60693326700",
+          "authname": "Moezinia S.",
+          "surname": "Moezinia",
+          "given-name": "Safa",
+          "initials": "S.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60032053"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/26027025100",
+          "authid": "26027025100",
+          "authname": "Hamidi J.K.",
+          "surname": "Hamidi",
+          "given-name": "Jafar Khademi",
+          "initials": "J.K.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60032053"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "4",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57056523800",
+          "authid": "57056523800",
+          "authname": "Rezakhah M.",
+          "surname": "Rezakhah",
+          "given-name": "Mojtaba",
+          "initials": "M.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60032053"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "5",
+          "author-url": "https://api.elsevier.com/content/author/author_id/59714337300",
+          "authid": "59714337300",
+          "authname": "Amini V.",
+          "surname": "Amini",
+          "given-name": "Vahid",
+          "initials": "V.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60007751"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "6",
+          "author-url": "https://api.elsevier.com/content/author/author_id/59762201700",
+          "authid": "59762201700",
+          "authname": "Batarbiat A.",
+          "surname": "Batarbiat",
+          "given-name": "Amir",
+          "initials": "A.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60032053"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "Decision-Making | Fuzzy Analytic Hierarchy Process | Open-Pit Mines | Rehabilitation | Zarshuran Gold Mine",
+      "source-id": "21101073709",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105041531212"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105041531212?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105041531212&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105041531212&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105041531212",
+      "dc:identifier": "SCOPUS_ID:105041531212",
+      "eid": "2-s2.0-105041531212",
+      "dc:title": "Drivable area segmentation model for open-pit mine roads based on spatial depth conversion",
+      "dc:creator": "Zhao R.",
+      "prism:publicationName": "Guangdian Gongcheng Opto Electronic Engineering",
+      "prism:issn": "1003501X",
+      "prism:volume": "53",
+      "prism:issueIdentifier": "5",
+      "prism:pageRange": null,
+      "prism:coverDate": "2026-05-01",
+      "prism:coverDisplayDate": "May 2026",
+      "prism:doi": "10.12086/oee.2026.250216",
+      "dc:description": "Objective The unstructured road environment in open-pit mining areas is characterized by complex topography, variable lighting conditions, and irregular boundaries. In autonomous driving scenarios for mining trucks, particularly under medium-to-long-distance viewing perspectives, critical obstacles such as ruts and puddles often appear as low-resolution, small-scale targets. Conventional convolutional neural networks typically employ strided convolutions or pooling operations for downsampling, which inevitably leads to the loss of fine-grained texture and boundary information. Consequently, existing segmentation methods frequently suffer from missed detections of small targets and blurred segmentation edges, posing severe safety risks to the path planning of unmanned vehicles. To address these challenges, this study aimed to develop a high-precision, real-time instance segmentation model, named SCG-YOLO, specifically optimized for the drivable areas of open-pit mine roads. The primary goal was to enhance the perception of low-resolution details and irregular boundaries while strictly adhering to the computational constraints of onboard embedded devices. Methods The proposed SCG-YOLO model was constructed based on the YOLOv8-seg architecture, integrating three targeted improvement modules to handle the unique constraints of mining environments. First, a space-to-depth and deformable convolution (SDC) module was designed and embedded into the feature extraction network. To mitigate the information loss associated with traditional downsampling, the Space-to-Depth layer decoupled and reorganized the spatial dimensions of input feature maps into depth dimensions. This operation effectively preserved fine-grained information, such as the shallow textures of ruts and the irregular edges of puddles, which are typically discarded by standard pooling layers. Furthermore, Deformable Convolution layers were incorporated within the SDC module. Unlike standard convolutions with fixed geometric structures, deformable convolutions learned offset fields to dynamically adjust the sampling grid. This capability allowed the network to adaptively model the nonrigid deformations of targets on unstructured road surfaces, ensuring accurate feature alignment for distorted shapes. Second, a coordinate attention (CA) mechanism was introduced into the network neck. Distinct from global average pooling which compresses spatial information, the CA mechanism performed feature encoding along two spatial directions (horizontal and vertical) respectively. This process captured long-range dependencies while preserving precise positional information. By re-weighting the feature maps, the mechanism enhanced the network's focus on key drivable regions and suppressed interference from complex background factors common in mining areas, such as ore piles, dust, and equipment shadows. Third, to address the increased computational overhead introduced by the SDC and CA modules, a Ghost module was adopted for the lightweight reconstruction of the neck layer. Standard Convolution and C2f modules were replaced with GhostConv and C3Ghost modules. The Ghost module generated a portion of the feature maps using standard convolutions and then produced redundant features via computationally inexpensive linear operations. This strategy significantly reduced the number of parameters and floating point operations (FLOPs) without compromising the representational power of the model, thereby serving as an engineering constraint to ensure real-time performance. Results and Discussions Experimental validation was conducted using a self-collected dataset of open-pit mine roads, comprising 565 images covering various seasons and lighting conditions. The dataset included three annotated categories: drivable areas, ruts, and puddles. The proposed SCG-YOLO model demonstrated superior performance across multiple evaluation metrics. Quantitative analysis revealed that the model achieved a mean average precision (mAP50) of 82.6%, representing a substantial increase of 11.7% compared to the baseline YOLOv8-seg model. In terms of inference speed, the model maintained a frame rate of 425.31 f/s, satisfying the stringent real-time requirements of autonomous mining operations. Ablation studies provided deep insights into the contribution of each component. The integration of the SDC module alone yielded a 9.4% improvement in mAP50, validating its efficacy in recovering fine-grained details lost during downsampling. The addition of the CA mechanism contributed a further 2.2% increase, confirming its ability to filter background noise and sharpen focus on relevant features. The implementation of the Ghost module successfully reduced the parameter count to 11.2 M, offsetting the computational cost of the accuracy-enhancing modules. Comparative experiments conducted with various instance segmentation algorithms, including Mask R-CNN, YOLACT, FastInst, Mask2Former, and various YOLO iterations (v5, v6, v11), highlight the advantages of SCG-YOLO. While heavy models like Mask2Former offered competitive accuracy, their excessive computational demands (286.5 G FLOPs) rendered them unsuitable for edge deployment. Conversely, lighter models like YOLACT failed to achieve sufficient segmentation precision for small targets. SCG-YOLO achieved the optimal balance between accuracy and efficiency. Visual qualitative analysis showed that the model produced significantly sharper segmentation masks. In scenarios with dusty backgrounds or water-filled potholes, SCG-YOLO accurately delineated boundaries that appeared blurred in baseline predictions. Generalization tests performed on the public RUGD dataset further demonstrated the model's robustness, where it outperformed the baseline by 5.2% in mAP50, proving its adaptability to diverse unstructured terrains beyond the specific training site. Conclusions The study presents a robust solution for environmental perception in open-pit mining based on spatial depth conversion. The investigation confirms that the proposed SCG-YOLO model effectively resolves the core issues of fine-grained feature loss and edge blurring associated with low-resolution imaging of small targets in unstructured road environments. The synergistic combination of the SDC module and CA mechanism significantly enhances the model's ability to perceive rut textures and puddle boundaries under complex conditions. Simultaneously, the lightweight design utilizing Ghost modules ensures that the high computational efficiency required for autonomous driving systems is maintained. The model achieves a high segmentation precision of 82.6% mAP50 while running at speeds exceeding 400 f/s, providing a viable and safe technical foundation for the deployment of unmanned mining trucks. Future research directions include expanding the dataset to encompass extreme weather conditions and multi-vehicle interaction scenarios to further improve the model's generalization capabilities in dynamic mining environments.",
+      "citedby-count": "0",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60031454",
+          "afid": "60031454",
+          "affilname": "Xi'an University of Architecture and Technology",
+          "affiliation-city": "Xi'an",
+          "affiliation-country": "China"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "4"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/60686580300",
+          "authid": "60686580300",
+          "authname": "Zhao R.",
+          "surname": "Zhao",
+          "given-name": "Ruixiang",
+          "initials": "R.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60031454"
+            },
+            {
+              "@_fa": "true",
+              "$": "60031454"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/35291976500",
+          "authid": "35291976500",
+          "authname": "Gu Q.",
+          "surname": "Gu",
+          "given-name": "Qinghua",
+          "initials": "Q.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60031454"
+            },
+            {
+              "@_fa": "true",
+              "$": "60031454"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57968555000",
+          "authid": "57968555000",
+          "authname": "Li S.",
+          "surname": "Li",
+          "given-name": "Shaobo",
+          "initials": "S.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60031454"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "4",
+          "author-url": "https://api.elsevier.com/content/author/author_id/60686274800",
+          "authid": "60686274800",
+          "authname": "Li B.",
+          "surname": "Li",
+          "given-name": "Binyang",
+          "initials": "B.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60031454"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "deformable convolution | drivable area | open-pit mine | spatial depth conversion",
+      "article-number": "250216",
+      "source-id": "16754",
+      "fund-acr": "NNSF",
+      "fund-no": "52074205",
+      "fund-sponsor": "National Natural Science Foundation of China",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105040248568"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105040248568?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105040248568&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105040248568&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105040248568",
+      "dc:identifier": "SCOPUS_ID:105040248568",
+      "eid": "2-s2.0-105040248568",
+      "dc:title": "An Integrated Simulation–AI Framework for Fast Stability Evaluation and Risk-Control-Oriented Design of Open-Pit Mine Slopes",
+      "dc:creator": "Du K.",
+      "prism:publicationName": "Applied Sciences Switzerland",
+      "prism:eIssn": "20763417",
+      "prism:volume": "16",
+      "prism:issueIdentifier": "10",
+      "prism:pageRange": null,
+      "prism:coverDate": "2026-05-01",
+      "prism:coverDisplayDate": "May 2026",
+      "prism:doi": "10.3390/app16104932",
+      "dc:description": "Bench slopes in open-pit mines are highly susceptible to progressive deformation and instability due to the coupled effects of excavation disturbance, rock mass weathering, and extreme rainfall, posing significant challenges to rapid risk assessment and engineering decision-making. To address the limitations of conventional methods in efficiency and adaptability under complex multi-factor conditions, this study proposes a hybrid simulation–artificial intelligence framework for rapid slope stability assessment and bench face angle optimization. Multi-scenario numerical simulations were conducted by integrating geological investigation data, laboratory and in situ mechanical parameters, and extreme rainfall conditions to characterize slope deformation and failure mechanisms and generate a dataset for machine learning model training. Machine learning models were trained using slope height, bench face angle, unit weight, cohesion, and friction angle as inputs, and safety factors under natural and extreme rainfall conditions as outputs, with hyperparameters optimized by Bayesian optimization. The results indicate that highly weathered rock masses dominate shallow deformation and act as critical weak zones, while extreme rainfall significantly accelerates instability evolution and reduces slope safety factors. Among the RF, SVR, and ELM models, the Bayesian-optimized support vector regression (BO-SVR) exhibits the best predictive performance (R<sup>2</sup> > 0.98). SHapley Additive exPlanations (SHAP) analysis reveals that slope height and shear strength parameters are the dominant controlling factors, whereas unit weight has a relatively limited influence. Validation using real landslide cases shows good agreement with numerical simulations, confirming the reliability of the proposed framework. The developed approach enables rapid risk evaluation and supports bench face angle optimization, providing an effective tool for intelligent slope management in open-pit mining.",
+      "citedby-count": "0",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60129973",
+          "afid": "60129973",
+          "affilname": "School of Resources and Safety Engineering",
+          "affiliation-city": "Changsha",
+          "affiliation-country": "China"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "3"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/54401065500",
+          "authid": "54401065500",
+          "orcid": "0000-0002-8757-1783",
+          "authname": "Du K.",
+          "surname": "Du",
+          "given-name": "Kun",
+          "initials": "K.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60129973"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/60653537500",
+          "authid": "60653537500",
+          "authname": "Li S.",
+          "surname": "Li",
+          "given-name": "Shaojie",
+          "initials": "S.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60129973"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57209270996",
+          "authid": "57209270996",
+          "orcid": "0000-0002-8163-5432",
+          "authname": "Li C.",
+          "surname": "Li",
+          "given-name": "Chuanqi",
+          "initials": "C.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60129973"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "artificial intelligence | engineering application | numerical simulation | open-pit mining | slope stability",
+      "article-number": "4932",
+      "source-id": "21100829268",
+      "fund-acr": "NNSFC",
+      "fund-no": "52374150",
+      "fund-sponsor": "National Natural Science Foundation of China",
+      "openaccess": "1",
+      "openaccessFlag": true,
+      "freetoread": {
+        "value": [
+          {
+            "$": "all"
+          },
+          {
+            "$": "publisherfullgold"
+          },
+          {
+            "$": "repository"
+          },
+          {
+            "$": "repositoryam"
+          }
+        ]
+      },
+      "freetoreadLabel": {
+        "value": [
+          {
+            "$": "All Open Access"
+          },
+          {
+            "$": "Gold"
+          },
+          {
+            "$": "Green"
+          }
+        ]
+      }
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105040233594"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105040233594?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105040233594&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105040233594&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105040233594",
+      "dc:identifier": "SCOPUS_ID:105040233594",
+      "eid": "2-s2.0-105040233594",
+      "dc:title": "Research and Application of Parametric 3D Design Methods for Slope Roads in Open-pit Mines",
+      "dc:creator": "Chen X.",
+      "prism:publicationName": "Uranium Mining and Metallurgy",
+      "prism:issn": "10008063",
+      "prism:volume": "45",
+      "prism:issueIdentifier": "2",
+      "prism:pageRange": "149-156",
+      "prism:coverDate": "2026-05-01",
+      "prism:coverDisplayDate": "May 2026",
+      "prism:doi": "10.13426/j.cnki.yky.2025.08.07",
+      "dc:description": "To solve the problems of large subjectivity, empirical, time-consuming, laborious and low efficiency of manual interaction in the design of open-pit mine slope road, a parametric three-dimensional design method of open-pit mine slope road is proposed. The general idea is: combining with the requirements of open-pit mine slope road design parameters, using parametric slope road design ideas to construct a mathematical model for parametric three-dimensional design of open-pit mine slope road. The research results were developed and realized in the digital mining software platform, and the generated road parametric 3D design model was used for an open-pit mine slope road design. The experimental study shows that the average time for completing the design of a single open-pit mine slope road is 3 h for manual interaction, and 5 min for parametric 3D design method, and the proposed parametric 3D design method of the open-pit mine slope road greatly reduces the workload of the design technicians, and accommodates the rapid automatic updating after the design parameters change. The proposed parameterized 3D design method of open-pit mine slope road greatly reduces the workload of design technicians, adapts to the rapid automatic update after the change of design parameters, and greatly improves the rationality of the design results.",
+      "citedby-count": "0",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60404703",
+          "afid": "60404703",
+          "affilname": "Changsha DIMINE Co., Ltd.",
+          "affiliation-city": "Changsha",
+          "affiliation-country": "China"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/134278874",
+          "afid": "134278874",
+          "affilname": "National Mine Safety Administration",
+          "affiliation-city": "Changsha",
+          "affiliation-country": "China"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "1"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/60652153100",
+          "authid": "60652153100",
+          "authname": "Chen X.",
+          "surname": "Chen",
+          "given-name": "Xin",
+          "initials": "X.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60404703"
+            },
+            {
+              "@_fa": "true",
+              "$": "134278874"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "digital mining | mathematical model | open-pit mines | parameterization | slop road design",
+      "source-id": "21101416531",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105040137005"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105040137005?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105040137005&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105040137005&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105040137005",
+      "dc:identifier": "SCOPUS_ID:105040137005",
+      "eid": "2-s2.0-105040137005",
+      "dc:title": "Exploring the Nexus Between Green Mining Policies and Sustainability: Remote Sensing Evidence of Ecological Change in a Typical Open-Pit Mine, Shandong, China",
+      "dc:creator": "Liu X.",
+      "prism:publicationName": "Sustainability Switzerland",
+      "prism:eIssn": "20711050",
+      "prism:volume": "18",
+      "prism:issueIdentifier": "10",
+      "prism:pageRange": null,
+      "prism:coverDate": "2026-05-01",
+      "prism:coverDisplayDate": "May 2026",
+      "prism:doi": "10.3390/su18105018",
+      "dc:description": "The construction of green mines is a core strategy for promoting ecological civilization in China’s mining sector, yet its long-term ecological effects require quantitative assessment. Using a cement-grade limestone mine operated by Linyi Zhonglian Cement Co., Ltd. in Shandong Province as an illustrative case, we employed Landsat 8 OLI/TIRS imagery acquired in 2015, 2020, and 2025 to develop a five-indicator framework for assessing ecological environment quality. The selected indicators comprised greenness (NDVI), wetness, dryness (NDBSI), land surface temperature (LST), and dust concentration (MECDI). These five indicators were subsequently integrated via principal component analysis to generate the Mine Ecological Quality Index (Mine-EQI). Using this index, we applied the Theil–Sen median slope estimator alongside zonal statistics to examine ecological change trajectories across the full study area and three functional zones—the industrial square, haul roads, and active mining area—over the 2015–2025 period. The ecological outcomes attributable to the green mine policy were then quantified. The results show that (1) the mean Mine-EQI of the study area decreased from 0.3713 in 2015 to 0.3460 in 2025, exhibiting a slight overall decline. However, the rate of decline decreased from −6.1% during 2015–2020 to −0.7% during 2020–2025, yielding a Temporal Change Intensity index (TCI) of +88.5%, indicating that the ecological degradation trend has been effectively curbed. (2) Significant spatial heterogeneity was observed. The industrial square showed substantial improvement (Theil–Sen slope = +0.0726), while the haul roads (slope = −0.0705) and mining area (slope = −0.0408) continued to exhibit degradation trends. The improved areas (9.7% of the study area) were spatially coincident with green mine engineering projects. (3) The dust indicator (MECDI) decreased by 24.7% during 2020–2025, and the vegetation index (NDVI) increased by 19.5% over the decade, representing the dominant contributors to ecological improvement. This study reveals that China’s green mine policy has yielded remarkable ecological improvements in relatively stable functional zones such as industrial squares. In contrast, ecological restoration within persistently disturbed areas, including haul roads and mining pits, demands long-term sustained investment and governance. By integrating remote sensing techniques with policy analysis, this research establishes a replicable framework for evaluating progress toward sustainable mining practices. The findings directly support the monitoring of SDG 12 (Responsible Consumption and Production) and SDG 15 (Life on Land), providing a quantitative pathway to balance mineral resource extraction with ecological protection—a core sustainability challenge for resource-dependent regions.",
+      "citedby-count": "0",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60340182",
+          "afid": "60340182",
+          "affilname": "School of Artificial Intelligence",
+          "affiliation-city": "Beijing",
+          "affiliation-country": "China"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/117002423",
+          "afid": "117002423",
+          "affilname": "The 7th Institute of Geology & Mineral Exploration of Shandong Province",
+          "affiliation-city": "Linyi",
+          "affiliation-country": "China"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/126240703",
+          "afid": "126240703",
+          "affilname": "Linyi Natural Resources Development Service Center",
+          "affiliation-city": "Linyi",
+          "affiliation-country": "China"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/134284040",
+          "afid": "134284040",
+          "affilname": "Natural Resources Development Service Center of Lanling County",
+          "affiliation-city": "Linyi",
+          "affiliation-country": "China"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "8"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/59716552900",
+          "authid": "59716552900",
+          "orcid": "0009-0003-0999-7855",
+          "authname": "Liu X.",
+          "surname": "Liu",
+          "given-name": "Xiaocai",
+          "initials": "X.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60340182"
+            },
+            {
+              "@_fa": "true",
+              "$": "117002423"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/60653885400",
+          "authid": "60653885400",
+          "authname": "Liu Y.",
+          "surname": "Liu",
+          "given-name": "Yan",
+          "initials": "Y.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "117002423"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/60653226300",
+          "authid": "60653226300",
+          "authname": "Wang Y.",
+          "surname": "Wang",
+          "given-name": "Yuhu",
+          "initials": "Y.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "134284040"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "4",
+          "author-url": "https://api.elsevier.com/content/author/author_id/60653339600",
+          "authid": "60653339600",
+          "authname": "Zhao J.",
+          "surname": "Zhao",
+          "given-name": "Jun",
+          "initials": "J.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "117002423"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "5",
+          "author-url": "https://api.elsevier.com/content/author/author_id/60653997300",
+          "authid": "60653997300",
+          "authname": "Lian B.",
+          "surname": "Lian",
+          "given-name": "Bo",
+          "initials": "B.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "117002423"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "6",
+          "author-url": "https://api.elsevier.com/content/author/author_id/60653445500",
+          "authid": "60653445500",
+          "authname": "Gao L.",
+          "surname": "Gao",
+          "given-name": "Limei",
+          "initials": "L.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "126240703"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "7",
+          "author-url": "https://api.elsevier.com/content/author/author_id/16064941200",
+          "authid": "16064941200",
+          "orcid": "0000-0001-8850-0912",
+          "authname": "Zheng X.",
+          "surname": "Zheng",
+          "given-name": "Xinqi",
+          "initials": "X.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60340182"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "8",
+          "author-url": "https://api.elsevier.com/content/author/author_id/60653775400",
+          "authid": "60653775400",
+          "authname": "Zhou H.",
+          "surname": "Zhou",
+          "given-name": "Hong",
+          "initials": "H.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "117002423"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "ecological environment quality | green mine policy | Landsat 8 | mine ecological restoration | remote sensing monitoring | sustainability assessment | Theil–Sen trend analysis",
+      "article-number": "5018",
+      "source-id": "21100240100",
+      "fund-no": "QDKY2026-4.2",
+      "openaccess": "1",
+      "openaccessFlag": true,
+      "freetoread": {
+        "value": [
+          {
+            "$": "all"
+          },
+          {
+            "$": "publisherfullgold"
+          }
+        ]
+      },
+      "freetoreadLabel": {
+        "value": [
+          {
+            "$": "All Open Access"
+          },
+          {
+            "$": "Gold"
+          }
+        ]
+      }
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105040133804"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105040133804?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105040133804&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105040133804&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105040133804",
+      "dc:identifier": "SCOPUS_ID:105040133804",
+      "eid": "2-s2.0-105040133804",
+      "dc:title": "Intelligent Extraction of Minimum Burden in Medium-Length Hole Blasting Using Combined Region Growing and DBSCAN",
+      "dc:creator": "Bai Y.",
+      "prism:publicationName": "Sensors",
+      "prism:eIssn": "14248220",
+      "prism:volume": "26",
+      "prism:issueIdentifier": "10",
+      "prism:pageRange": null,
+      "prism:coverDate": "2026-05-01",
+      "prism:coverDisplayDate": "May 2026",
+      "prism:doi": "10.3390/s26103086",
+      "dc:description": "To address the difficulty of directly measuring the minimum burden in medium-length hole blasting and the low accuracy of single-algorithm extraction methods, this study proposes an automatic extraction method for the minimum burden based on combined region growing and DBSCAN. Using UAV-acquired three-dimensional point cloud data from open-pit mines, the elbow method is first applied to determine the clustering number of point cloud zenith distances, enabling initial extraction of the slope surface under roughness constraints. Subsequently, DBSCAN parameters are adaptively determined using the K-nearest neighbor average distance method, and density optimization is performed on the region-growing results to remove noise points such as rock protrusions and blasting residues, thereby refining the reconstruction of the free surface. Based on the reconstructed surface, the minimum burden is calculated using three-dimensional borehole modeling combined with the shortest Euclidean distance algorithm. Field experiments were conducted at the 5015 platform of the Huatailong open-pit mine in Tibet, with additional validation at the Qianshan limestone mine in Liaoyang and the Qidashan iron mine in Anshan. Results show that the proposed method effectively identifies slope free surfaces and accurately extracts the minimum burden. In the Huatailong case, the average absolute error was 0.077 m and the average relative error was 2.68%. The method provides a reliable basis for blasting fragmentation control and blast-hole pattern design in open-pit mines.",
+      "citedby-count": "0",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60118696",
+          "afid": "60118696",
+          "affilname": "College of Resources and Civil Engineering",
+          "affiliation-city": "Shenyang",
+          "affiliation-country": "China"
+        }
+      ],
+      "pubmed-id": "42197897",
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "5"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/59055178400",
+          "authid": "59055178400",
+          "authname": "Bai Y.",
+          "surname": "Bai",
+          "given-name": "Yu",
+          "initials": "Y.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60118696"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/55459013500",
+          "authid": "55459013500",
+          "authname": "Mao Y.",
+          "surname": "Mao",
+          "given-name": "Yachun",
+          "initials": "Y.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60118696"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/60148687600",
+          "authid": "60148687600",
+          "authname": "Zhen S.",
+          "surname": "Zhen",
+          "given-name": "Shuai",
+          "initials": "S.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60118696"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "4",
+          "author-url": "https://api.elsevier.com/content/author/author_id/60653293800",
+          "authid": "60653293800",
+          "authname": "Liu J.",
+          "surname": "Liu",
+          "given-name": "Jing",
+          "initials": "J.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60118696"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "5",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58350165900",
+          "authid": "58350165900",
+          "authname": "Fan S.",
+          "surname": "Fan",
+          "given-name": "Shuo",
+          "initials": "S.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60118696"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "DBSCAN | intelligent extraction of bench slope surfaces | medium-length hole blasting | minimum burden | region-growing algorithm",
+      "article-number": "3086",
+      "source-id": "130124",
+      "fund-acr": "NNSFC",
+      "fund-no": "52074064",
+      "fund-sponsor": "National Natural Science Foundation of China",
+      "openaccess": "1",
+      "openaccessFlag": true,
+      "freetoread": {
+        "value": [
+          {
+            "$": "all"
+          },
+          {
+            "$": "publisherfullgold"
+          },
+          {
+            "$": "repository"
+          },
+          {
+            "$": "repositoryam"
+          }
+        ]
+      },
+      "freetoreadLabel": {
+        "value": [
+          {
+            "$": "All Open Access"
+          },
+          {
+            "$": "Gold"
+          },
+          {
+            "$": "Green"
+          }
+        ]
+      }
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105039871192"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105039871192?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105039871192&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105039871192&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105039871192",
+      "dc:identifier": "SCOPUS_ID:105039871192",
+      "eid": "2-s2.0-105039871192",
+      "dc:title": "Stability control mining method of soft rock slope in composite coal seam open-pit mine: a case study of Baiyinhua No.1 open-pit coal mine",
+      "dc:creator": "Guo W.",
+      "prism:publicationName": "Meitan Kexue Jishu Coal Science and Technology Peking",
+      "prism:issn": "02532336",
+      "prism:volume": "54",
+      "prism:issueIdentifier": "5",
+      "prism:pageRange": "281-297",
+      "prism:coverDate": "2026-05-01",
+      "prism:coverDisplayDate": "May 2026",
+      "prism:doi": "10.12438/cst.2025-1179",
+      "dc:description": "Rational slope stability-controlled mining method can effectively ensure the safety and stability of open-pit mine slopes, facilitate seamless production capacity transition, and enhance the economic benefits of mining areas. The Baiyinhua No. 1 open-pit coal mine is a typical soft rock open-pit mine with developed weak interlayers, featuring four main minable coal seams. Affected by the deformation zone in the northeastern slope of the mining area, 53 million tons of resources were encumbered, making the originally designed vertical mining plan difficult to implement and severely impacting the mine's economic efficiency. Simultaneously, influenced by the advanced internal dumping of the Baiyinhua No. 2 open-pit coal mine and the northern external waste dump, safety hazards existed in the eastern and northeastern slopes of the mining area. To reduce resource waste and ensure the safe, economical, and efficient operation of the Baiyinhua No. 1 open-pit coal mine, a slope stability-controlled mining method termed \"layered backfilling with intensified internal dumping\" was proposed. The study adopted a change in the mining procedure, switching the coal working line to a transverse mining method to mining the deformation zone. Part of the deep coal seam was reserved as a supporting and retaining coal pillar. This enabled advanced internal dumping to backfill and stabilize the eastern and northeastern soft rock slopes. A mathematical model for optimizing the coal pillar was established. The calculated geometric parameters of the reserved pillar are: an upper southern edge length of 250m, an upper western edge length of 1000m, an included angle of 120°, a lower southern edge length of 120m, a lower western edge length of 1200m, an average height of 150m, resulting in a total encumbered coal volume of 13.7 million tons. This approach effectively recovered 39.3 million tons of resources previously encumbered in the northeastern deformation zone. These achievements provided substantial technical support for the safe production of the Baiyinhua No. 1 open-pit coal mine and offered valuable experience for slope stability-controlled mining in open-pit mines with composite coal seams and soft rock conditions.",
+      "citedby-count": "0",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60032758",
+          "afid": "60032758",
+          "affilname": "Liaoning Technical University",
+          "affiliation-city": "Fuxin",
+          "affiliation-country": "China"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/126182886",
+          "afid": "126182886",
+          "affilname": "Ltd.",
+          "affiliation-city": "Yulin",
+          "affiliation-country": "China"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/133658420",
+          "afid": "133658420",
+          "affilname": "Ltd.",
+          "affiliation-city": "Xilingol League",
+          "affiliation-country": "China"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "14"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57226865648",
+          "authid": "57226865648",
+          "authname": "Guo W.",
+          "surname": "Guo",
+          "given-name": "Weiqiang",
+          "initials": "W.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60032758"
+            },
+            {
+              "@_fa": "true",
+              "$": "60032758"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/60646589500",
+          "authid": "60646589500",
+          "authname": "Zhang H.",
+          "surname": "Zhang",
+          "given-name": "Hui",
+          "initials": "H.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60032758"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/60646338000",
+          "authid": "60646338000",
+          "authname": "Tong H.",
+          "surname": "Tong",
+          "given-name": "Hongge",
+          "initials": "H.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60032758"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "4",
+          "author-url": "https://api.elsevier.com/content/author/author_id/59682306600",
+          "authid": "59682306600",
+          "authname": "Tu J.",
+          "surname": "Tu",
+          "given-name": "Junxiong",
+          "initials": "J.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "126182886"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "5",
+          "author-url": "https://api.elsevier.com/content/author/author_id/55706560400",
+          "authid": "55706560400",
+          "authname": "Liu G.",
+          "surname": "Liu",
+          "given-name": "Guangwei",
+          "initials": "G.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60032758"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "6",
+          "author-url": "https://api.elsevier.com/content/author/author_id/55505645100",
+          "authid": "55505645100",
+          "authname": "Zhu H.",
+          "surname": "Zhu",
+          "given-name": "Huizhong",
+          "initials": "H.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60032758"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "7",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57966233900",
+          "authid": "57966233900",
+          "authname": "Liang Z.",
+          "surname": "Liang",
+          "given-name": "Zuchao",
+          "initials": "Z.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60032758"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "8",
+          "author-url": "https://api.elsevier.com/content/author/author_id/59277209100",
+          "authid": "59277209100",
+          "authname": "Yuan J.",
+          "surname": "Yuan",
+          "given-name": "Jie",
+          "initials": "J.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60032758"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "9",
+          "author-url": "https://api.elsevier.com/content/author/author_id/59707106400",
+          "authid": "59707106400",
+          "authname": "Bai Y.",
+          "surname": "Bai",
+          "given-name": "Yu",
+          "initials": "Y.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "133658420"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "10",
+          "author-url": "https://api.elsevier.com/content/author/author_id/59142082200",
+          "authid": "59142082200",
+          "authname": "Yu M.",
+          "surname": "Yu",
+          "given-name": "Mingyu",
+          "initials": "M.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "133658420"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "11",
+          "author-url": "https://api.elsevier.com/content/author/author_id/60646756700",
+          "authid": "60646756700",
+          "authname": "Luo H.",
+          "surname": "Luo",
+          "given-name": "Hao",
+          "initials": "H.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "133658420"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "12",
+          "author-url": "https://api.elsevier.com/content/author/author_id/60646925300",
+          "authid": "60646925300",
+          "authname": "郭伟强 ",
+          "surname": "郭伟强",
+          "given-name": null,
+          "initials": null,
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60032758"
+            },
+            {
+              "@_fa": "true",
+              "$": "60032758"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "13",
+          "author-url": "https://api.elsevier.com/content/author/author_id/60646506200",
+          "authid": "60646506200",
+          "authname": "张辉 ",
+          "surname": "张辉",
+          "given-name": null,
+          "initials": null,
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60032758"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "14",
+          "author-url": "https://api.elsevier.com/content/author/author_id/60646925400",
+          "authid": "60646925400",
+          "authname": "童红歌 ",
+          "surname": "童红歌",
+          "given-name": null,
+          "initials": null,
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60032758"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "control mining | mining procedure | open-pit coal mine | soft rock slope | supporting and retaining coal pillar",
+      "source-id": "21101077109",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105038386469"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105038386469?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105038386469&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105038386469&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105038386469",
+      "dc:identifier": "SCOPUS_ID:105038386469",
+      "eid": "2-s2.0-105038386469",
+      "dc:title": "Early Detection of Spatiotemporal Stabilization in Open-Pit Mine Waste Dumps via Time-Series InSAR Coherence",
+      "dc:creator": "Sun Y.",
+      "prism:publicationName": "Remote Sensing",
+      "prism:eIssn": "20724292",
+      "prism:volume": "18",
+      "prism:issueIdentifier": "9",
+      "prism:pageRange": null,
+      "prism:coverDate": "2026-05-01",
+      "prism:coverDisplayDate": "May 2026",
+      "prism:doi": "10.3390/rs18091310",
+      "dc:description": "Accurately monitoring the surface stabilization of waste dumps in open-pit coal mines is critical for hazard prevention and ecological reclamation. In arid and semi-arid regions, traditional optical remote sensing vegetation indices suffer from a systematic “response lag” in assessing physical stability due to the slow establishment of pioneer vegetation. To overcome this biological limitation, this study proposes a quantitative spatiotemporal monitoring framework based on time-series Interferometric Synthetic Aperture Radar (InSAR) coherence to detect early-stage geotechnical stabilization. Using Sentinel-1 imagery of the Balongtu coal mine, a sliding-window detection algorithm was developed to capture the physical transition of surface electromagnetic scattering mechanisms from active disturbance to stable consolidation. The main findings are as follows: (1) Statistical analysis identified a critical geophysical coherence threshold of 0.15, which effectively and objectively distinguishes active dumping disturbance zones from structurally stable areas. (2) The spatiotemporal evolution dynamics of the completed dump areas from 2017 to 2023 were successfully characterized, revealing that 87.6% of the open-pit areas achieved physical stabilization within three years post-mining, with a spatial distribution highly consistent with the objective operational rule of “mining first, dumping later”. (3) Accuracy assessment using 700 spatiotemporally balanced validation points—derived through strict visual interpretation of high-resolution optical imagery—demonstrated high algorithm reliability, achieving overall accuracies (OA) of 87.57% and 90.43% at half-yearly and annual monitoring intervals, respectively. By decoupling physical surface stabilization from optical greenness, this study provides a timely abiotic precursor indicator, offering scientific, quantitative decision support for precision ecological zoning and accelerated land turnover approval in mining areas.",
+      "citedby-count": "1",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60108755",
+          "afid": "60108755",
+          "affilname": "China University of Mining & Technology, Beijing",
+          "affiliation-city": "Beijing",
+          "affiliation-country": "China"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "4"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/59458580000",
+          "authid": "59458580000",
+          "orcid": "0009-0007-5163-3384",
+          "authname": "Sun Y.",
+          "surname": "Sun",
+          "given-name": "Yueming",
+          "initials": "Y.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60108755"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/59458257400",
+          "authid": "59458257400",
+          "authname": "Tang Y.",
+          "surname": "Tang",
+          "given-name": "Yanjie",
+          "initials": "Y.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60108755"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/59488585000",
+          "authid": "59488585000",
+          "authname": "Li Z.",
+          "surname": "Li",
+          "given-name": "Zhibin",
+          "initials": "Z.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60108755"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "4",
+          "author-url": "https://api.elsevier.com/content/author/author_id/55726102600",
+          "authid": "55726102600",
+          "orcid": "0000-0002-6701-754X",
+          "authname": "Zhao Y.",
+          "surname": "Zhao",
+          "given-name": "Yanling",
+          "initials": "Y.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60108755"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "biological response lag | geotechnical stabilization | interferometric coherence | open-pit mine waste dumps | spatiotemporal monitoring | time-series InSAR",
+      "article-number": "1310",
+      "source-id": "86430",
+      "fund-acr": "NNSF",
+      "fund-no": "52474198",
+      "fund-sponsor": "National Natural Science Foundation of China",
+      "openaccess": "1",
+      "openaccessFlag": true,
+      "freetoread": {
+        "value": [
+          {
+            "$": "all"
+          },
+          {
+            "$": "publisherfullgold"
+          },
+          {
+            "$": "repository"
+          },
+          {
+            "$": "repositoryam"
+          }
+        ]
+      },
+      "freetoreadLabel": {
+        "value": [
+          {
+            "$": "All Open Access"
+          },
+          {
+            "$": "Gold"
+          },
+          {
+            "$": "Green"
+          }
+        ]
+      }
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105037958741"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105037958741?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105037958741&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105037958741&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105037958741",
+      "dc:identifier": "SCOPUS_ID:105037958741",
+      "eid": "2-s2.0-105037958741",
+      "dc:title": "A Novel Approach to Rock Mass Quality Classification in Open-Pit Mining Using Evidence and Error-Eliminating Theory",
+      "dc:creator": "Wu S.",
+      "prism:publicationName": "Journal of the Geological Society of India",
+      "prism:issn": "00167622",
+      "prism:eIssn": "09746889",
+      "prism:volume": "102",
+      "prism:issueIdentifier": "5",
+      "prism:pageRange": "704-711",
+      "prism:coverDate": "2026-05-01",
+      "prism:coverDisplayDate": "May 2026",
+      "prism:doi": "10.17491/jgsi/2026/174405",
+      "dc:description": "The condition of the rock mass significantly influences the design considerations in geotechnical engineering, and its classification is an important basis for selecting geotechnical engineering parameters. For the purpose of classifying rock mass quality reasonably and dependably, an evidence theory and error-eliminating theory-based model for classifying rock mass quality has been put forward. Firstly, evidence theory was employed to integrate the weights of the indices derived from various weighting approaches, and new weights were obtained that fuse information from different weighting methods, which reduced the uncertainty and fuzziness of the index weight. Secondly, according to the idea of model building based on error-eliminating theory, the level I rock mass defined in the rock mass classification was used as the standard for right and wrong discrimination, and the error values of the indexes were computed using an improved error function, which yielded the classification results for the rock mass. Finally, the established model was implemented in quality classification of ten rock masses in the East Gobi open-pit mine, Xinjiang, China. The results demonstrate that evidence theory is capable of merging weights from diverse sources, which eliminates the need to select a particular weighting method. Additionally, error-eliminating theory addresses the shortcomings associated with data normalisation. The model’s classification results are basically consistent with the classifications of the RMR, RQD and Q system classification. The established model improves the objectivity of quality classification of rock mass and allows for broader application.",
+      "citedby-count": "0",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60080101",
+          "afid": "60080101",
+          "affilname": "East China University of Technology",
+          "affiliation-city": "Fuzhou",
+          "affiliation-country": "China"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "4"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/56395601500",
+          "authid": "56395601500",
+          "orcid": "0000-0001-5374-9611",
+          "authname": "Wu S.",
+          "surname": "Wu",
+          "given-name": "Shuliang",
+          "initials": "S.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60080101"
+            },
+            {
+              "@_fa": "true",
+              "$": "60080101"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/59970978900",
+          "authid": "59970978900",
+          "authname": "Zhang T.",
+          "surname": "Zhang",
+          "given-name": "Tao",
+          "initials": "T.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60080101"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/59971415600",
+          "authid": "59971415600",
+          "authname": "Dong C.",
+          "surname": "Dong",
+          "given-name": "Chen",
+          "initials": "C.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60080101"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "4",
+          "author-url": "https://api.elsevier.com/content/author/author_id/59080141700",
+          "authid": "59080141700",
+          "authname": "Huo L.",
+          "surname": "Huo",
+          "given-name": "Liang",
+          "initials": "L.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60080101"
+            },
+            {
+              "@_fa": "true",
+              "$": "60080101"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "Error-Eliminating Theory | Evidence Synthesis | Index Weight | Open-Pit Mine | Rock Mass Quality",
+      "source-id": "26477",
+      "fund-acr": "NNSFC",
+      "fund-no": "20242BAB20147",
+      "fund-sponsor": "Natural Science Foundation of Jiangxi Province",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105030560063"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105030560063?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105030560063&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105030560063&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105030560063",
+      "dc:identifier": "SCOPUS_ID:105030560063",
+      "eid": "2-s2.0-105030560063",
+      "dc:title": "Formation control of unmanned dump truck in narrow curved section of open-pit mine based on LQR and DMPC method",
+      "dc:creator": "Jiusheng B.",
+      "prism:publicationName": "Proceedings of the Institution of Mechanical Engineers Part C Journal of Mechanical Engineering Science",
+      "prism:issn": "09544062",
+      "prism:eIssn": "20412983",
+      "prism:volume": "240",
+      "prism:issueIdentifier": "9",
+      "prism:pageRange": "3196-3219",
+      "prism:coverDate": "2026-05-01",
+      "prism:coverDisplayDate": "May 2026",
+      "prism:doi": "10.1177/09544062261419546",
+      "dc:description": "The core risks of unmanned truck formations in narrow curved sections of open-pit mines mainly include lateral trajectory deviation risk and longitudinal following coordination risk, which can lead to inaccurate heading angle and improper following control. Therefore, a multi-vehicle formation collaborative control method based on LQR and DMPC is proposed. The research objective is to design a collaborative control strategy that is suitable for narrow curved sections of open-pit mines, achieving precise lateral trajectory tracking and safe longitudinal following. Firstly, a multi-vehicle collaborative control scheme is designed by analyzing the transportation conditions. Secondly, the lateral dynamics model and the preview error model are established. Besides, the lateral controller based on feedforward LQR is designed. Then, based on the longitudinal dynamic characteristics of the vehicle, the multi-vehicle formation longitudinal controller based on DMPC is designed. Next, the multi-vehicle formation collaborative controller is established. Finally, the Simulink/TruckSim joint simulation model is constructed, and the unmanned experimental vehicle and open-pit mining experimental platform are designed for conducting simulations and experiments. The simulation results show that collaborative control reduces the lateral error of the following vehicle by 37.20% and the heading angle error by 36.40% when driving downhill with no load. Furthermore, collaborative control reduces the lateral error of the following vehicle by 21.95% and the heading angle error by 39.54% when fully loaded uphill. At the same time, the longitudinal following vehicle maintains a speed error of no more than 0.35 km/h and a spacing error of less than 0.30 m compared to the leading vehicle. The experimental results show that the designed formation controller controls the lateral error of the following vehicle within ±0.035 m and the heading angle error does not exceed 0.15 rad, verifying the effectiveness and adaptability of the studied formation control method.",
+      "citedby-count": "0",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60013983",
+          "afid": "60013983",
+          "affilname": "City University of Hong Kong",
+          "affiliation-city": "Hong Kong",
+          "affiliation-country": "Hong Kong"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60073460",
+          "afid": "60073460",
+          "affilname": "China University of Mining and Technology",
+          "affiliation-city": "Xuzhou",
+          "affiliation-country": "China"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/126272552",
+          "afid": "126272552",
+          "affilname": "Ltd.",
+          "affiliation-city": "Xuzhou",
+          "affiliation-country": "China"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "8"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/18833534300",
+          "authid": "18833534300",
+          "orcid": "0000-0001-5608-1872",
+          "authname": "Jiusheng B.",
+          "surname": "Jiusheng",
+          "given-name": "Bao",
+          "initials": "B.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60073460"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/60407963600",
+          "authid": "60407963600",
+          "orcid": "0000-0003-0478-3770",
+          "authname": "Kekun Z.",
+          "surname": "Kekun",
+          "given-name": "Zhang",
+          "initials": "Z.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60073460"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/60407884000",
+          "authid": "60407884000",
+          "orcid": "0009-0009-6850-1008",
+          "authname": "Deping H.",
+          "surname": "Deping",
+          "given-name": "Hu",
+          "initials": "H.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "126272552"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "4",
+          "author-url": "https://api.elsevier.com/content/author/author_id/51666089300",
+          "authid": "51666089300",
+          "orcid": "0009-0004-0435-214X",
+          "authname": "Shiwei X.",
+          "surname": "Shiwei",
+          "given-name": "Xu",
+          "initials": "X.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60073460"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "5",
+          "author-url": "https://api.elsevier.com/content/author/author_id/56434669900",
+          "authid": "56434669900",
+          "orcid": "0000-0002-7704-0559",
+          "authname": "Yuxiang S.",
+          "surname": "Yuxiang",
+          "given-name": "Sun",
+          "initials": "S.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60013983"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "6",
+          "author-url": "https://api.elsevier.com/content/author/author_id/60259317200",
+          "authid": "60259317200",
+          "orcid": "0000-0002-7407-3419",
+          "authname": "Yan Y.",
+          "surname": "Yan",
+          "given-name": "Yin",
+          "initials": "Y.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60073460"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "7",
+          "author-url": "https://api.elsevier.com/content/author/author_id/60407298200",
+          "authid": "60407298200",
+          "orcid": "0009-0001-7686-2200",
+          "authname": "Chenzhong Z.",
+          "surname": "Chenzhong",
+          "given-name": "Zhu",
+          "initials": "Z.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "126272552"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "8",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57198453824",
+          "authid": "57198453824",
+          "orcid": "0000-0003-4697-6714",
+          "authname": "Maosen W.",
+          "surname": "Maosen",
+          "given-name": "Wang",
+          "initials": "W.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60073460"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "formation control | mining dump truck | narrow curved section | open-pit mine | unmanned driving",
+      "source-id": "20407",
+      "fund-acr": "PAPD",
+      "fund-no": "BZ2025035",
+      "fund-sponsor": "Priority Academic Program Development of Jiangsu Higher Education Institutions",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105030437338"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105030437338?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105030437338&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105030437338&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105030437338",
+      "dc:identifier": "SCOPUS_ID:105030437338",
+      "eid": "2-s2.0-105030437338",
+      "dc:title": "Stability Analysis and Critical Sliding Surface Determination of a Three-Dimensional Rock Slope: A Case Study of an Open-Pit Limestone Mine",
+      "dc:creator": "Zhang W.",
+      "prism:publicationName": "International Journal of Geomechanics",
+      "prism:issn": "15323641",
+      "prism:eIssn": "19435622",
+      "prism:volume": "26",
+      "prism:issueIdentifier": "5",
+      "prism:pageRange": null,
+      "prism:coverDate": "2026-05-01",
+      "prism:coverDisplayDate": "1 May 2026",
+      "prism:doi": "10.1061/IJGNAI.GMENG-11744",
+      "dc:description": "The stability assessment and potential sliding surface determination of open-pit mine slopes are pivotal topics in mine safety. Focusing on an open-pit limestone mine slope in Hebei Province, China, this study proposes a systematic and practical methodology for modeling, stability analysis, and critical sliding surface determination of three-dimensional (3D) slopes in engineering projects. A 3D grid model of mine slope characterized by a complex surface configuration was constructed through a series of meticulous operations using high-quality point cloud data. The safety factor and critical failure state of the slope were determined using a compressive strength reduction strategy based on the generalized Hoek–Brown criterion. The critical sliding surface of the 3D slope was comprehensively analyzed based on the stress, strain, displacement, and velocity data of the grid model at the critical failure state. First, the potential sliding zone of the 3D slope was identified through combined stress and strain analysis. Furthermore, two innovative approaches for determining the critical sliding surface of the 3D mine slope model were proposed. One method is based on the displacement change rate, which involves slicing the slope at appropriate angles and analyzing the displacement field of each slice. The other method employs a clustering algorithm to classify the slope grids into stable and sliding groups, with the interface of the two groups representing the sliding surface. Finally, a thorough error analysis was conducted on the critical sliding surfaces obtained from both methods. The sliding surface identified by K-medoids clustering closely matches the one based on the displacement change rate with an acceptable height error (root mean square error = 2.76 m). The results indicate a significant similarity in the sliding surface positions obtained by both methods, confirming their feasibility and reliability. Compared to traditional methods, such as displacement contour line and shear strain increment thresholds, the two proposed methods can achieve more precise localization of sliding surfaces.",
+      "citedby-count": "1",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60032274",
+          "afid": "60032274",
+          "affilname": "Shijiazhuang Tiedao University",
+          "affiliation-city": "Shijiazhuang",
+          "affiliation-country": "China"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60104677",
+          "afid": "60104677",
+          "affilname": "North China Institute of Aerospace Engineering",
+          "affiliation-city": "LangFang",
+          "affiliation-country": "China"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "4"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57202550935",
+          "authid": "57202550935",
+          "orcid": "0009-0003-5848-276X",
+          "authname": "Zhang W.",
+          "surname": "Zhang",
+          "given-name": "Wenlian",
+          "initials": "W.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60032274"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/16040409100",
+          "authid": "16040409100",
+          "authname": "Sun X.",
+          "surname": "Sun",
+          "given-name": "Xiaoyun",
+          "initials": "X.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60104677"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58834106100",
+          "authid": "58834106100",
+          "authname": "Yuan W.",
+          "surname": "Yuan",
+          "given-name": "Wei",
+          "initials": "W.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60032274"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "4",
+          "author-url": "https://api.elsevier.com/content/author/author_id/24529280300",
+          "authid": "24529280300",
+          "orcid": "0000-0001-7677-2726",
+          "authname": "Zheng H.",
+          "surname": "Zheng",
+          "given-name": "Haiqing",
+          "initials": "H.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60032274"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "Critical sliding surface | Displacement change rate | Grid clustering | Hoek–Brown criterion | Stability analysis | Strength reduction method | Three-dimensional (3D) slope model",
+      "article-number": "05026002",
+      "source-id": "27546",
+      "fund-no": "E2024210019",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105029459785"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105029459785?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105029459785&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105029459785&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "full-text",
+          "@href": "https://api.elsevier.com/content/article/eid/1-s2.0-S2590116826000202"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105029459785",
+      "dc:identifier": "SCOPUS_ID:105029459785",
+      "eid": "2-s2.0-105029459785",
+      "dc:title": "Cooperative scheduling for multi-fleet battery swapping in electrified mines: A simulation-based optimization approach",
+      "dc:creator": "Zou H.",
+      "prism:publicationName": "Etransportation",
+      "prism:eIssn": "25901168",
+      "prism:volume": "28",
+      "prism:pageRange": null,
+      "prism:coverDate": "2026-05-01",
+      "prism:coverDisplayDate": "May 2026",
+      "prism:doi": "10.1016/j.etran.2026.100562",
+      "pii": "S2590116826000202",
+      "dc:description": "Global carbon reduction policies have accelerated the electrification transition in open-pit mine. To meet the continuous operational demands of mining truck fleets, the battery swapping (BS) mode has emerged as an efficient solution. This study investigates cooperative scheduling of multiple fleets in an open-pit mining system equipped with distributed BS stations and centralized charging facilities, including electric mining trucks and battery delivery vehicles. An innovative discrete event simulation (DES)-based optimization framework is proposed, which leverages the controllability of BS demand and battery supply to coordinate supply- and demand-side operations, thereby unlocking potential efficiencies and deriving an optimal scheduling scheme for mining truck operation, BS activities, and battery logistics. A DES model is developed to simulate the interactions among heterogeneous fleets, various resources and facilities, as well as cascading delays induced by queuing in the operational, BS, and battery pickup processes. Furthermore, the DES model is also employed as a repair tool to rapidly correct infeasible solutions. To address the curse of dimensionality inherent in simulation-based optimization, we propose the non-dominated sorting population-based large neighborhood search (NSPLNS) algorithm, which integrates the advantages of population-based multi-objective search and individual-directed enhancement. A series of customized operators tailored to improving the quality of solutions are designed, and parallel simulations to enhance algorithmic efficiency are explicitly incorporated into the algorithm. A real-world case study from Inner Mongolia, China, is used to evaluate the proposed framework and algorithm. Numerical experiments analyze algorithm performance, the impact of customized operators, and conduct sensitivity analyses. Numerical results demonstrate that the proposed model and algorithm enhance the operational economics by maximizing profit, and improve BS efficiency by minimizing queueing and BS time. The source code of this study is publicly available at: https://github.com/HonghuiZou/NSPLNS .",
+      "citedby-count": "1",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60021182",
+          "afid": "60021182",
+          "affilname": "Sun Yat-Sen University",
+          "affiliation-city": "Guangzhou",
+          "affiliation-country": "China"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60019533",
+          "afid": "60019533",
+          "affilname": "Tianjin University",
+          "affiliation-city": "Tianjin",
+          "affiliation-country": "China"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60013789",
+          "afid": "60013789",
+          "affilname": "Beihang University",
+          "affiliation-city": "Beijing",
+          "affiliation-country": "China"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "5"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/59941846500",
+          "authid": "59941846500",
+          "authname": "Zou H.",
+          "surname": "Zou",
+          "given-name": "Honghui",
+          "initials": "H.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60013789"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58953334000",
+          "authid": "58953334000",
+          "authname": "Zhao K.",
+          "surname": "Zhao",
+          "given-name": "Kaiqi",
+          "initials": "K.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60013789"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/56011676700",
+          "authid": "56011676700",
+          "authname": "Liu Y.",
+          "surname": "Liu",
+          "given-name": "Yanli",
+          "initials": "Y.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60019533"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "4",
+          "author-url": "https://api.elsevier.com/content/author/author_id/7404864225",
+          "authid": "7404864225",
+          "authname": "Zhang R.",
+          "surname": "Zhang",
+          "given-name": "Ronghui",
+          "initials": "R.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60021182"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "5",
+          "author-url": "https://api.elsevier.com/content/author/author_id/27171077400",
+          "authid": "27171077400",
+          "orcid": "0000-0002-3841-5792",
+          "authname": "Ma X.",
+          "surname": "Ma",
+          "given-name": "Xiaolei",
+          "initials": "X.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60013789"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "Battery swapping and charging system | Electrified open-pit mining | Heuristic algorithm | Mining fleet management | Simulation-based cooperative optimization",
+      "article-number": "100562",
+      "source-id": "21101021443",
+      "fund-acr": "NKPs",
+      "fund-no": "2023YFB2604600",
+      "fund-sponsor": "National Key Research and Development Program of China",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105029182209"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105029182209?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105029182209&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105029182209&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105029182209",
+      "dc:identifier": "SCOPUS_ID:105029182209",
+      "eid": "2-s2.0-105029182209",
+      "dc:title": "Risk-Tolerant On-Site Dispatch for Autonomous Mining Truck Fleets With Uncertain Failure Signs",
+      "dc:creator": "Sun R.",
+      "prism:publicationName": "IEEE Transactions on Intelligent Transportation Systems",
+      "prism:issn": "15249050",
+      "prism:eIssn": "15580016",
+      "prism:volume": "27",
+      "prism:issueIdentifier": "5",
+      "prism:pageRange": "5454-5466",
+      "prism:coverDate": "2026-05-01",
+      "prism:coverDisplayDate": "1 May 2026",
+      "prism:doi": "10.1109/TITS.2026.3655688",
+      "dc:description": "This study proposes a risk-tolerant dispatch approach for a fleet of autonomous mining trucks in an open-pit mine, leveraging early signs to reduce the impact of potential failures that may or may not occur later. Unlike traditional methods that ignore these early signs or wait until a failure has actually happened, our approach proactively plans for both possible outcomes without relying on probabilities. We propose a Y-shaped solution structure composed of a shared trunk that covers the period before it becomes clear if the failure will occur and two separate branches that address the final scenarios. We formulate the dispatch problem as a mixed-integer linear program and solve it via Gurobi. To facilitate the solution process with Gurobi, an evolutionary algorithm is adopted to explore the solution space for a good initial guess. A high-performance discrete-event simulator is embedded in the cost function evaluation module of the evolutionary algorithm for quickly selecting qualified solution candidates. By integrating both the failure and non-failure scenarios into one unified plan, we avoid extreme risk-taking or undue conservatism, ensuring stable operational performance. Simulations and field trials at a real open-pit mine confirm that this risk-tolerant approach effectively manages failure risks when early signs are available.",
+      "citedby-count": "2",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60013789",
+          "afid": "60013789",
+          "affilname": "Beihang University",
+          "affiliation-city": "Beijing",
+          "affiliation-country": "China"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60021200",
+          "afid": "60021200",
+          "affilname": "East China Normal University",
+          "affiliation-city": "Shanghai",
+          "affiliation-country": "China"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "5"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/60319944200",
+          "authid": "60319944200",
+          "orcid": "0000-0003-1306-1438",
+          "authname": "Sun R.",
+          "surname": "Sun",
+          "given-name": "Rentao",
+          "initials": "R.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60013789"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/23112014400",
+          "authid": "23112014400",
+          "orcid": "0000-0001-8374-7422",
+          "authname": "Yu G.",
+          "surname": "Yu",
+          "given-name": "Guizhen",
+          "initials": "G.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60013789"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/55486261300",
+          "authid": "55486261300",
+          "orcid": "0000-0002-1141-5557",
+          "authname": "Zhou B.",
+          "surname": "Zhou",
+          "given-name": "Bin",
+          "initials": "B.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60013789"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "4",
+          "author-url": "https://api.elsevier.com/content/author/author_id/56965862000",
+          "authid": "56965862000",
+          "orcid": "0000-0002-8076-8989",
+          "authname": "Chen P.",
+          "surname": "Chen",
+          "given-name": "Peng",
+          "initials": "P.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60013789"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "5",
+          "author-url": "https://api.elsevier.com/content/author/author_id/55555556600",
+          "authid": "55555556600",
+          "orcid": "0000-0002-8966-8992",
+          "authname": "Li B.",
+          "surname": "Li",
+          "given-name": "Bai",
+          "initials": "B.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60021200"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "autonomous mining truck | contingency planning | fleet management | mixed-integer linear program | Risk-tolerant dispatch",
+      "source-id": "18378",
+      "fund-acr": "NSFC",
+      "fund-no": "52572468",
+      "fund-sponsor": "National Natural Science Foundation of China",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105028040753"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105028040753?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105028040753&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105028040753&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "full-text",
+          "@href": "https://api.elsevier.com/content/article/eid/1-s2.0-S0305054826000262"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105028040753",
+      "dc:identifier": "SCOPUS_ID:105028040753",
+      "eid": "2-s2.0-105028040753",
+      "dc:title": "New cutting planes for open-pit mine scheduling with multi-period block extraction",
+      "dc:creator": "Ankem V.A.",
+      "prism:publicationName": "Computers and Operations Research",
+      "prism:issn": "03050548",
+      "prism:eIssn": "1873765X",
+      "prism:volume": "189",
+      "prism:pageRange": null,
+      "prism:coverDate": "2026-05-01",
+      "prism:coverDisplayDate": "May 2026",
+      "prism:doi": "10.1016/j.cor.2026.107408",
+      "pii": "S0305054826000262",
+      "dc:description": "The open-pit mine production scheduling problem (OPMPSP) is a fundamental planning problem in mining engineering. Given a discretized ore body representation known as a block model, the OPMPSP consists in computing the schedule of block excavation (extraction time, quantity, and processing decisions) over a planning horizon while adhering to operational constraints and maximizing the net present value of the profit. This problem is typically modeled using a large-sized mixed-integer linear programming (MILP) formulation. In this paper, we focus on an OPMPSP involving blocks of varying sizes that can be extracted over multiple periods. For this problem, we propose a new MILP formulation that includes two types of scheduling variables, one indicating the starting period of the extraction of a block and the other its ending period. Considering these two variable types allows to introduce new versions of known cutting planes as well as new cut families that are defined for blocks requiring multiple periods to be extracted. All cuts are generated a priori and added to the MILP formulation which is then solved by a commercial MILP solver. Through extensive computational experiments on three real-life OPMPSP instances, we demonstrate that the proposed cuts significantly reduce computational times (by up to 70.3%), making a valuable contribution to large-scale mine planning optimization. This methodology is also integrated into a rolling-horizon heuristic, where the cutting planes can be updated at each iteration.",
+      "citedby-count": "0",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60019141",
+          "afid": "60019141",
+          "affilname": "Polytechnique Montréal",
+          "affiliation-city": "Montreal",
+          "affiliation-country": "Canada"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60007104",
+          "afid": "60007104",
+          "affilname": "Groupe d'études et de Recherche en Analyse des Décisions",
+          "affiliation-city": "Montreal",
+          "affiliation-country": "Canada"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60113917",
+          "afid": "60113917",
+          "affilname": "Centre Interuniversitaire de Recherche sur les Réseaux d‘Entreprise, la Logistique et le Transport",
+          "affiliation-city": "Montreal",
+          "affiliation-country": "Canada"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/130633770",
+          "afid": "130633770",
+          "affilname": "Rio Tinto",
+          "affiliation-city": "Montreal",
+          "affiliation-country": "Canada"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "4"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/60129806200",
+          "authid": "60129806200",
+          "orcid": "0000-0002-3957-3784",
+          "authname": "Ankem V.A.",
+          "surname": "Ankem",
+          "given-name": "Venkat Akhil",
+          "initials": "V.A.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60019141"
+            },
+            {
+              "@_fa": "true",
+              "$": "60007104"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/6603948814",
+          "authid": "6603948814",
+          "orcid": "0000-0003-4469-9813",
+          "authname": "Desaulniers G.",
+          "surname": "Desaulniers",
+          "given-name": "Guy",
+          "initials": "G.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60019141"
+            },
+            {
+              "@_fa": "true",
+              "$": "60007104"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/6603926521",
+          "authid": "6603926521",
+          "orcid": "0000-0002-8916-2377",
+          "authname": "Gamache M.",
+          "surname": "Gamache",
+          "given-name": "Michel",
+          "initials": "M.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60019141"
+            },
+            {
+              "@_fa": "true",
+              "$": "60007104"
+            },
+            {
+              "@_fa": "true",
+              "$": "60113917"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "4",
+          "author-url": "https://api.elsevier.com/content/author/author_id/60129459300",
+          "authid": "60129459300",
+          "authname": "Raymond V.",
+          "surname": "Raymond",
+          "given-name": "Vincent",
+          "initials": "V.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "130633770"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "Cutting planes | Mixed-integer linear programming | Open-pit mining | Production scheduling | Rolling-horizon heuristic",
+      "article-number": "107408",
+      "source-id": "24355",
+      "openaccess": "1",
+      "openaccessFlag": true,
+      "freetoread": {
+        "value": [
+          {
+            "$": "all"
+          },
+          {
+            "$": "publisherhybridgold"
+          }
+        ]
+      },
+      "freetoreadLabel": {
+        "value": [
+          {
+            "$": "All Open Access"
+          },
+          {
+            "$": "Hybrid Gold"
+          }
+        ]
+      }
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105019232707"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105019232707?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105019232707&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105019232707&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105019232707",
+      "dc:identifier": "SCOPUS_ID:105019232707",
+      "eid": "2-s2.0-105019232707",
+      "dc:title": "Analysis of the Root Mechanical Reinforcement Effect of Typical Vegetation for Slope Protection in Open-Pit Mine Waste Dumps",
+      "dc:creator": "Zhao Y.",
+      "prism:publicationName": "Land Degradation and Development",
+      "prism:issn": "10853278",
+      "prism:eIssn": "1099145X",
+      "prism:volume": "37",
+      "prism:issueIdentifier": "7",
+      "prism:pageRange": "2570-2582",
+      "prism:coverDate": "2026-04-30",
+      "prism:coverDisplayDate": "30 April 2026",
+      "prism:doi": "10.1002/ldr.70259",
+      "dc:description": "This study investigated the reinforcement effects of root systems from three typical slope protection plants in a waste dump on soil stability. By measuring the tensile mechanical properties of roots and the shear performance of root-soil composites, the Wu–Waldron model (WWM) was employed to calculate the shear strength of soil samples. Model parameters were modified to quantify the additional cohesion provided by each plant species' root system at different soil depths. The results indicate that the root area ratio (RAR) of all three herbaceous species decreased with increasing soil depth. The root length density (RLD) of alfalfa (Medicago sativa) initially increased and subsequently decreased with greater soil depth, whereas the RLD of both cogongrass (Imperata cylindrica) and goosegrass (Eleusine indica) consistently decreased with increasing soil depth. The tensile properties of the three herbaceous species exhibited a power-law relationship with root diameter. Tensile force increased with increasing root diameter, while tensile strength decreased significantly as diameter increased. The root system can modify the mechanical characteristics of the shear behavior of root-soil composites, enhancing the peak shear strength, extending the displacement at peak shear, and improving the overall shear resistance of the soil. At a water content of 10.5%, both plain soil and root-permeated soil reached their maximum values of cohesion and internal friction angle, which decreased with further increase in water content. Soil depth and root presence had negligible effects on the internal friction angle. The shear strength of root-permeated soil was consistently higher than that of plain soil, with the incremental additional cohesion following the order: goosegrass > cogongrass > alfalfa. The correction factor k for the Wu–Waldron model decreased with increasing soil depth. The findings of this study provide a scientific basis for the ecological restoration of slopes in open-pit mine waste dumps, offering guidance for the selection and arrangement of suitable slope protection plants to enhance the stability of waste dump slopes.",
+      "citedby-count": "3",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60032758",
+          "afid": "60032758",
+          "affilname": "Liaoning Technical University",
+          "affiliation-city": "Fuxin",
+          "affiliation-country": "China"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60032274",
+          "afid": "60032274",
+          "affilname": "Shijiazhuang Tiedao University",
+          "affiliation-city": "Shijiazhuang",
+          "affiliation-country": "China"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "3"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/59277152300",
+          "authid": "59277152300",
+          "orcid": "0009-0005-8195-4731",
+          "authname": "Zhao Y.",
+          "surname": "Zhao",
+          "given-name": "Yabo",
+          "initials": "Y.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60032758"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57194043750",
+          "authid": "57194043750",
+          "authname": "Sui S.",
+          "surname": "Sui",
+          "given-name": "Shumei",
+          "initials": "S.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60032758"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/60148182900",
+          "authid": "60148182900",
+          "authname": "Wang X.",
+          "surname": "Wang",
+          "given-name": "Xiangying",
+          "initials": "X.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60032274"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "mechanical effects | root additional cohesion | shear strength | vegetation soil stabilization | waste dump | water content",
+      "source-id": "23239",
+      "fund-no": "LJ242410147078",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105041985052"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105041985052?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105041985052&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105041985052&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105041985052",
+      "dc:identifier": "SCOPUS_ID:105041985052",
+      "eid": "2-s2.0-105041985052",
+      "dc:title": "Inter-row delay time optimization and vibration control in blasting caving of insulating pillar based on the HJC constitutive model",
+      "dc:creator": "FEI H.",
+      "prism:publicationName": "Journal of Mining Science and Technology",
+      "prism:issn": "20962193",
+      "prism:volume": "11",
+      "prism:issueIdentifier": "2",
+      "prism:pageRange": "429-442",
+      "prism:coverDate": "2026-04-01",
+      "prism:coverDisplayDate": "April 2026",
+      "prism:doi": "10.19606/j.cnki.jmst.2026003",
+      "dc:description": "When using the blasting caving method to treat goaf, the collapsing ore and rock can cause shock disturbances to the roof of the lower stope, which may lead to stability risks. This study takes the goaf treatment project of Baiyinnuoer No. 1 ore body for analysis to protect the stability of the lower stope roof. Specifically, HJC constitutive parameters were calibrated using the physical and mechanical parameters of the ore and rock; SHPB tests were conducted to investigate the dynamic constitutive behavior of the ore and rock, and the reliability of the HJC constitutive model was verified through simulation results. Using LS-DYNA and HJC constitutive parameters, the inter-row delay time was simulated and optimized for insulating pillar blasting caving. Results show that under low impact air pressure, the dynamic stress-strain curves of both types of ore exhibit hysteresis effects. At identical impact pressure, the insulating pillar specimen shows limited damage, while the ore in the lower stope roof experiences more severe fragmentation. In the simulation under different inter-row delay times, the 100 ms working condition yields significant stress superposition effect, extensive disintegration of the insulating pillar, through-going cracks at the top, and failed unit of 998 m<sup>3</sup>. The collapsed insulating pillar after blasting forms an effective buffer layer in the goaf, isolating the open-pit mine from the underground space, and preventing the instability of the lower stope roof caused by shock disturbances. The peak particle velocity at the tunnel blasting vibration measurement point was 0. 64 cm/s, much lower than the allowable lower limit of 15. 0 cm/s.",
+      "citedby-count": "0",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60032758",
+          "afid": "60032758",
+          "affilname": "Liaoning Technical University",
+          "affiliation-city": "Fuxin",
+          "affiliation-country": "China"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "6"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/26029060100",
+          "authid": "26029060100",
+          "authname": "FEI H.",
+          "surname": "FEI",
+          "given-name": "Honglu",
+          "initials": "H.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60032758"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/60693945000",
+          "authid": "60693945000",
+          "authname": "DING W.",
+          "surname": "DING",
+          "given-name": "Wen",
+          "initials": "W.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60032758"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/59519475100",
+          "authid": "59519475100",
+          "authname": "JING G.",
+          "surname": "JING",
+          "given-name": "Guangjie",
+          "initials": "G.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60032758"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "4",
+          "author-url": "https://api.elsevier.com/content/author/author_id/60693062600",
+          "authid": "60693062600",
+          "authname": "CHEN L.",
+          "surname": "CHEN",
+          "given-name": "Liangyu",
+          "initials": "L.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60032758"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "5",
+          "author-url": "https://api.elsevier.com/content/author/author_id/60693774700",
+          "authid": "60693774700",
+          "authname": "YANG S.",
+          "surname": "YANG",
+          "given-name": "Shitao",
+          "initials": "S.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60032758"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "6",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58130499800",
+          "authid": "58130499800",
+          "authname": "HU G.",
+          "surname": "HU",
+          "given-name": "Gang",
+          "initials": "G.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60032758"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "blasting caving method | goaf treatment | HJC constitutive model | HJC 本构模型 | inter-row delay time optimization | SHPB tests | SHPB 试验 | 排间延时优化 | 爆破崩落法 | 采空区治理",
+      "source-id": "21101093006",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105039476108"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105039476108?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105039476108&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105039476108&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105039476108",
+      "dc:identifier": "SCOPUS_ID:105039476108",
+      "eid": "2-s2.0-105039476108",
+      "dc:title": "Probabilistic stability and runout dynamics of open-pit mine active dumps: A multi-parameter numerical simulation framework integrating shear strength reduction and risk assessment",
+      "dc:creator": "Chand K.",
+      "prism:publicationName": "Journal of Mountain Science",
+      "prism:issn": "16726316",
+      "prism:eIssn": "19930321",
+      "prism:volume": "23",
+      "prism:issueIdentifier": "4",
+      "prism:pageRange": "1682-1701",
+      "prism:coverDate": "2026-04-01",
+      "prism:coverDisplayDate": "April 2026",
+      "prism:doi": "10.1007/s11629-025-0195-y",
+      "dc:description": "This study conducts a comprehensive stability assessment of active overburden (OB) dump slopes in the Raniganj coalfield, India. Evaluating dump stability, delineating critical zones, estimating failure probability, and predicting OB failure runout remain challenging under geo-mining conditions. To address these challenges, an integrated methodology was employed–combining unmanned aerial vehicle (UAV)-based remote sensing, 3D modelling, and advanced hybrid numerical simulations. This approach enabled the assessment of slope stability, the identification of failure-prone zones, the estimation of failure probability under static and seismic conditions, and the analysis of OB failure runout distances to determine safe working limits. UAV photogrammetry was used to develop a high-resolution 3D topographic model of the dump, accurately capturing its structural and geometric features. Numerical simulation results indicate that dump slopes remain stable under gravitational loading but show a significant reduction in stability when subjected to seismic excitation, with horizontal seismic coefficients ranging from 0.05 to 0.16. Furthermore, the findings highlight that spatial variability in OB material considerably influences dump stability. Runout analysis of OB dump slope suggests the necessity of a minimum safe working distance of 50 m from the dump toe. This integrated framework demonstrates a reliable and efficient procedure for large-scale active dump stability monitoring.",
+      "citedby-count": "0",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60008898",
+          "afid": "60008898",
+          "affilname": "Indian Institute of Technology (Indian School of Mines), Dhanbad",
+          "affiliation-city": "Dhanbad",
+          "affiliation-country": "India"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60118696",
+          "afid": "60118696",
+          "affilname": "College of Resources and Civil Engineering",
+          "affiliation-city": "Shenyang",
+          "affiliation-country": "China"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "4"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57858841700",
+          "authid": "57858841700",
+          "orcid": "0000-0001-9958-9019",
+          "authname": "Chand K.",
+          "surname": "Chand",
+          "given-name": "Kapoor",
+          "initials": "K.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60008898"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/59359010100",
+          "authid": "59359010100",
+          "orcid": "0000-0002-1774-1601",
+          "authname": "Bhat F.",
+          "surname": "Bhat",
+          "given-name": "Farooq",
+          "initials": "F.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60008898"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/35366535400",
+          "authid": "35366535400",
+          "orcid": "0000-0003-0136-6680",
+          "authname": "Koner R.",
+          "surname": "Koner",
+          "given-name": "Radhakanta",
+          "initials": "R.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60008898"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "4",
+          "author-url": "https://api.elsevier.com/content/author/author_id/56405901400",
+          "authid": "56405901400",
+          "orcid": "0000-0001-8971-674X",
+          "authname": "Xu T.",
+          "surname": "Xu",
+          "given-name": "Tao",
+          "initials": "T.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60118696"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "3D modelling | Failure probability | Mine dump | Slope failure runout | UAV photogrammetry",
+      "source-id": "5400152709",
+      "fund-acr": "MHRD",
+      "fund-no": "2916",
+      "fund-sponsor": "Ministry of Education, India",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105038866103"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105038866103?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105038866103&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105038866103&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105038866103",
+      "dc:identifier": "SCOPUS_ID:105038866103",
+      "eid": "2-s2.0-105038866103",
+      "dc:title": "Heavy metal pollution ecological risk assessment and remediation technology in the soil of metal mining areas",
+      "dc:creator": "Shi Y.",
+      "prism:publicationName": "Geology in China",
+      "prism:issn": "10003657",
+      "prism:volume": "53",
+      "prism:issueIdentifier": "2",
+      "prism:pageRange": "551-574",
+      "prism:coverDate": "2026-04-01",
+      "prism:coverDisplayDate": "April 2026",
+      "prism:doi": "10.12029/gc20250928002",
+      "dc:description": "[Objective] The development of the metal mining industry drives rapid economic growth but inevitably leads to the migration and enrichment of hazardous heavy metals in soils, posing severe threats to ecological security and human health in mining areas and adjacent regions. [Methods] This paper, by consulting a large number of relevant literature on mining area soil heavy metal pollution risk assessment, remediation technology and mine pollution prevention and control, systematically summarizes from aspects such as soil total heavy metal content, occurrence state, classification and applicable scope of remediation technology, and pollution prevention and control measures, and reviews the latest research progress on the evaluation method, remediation technology, and pollution source prevention and control of mining area soil heavy metal pollution at home and abroad. [Results] Risk assessment methods for heavy metal contamination in mining area soil primarily include pollution index assessment, human health risk assessment, risk assessment based on heavy metal speciation, and machine learning prediction risk assessment for crop seeds considering the influencing factors of soil heavy metal bioavailability. Commonly used remediation technologies for heavy metal contamination in mining area soil primarily include soil replacement method, immobilization/stabilization technology, phytoremediation technology, and combined remediation technology. The main engineering measures for mine pollution prevention and control include open-pit mine slope treatment and ecological restoration, underground mine filling, and tailings dam stability reinforcement. [Conclusions] Machine learning models that consider factors influencing soil heavy metal bioavailability can better explain the nonlinear relationship between soil heavy metal bioavailability and its influencing factors. Accurate prediction of crop grain heavy metal content provides a scientific basis for scientific evaluation of the degree of biological risk posed by mining activities and for achieving land resources' accurately classified management. Among common remediation technologies, the soil replacement method can significantly alter mining area soil pollution status in the short term, but it is primarily suitable for rapid remediation of small-area contaminated soil. immobilization/stabilization technology is low-cost and easy to scale-up, but it cannot completely remove heavy metals; long-term surveillance of its stability is required. phytoremediation technology causes minimal ecological disturbance and is suitable for the remediation of large-area composite pollution, but it has issues of a long remediation cycle and low efficiency. combined remediation technology simultaneously possesses the advantages of multiple remediation technologies, showing better application potential in addressing composite pollution in mining areas. Various engineering measures for mine pollution prevention and control can control heavy metal migration and diffusion at the source. Selecting appropriate engineering methods in combination with remediation technology helps to achieve scientific prevention and control of mining area environmental ecological risk and sustainable utilization of regional land resources.",
+      "citedby-count": "0",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60130034",
+          "afid": "60130034",
+          "affilname": "School of the Earth Sciences and Resources",
+          "affiliation-city": "Beijing",
+          "affiliation-country": "China"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60170266",
+          "afid": "60170266",
+          "affilname": "School of Science",
+          "affiliation-city": "Beijing",
+          "affiliation-country": "China"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/105716651",
+          "afid": "105716651",
+          "affilname": "Jiangxi Geological Survey and Exploration Institute",
+          "affiliation-city": "Nanchang",
+          "affiliation-country": "China"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/130646955",
+          "afid": "130646955",
+          "affilname": "Jiangxi Nonferrous Geological Mineral Exploration and Development Institute",
+          "affiliation-city": "Nanchang",
+          "affiliation-country": "China"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "5"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/60636954200",
+          "authid": "60636954200",
+          "authname": "Shi Y.",
+          "surname": "Shi",
+          "given-name": "Yanbing",
+          "initials": "Y.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60130034"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57324387800",
+          "authid": "57324387800",
+          "authname": "Liu B.",
+          "surname": "Liu",
+          "given-name": "Bingquan",
+          "initials": "B.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "105716651"
+            },
+            {
+              "@_fa": "true",
+              "$": "130646955"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/60637169500",
+          "authid": "60637169500",
+          "authname": "Li S.",
+          "surname": "Li",
+          "given-name": "Shumei",
+          "initials": "S.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60130034"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "4",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57001595600",
+          "authid": "57001595600",
+          "authname": "Yang Z.",
+          "surname": "Yang",
+          "given-name": "Zhongfang",
+          "initials": "Z.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60130034"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "5",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57216226197",
+          "authid": "57216226197",
+          "authname": "Yu T.",
+          "surname": "Yu",
+          "given-name": "Tao",
+          "initials": "T.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60170266"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "contamination assessment | environmetal geological survey engineering | heavy metal contamination | measures for prevention and control | mining area | soil remediation technology",
+      "source-id": "144693",
+      "fund-no": "2024−16",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105038721185"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105038721185?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105038721185&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105038721185&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105038721185",
+      "dc:identifier": "SCOPUS_ID:105038721185",
+      "eid": "2-s2.0-105038721185",
+      "dc:title": "Application of an improved pyramid scene parsing network for loose rock rock recognition on open-pit mine slopes",
+      "dc:creator": "Guo L.",
+      "prism:publicationName": "Journal of Safety and Environment",
+      "prism:issn": "10096094",
+      "prism:volume": "26",
+      "prism:issueIdentifier": "4",
+      "prism:pageRange": "1307-1315",
+      "prism:coverDate": "2026-04-01",
+      "prism:coverDisplayDate": "April 2026",
+      "prism:doi": "10.13637/j.issn.1009-6094.2025.0476",
+      "dc:description": "Loose rocks scattered on open-pit slopes pose significant safety hazards to mining operations by threatening equipment, workers, and production stability. To address the limitations of traditional laser scanning and manual inspection methods, this study develops an enhanced Pyramid Scene Parsing Network (PSPNet) combined with stereo vision-based 3D reconstruction for precise loose rock detection and quantitative feature extraction. The original PSPNet is improved by integrating dynamic convolution, depthwise separable convolution, and Squeeze-and-Excitation (SE) attention mechanisms. These modifications significantly enhance the network's ability to capture multi-scale features and details of small objects while maintaining computational efficiency. A custom dataset comprising 1 205 annotated images of loose rocks was created, encompassing diverse lighting conditions, rock sizes, and complex backgrounds. Extensive data augmentation techniques—such as rotation, scaling, brightness adjustment, Gaussian noise addition, and flipping—were applied to improve the model's robustness. Model training was conducted using PyTorch over 500 iterations on an NVIDIA RTX 4060 GPU, ensuring convergence and stable performance. The segmentation results indicate that the improved PSPNet achieved a mean Intersection over Union (mIoU) of 81. 94%, representing a 5. 49 percentage-point improvement over the baseline PSPNet. Meanwhile, the mean Dice coefficient and pixel accuracy increased to 90. 90% and 89. 98%, respectively, confirming its superior capability to delineate small and irregular rock boundaries. Comparative experiments with U Net, Segformer, DeepLabV3, Mask2Former, and ConvNeXt further validated the enhanced model's overall advantages across multiple evaluation metrics. For geometric analysis, ZED stereo cameras were employed to acquire depth maps, which were fused with segmentation masks to generate 3D point clouds. A convex hull algorithm, combined with dynamic regional optimization and depth-weight correction, enabled accurate reconstruction of rock morphology. The estimation accuracies for rock volume, mass, shape factor, and initial height reached 87. 65%, 85. 55%, 82. 38%, and 96. 15%, respectively. In conclusion, the proposed framework effectively integrates deep learning-based segmentation with stereo vision-driven 3D reconstruction, providing a reliable tool for loose rock detection, quantitative hazard assessment, and safety management in open-pit mining environments. This study not only enhances the precision of rock feature extraction but also contributes to advancing intelligent monitoring and risk control technologies in complex mining operations.",
+      "citedby-count": "0",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60031454",
+          "afid": "60031454",
+          "affilname": "Xi'an University of Architecture and Technology",
+          "affiliation-city": "Xi'an",
+          "affiliation-country": "China"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "5"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57222961452",
+          "authid": "57222961452",
+          "authname": "Guo L.",
+          "surname": "Guo",
+          "given-name": "Li",
+          "initials": "L.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60031454"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58600492300",
+          "authid": "58600492300",
+          "authname": "Wu H.",
+          "surname": "Wu",
+          "given-name": "Hao",
+          "initials": "H.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60031454"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/35291976500",
+          "authid": "35291976500",
+          "authname": "Gu Q.",
+          "surname": "Gu",
+          "given-name": "Qinghua",
+          "initials": "Q.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60031454"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "4",
+          "author-url": "https://api.elsevier.com/content/author/author_id/60226258900",
+          "authid": "60226258900",
+          "authname": "Huang Z.",
+          "surname": "Huang",
+          "given-name": "Zhiqi",
+          "initials": "Z.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60031454"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "5",
+          "author-url": "https://api.elsevier.com/content/author/author_id/60226219600",
+          "authid": "60226219600",
+          "authname": "Li Z.",
+          "surname": "Li",
+          "given-name": "Zhaokang",
+          "initials": "Z.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60031454"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "deep learning | loose rock detection | pyramid scene parsing network | safety engineering | three-dimensional reconstruction",
+      "source-id": "21101284609",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105037448574"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105037448574?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105037448574&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105037448574&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105037448574",
+      "dc:identifier": "SCOPUS_ID:105037448574",
+      "eid": "2-s2.0-105037448574",
+      "dc:title": "Research on temporal and spatial evolution law of landslides driven by remote sensing images:a case study of LiDAR images of outer dump site of South Hesigewulan Open-pit Coal Mine",
+      "dc:creator": "Wang D.",
+      "prism:publicationName": "Meitan Xuebao Journal of the China Coal Society",
+      "prism:issn": "02539993",
+      "prism:volume": "51",
+      "prism:issueIdentifier": "4",
+      "prism:pageRange": "2641-2653",
+      "prism:coverDate": "2026-04-01",
+      "prism:coverDisplayDate": "April 2026",
+      "prism:doi": "10.13225/j.cnki.jccs.2024.1578",
+      "dc:description": "Addressing the scientific issue that the deformation and landslide evolution process of high and large slopes in open-pit mines is difficult to quantitatively describe, image data has the advantage of multidimensional information. Based on the spatiotemporal UAV remote sensing image data for slope monitoring, this study takes the slope spatial data contained in image pixels as the starting point to drive the identification of landslide disaster evolution information in remote sensing images. Coupling OpenCV technology, the method of analyzing and processing by comparing the image similarity in each period is adopted, proposing the concept of Cumulative Difference Degree-Time (CDD-T), and constructing a landslide evolution description method based on cumulative difference degree. This eliminates the influence of truncation errors in the spatial data processing of the existing slope monitoring system. Taking the deformation area of the external dump of the Hezigouluan open-pit mine in Ximeng area, China, as a typical engineering case, the spatial-temporal evolution law of the deformation area is quantitatively described. The research results show that by using the n<sup>n</sup>×n<sup>n</sup> fine uniform segmentation method, drawing the CDD-T evolution curve of the segmented area, it is analyzed that the slope top range of +985~+970 m and the southwest side +970~+940 m horizontal range are relatively dangerous areas. Combining the CDD-T heat map of each time point in the fine zoning, the spatial-temporal evolution law of the fine area landslide is quantitatively characterized, and the potential landslide mechanical mechanism is determined to be a push-type. During the landslide evolution process, the CDD-T curve of the spatiotemporal UAV remote sensing image and the change law of the corresponding area's cumulative displacement-time curve are basically consistent, and the maximum relative difference of the slope angles of the two curves is 0.046, with an average relative difference of 0.006. 83% of the GNSS monitoring points have a CDD-T slope greater than the displacement curve slope of the monitoring points, thus proving that the image cumulative difference degree can identify landslide risks earlier than the cumulative displacement. The developed remote sensing image cumulative difference degree calculation method can quantitatively describe the landslide evolution law, opening up new avenues for research on engineering geological disaster prevention and control.",
+      "citedby-count": "0",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60032758",
+          "afid": "60032758",
+          "affilname": "Liaoning Technical University",
+          "affiliation-city": "Fuxin",
+          "affiliation-country": "China"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/126993321",
+          "afid": "126993321",
+          "affilname": "Ltd.",
+          "affiliation-city": "Ordos",
+          "affiliation-country": "China"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/134182655",
+          "afid": "134182655",
+          "affilname": "Ltd",
+          "affiliation-city": "Xiamen",
+          "affiliation-country": "China"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "8"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/59730537200",
+          "authid": "59730537200",
+          "authname": "Wang D.",
+          "surname": "Wang",
+          "given-name": "Dong",
+          "initials": "D.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60032758"
+            },
+            {
+              "@_fa": "true",
+              "$": "60032758"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57785496500",
+          "authid": "57785496500",
+          "authname": "Yin L.",
+          "surname": "Yin",
+          "given-name": "Li",
+          "initials": "L.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60032758"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/59677674500",
+          "authid": "59677674500",
+          "authname": "Wu Y.",
+          "surname": "Wu",
+          "given-name": "Yiming",
+          "initials": "Y.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60032758"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "4",
+          "author-url": "https://api.elsevier.com/content/author/author_id/59660204400",
+          "authid": "59660204400",
+          "authname": "Meng X.",
+          "surname": "Meng",
+          "given-name": "Xiangyu",
+          "initials": "X.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60032758"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "5",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57785496400",
+          "authid": "57785496400",
+          "authname": "Xing X.",
+          "surname": "Xing",
+          "given-name": "Xiaoyu",
+          "initials": "X.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60032758"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "6",
+          "author-url": "https://api.elsevier.com/content/author/author_id/59258071100",
+          "authid": "59258071100",
+          "authname": "Wu G.",
+          "surname": "Wu",
+          "given-name": "Guoliang",
+          "initials": "G.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "134182655"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "7",
+          "author-url": "https://api.elsevier.com/content/author/author_id/60610423700",
+          "authid": "60610423700",
+          "authname": "Zhu Z.",
+          "surname": "Zhu",
+          "given-name": "Zhenyu",
+          "initials": "Z.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "134182655"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "8",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57422704500",
+          "authid": "57422704500",
+          "authname": "Zhang P.",
+          "surname": "Zhang",
+          "given-name": "Pengjiao",
+          "initials": "P.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "126993321"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "cumulative variability | evolutionary patterns | landslide | OpenCV | remote sensing | truncation error",
+      "source-id": "16430",
+      "fund-acr": "NNSFC",
+      "fund-no": "52374124",
+      "fund-sponsor": "National Natural Science Foundation of China",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105037077711"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105037077711?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105037077711&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105037077711&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105037077711",
+      "dc:identifier": "SCOPUS_ID:105037077711",
+      "eid": "2-s2.0-105037077711",
+      "dc:title": "Research on Multi-Objective Optimal Energy Management Strategy for Hybrid Electric Mining Trucks Based on Driving Condition Recognition",
+      "dc:creator": "Zhang Z.",
+      "prism:publicationName": "Applied Sciences Switzerland",
+      "prism:eIssn": "20763417",
+      "prism:volume": "16",
+      "prism:issueIdentifier": "8",
+      "prism:pageRange": null,
+      "prism:coverDate": "2026-04-01",
+      "prism:coverDisplayDate": "April 2026",
+      "prism:doi": "10.3390/app16083714",
+      "dc:description": "Hybrid electric mining trucks operating in open-pit environments encounter highly variable gradients and payload conditions that standard energy management strategies fail to address adequately. Existing approaches are predominantly calibrated for full-load scenarios and neglect the accelerated battery degradation resulting from sustained high-power cycling, undermining long-term operational viability. This study presents a multi-objective energy management framework that couples real-time driving condition recognition with dynamic programming (DP) optimization for a 130-tonne hybrid mining truck. Field data collected from an open-pit mine in Heilongjiang Province were used to construct six physically representative driving conditions via principal component analysis and K-means clustering. A Bidirectional Gated Recurrent Unit (Bi-GRU) network (2 layers, 128 hidden units per direction) was trained on a route-based temporal split, attaining 95.8% classification accuracy across all six conditions. Condition-specific powertrain modes were subsequently defined, and a DP formulation with a weighted-sum cost function was solved to jointly minimize diesel consumption and battery capacity fade—quantified through a semi-empirical effective electric quantity metric. A marginal rate of substitution (MRS) analysis was conducted to identify the optimal trade-off between fuel economy and battery life preservation. In the DP cost function, the weight coefficient μ (ranging from 0 to 1) governs the relative emphasis placed on battery degradation minimization versus fuel consumption minimization: μ = 0 corresponds to pure fuel minimization, whereas μ = 1 corresponds to pure battery degradation minimization. The MRS analysis identified μ = 0.1 as the knee point of the Pareto trade-off: relative to pure fuel minimization (μ = 0), this setting reduces effective electric quantity by 6.1% while increasing fuel consumption by only 1.4% (MRS = 4.36). Against a rule-based baseline, the proposed strategy improves fuel economy by 12.3% and extends battery service life by 15.7%. Co-simulation results were validated against onboard fuel-flow measurements; absolute simulated and measured fuel consumption values are reported route-by-route, with deviations within 4.5%. A three-layer BP neural network (3 inputs, two hidden layers of 20 and 10 neurons, 1 output) trained on the DP solution reproduces near-optimal performance—with fuel consumption and effective electric quantity increases below 1.0% and 1.1%, respectively—while reducing computation time by over 96% (from approximately 52,860 s to 1836 s for the 1800 s driving cycle), demonstrating practical feasibility for real-time deployment.",
+      "citedby-count": "1",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60073587",
+          "afid": "60073587",
+          "affilname": "Henan University of Science and Technology",
+          "affiliation-city": "Luoyang",
+          "affiliation-country": "China"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60371103",
+          "afid": "60371103",
+          "affilname": "Zhengzhou Yutong Bus Co., Ltd.",
+          "affiliation-city": "Zhengzhou",
+          "affiliation-country": "China"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "4"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/60217826000",
+          "authid": "60217826000",
+          "authname": "Zhang Z.",
+          "surname": "Zhang",
+          "given-name": "Zhijun",
+          "initials": "Z.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60073587"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/55793690500",
+          "authid": "55793690500",
+          "authname": "Xi J.",
+          "surname": "Xi",
+          "given-name": "Jianguo",
+          "initials": "J.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60073587"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/60603530300",
+          "authid": "60603530300",
+          "authname": "Ren K.",
+          "surname": "Ren",
+          "given-name": "Kefeng",
+          "initials": "K.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60073587"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "4",
+          "author-url": "https://api.elsevier.com/content/author/author_id/60536681000",
+          "authid": "60536681000",
+          "authname": "Xu X.",
+          "surname": "Xu",
+          "given-name": "Xianya",
+          "initials": "X.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60371103"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "battery degradation | Bi-GRU neural network | driving condition clustering | dynamic programming | effective electric quantity",
+      "article-number": "3714",
+      "source-id": "21100829268",
+      "fund-no": "241100240300",
+      "fund-sponsor": "Science and Technology Program of Hunan Province",
+      "openaccess": "1",
+      "openaccessFlag": true,
+      "freetoread": {
+        "value": [
+          {
+            "$": "all"
+          },
+          {
+            "$": "publisherfullgold"
+          },
+          {
+            "$": "repository"
+          },
+          {
+            "$": "repositoryam"
+          }
+        ]
+      },
+      "freetoreadLabel": {
+        "value": [
+          {
+            "$": "All Open Access"
+          },
+          {
+            "$": "Gold"
+          },
+          {
+            "$": "Green"
+          }
+        ]
+      }
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105036862855"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105036862855?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105036862855&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105036862855&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105036862855",
+      "dc:identifier": "SCOPUS_ID:105036862855",
+      "eid": "2-s2.0-105036862855",
+      "dc:title": "Visual Impact Assessment Index on Landscape Based on Grey Clustering and Shannon Entropy: A Case Study on a Mining Project",
+      "dc:creator": "Delgado A.",
+      "prism:publicationName": "Land",
+      "prism:eIssn": "2073445X",
+      "prism:volume": "15",
+      "prism:issueIdentifier": "4",
+      "prism:pageRange": null,
+      "prism:coverDate": "2026-04-01",
+      "prism:coverDisplayDate": "April 2026",
+      "prism:doi": "10.3390/land15040670",
+      "dc:description": "Landscape visual impact assessment is a key component of environmental impact studies, as it enables the identification and management of negative effects on the territory. Traditional methods are often subjective, rely on expert judgement, and consider limited criteria. To address these limitations, this study proposes a quantitative index based on the integration of grey clustering and Shannon entropy complemented with Geographic Information System (GIS). This approach allows classification under uncertainty and the objective weighting of indicators related to physiographic, biotic, and anthropic factors of visual quality, fragility, and accessibility. The methodology was applied to an open-pit mine in Peru. Results show that terrain modifications, presence of artificial elements, and the alteration of water bodies significantly affect visual quality, while the absence of restoration measures, observer exposure, and vegetation type increase fragility and reduce landscape resilience. The proposed method provides a robust, transparent, and reproducible framework that overcomes subjectivity in traditional approaches, supporting more reliable environmental planning and management.",
+      "citedby-count": "0",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60071255",
+          "afid": "60071255",
+          "affilname": "Universidad Nacional de Ingenieria, Lima",
+          "affiliation-city": "Lima",
+          "affiliation-country": "Peru"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60110778",
+          "afid": "60110778",
+          "affilname": "Universidad de Ciencias y Humanidades",
+          "affiliation-city": "Los Olivos",
+          "affiliation-country": "Peru"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "4"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57016156500",
+          "authid": "57016156500",
+          "orcid": "0000-0003-0470-8535",
+          "authname": "Delgado A.",
+          "surname": "Delgado",
+          "given-name": "Alexi",
+          "initials": "A.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60071255"
+            },
+            {
+              "@_fa": "true",
+              "$": "60110778"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58914910900",
+          "authid": "58914910900",
+          "orcid": "0000-0002-2471-3043",
+          "authname": "Minhuey A.",
+          "surname": "Minhuey",
+          "given-name": "Anabella",
+          "initials": "A.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60071255"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57763611800",
+          "authid": "57763611800",
+          "orcid": "0009-0006-3289-8451",
+          "authname": "Lino C.",
+          "surname": "Lino",
+          "given-name": "Carla",
+          "initials": "C.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60071255"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "4",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57764774600",
+          "authid": "57764774600",
+          "orcid": "0009-0002-7635-4369",
+          "authname": "Culqui J.",
+          "surname": "Culqui",
+          "given-name": "Jhonattan",
+          "initials": "J.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60071255"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "grey clustering | landscape | landscape visual impact index | mining project | Shannon entropy",
+      "article-number": "670",
+      "source-id": "21100811521",
+      "openaccess": "1",
+      "openaccessFlag": true,
+      "freetoread": {
+        "value": [
+          {
+            "$": "all"
+          },
+          {
+            "$": "publisherfullgold"
+          },
+          {
+            "$": "repository"
+          },
+          {
+            "$": "repositoryam"
+          }
+        ]
+      },
+      "freetoreadLabel": {
+        "value": [
+          {
+            "$": "All Open Access"
+          },
+          {
+            "$": "Gold"
+          },
+          {
+            "$": "Green"
+          }
+        ]
+      }
+    }
+  ],
+  "completa": false,
+  "cuota_restante": "19726",
+  "fecha_guardado_utc": "2026-10-19T16:13:39.619000+00:00"
+}

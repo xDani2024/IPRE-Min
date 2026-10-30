@@ -1,0 +1,3927 @@
+{
+  "numero": 9,
+  "frase": "open pit mine",
+  "consulta": "(TITLE-ABS({open pit mine})) AND (DOCTYPE(ar) OR DOCTYPE(re))",
+  "cursor_solicitado": "rO0ABXNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHABNLNZdAALODUxNzQxNzMyNDY=",
+  "cursor_siguiente": "rO0ABXNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHABNLFldAALODUxNDc1NzI3OTM=",
+  "reportado": 1320,
+  "descargados_acumulados": 225,
+  "entry": [
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85171192680"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85171192680?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85171192680&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85171192680&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "full-text",
+          "@href": "https://api.elsevier.com/content/article/eid/1-s2.0-S0301420723008735"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85171192680",
+      "dc:identifier": "SCOPUS_ID:85171192680",
+      "eid": "2-s2.0-85171192680",
+      "dc:title": "Embedding extreme events to mine project planning: Implications on cost, time, and disclosure standards",
+      "dc:creator": "Senses S.",
+      "prism:publicationName": "Resources Policy",
+      "prism:issn": "03014207",
+      "prism:volume": "86",
+      "prism:pageRange": null,
+      "prism:coverDate": "2023-10-01",
+      "prism:coverDisplayDate": "October 2023",
+      "prism:doi": "10.1016/j.resourpol.2023.104162",
+      "pii": "S0301420723008735",
+      "dc:description": "Extreme events, characterized as infrequent and catastrophic occurrences, can present significant challenges in various industries. These events can be associated with earthquakes, landslides, hurricanes, floods, rainfalls, and wildfires. The mining industry is also highly vulnerable to extreme events because it threats operation sustainability, employees' safety, and environmental compliance. This paper presents a comprehensive analysis of earthquakes in a mining area and evaluates their impacts on a mining operation through a case study based on a mine construction project. To this end, Extreme Value Theory (EVT) using both the Block Maxima (BM) and Peaks Over Threshold (POT) methods was employed to analyze the historical earthquake data and estimate the return levels corresponding to the planned mine project completion time. Furthermore, a Discrete Event Simulation (DES) model was developed to perform a comprehensive risk assessment, allowing for a detailed examination of the potential consequences that a specified magnitude earthquake could have on the project's cost and duration. 1000 earthquake scenarios for the period covering the project life were generated for a thorough risk assessment. The case study focused on a hypothetical open pit mine construction project located in the province of British Columbia, Canada. Historical earthquake data specific to the selected region were analyzed, and the potential consequences of earthquakes on the project were evaluated. According to the results, the return level of 4.7 M<inf>L</inf> earthquake was obtained corresponding to the return period defined as the planned project completion time. In the event of an earthquake with this specified magnitude, simulation results revealed that there is a 95% probability that the project will experience a delay of at least 6.28% of the project completion time, ultimately leading to project costs exceeding the normal project cost by a minimum of 4.85%. The study highlights the importance of considering extreme natural events, such as earthquakes, in mining project planning and risk mitigation. The results provide valuable insights into the likelihood and potential consequences of earthquakes, contributing to better risk assessment, strategic planning, informed decision-making, and improved project management practices in the mining industry.",
+      "citedby-count": "4",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60002494",
+          "afid": "60002494",
+          "affilname": "Université McGill",
+          "affiliation-city": "Montreal",
+          "affiliation-country": "Canada"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "2"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57222000587",
+          "authid": "57222000587",
+          "orcid": "0000-0001-9145-585X",
+          "authname": "Senses S.",
+          "surname": "Senses",
+          "given-name": "Sena",
+          "initials": "S.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60002494"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/6506350539",
+          "authid": "6506350539",
+          "orcid": "0000-0003-1370-7446",
+          "authname": "Kumral M.",
+          "surname": "Kumral",
+          "given-name": "Mustafa",
+          "initials": "M.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60002494"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "Block maxima | Discrete event simulation | Extreme value theory | Mining disclosure standards | Peaks-over-threshold | Project planning",
+      "article-number": "104162",
+      "source-id": "110031",
+      "fund-acr": "NSERC",
+      "fund-no": "RGPIN-2019-04763",
+      "fund-sponsor": "Natural Sciences and Engineering Research Council of Canada",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105035210539"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105035210539?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105035210539&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105035210539&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105035210539",
+      "dc:identifier": "SCOPUS_ID:105035210539",
+      "eid": "2-s2.0-105035210539",
+      "dc:title": "Effect of Soil Cover Thickness on Soil Water Infiltration and Plant Water Utilization in the Dump of Open Pit Coal Mine",
+      "dc:creator": "Zhang Y.",
+      "prism:publicationName": "Journal of Soil and Water Conservation China",
+      "prism:issn": "10092242",
+      "prism:volume": "37",
+      "prism:issueIdentifier": "5",
+      "prism:pageRange": "345-362",
+      "prism:coverDate": "2023-10-01",
+      "prism:coverDisplayDate": "October 2023",
+      "prism:doi": "10.13870/j.cnki.stbcxb.2023.05.042",
+      "dc:description": "Topsoil restoration is a key step in the ecological restoration of the dump of open pit coal mine, and the thickness of soil cover directly affects plant growth and reclamation cost. In order to study the influence of the thickness of soil cover on soil water infiltration and plant water utilization in open pit mine dump. indoor soil column simulation test was adopted in this study. Five cover thicknesses of 10 cm, 20 cm, 30 cm, 40 cm and 50 cm were set up, and vertical infiltration test and indoor pot test (corn) were conducted. respectively. Combined with hydrogen and oxygen isotope stable tracing technology, soil infiltration and water use characteristics of corn with different cover thicknesses were studied to screen the optimal soil cover thickness for the waste dump in the region. The results showed that; the initial infiltration rate with a soil cover thickness of 10~30 cm (27.05~33.02 mm/min) was significantly higher than that with a soil cover thickness of 40~50 cm (21.59~24.89 mm/min) (p < 0.05) The stable infiltration rate increased with the increasing of soil cover thickness. When the soil cover thickness was greater than 40 cm, the infiltration rate remained at about 3 mm/min with the increasing of the soil thickness. The infiltration process of gangue layer was greatly affected by the soil cover thickness. When the thickness of overlying soil was greater than 40 cm, the infiltration rate of gangue layer was basically stable at the infiltration rate of soil layer interface. The intersection between water hydrogen and oxygen isotope values of maize xylem and soil water hydrogen and oxygen isotope values with different soil thickness was mainly concentrated in the overlying soil layer. Therefore, the growth water of maize mainly came from the overlying soil layer. The greater the soil cover thickness was, the more intersection points of the two lines and the larger the distribution range of the intersection points, the larger the soil water utilization range of maize was. When the soil cover thickness was more than 40 cm, the water utilization range of maize was basically maintained within the range of 10~ 40 cm. Considering the maximum rainfall intensity of 190 mm/h in Fuxin city, the optimal reclamation thickness of open-pit dump in this area should be higher than 40 cm.",
+      "citedby-count": "1",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60032758",
+          "afid": "60032758",
+          "affilname": "Liaoning Technical University",
+          "affiliation-city": "Fuxin",
+          "affiliation-country": "China"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "2"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/60567769900",
+          "authid": "60567769900",
+          "authname": "Zhang Y.",
+          "surname": "Zhang",
+          "given-name": "Ya'nan",
+          "initials": "Y.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60032758"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/55791879100",
+          "authid": "55791879100",
+          "authname": "Lü G.",
+          "surname": "Lü",
+          "given-name": "Gang",
+          "initials": "G.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60032758"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "cover soil thickness: water isotope trace | soil column test | soil water infiltration",
+      "source-id": "21101434698",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85175015441"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85175015441?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85175015441&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85175015441&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85175015441",
+      "dc:identifier": "SCOPUS_ID:85175015441",
+      "eid": "2-s2.0-85175015441",
+      "dc:title": "Effects of Vegetation Types on the Potential and Pathway of Microbial Carbon Sequestration in Reclaimed Soil of Open-pit Mine.",
+      "dc:creator": "Yun-Nan Y.O.U.",
+      "prism:publicationName": "Journal of Ecology and Rural Environment",
+      "prism:issn": "16734831",
+      "prism:volume": "39",
+      "prism:issueIdentifier": "9",
+      "prism:pageRange": "1170-1179",
+      "prism:coverDate": "2023-09-25",
+      "prism:coverDisplayDate": "25 September 2023",
+      "prism:doi": "10.19741/j.issn.1673-4831.2022.0927",
+      "dc:description": "Since the semi-arid open-pit mining activities have seriously damaged the local ecological environment, it is urgent to clarify the interaction mechanisms among vegetation, soil and microorganism. Meanwhile, it is of great significance for large-scale ecological restoration of damaged mines to explore the potential and pathway of microbial carbon sequestration, and stimulate the self-recovery ability of degraded ecosystems, as well as achieve the nature-based solutions. For this purpose, 18 topsoil samples of three typical replanting types, namely Firms tabulaeformis (YS), Firms tabulaeformis + poplar (DYS), and Firms tabulaeformis + poplar + alfalfa (DYX), were collected from die waste dump of Heidaigou open pit mine in Zhungeer Banner, Inner Mongolia. High-throughput sequencing and real-time fluorescence quantitative PCR were used to determine the abundance of soil microbial carbon fixation genes and the community structural variation. The results indicate that; (1) 'Hie vegetation types presented a significant impact on the physiochemical characteristics of the reclaimed soil (F<(). 05 ). 'Hie more complex vegetation types, the more significant the decrease in soil pH and water content, as well as the more significant increases in organic carbon, total nitrogen, and nitrate nitrogen. (2) 'Hie vegetation types had no significant effect on the bacterial community structure in the reclaimed soil, but showed a significant effect on the abundance of carbon sequestration genes, i. e. the abundances of rbcL, korA, acsA% acsE, pccA, smt, and frda were significantly increased with the increasing of varieties in the vegetation types (F<(). 05). (3) Soil water content, organic carbon, total nitrogen, and nitrate nitrogen are the dominant factors for bacterial community structure changes, while different vegetation combinations altered the environmental factors to manipulate carbon sequestration potential and pathways. This study eould help to understand the impact of diversified vegetation combination on the carbon cycle of reclaimed soil in mining areas, and provide the theoretical basis for ecological restoration, carbon sequestration and sink enhancement in the Loess Plateau.",
+      "citedby-count": "10",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60010851",
+          "afid": "60010851",
+          "affilname": "Hohai University",
+          "affiliation-city": "Nanjing",
+          "affiliation-country": "China"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60073460",
+          "afid": "60073460",
+          "affilname": "China University of Mining and Technology",
+          "affiliation-city": "Xuzhou",
+          "affiliation-country": "China"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "6"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58668321700",
+          "authid": "58668321700",
+          "authname": "Yun-Nan Y.O.U.",
+          "surname": "Yun-Nan",
+          "given-name": "Y. O.U.",
+          "initials": "Y.O.U.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60073460"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58666717400",
+          "authid": "58666717400",
+          "authname": "Yan-Feng Z.H.U.",
+          "surname": "Yan-Feng",
+          "given-name": "Z. H.U.",
+          "initials": "Z.H.U.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60073460"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58667872000",
+          "authid": "58667872000",
+          "authname": "Fu C.H.E.N.",
+          "surname": "Fu",
+          "given-name": "C. H.E.N.",
+          "initials": "C.H.E.N.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60073460"
+            },
+            {
+              "@_fa": "true",
+              "$": "60010851"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "4",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58667872100",
+          "authid": "58667872100",
+          "authname": "Yan-Jun C.H.E.N.G.",
+          "surname": "Yan-Jun",
+          "given-name": "C. H.E.N.G.",
+          "initials": "C.H.E.N.G.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60073460"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "5",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58668321800",
+          "authid": "58668321800",
+          "authname": "Wen-Xue D.O.N.G.",
+          "surname": "Wen-Xue",
+          "given-name": "D. O.N.G.",
+          "initials": "D.O.N.G.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60073460"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "6",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58667414100",
+          "authid": "58667414100",
+          "authname": "Jing M.A.",
+          "surname": "Jing",
+          "given-name": "M. A.",
+          "initials": "M.A.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60010851"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "carbon fixing bacteria | carbon sequestration gene | ecological restoration | mine reclamation | vegetation type",
+      "source-id": "5000157110",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85180478854"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85180478854?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85180478854&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85180478854&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85180478854",
+      "dc:identifier": "SCOPUS_ID:85180478854",
+      "eid": "2-s2.0-85180478854",
+      "dc:title": "Effect of Stemming on Mixed Emulsion in Open-pit Blasting",
+      "dc:creator": "Zou C.M.",
+      "prism:publicationName": "Blasting",
+      "prism:issn": "1001487X",
+      "prism:volume": "40",
+      "prism:issueIdentifier": "3",
+      "prism:pageRange": "101-107",
+      "prism:coverDate": "2023-09-01",
+      "prism:coverDisplayDate": "September 2023",
+      "prism:doi": "10.3963/j.issn.1001-487X.2023.03.014",
+      "dc:description": "With the widespread use of mixed emulsion explosives,there exists the situation that the stemming materials penetrate into emulsion explosives in open-pit blasting construction,which indirectly changes the stemming length and reduces the blasting effect. To study the influence of stemming on mixed emulsion explosives,stemming simulation tests,numerical simulation tests and field blasting tests were carried out successively. Firstly,four kinds of PVC pipes with common hole diameters were used to simulate the blasting holes,and the rock chips were used to simulate the stemming materials. They were used to systematically study the infiltration of rock chips into the explosives on top of the explosive column during the filling process of stemming. Secondly,the numerical simulations of single-hole blasting were conducted with the LS-DYNA software,and the influence of the stemming mixture at the top of the explosive column on the explosive power was investigated by observing the changes of stress values at the measurement points. Finally,the stemming filling process was improved by setting physical isolation during the charging process based on the bench blasting in the Jinduicheng open pit mine. And the effect of stemming on the mixed emulsion was analyzed by comparing the blasting effect before and after the physical isolation. The results show that the phenomenon of explosive overflow appears on the top of the explosive column in the explosive charging process. Then,the rock chips gradually infiltrate into the emulsion explosive due to the influence of gravity after the charging is completed,and the infiltration length of rock chips increases with the increase of hole diameter in the same time. The numerical simulation results show that the stresses of different monitoring points have decreased,and the infiltration of stemming reduces the explosive power of the top explosive. The fragmentation analysis of the top rock after improvements shows that the main fragment size distribution of rocks decreases from 20 ~ 40 cm to 0 ~ 20 cm,and the proportion of rocks over 60 cm decrease from 6. 13% to 1. 81%,compared with the conventional charging process. In summary,the stemming has a significant impact on the power of emulsion explosive and blasting effect,and it can effectively improve the blasting effect by taking physical isolation to separate the stemming and explosive.",
+      "citedby-count": "1",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60022414",
+          "afid": "60022414",
+          "affilname": "Wuhan University of Technology",
+          "affiliation-city": "Wuhan",
+          "affiliation-country": "China"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/100602648",
+          "afid": "100602648",
+          "affilname": "Jinduicheng Molybdenum Co., Ltd.",
+          "affiliation-city": "Weinan",
+          "affiliation-country": "China"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "5"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/7102543755",
+          "authid": "7102543755",
+          "authname": "Zou C.M.",
+          "surname": "Zou",
+          "given-name": "Cheng Ming",
+          "initials": "C.M.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60022414"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/56518709100",
+          "authid": "56518709100",
+          "authname": "Huang G.",
+          "surname": "Huang",
+          "given-name": "Gang",
+          "initials": "G.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60022414"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/56011623900",
+          "authid": "56011623900",
+          "authname": "Zhang J.H.",
+          "surname": "Zhang",
+          "given-name": "Jian Hua",
+          "initials": "J.H.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60022414"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "4",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58776476700",
+          "authid": "58776476700",
+          "authname": "Wang Q.",
+          "surname": "Wang",
+          "given-name": "Qiang",
+          "initials": "Q.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "100602648"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "5",
+          "author-url": "https://api.elsevier.com/content/author/author_id/56420505700",
+          "authid": "56420505700",
+          "authname": "Li N.",
+          "surname": "Li",
+          "given-name": "Ning",
+          "initials": "N.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60022414"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "blasting fragmentation | field test | mixed emulsion explosive | numerical simulation | stemming length",
+      "source-id": "21101167527",
+      "fund-acr": "NSFC",
+      "fund-no": "42271296",
+      "fund-sponsor": "National Natural Science Foundation of China",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85172280805"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85172280805?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85172280805&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85172280805&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85172280805",
+      "dc:identifier": "SCOPUS_ID:85172280805",
+      "eid": "2-s2.0-85172280805",
+      "dc:title": "A Comparative Study of Gender Disparities in Geoscience and Mining in Mongolia",
+      "dc:creator": "Ochir G.",
+      "prism:publicationName": "Geosciences Switzerland",
+      "prism:eIssn": "20763263",
+      "prism:volume": "13",
+      "prism:issueIdentifier": "9",
+      "prism:pageRange": null,
+      "prism:coverDate": "2023-09-01",
+      "prism:coverDisplayDate": "September 2023",
+      "prism:doi": "10.3390/geosciences13090262",
+      "dc:description": "Mongolian women enjoy equal rights and actively participate in various sectors of the national economy, including the mineral and mining industry. The Mongolian University of Science and Technology (MUST), the largest university in Mongolia, plays a crucial role in preparing engineers for the Mongolian industry. Within MUST, the School of Geology and Mining Engineering (SGME) stands out as one of the largest schools, boasting a dedicated team of 136 staff members. Impressively, 92 of these staff members are female, constituting a remarkable 67.65% of the total staff. The directorial board of SGME, consisting of 12 members, also demonstrates a noteworthy level of gender diversity, with 5 of its members being female. This represents a proportion of 41.67% and highlights the inclusion of women in decision-making positions. Additionally, it is worth noting that the Geology and Hydrogeology department, one of the five departments within the School, is led by a capable female leader. However, despite the encouraging representation of women among staff and in leadership roles, there is a noticeable disparity in the enrollment and graduation rates of students at SGME. Currently, these rates stand at only about 20–24 percent, indicating the need for further efforts to encourage and support female students in pursuing geology and mining engineering studies. Outside of academia, within the mining industry, the Oyu Tolgoi large-scale mine, which in 2022 employed 20,328 workers, faces a significant gender imbalance. Out of this workforce, only 3577 are women, comprising a mere 18% of the total employees, while the remaining 82% are men. Among the 2997 total employees in the open pit mine, 737 women are employed in various roles, including 66 engineers and technicians, with the remaining 671 in other positions. In the newly opened underground mine, the total number of women employees stands at 2840, including 248 engineers and technicians and 2592 in other roles. Furthermore, on the Board of Directors, there are only 2 women out of a total of 23 managers, and a mere 104 women hold positions as senior staff and superintendents. A comparative analysis between Asia and other global regions reveals that female employment in Mongolia’s mining sector in general, at 18%, closely aligns with Oceania’s rates (17%) and surpasses those of both the broader Asian region (13%) and South America (11%). Addressing these statistical imbalances is crucial to improving gender equality in geoscience and mining. Historically, the mining industry has been male-dominated, but women-led professional geoscience and mining organizations in Mongolia play a vital role in promoting the recruitment, retention, and advancement of women in these industries. Recognizing the significance of gender diversity, these organizations strive to increase the representation of women in leadership positions. Women in leadership bring unique perspectives that contribute to well-rounded decision-making processes within organizations. By acknowledging the importance of gender dynamics, promoting inclusivity, and supporting the professional growth of Mongolian women in geoscience and mining, the overall development and sustainability of these sectors in the country will be greatly enhanced.",
+      "citedby-count": "2",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60023760",
+          "afid": "60023760",
+          "affilname": "Auckland University of Technology",
+          "affiliation-city": "Auckland",
+          "affiliation-country": "New Zealand"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60072645",
+          "afid": "60072645",
+          "affilname": "Mongolian University of Science and Technology",
+          "affiliation-city": "Ulaanbaatar",
+          "affiliation-country": "Mongolia"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/113384785",
+          "afid": "113384785",
+          "affilname": "Oyu Tolgoi LLC",
+          "affiliation-city": "Ulaanbaatar",
+          "affiliation-country": "Mongolia"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "4"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/15622763900",
+          "authid": "15622763900",
+          "authname": "Ochir G.",
+          "surname": "Ochir",
+          "given-name": "Gerel",
+          "initials": "G.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60072645"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/56376235100",
+          "authid": "56376235100",
+          "authname": "Baatar M.",
+          "surname": "Baatar",
+          "given-name": "Munkhtsengel",
+          "initials": "M.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60072645"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58617794800",
+          "authid": "58617794800",
+          "authname": "Sanjaa M.",
+          "surname": "Sanjaa",
+          "given-name": "Myagmarsuren",
+          "initials": "M.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "113384785"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "4",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58617794900",
+          "authid": "58617794900",
+          "authname": "Williams H.",
+          "surname": "Williams",
+          "given-name": "Helen",
+          "initials": "H.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60023760"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "Africa | Asia | Australasia | gender equity | mining and quarrying | Mongolian women | MUST education | Oceania | Oyu Tolgoi mine | South America | women in geoscience",
+      "article-number": "262",
+      "source-id": "21100284944",
+      "fund-acr": "AUT",
+      "fund-sponsor": "Auckland University of Technology, New Zealand",
+      "openaccess": "1",
+      "openaccessFlag": true,
+      "freetoread": {
+        "value": [
+          {
+            "$": "all"
+          },
+          {
+            "$": "publisherfullgold"
+          },
+          {
+            "$": "repository"
+          },
+          {
+            "$": "repositoryam"
+          }
+        ]
+      },
+      "freetoreadLabel": {
+        "value": [
+          {
+            "$": "All Open Access"
+          },
+          {
+            "$": "Gold"
+          },
+          {
+            "$": "Green"
+          }
+        ]
+      }
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85170371493"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85170371493?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85170371493&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85170371493&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85170371493",
+      "dc:identifier": "SCOPUS_ID:85170371493",
+      "eid": "2-s2.0-85170371493",
+      "dc:title": "Retrieving Surface Deformation of Mining Areas Using ZY-3 Stereo Imagery and DSMs",
+      "dc:creator": "Hu W.",
+      "prism:publicationName": "Remote Sensing",
+      "prism:eIssn": "20724292",
+      "prism:volume": "15",
+      "prism:issueIdentifier": "17",
+      "prism:pageRange": null,
+      "prism:coverDate": "2023-09-01",
+      "prism:coverDisplayDate": "September 2023",
+      "prism:doi": "10.3390/rs15174315",
+      "dc:description": "Measuring surface deformation is crucial for a better understanding of spatial-temporal evolution and the mechanism of mining-induced deformation, thus effectively assessing the mining-related geohazards, such as landslides or damage to surface infrastructures. This study proposes a method of retrieving surface deformation by combining multi-temporal digital surface models (DSMs) with image homonymous features using China’s ZY-3 satellite stereo imagery. DSM is generated from three-line-array images of ZY-3 satellite using a rational function model (RFM) as the imaging geometric model. Then, elevation changes in deformation are extracted using the difference of DSMs acquired at different times, while planar displacements of deformation are calculated using image homonymous features extracted from multi-temporal digital orthographic maps (DOMs). Scale invariant feature transform (SIFT) points and line band descriptor (LBD) lines are selected as two kinds of salient features for image homonymous features generation. Cross profiles are also extracted for deformation in typical regions. Four sets of stereo imagery acquired in 2012 to 2022 are used for deformation extraction and analysis in the Fushun coalfield of China, where surface deformation is quite distinct and coupled with rising and descending elevation together. The results show that 21.60% of the surface in the study area was deformed from 2012 to 2017, while a decline from 2017 to 2022 meant that 17.19% of the surface was deformed with a 95% confidence interval. Moreover, the ratio of descending area was reduced to 6.44% between 2017 and 2022, which is lower than the ratios in other years. The slip deformation area in the west open pit mine is about 1.22 km<sup>2</sup> and the displacement on the south slope is large, reaching an average of 26.89 m and sliding from south to north to the bottom of the pit between 2012 and 2017, but elevations are increased by an average of about 16.35 m, involving an area of about 0.86 km<sup>2</sup> between 2017 and 2022 due to the restoration of the open pit. The results demonstrate that more quantitative features and specific surface deformation can be retrieved in mining areas by combining image features with DSMs derived from ZY-3 satellite stereo imagery.",
+      "citedby-count": "7",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60073460",
+          "afid": "60073460",
+          "affilname": "China University of Mining and Technology",
+          "affiliation-city": "Xuzhou",
+          "affiliation-country": "China"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "5"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/55318913200",
+          "authid": "55318913200",
+          "orcid": "0000-0003-0018-3436",
+          "authname": "Hu W.",
+          "surname": "Hu",
+          "given-name": "Wenmin",
+          "initials": "W.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60073460"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/55484695900",
+          "authid": "55484695900",
+          "orcid": "0000-0003-0845-2645",
+          "authname": "Xu J.",
+          "surname": "Xu",
+          "given-name": "Jiaxing",
+          "initials": "J.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60073460"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/59157730800",
+          "authid": "59157730800",
+          "orcid": "0000-0002-0401-8924",
+          "authname": "Zhang W.",
+          "surname": "Zhang",
+          "given-name": "Wei",
+          "initials": "W.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60073460"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "4",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58569202800",
+          "authid": "58569202800",
+          "authname": "Zhao J.",
+          "surname": "Zhao",
+          "given-name": "Jiatao",
+          "initials": "J.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60073460"
+            },
+            {
+              "@_fa": "true",
+              "$": "60073460"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "5",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58568987000",
+          "authid": "58568987000",
+          "authname": "Zhou H.",
+          "surname": "Zhou",
+          "given-name": "Haokun",
+          "initials": "H.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60073460"
+            },
+            {
+              "@_fa": "true",
+              "$": "60073460"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "digital surface model (DSM) | homonymous features | mining areas | surface deformation | ZY-3 stereo imagery",
+      "article-number": "4315",
+      "source-id": "86430",
+      "fund-acr": "NSFC",
+      "fund-no": "52374141",
+      "fund-sponsor": "National Natural Science Foundation of China",
+      "openaccess": "1",
+      "openaccessFlag": true,
+      "freetoread": {
+        "value": [
+          {
+            "$": "all"
+          },
+          {
+            "$": "publisherfullgold"
+          },
+          {
+            "$": "repository"
+          },
+          {
+            "$": "repositoryam"
+          }
+        ]
+      },
+      "freetoreadLabel": {
+        "value": [
+          {
+            "$": "All Open Access"
+          },
+          {
+            "$": "Gold"
+          },
+          {
+            "$": "Green"
+          }
+        ]
+      }
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85178217343"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85178217343?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85178217343&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85178217343&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85178217343",
+      "dc:identifier": "SCOPUS_ID:85178217343",
+      "eid": "2-s2.0-85178217343",
+      "dc:title": "Seismic and Hydrogeological Monitoring of Large-Scale Blast Parameters: A Case-Study of Lebedinsky Open Pit Mine, Kursk Magnetic Anomaly",
+      "dc:creator": "Gorbunova E.M.",
+      "prism:publicationName": "Journal of Mining Science",
+      "prism:issn": "10627391",
+      "prism:eIssn": "15738736",
+      "prism:volume": "59",
+      "prism:issueIdentifier": "4",
+      "prism:pageRange": "548-559",
+      "prism:coverDate": "2023-08-01",
+      "prism:coverDisplayDate": "August 2023",
+      "prism:doi": "10.1134/S1062739123040038",
+      "dc:description": "Abstract: The authors analyze seismic and hydrogeological data recorded after a large-scale blast on 22 September 2021 in Lebedinsky open pit mine, Kursk Magnetic Anomaly. In blasting of four groups of blocks, the maximum values of PPV are determined at five observation points arranged at the epicentral distances of 1.7–4.9 km, as well as the amplitudes of the hydrogeological response are assessed in two observation wells in overlying rock mass. The main parameters of the blast-induced seismic effect are used to calculate maximum PPV from the earlier found relation. The divergence of the recorded and theoretical data is observed in the near field of the blast in the first group of blocks, at the reduced distances of 106–198 m/kg<sup>1/3</sup>. In blasting in sedimentary rocks at the reduced distances of 405–512 m/kg<sup>1/3</sup>, the difference in the wavefield is observed. The research findings can be used in drilling-and-blasting control.",
+      "citedby-count": "2",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60023066",
+          "afid": "60023066",
+          "affilname": "Institute for Dynamics of Geospheres, Russian Academy of Sciences",
+          "affiliation-city": "Moscow",
+          "affiliation-country": "Russian Federation"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "3"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/7005440752",
+          "authid": "7005440752",
+          "authname": "Gorbunova E.M.",
+          "surname": "Gorbunova",
+          "given-name": "E. M.",
+          "initials": "E.M.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60023066"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57327594100",
+          "authid": "57327594100",
+          "authname": "Petukhova S.M.",
+          "surname": "Petukhova",
+          "given-name": "S. M.",
+          "initials": "S.M.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60023066"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58731523300",
+          "authid": "58731523300",
+          "authname": "Ivanov A.G.",
+          "surname": "Ivanov",
+          "given-name": "A. G.",
+          "initials": "A.G.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60023066"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "hydrogeological response | iron ore deposit | large-scale blast | Lebedinsky open pit mine | PPV",
+      "source-id": "31452",
+      "fund-acr": "RSF",
+      "fund-no": "23-27-00469",
+      "fund-sponsor": "Russian Science Foundation",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85174162943"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85174162943?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85174162943&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85174162943&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85174162943",
+      "dc:identifier": "SCOPUS_ID:85174162943",
+      "eid": "2-s2.0-85174162943",
+      "dc:title": "Research on dynamic programming of stripping material in open-pit mine with irregular boundary",
+      "dc:creator": "Cao B.",
+      "prism:publicationName": "Liaoning Gongcheng Jishu Daxue Xuebao Ziran Kexue Ban Journal of Liaoning Technical University Natural Science Edition",
+      "prism:issn": "10080562",
+      "prism:volume": "42",
+      "prism:issueIdentifier": "4",
+      "prism:pageRange": "427-437",
+      "prism:coverDate": "2023-08-01",
+      "prism:coverDisplayDate": "August 2023",
+      "prism:doi": "10.11956/j.issn.1008-0562.2023.04.007",
+      "dc:description": "In order to solve the problem of overall optimization of the discharge planning of an open-pit mine over a period of several years, a dynamic planning method was used to carry out a study of the discharge planning, and the relationship between the discharge amount and the comprehensive haul distance in the process of transition from complete contraction to complete expansion is summarized. Taking the minimum net present value of the cumulative transportation cost as the optimal value function, the inner row and elevation, minimum tracking distance between stope and dump, and the minimum safety distance between inner dump and row elevation area are constrained, the state transition equations of inner row and heightening distance and the dynamic programming model of the comprehensive distance of the strip are established. Taking an open-pit mine as an example, the sequential recursive method was used to solve the problem and determine the amount of internal and elevated discharge and abandonment, transportation distance, and tracking distance at the bottom of the pit for the next 7 years. The research results show that the dynamic planning method reduces the net present value of transportation cost by 39.55 million yuan compared with the existing equal tracking distance discharge scheme, and the optimization effect is better. The conclusions of the study have important theoretical significance and engineering application value for the open pit mine earth discharge project.",
+      "citedby-count": "0",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60032758",
+          "afid": "60032758",
+          "affilname": "Liaoning Technical University",
+          "affiliation-city": "Fuxin",
+          "affiliation-country": "China"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "6"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/54392548900",
+          "authid": "54392548900",
+          "authname": "Cao B.",
+          "surname": "Cao",
+          "given-name": "Bo",
+          "initials": "B.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60032758"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58647793100",
+          "authid": "58647793100",
+          "authname": "Lyu M.",
+          "surname": "Lyu",
+          "given-name": "Mingjia",
+          "initials": "M.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60032758"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57201042141",
+          "authid": "57201042141",
+          "authname": "Wang S.",
+          "surname": "Wang",
+          "given-name": "Shuai",
+          "initials": "S.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60032758"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "4",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57158008100",
+          "authid": "57158008100",
+          "authname": "Zhao B.",
+          "surname": "Zhao",
+          "given-name": "Bo",
+          "initials": "B.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60032758"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "5",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57888746600",
+          "authid": "57888746600",
+          "authname": "Li Q.",
+          "surname": "Li",
+          "given-name": "Qingyi",
+          "initials": "Q.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60032758"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "6",
+          "author-url": "https://api.elsevier.com/content/author/author_id/55706560400",
+          "authid": "55706560400",
+          "authname": "Liu G.",
+          "surname": "Liu",
+          "given-name": "Guangwei",
+          "initials": "G.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60032758"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "dynamic programming | net present value | open-pit mine | sequential recursion method | soil discharge planning",
+      "source-id": "61482",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85169040466"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85169040466?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85169040466&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85169040466&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "full-text",
+          "@href": "https://api.elsevier.com/content/article/eid/1-s2.0-S0301420723007754"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85169040466",
+      "dc:identifier": "SCOPUS_ID:85169040466",
+      "eid": "2-s2.0-85169040466",
+      "dc:title": "A review of open pit mine and waste dump schedule planning",
+      "dc:creator": "Das R.",
+      "prism:publicationName": "Resources Policy",
+      "prism:issn": "03014207",
+      "prism:volume": "85",
+      "prism:pageRange": null,
+      "prism:coverDate": "2023-08-01",
+      "prism:coverDisplayDate": "August 2023",
+      "prism:doi": "10.1016/j.resourpol.2023.104064",
+      "pii": "S0301420723007754",
+      "dc:description": "In seeking to maximise NPV (Net Present Value), open pit mining schedules depend on optimal sequencing of pit progress along with ore-waste segregation. Although extensively researched using mathematical models and linear programs dating from the late 1960s, this subject continues to evolve with the emergence of innovative approaches and new computational techniques. Whereas past models have focused almost exclusively on ore extraction as the principal cost-intensity factor, waste movement and handling are less well understood. However, as it comprises some of the largest operational and reclamation expenses, waste management has been progressively incorporated into the mine scheduling process, with dedicated studies commencing from 2007. This paper focuses on the impact of waste movement and placement on pit schedule optimisation, with strategic plans that honour both cost and environmental constraints.",
+      "citedby-count": "25",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60031226",
+          "afid": "60031226",
+          "affilname": "Curtin University",
+          "affiliation-city": "Perth",
+          "affiliation-country": "Australia"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60001416",
+          "afid": "60001416",
+          "affilname": "WA School of Mines: Minerals, Energy and Chemical Engineering",
+          "affiliation-city": "Kalgoorlie",
+          "affiliation-country": "Australia"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "3"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57218491880",
+          "authid": "57218491880",
+          "orcid": "0000-0002-5764-6318",
+          "authname": "Das R.",
+          "surname": "Das",
+          "given-name": "Ranajit",
+          "initials": "R.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60001416"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/23026469100",
+          "authid": "23026469100",
+          "orcid": "0000-0002-9564-3484",
+          "authname": "Topal E.",
+          "surname": "Topal",
+          "given-name": "Erkan",
+          "initials": "E.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60001416"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/35192161600",
+          "authid": "35192161600",
+          "orcid": "0000-0002-5122-5686",
+          "authname": "Mardaneh E.",
+          "surname": "Mardaneh",
+          "given-name": "Elham",
+          "initials": "E.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60031226"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "Open pit production schedule optimisation” | “Mathematical models for open pit waste management” | “Mixed integer programming” | “Waste dump scheduling”",
+      "article-number": "104064",
+      "source-id": "110031",
+      "openaccess": "1",
+      "openaccessFlag": true,
+      "freetoread": {
+        "value": [
+          {
+            "$": "all"
+          },
+          {
+            "$": "publisherhybridgold"
+          }
+        ]
+      },
+      "freetoreadLabel": {
+        "value": [
+          {
+            "$": "All Open Access"
+          },
+          {
+            "$": "Hybrid Gold"
+          }
+        ]
+      }
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85158113087"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85158113087?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85158113087&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85158113087&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85158113087",
+      "dc:identifier": "SCOPUS_ID:85158113087",
+      "eid": "2-s2.0-85158113087",
+      "dc:title": "Calibration of a Three-dimensional Slope Stability Evaluation in Brazilian iron Open Pit Mine",
+      "dc:creator": "Torres V.F.N.",
+      "prism:publicationName": "Geotechnical and Geological Engineering",
+      "prism:issn": "09603182",
+      "prism:eIssn": "15731529",
+      "prism:volume": "41",
+      "prism:issueIdentifier": "6",
+      "prism:pageRange": "3829-3846",
+      "prism:coverDate": "2023-08-01",
+      "prism:coverDisplayDate": "August 2023",
+      "prism:doi": "10.1007/s10706-023-02469-7",
+      "dc:description": "It has historically been frequent among geotechnical practitioners, that the stability analysis of the slopes of an open pit is performed using a two dimensional section representing the highest and steepest walls within a certain geological setting. However, the literature shows that to predict rupture events in an open pit, a three-dimensional analysis would better represent the actual conditions, as the spatial distribution of the lithology and the structural features play an important role when defining the stability of the slopes. This paper presents the case study of an open pit located in Brazil, which experienced instabilities between the years 2001 and 2019. An evaluation of the behavior of the open pit was performed by calibrating the strength parameters to represent the best documented rupture events. The three-dimensional model was made using the finite difference method. The results show that there is a good correlation between the results of the model and the reports of past instabilities. Finally, recommendations are presented for the inter-ramp angles for each lithology based on the calibrated stability analysis performed. This work seeks to contribute to the knowledge in evaluation techniques for the three-dimensional behavior of open pits.",
+      "citedby-count": "4",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60194531",
+          "afid": "60194531",
+          "affilname": "Instituto Tecnológico Vale",
+          "affiliation-city": "Ouro Preto",
+          "affiliation-country": "Brazil"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60070550",
+          "afid": "60070550",
+          "affilname": "Vale S.A.",
+          "affiliation-city": "Rio de Janeiro",
+          "affiliation-country": "Brazil"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "5"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57195558043",
+          "authid": "57195558043",
+          "authname": "Torres V.F.N.",
+          "surname": "Torres",
+          "given-name": "Vidal Félix Navarro",
+          "initials": "V.F.N.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60194531"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57781467500",
+          "authid": "57781467500",
+          "authname": "Dockendorff R.",
+          "surname": "Dockendorff",
+          "given-name": "Rodrigo",
+          "initials": "R."
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57226537496",
+          "authid": "57226537496",
+          "orcid": "0000-0003-1523-1138",
+          "authname": "Sotomayor J.M.G.",
+          "surname": "Sotomayor",
+          "given-name": "Juan Manuel Girao",
+          "initials": "J.M.G.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60194531"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "4",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57781995100",
+          "authid": "57781995100",
+          "authname": "Castro C.",
+          "surname": "Castro",
+          "given-name": "Cristian",
+          "initials": "C."
+        },
+        {
+          "@_fa": "true",
+          "@seq": "5",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58236494300",
+          "authid": "58236494300",
+          "authname": "da Silva A.F.",
+          "surname": "da Silva",
+          "given-name": "Aristotelina Ferreira",
+          "initials": "A.F.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60070550"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "Calibration | Case study | Open-pit | Slope stability | Three-dimensional",
+      "source-id": "19690",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85146671620"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85146671620?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85146671620&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85146671620&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85146671620",
+      "dc:identifier": "SCOPUS_ID:85146671620",
+      "eid": "2-s2.0-85146671620",
+      "dc:title": "A Geomechanical Investigation for Optimizing the Ultimate Slope Design of Shadan Open Pit Mine, Iran",
+      "dc:creator": "Dehghan A.N.",
+      "prism:publicationName": "Indian Geotechnical Journal",
+      "prism:issn": "09719555",
+      "prism:eIssn": "22773347",
+      "prism:volume": "53",
+      "prism:issueIdentifier": "4",
+      "prism:pageRange": "859-873",
+      "prism:coverDate": "2023-08-01",
+      "prism:coverDisplayDate": "August 2023",
+      "prism:doi": "10.1007/s40098-022-00709-w",
+      "dc:description": "In this paper, a set of 3D numerical modeling was conducted using FLAC<sup>3D</sup> to assess the effect of the geomechanical parameters on the stability of the eastern ultimate slope of the Shadan Open Pit Mine. To this end, the effect of horizontal stress coefficient (k), slope curvature, and pore water pressure on slope stability of the mine was examined based on the strength reduction method and the minimum desired factor of safety (FOS = 1.20). The results showed that any increase or decrease in horizontal stress coefficient in the range of 0.05 to 2.00 while not changing the FOS causes slope deformation (especially horizontal and vertical displacements) in the pit wall slope. As a result, with decreasing horizontal stress coefficient (k), maximum shear strain values and horizontal and vertical displacements will decrease. On the other hand, with increasing K, the maximum shear strain and horizontal and vertical displacements in the floor and pit wall will increase. With decreasing slope curvature, the factor of safety will increase, leading to a decrease in deformations and displacements in the wall and floor of the pit. Furthermore, the groundwater drainage and reducing the pore water pressure behind the pit slope will decline the FOS, thereby reducing the deformation and displacement.",
+      "citedby-count": "23",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60031777",
+          "afid": "60031777",
+          "affilname": "Islamic Azad University",
+          "affiliation-city": "Tehran",
+          "affiliation-country": "Iran"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60105242",
+          "afid": "60105242",
+          "affilname": "Islamic Azad University, Science and Research Branch",
+          "affiliation-city": "Tehran",
+          "affiliation-country": "Iran"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "2"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/55251417000",
+          "authid": "55251417000",
+          "authname": "Dehghan A.N.",
+          "surname": "Dehghan",
+          "given-name": "Ali Naghi",
+          "initials": "A.N.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60105242"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/56076574300",
+          "authid": "56076574300",
+          "authname": "Yazdi A.",
+          "surname": "Yazdi",
+          "given-name": "Abdollah",
+          "initials": "A.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60031777"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "Geomechanical parameter | Numerical modeling | Open pit mine | Rock slope design | Safety factor | Slop stability",
+      "source-id": "22667",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85145079812"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85145079812?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85145079812&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85145079812&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85145079812",
+      "dc:identifier": "SCOPUS_ID:85145079812",
+      "eid": "2-s2.0-85145079812",
+      "dc:title": "Control mechanism of end-slope deformation in open pit mine based on discrete–continuous coupling method",
+      "dc:creator": "Tian Y.",
+      "prism:publicationName": "Computational Particle Mechanics",
+      "prism:issn": "21964378",
+      "prism:eIssn": "21964386",
+      "prism:volume": "10",
+      "prism:issueIdentifier": "4",
+      "prism:pageRange": "951-963",
+      "prism:coverDate": "2023-08-01",
+      "prism:coverDisplayDate": "August 2023",
+      "prism:doi": "10.1007/s40571-022-00543-0",
+      "dc:description": "The pressure slope toe support of the inner dump bench can reduce the deformation of the end-slope after steep end-slope mining, and the bench parameters are vital for the stability of the end-slope. This research proposes a discrete–continuous coupling calculation method and establishes the gradation curves of laboratory tests and simulations employing particle size sieving and similar gradation method. The meso-mechanical parameters of the particle model were also derived by employing the repose angle test, triaxial compression test, and simulation. On this basis, discrete elements were used to establish the inner dump loose slope and finite difference mesh to the end-slope rocky slope. Next, the effect of the change of the parameters of the inner dump bench on the displacement of the end-slope and the deformation characteristics of the bench itself was analyzed. The results show that the presence of a bench can significantly restrain end-slope deformation. As the bench height increases, its effect on the end-slope displacement decreases. When bench height remains constant, end-slope displacement gradually becomes uniform with increased bench width. Finally, this study divides the deformation of the bench into “extrusion region”, “slip resistance region”, and “self-slip region”, with the slip resistance region being the key to bench stability.",
+      "citedby-count": "15",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60073460",
+          "afid": "60073460",
+          "affilname": "China University of Mining and Technology",
+          "affiliation-city": "Xuzhou",
+          "affiliation-country": "China"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60059937",
+          "afid": "60059937",
+          "affilname": "National University of Sciences and Technology",
+          "affiliation-city": "Islamabad",
+          "affiliation-country": "Pakistan"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/112967693",
+          "afid": "112967693",
+          "affilname": "Kunming Coal Design and Research Institute",
+          "affiliation-city": "Kunming",
+          "affiliation-country": "China"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/128148788",
+          "afid": "128148788",
+          "affilname": "Ltd.",
+          "affiliation-city": "Changji",
+          "affiliation-country": "China"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "7"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57223950131",
+          "authid": "57223950131",
+          "authname": "Tian Y.",
+          "surname": "Tian",
+          "given-name": "Ya",
+          "initials": "Y.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60073460"
+            },
+            {
+              "@_fa": "true",
+              "$": "60073460"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57203244147",
+          "authid": "57203244147",
+          "authname": "Jiskani I.M.",
+          "surname": "Jiskani",
+          "given-name": "Izhar Mithal",
+          "initials": "I.M.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60059937"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57205351441",
+          "authid": "57205351441",
+          "orcid": "0000-0003-1633-4446",
+          "authname": "Lu X.",
+          "surname": "Lu",
+          "given-name": "Xiang",
+          "initials": "X.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60073460"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "4",
+          "author-url": "https://api.elsevier.com/content/author/author_id/55947840800",
+          "authid": "55947840800",
+          "authname": "Zhou W.",
+          "surname": "Zhou",
+          "given-name": "Wei",
+          "initials": "W.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60073460"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "5",
+          "author-url": "https://api.elsevier.com/content/author/author_id/55717478100",
+          "authid": "55717478100",
+          "authname": "Liu F.",
+          "surname": "Liu",
+          "given-name": "Fuming",
+          "initials": "F.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "128148788"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "6",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57223950084",
+          "authid": "57223950084",
+          "authname": "Zhang C.",
+          "surname": "Zhang",
+          "given-name": "Chuanwei",
+          "initials": "C.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "112967693"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "7",
+          "author-url": "https://api.elsevier.com/content/author/author_id/35214543700",
+          "authid": "35214543700",
+          "authname": "Cai Q.",
+          "surname": "Cai",
+          "given-name": "Qingxiang",
+          "initials": "Q.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60073460"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "Bench parameters | Discrete–continuous coupling | Open pit mine | Slope deformation | Steep end-slope mining",
+      "source-id": "21100825344",
+      "fund-acr": "NSFC",
+      "fund-no": "52204159",
+      "fund-sponsor": "National Natural Science Foundation of China",
+      "openaccess": "1",
+      "openaccessFlag": true,
+      "freetoread": {
+        "value": [
+          {
+            "$": "all"
+          },
+          {
+            "$": "publisherhybridgold"
+          }
+        ]
+      },
+      "freetoreadLabel": {
+        "value": [
+          {
+            "$": "All Open Access"
+          },
+          {
+            "$": "Hybrid Gold"
+          }
+        ]
+      }
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105007874768"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105007874768?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105007874768&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105007874768&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105007874768",
+      "dc:identifier": "SCOPUS_ID:105007874768",
+      "eid": "2-s2.0-105007874768",
+      "dc:title": "Application of MineSched software in haul truck demand analysis of open pit mine",
+      "dc:creator": "Zeng B.",
+      "prism:publicationName": "China Mining Magazine",
+      "prism:issn": "10044051",
+      "prism:volume": "32",
+      "prism:issueIdentifier": "10",
+      "prism:pageRange": "95-102",
+      "prism:coverDate": "2023-08-01",
+      "prism:coverDisplayDate": "August 2023",
+      "prism:doi": "10.12075/j.issn.1004-4051.20230180",
+      "dc:description": "It is a complex mathematical simulation problem to analyze haul truck demands throughout the whole life of an open pit mine. The traditional methods are limited for their relatively complex and cumbersome solving process, and they cannot comprehensively consider the multi-factor effects in the actual haulage process. In order to efficiently and accurately complete the haul truck demand analysis, to evaluate the mining fleet capacity of an open pit mine, takes one open pit uranium mine in Namibia as an example, creating one life of mine scheduling plan in MineSched and analyzing the haul truck demands by utilizing the “Haulage Module” of MineSched. The authors also compare the haul truck demands and current truck fleet size, providing advice for meeting the shortage of truck demands. The results show that the “Haulage module” of MineSched is more efficient than the traditional method to carry out the haulage demand analysis for open pit mining haul trucks. Besides, it can simulate the actual haul routes of materials movement, considering the influence of related factors such as road conditions, road gradients seasonal changes and equipment efficiency. It fully shows the accuracy and superiority of MineSched software used in the demand analysis of open pit mine trucks and provides new ideas and methods for the prediction and evaluation of open pit mine haulage capacity.",
+      "citedby-count": "1",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/126224393",
+          "afid": "126224393",
+          "affilname": "Ltd.",
+          "affiliation-city": "Beijing",
+          "affiliation-country": "China"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/126272725",
+          "afid": "126272725",
+          "affilname": "Ltd.",
+          "affiliation-city": "Beijing",
+          "affiliation-country": "China"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60404694",
+          "afid": "60404694",
+          "affilname": "CGNPC Uranium Resources Co., Ltd.",
+          "affiliation-city": "Beijing",
+          "affiliation-country": "China"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "6"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58739513500",
+          "authid": "58739513500",
+          "authname": "Zeng B.",
+          "surname": "Zeng",
+          "given-name": "Bingyong",
+          "initials": "B.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60404694"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/59941890900",
+          "authid": "59941890900",
+          "authname": "Yang X.",
+          "surname": "Yang",
+          "given-name": "Xiangle",
+          "initials": "X.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60404694"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/59942341900",
+          "authid": "59942341900",
+          "authname": "Wang W.",
+          "surname": "Wang",
+          "given-name": "Wentao",
+          "initials": "W.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60404694"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "4",
+          "author-url": "https://api.elsevier.com/content/author/author_id/59942188500",
+          "authid": "59942188500",
+          "authname": "Yan G.",
+          "surname": "Yan",
+          "given-name": "Guobin",
+          "initials": "G.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60404694"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "5",
+          "author-url": "https://api.elsevier.com/content/author/author_id/59941295400",
+          "authid": "59941295400",
+          "authname": "Liu H.",
+          "surname": "Liu",
+          "given-name": "Hongbo",
+          "initials": "H.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "126272725"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "6",
+          "author-url": "https://api.elsevier.com/content/author/author_id/59941891000",
+          "authid": "59941891000",
+          "authname": "Zhao T.",
+          "surname": "Zhao",
+          "given-name": "Tingyu",
+          "initials": "T.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "126224393"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "haul truck | haulage efficiency | MineSched | mining production | open pit mine",
+      "source-id": "21101300614",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85181764361"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85181764361?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85181764361&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85181764361&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85181764361",
+      "dc:identifier": "SCOPUS_ID:85181764361",
+      "eid": "2-s2.0-85181764361",
+      "dc:title": "Analysis of failure mode and deformation evolution characteristics of slopes under the influence of highwall mining",
+      "dc:creator": "Wang W.",
+      "prism:publicationName": "Meitan Kexue Jishu Coal Science and Technology Peking",
+      "prism:issn": "02532336",
+      "prism:volume": "51",
+      "prism:issueIdentifier": "7",
+      "prism:pageRange": "321-336",
+      "prism:coverDate": "2023-07-01",
+      "prism:coverDisplayDate": "July 2023",
+      "prism:doi": "10.13199/j.cnki.cst.2022-0593",
+      "dc:description": "The slope has the typical deformation failure and instability characteristics under the interaction of natural and human factors which has been given a lot of attention in geotechnical and mining engineering. During highwall mining, in particular, deformation evolution characteristics and failure mode are more complex under dual influence of open pit mine and underground mine. Physical modelling is an important means to study the characteristics and behavior of deformation and evolution of various types of rock and soil mass, and it is also an important supplement to the field study of large-scale rock and soil mass. It is widely used in mines and geotechnical engineering. The determination of the material used for physical modeling is the foundation and key links of research. Therefore, the article firstly selected river sand/aggregate, lime and gypsum/cemented material as the experimental materials through the relevant literature review and based on the principle of economic and convenience, and adopted two proportioning schemes to make standard specimens. The uniaxial compression test was carried out to compare and analyze the strength of the original rock, and it was determined that the scheme 2 could be used as the research scaling number of the physical modelling; Secondly, on the basis of determining the material proportion, the physical and structural model of highwall mining is established, and the analysis shows that the evolution characteristics of slope deformation and failure in the process of highwall mining can be divided into superficial transformation stage, structural transformation stage and aging deformation stage, the deformed and damaged rock mass can be divided into “vertical three zones”, namely caved zone, fractured zone and continuous bending zone. According to the length of the panel, the coal seam can be divided into three stages: initial stage, middle stage and final stage. The lower coal seam can be divided into two stages: the initial stage and the final stage. The evolution of the slope rock mass due to the extraction of the upper coal seam to the stopping line is characterized by the formation of subsidence faded areas along the center of the goaf to both sides, and finally a symmetrical distribution of semi-“pyramid” shape is formed. The rock mass that is deformed and damaged due to the extraction of the lower seam to the mining stop line is in a semi-curve-like shape; Finally, based on the analysis of physical modelling and field monitoring, it is concluded that when the upper coal seam of the highwall coal seam is mined to about 120 m, the slope shows a slight instability. When the lower coal seam is mined to about 120 m, the goaf between the upper and lower coal seams is connected, and the instability is intensified until the mining reaches the stopping line. In the upper part of the slope, 1 400 step forms a local collapse instability zone pointing to the open-pit, while the rest of the step are anti-dip instability pointing to the goaf.",
+      "citedby-count": "9",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60104165",
+          "afid": "60104165",
+          "affilname": "Inner Mongolia University of Science and Technology",
+          "affiliation-city": "Baotou",
+          "affiliation-country": "China"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "5"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/37108621600",
+          "authid": "37108621600",
+          "authname": "Wang W.",
+          "surname": "Wang",
+          "given-name": "Wencai",
+          "initials": "W.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60104165"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58131462500",
+          "authid": "58131462500",
+          "authname": "Li J.",
+          "surname": "Li",
+          "given-name": "Junpeng",
+          "initials": "J.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60104165"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57209930039",
+          "authid": "57209930039",
+          "authname": "Wang C.",
+          "surname": "Wang",
+          "given-name": "Chuangye",
+          "initials": "C.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60104165"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "4",
+          "author-url": "https://api.elsevier.com/content/author/author_id/55523716900",
+          "authid": "55523716900",
+          "authname": "Chen S.",
+          "surname": "Chen",
+          "given-name": "Shijiang",
+          "initials": "S.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60104165"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "5",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57215216112",
+          "authid": "57215216112",
+          "authname": "Wang P.",
+          "surname": "Wang",
+          "given-name": "Peng",
+          "initials": "P.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60104165"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "anti-dip instability | collapse instability | material proportion | slope instability | slope stability | subsidence faded area",
+      "source-id": "21101077109",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85174746129"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85174746129?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85174746129&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85174746129&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85174746129",
+      "dc:identifier": "SCOPUS_ID:85174746129",
+      "eid": "2-s2.0-85174746129",
+      "dc:title": "OPEN SLOPE STABILITY OF LATERITE NICKEL ORE IN MOROWALI UTARA",
+      "dc:creator": "Ngasang W.",
+      "prism:publicationName": "Arpn Journal of Engineering and Applied Sciences",
+      "prism:eIssn": "18196608",
+      "prism:volume": "18",
+      "prism:issueIdentifier": "14",
+      "prism:pageRange": "1672-1685",
+      "prism:coverDate": "2023-07-01",
+      "prism:coverDisplayDate": "July 2023",
+      "prism:doi": "10.59018/0723208",
+      "dc:description": "Unstable slopes are very dangerous for mining activities because if this phenomenon occurs it will have an impact on the mining activities; therefore, a slope stability analysis is needed because slope stability is a vital factor in the planning and operation of open pit mines. The purpose of this study was to analyze the characteristics of nickel, determine the factor of safety value and slope deformation, and determine the design of safe slope geometry in an open pit mine in Morowali Regency. The method used in this research is survey research by taking samples to be analyzed using the Bishop method with the Geostudio application, and the deformation of the data is analyzed using the Element method with the Plaxis application. The results of the analysis show that the Safety Factor (SF) on Slope 2 tends to be unstable when there is no load, with a deformation value of 0.945 cm, even after being loaded with heavy equipment and an earthquake, the stability value on the slope decreases. While Slope 1 and Slope 3 are still in a stable condition when loaded with heavy equipment when given additional earthquake loads, the SF on both slopes becomes unstable.",
+      "citedby-count": "0",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60103784",
+          "afid": "60103784",
+          "affilname": "Universitas Tadulako",
+          "affiliation-city": "Palu",
+          "affiliation-country": "Indonesia"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "3"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58660007300",
+          "authid": "58660007300",
+          "authname": "Ngasang W.",
+          "surname": "Ngasang",
+          "given-name": "Widyawati",
+          "initials": "W.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60103784"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57200080657",
+          "authid": "57200080657",
+          "authname": "Rahayu A.",
+          "surname": "Rahayu",
+          "given-name": "Astri",
+          "initials": "A.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60103784"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57203927913",
+          "authid": "57203927913",
+          "authname": "Ramadhani S.",
+          "surname": "Ramadhani",
+          "given-name": "Sriyati",
+          "initials": "S.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60103784"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "mine | nickel | slope | Stability",
+      "source-id": "21100200825",
+      "openaccess": "1",
+      "openaccessFlag": true,
+      "freetoread": {
+        "value": [
+          {
+            "$": "all"
+          },
+          {
+            "$": "publisherfree2read"
+          }
+        ]
+      },
+      "freetoreadLabel": {
+        "value": [
+          {
+            "$": "All Open Access"
+          },
+          {
+            "$": "Bronze"
+          }
+        ]
+      }
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85168141334"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85168141334?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85168141334&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85168141334&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85168141334",
+      "dc:identifier": "SCOPUS_ID:85168141334",
+      "eid": "2-s2.0-85168141334",
+      "dc:title": "Stability analysis of jointed rock slopes based on a universal elliptical disc model and its realization in 3DEC",
+      "dc:creator": "Jiang S.",
+      "prism:publicationName": "Yanshilixue Yu Gongcheng Xuebao Chinese Journal of Rock Mechanics and Engineering",
+      "prism:issn": "10006915",
+      "prism:volume": "42",
+      "prism:issueIdentifier": "7",
+      "prism:pageRange": "1610-1622",
+      "prism:coverDate": "2023-07-01",
+      "prism:coverDisplayDate": "July 2023",
+      "prism:doi": "10.13722/j.cnki.jrme.2022.0805",
+      "dc:description": "Constructing three-dimensional discrete fracture network(DFN) is a commonly-used method to simulate the random distribution of discontinuities in the rock masses for jointed rock slopes. To overcome the shortcomings of traditional Baecher disc and polygon models in constructing three-dimensional DFN model of a slope，in this paper，a method for generating an universal elliptical disc(UED) model-based DFN in 3DEC software is proposed. Based on this，the stability of a jointed rock slope can be accurately and efficiently evaluated. At the same time，the basic principles of the UED model are briefly introduced，including planarization of polygon fractures，optimal elliptic disc model fitting and generation of spatial elliptical disc model，etc. The procedure of constructing the DFN model of jointed rock slopes based on the UED model in 3DEC software is presented. Finally，taking an open pit mine slope as the example，the influences of characteristic parameters(ratio of long axis to short axis and rotation angle) of elliptic disc model for discontinuity groups on slope stability are investigated，and the differences between the UED model and traditional Baecher disc model are compared. The results show that the proposed method can avoid tedious programming using fish language and inefficient internal modeling of 3DEC software，and quickly construct the three-dimensional DFN based on the UED model and conduct slope stability analysis in 3DEC software. It thereby provides an important technical means for efficiently evaluating the stability of three-dimensional complex jointed rock slopes. Additionally，the influences of the characteristic parameters of UED model on the slope stability are addressed. It is confirmed that it is of great necessity to construct the DFN of slope by using the UED model in engineering practice.",
+      "citedby-count": "4",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60008332",
+          "afid": "60008332",
+          "affilname": "Nanchang University",
+          "affiliation-city": "Nanchang",
+          "affiliation-country": "China"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60117841",
+          "afid": "60117841",
+          "affilname": "College of Civil Engineering and Architecture Zhejiang University",
+          "affiliation-city": "Hangzhou",
+          "affiliation-country": "China"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "5"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57203906009",
+          "authid": "57203906009",
+          "authname": "Jiang S.",
+          "surname": "Jiang",
+          "given-name": "Shuihua",
+          "initials": "S.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60008332"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58538388600",
+          "authid": "58538388600",
+          "authname": "Chen J.",
+          "surname": "Chen",
+          "given-name": "Jiadong",
+          "initials": "J.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60008332"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58538553300",
+          "authid": "58538553300",
+          "authname": "Zou Z.",
+          "surname": "Zou",
+          "given-name": "Zongyi",
+          "initials": "Z.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60008332"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "4",
+          "author-url": "https://api.elsevier.com/content/author/author_id/60655567000",
+          "authid": "60655567000",
+          "authname": "Zheng J.",
+          "surname": "Zheng",
+          "given-name": "Jun",
+          "initials": "J.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60117841"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "5",
+          "author-url": "https://api.elsevier.com/content/author/author_id/55605773041",
+          "authid": "55605773041",
+          "authname": "Huang J.",
+          "surname": "Huang",
+          "given-name": "Jinsong",
+          "initials": "J.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60008332"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "3DEC software | jointed rock slope | slope engineering | stability analysis | three-dimensional discrete fracture network(DFN) | universal elliptical disc model",
+      "source-id": "14614",
+      "fund-acr": "NSFC",
+      "fund-no": "42272326",
+      "fund-sponsor": "National Natural Science Foundation of China",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85151922097"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85151922097?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85151922097&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85151922097&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85151922097",
+      "dc:identifier": "SCOPUS_ID:85151922097",
+      "eid": "2-s2.0-85151922097",
+      "dc:title": "Analysis of Fault’s Effect on the Highwall Stability of Medapalli Open Pit Coal Mine",
+      "dc:creator": "Reddy S.K.",
+      "prism:publicationName": "Geotechnical and Geological Engineering",
+      "prism:issn": "09603182",
+      "prism:eIssn": "15731529",
+      "prism:volume": "41",
+      "prism:issueIdentifier": "5",
+      "prism:pageRange": "2969-2986",
+      "prism:coverDate": "2023-07-01",
+      "prism:coverDisplayDate": "July 2023",
+      "prism:doi": "10.1007/s10706-023-02440-6",
+      "dc:description": "Mining operations can have a significant impact on the stability of the surrounding area. One example is the Medapalli open pit coal mine in southern India. The mine is a large excavation working at a depth of 165 m that can reach up to 200 m. The western side highwall has locked-up coal reserves in the mine, but concerns about the geologically disturbed regions have resulted in complications and significant challenges. Surface tension cracks around the excavation became visible in 2018, prompting intensive monitoring, protective measures, and numerous geotechnical analyses. The area, however, has a rich tectonic history, with faults interacting with soil movements. Proper geotechnical investigations were used in this work to analyse the stability of the highwall due to faults' effects on the area's reaction due to mining operations. The findings in the study highlighted the significance of flaws in the ground movement due to improper design of the highwall fault interaction area. The presence of the fault increases the likelihood of tensile cracks and subsidence at the highwall's surface level, significantly worsening the mining activities in the area. The analysis reveals that complex geological features, such as the presence of faults roughly parallel to the highwall slope profile, can exacerbate the mining operations in the surrounding environment. The recommended slope design with protective measures towards the west side disturbed highwall area helps safely excavate the western side highwall locked-up coal reserves in the Medapalli open pit mine.",
+      "citedby-count": "7",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60004954",
+          "afid": "60004954",
+          "affilname": "National Institute of Technology Karnataka",
+          "affiliation-city": "Mangalore",
+          "affiliation-country": "India"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "1"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/55538813900",
+          "authid": "55538813900",
+          "orcid": "0000-0002-7978-309X",
+          "authname": "Reddy S.K.",
+          "surname": "Reddy",
+          "given-name": "Sandi Kumar",
+          "initials": "S.K.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60004954"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "Damage | Geotechnical study | Limit equilibrium method | Open pit mining | Slope Stability",
+      "source-id": "19690",
+      "fund-acr": "NITK",
+      "fund-no": "SS 1802",
+      "fund-sponsor": "National Institute of Technology Karnataka, Surathkal",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85166029212"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85166029212?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85166029212&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85166029212&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85166029212",
+      "dc:identifier": "SCOPUS_ID:85166029212",
+      "eid": "2-s2.0-85166029212",
+      "dc:title": "Experimental Study on Interval Charging Blasting of Deep Hole Bench Blasting in Open Pit Mine",
+      "dc:creator": "Jin X.",
+      "prism:publicationName": "Blasting",
+      "prism:issn": "1001487X",
+      "prism:volume": "40",
+      "prism:issueIdentifier": "2",
+      "prism:pageRange": "42-47",
+      "prism:coverDate": "2023-06-01",
+      "prism:coverDisplayDate": "June 2023",
+      "prism:doi": "10.3963/j.issn.001-487X.2023.02.006",
+      "dc:description": "Based on the actual production in jilangde open pit coal mine，the application of air interval charging blasting technology was clarified，defining two test significance: one is“reducing cost and increasing efficiency”，the other is“controlling blasting fragmentation”． Three groups of orthogonal tests are used to evaluate the application effect of air interval blasting technology． The photo photography method is used to identify the fragmentation distribution after blasting． Firstly，the matlab program is optimized with reference to relevant literature to process the fragmentation image into fragmentation distribution data． Secondly，the data is imported into Origin software to generate fragmentation distribution curve to evaluate the blasting effect． The test results show that the fragment size distribution of 17.3% interval blasting is close to continuous charging blasting． Conclusions 1: The air interval height has no positive correlation with the final effect． ，There is a reasonable interval height which is in line with the purpose of reducing cost and increasing efficiency of enterprises． The fragmentation grading evaluation method is used to analyze the uniformity of blasting effects of different charges． Firstly，the fragmentation distribution data is imported into Origin software to fit the blasting fragmentation grading curve． Secondly，five fragmentation evaluation indexes are summarized with reference to relevant literature． The analysis results are the uniformity of blasting block: continuous charge ＞ interval 17.3% ＞ interval 11.5% Conclusion 2: The charging amount can be reduced through the control of central air interval charging technology，so that the blasting effect is close to the traditional continuous charging，which can achieve the purpose of controlling blasting fragmentation．",
+      "citedby-count": "6",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60108755",
+          "afid": "60108755",
+          "affilname": "China University of Mining & Technology, Beijing",
+          "affiliation-city": "Beijing",
+          "affiliation-country": "China"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/130000141",
+          "afid": "130000141",
+          "affilname": "Chengyuan Mining Development Co.，Ltd.",
+          "affiliation-city": "Liaoyang",
+          "affiliation-country": "China"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "5"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58509691500",
+          "authid": "58509691500",
+          "authname": "Jin X.",
+          "surname": "Jin",
+          "given-name": "Xin",
+          "initials": "X.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "130000141"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/59855780500",
+          "authid": "59855780500",
+          "authname": "Gao J.M.",
+          "surname": "Gao",
+          "given-name": "Jia Ming",
+          "initials": "J.M.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60108755"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58508462700",
+          "authid": "58508462700",
+          "authname": "Su H.W.",
+          "surname": "Su",
+          "given-name": "Hong Wei",
+          "initials": "H.W.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "130000141"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "4",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58508462800",
+          "authid": "58508462800",
+          "authname": "Chen H.N.",
+          "surname": "Chen",
+          "given-name": "Hua Nan",
+          "initials": "H.N.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "130000141"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "5",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57208867101",
+          "authid": "57208867101",
+          "authname": "Bi J.J.",
+          "surname": "Bi",
+          "given-name": "Jing Jiu",
+          "initials": "J.J.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60108755"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "air interval charge | block size control | open air blasting",
+      "source-id": "21101167527",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85163758299"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85163758299?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85163758299&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85163758299&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85163758299",
+      "dc:identifier": "SCOPUS_ID:85163758299",
+      "eid": "2-s2.0-85163758299",
+      "dc:title": "Workers with Suspected Diagnosis of Silicosis: A Case Study of Sarcoidosis Versus Siderosis",
+      "dc:creator": "Delgado-García D.",
+      "prism:publicationName": "Healthcare Switzerland",
+      "prism:eIssn": "22279032",
+      "prism:volume": "11",
+      "prism:issueIdentifier": "12",
+      "prism:pageRange": null,
+      "prism:coverDate": "2023-06-01",
+      "prism:coverDisplayDate": "June 2023",
+      "prism:doi": "10.3390/healthcare11121782",
+      "dc:description": "Silicosis is one of the most important occupational respiratory diseases worldwide, hence the importance of making a correct diagnosis. Diagnosis is commonly based on radiological findings according to the ILO International Classification of Radiographs of Pneumoconioses and occupational exposure. High-resolution computed tomography is indicated for differential diagnosis. This article presents two cases with an initial diagnosis of silicosis that ended up being diagnosed as sarcoidosis and siderosis, respectively. The first case was a 42-year-old male who worked as a crushing operator in an underground copper and molybdenum mine for 22 years. He had a history of exposure to silicon dioxide and was asymptomatic. X-rays did not distinguish silicosis or siderosis, but histological findings (open lung biopsy) allowed for a diagnosis of sarcoidosis. The second case was a 50-year-old male who had worked as a welder in a molybdenum filter plant, an open pit mine since 2013; he spent the previous 20 years as a welder in an underground copper mine, with exposure to silicon dioxide and was symptomatic. The first radiograph showed opacities that were compatible with pulmonary silicosis. A subsequent high-resolution computed tomography and lung biopsy showed a pattern of pulmonary siderosis. Due to the similarities in the radiographs of these three diseases, greater emphasis must be placed on the differential diagnosis, for which a complete occupational and clinical history is important in order to provide clues for the performance of complementary tests to avoid misdiagnosing.",
+      "citedby-count": "6",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60002636",
+          "afid": "60002636",
+          "affilname": "Universidad Andrés Bello",
+          "affiliation-city": "Santiago",
+          "affiliation-country": "Chile"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60014204",
+          "afid": "60014204",
+          "affilname": "Universidad de Huelva",
+          "affiliation-city": "Huelva",
+          "affiliation-country": "Spain"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60104602",
+          "afid": "60104602",
+          "affilname": "Universidad Espíritu Santo",
+          "affiliation-city": "Samborondon",
+          "affiliation-country": "Ecuador"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60279384",
+          "afid": "60279384",
+          "affilname": "University of Texas Rio Grande Valley School of Medicine",
+          "affiliation-city": "Edinburg",
+          "affiliation-country": "United States"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60010626",
+          "afid": "60010626",
+          "affilname": "Instituto de Salud Publica de Chile",
+          "affiliation-city": "Santiago",
+          "affiliation-country": "Chile"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60105363",
+          "afid": "60105363",
+          "affilname": "Universidad de Aconcagua, Chile",
+          "affiliation-city": "Santiago",
+          "affiliation-country": "Chile"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "5"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/56544742100",
+          "authid": "56544742100",
+          "orcid": "0000-0003-2600-8425",
+          "authname": "Delgado-García D.",
+          "surname": "Delgado-García",
+          "given-name": "Diemen",
+          "initials": "D.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60105363"
+            },
+            {
+              "@_fa": "true",
+              "$": "60279384"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58412516300",
+          "authid": "58412516300",
+          "authname": "Miranda-Astorga P.",
+          "surname": "Miranda-Astorga",
+          "given-name": "Patricio",
+          "initials": "P.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60010626"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58413268500",
+          "authid": "58413268500",
+          "orcid": "0000-0002-8852-2780",
+          "authname": "Delgado-Cano A.",
+          "surname": "Delgado-Cano",
+          "given-name": "Ashley",
+          "initials": "A.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60002636"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "4",
+          "author-url": "https://api.elsevier.com/content/author/author_id/56080812600",
+          "authid": "56080812600",
+          "orcid": "0000-0001-9053-7730",
+          "authname": "Gómez-Salgado J.",
+          "surname": "Gómez-Salgado",
+          "given-name": "Juan",
+          "initials": "J.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60014204"
+            },
+            {
+              "@_fa": "true",
+              "$": "60104602"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "5",
+          "author-url": "https://api.elsevier.com/content/author/author_id/6506745918",
+          "authid": "6506745918",
+          "orcid": "0000-0003-3715-1382",
+          "authname": "Ruiz-Frutos C.",
+          "surname": "Ruiz-Frutos",
+          "given-name": "Carlos",
+          "initials": "C.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60014204"
+            },
+            {
+              "@_fa": "true",
+              "$": "60104602"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "diagnosis | sarcoidosis | siderosis | silicosis",
+      "article-number": "1782",
+      "source-id": "21101041844",
+      "openaccess": "1",
+      "openaccessFlag": true,
+      "freetoread": {
+        "value": [
+          {
+            "$": "all"
+          },
+          {
+            "$": "publisherfullgold"
+          },
+          {
+            "$": "repository"
+          },
+          {
+            "$": "repositoryam"
+          }
+        ]
+      },
+      "freetoreadLabel": {
+        "value": [
+          {
+            "$": "All Open Access"
+          },
+          {
+            "$": "Gold"
+          },
+          {
+            "$": "Green"
+          }
+        ]
+      }
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85163015721"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85163015721?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85163015721&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85163015721&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85163015721",
+      "dc:identifier": "SCOPUS_ID:85163015721",
+      "eid": "2-s2.0-85163015721",
+      "dc:title": "Blasting vibration hazard classification and prediction research",
+      "dc:creator": "Zhang G.",
+      "prism:publicationName": "Advances in Mechanical Engineering",
+      "prism:issn": "16878132",
+      "prism:eIssn": "16878140",
+      "prism:volume": "15",
+      "prism:issueIdentifier": "6",
+      "prism:pageRange": null,
+      "prism:coverDate": "2023-06-01",
+      "prism:coverDisplayDate": "June 2023",
+      "prism:doi": "10.1177/16878132231181068",
+      "dc:description": "This paper explores the hazard classification method of blasting vibration on nearby buildings. The ratio of the self-vibration frequency f<inf>0</inf> of the protected buildings to the main vibration frequency f of blasting vibration and the ratio of the actual measured peak blasting vibration velocity to the permissible vibration velocity of blasting safety regulations are used as two indicators of the blasting vibration hazard classification method, the blasting vibration hazard index calculation formula was proposed, and the blasting vibration hazard was classified into four levels according to the blasting vibration hazard index. An open pit mine blasting project was used for monitoring, the collected data were processed by random forest method. After processing, bursting heart distance, the total explosive quantity required for one blast, the hole distance meter delay, and the row distance meter delay was selected as the input parameters; the optimal kernel function parameter gamma and c were applied to the SVR (Support Vector Regression) model by changing the search step to expand the parameter search, and improved GS-SVR (Grid Search-Support Vector Regression) model was constructed, through which peak blasting vibration velocity and vibration frequency values were predicted. The results show: improved GS-SVR is effective in predicting peak blasting vibration velocity, with the lowest relative error of 0.15% and the average error of 7.96%; the minimum relative error for the prediction of vibration frequency is 0.03% and the average error is 2.54%. The measured data in the literature of related scholars verified that the blasting vibration hazard classification method is scientific and feasible. It can provide reference and reference for blasting vibration hazard classification and prediction of similar blasting projects.",
+      "citedby-count": "10",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60014643",
+          "afid": "60014643",
+          "affilname": "Wuhan University of Science and Technology",
+          "affiliation-city": "Wuhan",
+          "affiliation-country": "China"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "4"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57211278129",
+          "authid": "57211278129",
+          "authname": "Zhang G.",
+          "surname": "Zhang",
+          "given-name": "Guangquan",
+          "initials": "G.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60014643"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58355336900",
+          "authid": "58355336900",
+          "orcid": "0000-0002-3233-1168",
+          "authname": "Wang M.",
+          "surname": "Wang",
+          "given-name": "Mengjia",
+          "initials": "M.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60014643"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58351405100",
+          "authid": "58351405100",
+          "orcid": "0000-0003-0567-3629",
+          "authname": "Yang R.",
+          "surname": "Yang",
+          "given-name": "Ruzi",
+          "initials": "R.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60014643"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "4",
+          "author-url": "https://api.elsevier.com/content/author/author_id/59273461800",
+          "authid": "59273461800",
+          "authname": "Si K.",
+          "surname": "Si",
+          "given-name": "Kaikai",
+          "initials": "K.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60014643"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "blasting vibration | hazard classification | improved grid search | peak blasting vibration velocity | support vector regression | vibration frequency",
+      "source-id": "19700182334",
+      "fund-acr": "NSFC",
+      "fund-no": "U1802243",
+      "fund-sponsor": "National Natural Science Foundation of China",
+      "openaccess": "1",
+      "openaccessFlag": true,
+      "freetoread": {
+        "value": [
+          {
+            "$": "all"
+          },
+          {
+            "$": "publisherfullgold"
+          },
+          {
+            "$": "repository"
+          },
+          {
+            "$": "repositoryam"
+          }
+        ]
+      },
+      "freetoreadLabel": {
+        "value": [
+          {
+            "$": "All Open Access"
+          },
+          {
+            "$": "Gold"
+          },
+          {
+            "$": "Green"
+          }
+        ]
+      }
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85174032232"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85174032232?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85174032232&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85174032232&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85174032232",
+      "dc:identifier": "SCOPUS_ID:85174032232",
+      "eid": "2-s2.0-85174032232",
+      "dc:title": "AN INNOVATIVE PEDAGOGICAL SIMULATION AND ANIMATION OF A SHOVEL-TRUCK SYSTEM",
+      "dc:creator": "Agyei G.",
+      "prism:publicationName": "Nigerian Journal of Technology",
+      "prism:issn": "03318443",
+      "prism:eIssn": "24678821",
+      "prism:volume": "42",
+      "prism:issueIdentifier": "1",
+      "prism:pageRange": "122-129",
+      "prism:coverDate": "2023-05-07",
+      "prism:coverDisplayDate": "7 May 2023",
+      "prism:doi": "10.4314/njt.v42i1.15",
+      "dc:description": "This paper aims to simulate and animate a shovel-truck system in an open pit mine using Arena® Software for teaching and learning purposes. The shovel-truck system is the use of loading and dumping units in the transportation of materials. The shovel-truck system has wide application in open pit mining. Animation of a shovel-truck system in Arena® is a reflection of the logic defined by the module’s flowcharts. Arena® software is a widely used simulation software based on Discrete Events. The data were analysed by an input analyser tool in Arena® software to get distributions and expressions for the shovel-truck system. The shovel-truck system was then modelled in the software. The developed animated model depicts the exact activities in open pit mines.",
+      "citedby-count": "1",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60116800",
+          "afid": "60116800",
+          "affilname": "University of Mines and Technology",
+          "affiliation-city": "Tarkwa",
+          "affiliation-country": "Ghana"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "2"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58643986700",
+          "authid": "58643986700",
+          "authname": "Agyei G.",
+          "surname": "Agyei",
+          "given-name": "G.",
+          "initials": "G.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60116800"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58644425200",
+          "authid": "58644425200",
+          "authname": "Kateng E.A.",
+          "surname": "Kateng",
+          "given-name": "E. A.",
+          "initials": "E.A.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60116800"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "Animation | Arena® Software | Shovel-Truck Systems | Simulation",
+      "source-id": "21101181899",
+      "openaccess": "1",
+      "openaccessFlag": true,
+      "freetoread": {
+        "value": [
+          {
+            "$": "all"
+          },
+          {
+            "$": "publisherfullgold"
+          }
+        ]
+      },
+      "freetoreadLabel": {
+        "value": [
+          {
+            "$": "All Open Access"
+          },
+          {
+            "$": "Gold"
+          }
+        ]
+      }
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85159293635"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85159293635?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85159293635&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85159293635&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85159293635",
+      "dc:identifier": "SCOPUS_ID:85159293635",
+      "eid": "2-s2.0-85159293635",
+      "dc:title": "Estimation of Shear Strength Parameters Considering Joint Roughness: A Stability Case Analysis of Bedding Rock Slopes in an Open-Pit Mine",
+      "dc:creator": "Gao Z.",
+      "prism:publicationName": "Applied Sciences Switzerland",
+      "prism:eIssn": "20763417",
+      "prism:volume": "13",
+      "prism:issueIdentifier": "9",
+      "prism:pageRange": null,
+      "prism:coverDate": "2023-05-01",
+      "prism:coverDisplayDate": "May 2023",
+      "prism:doi": "10.3390/app13095730",
+      "dc:description": "This study aims to fully explore the influence of rock joint roughness in the slope stability analysis of an open mine. Therefore, based on the least squares parameter estimation method, a generalized shear strength parameter coupling roughness, which is used to evaluate a slope design, was established by a matching formula reflecting the relationship between the roughness coefficient and the shear strength parameter. Firstly, to verify and calibrate the model, physical direct shear tests were conducted on serrated rock joints, and the effect of roughness was analyzed qualitatively. The results show that an increase in tooth height increases the internal friction angle but decreases cohesion. Therefore, the rock joint direct shear test numerical model by PFC-2D was established and compared with the physical test curve, effectively verifying its correctness. The relationship between cohesion c and internal friction angle φ with roughness coefficient JRC was further quantified, and the new model was then fitted to characterize the relationship between roughness and shear strength parameters. This method is applied to the design optimization of an open pit mine slope. The new parameters are input to GeoSMA-3D, which is used to search for the key block of a bedding slope on an open-pit mine, to optimize the design of the slope.",
+      "citedby-count": "7",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60118696",
+          "afid": "60118696",
+          "affilname": "College of Resources and Civil Engineering",
+          "affiliation-city": "Shenyang",
+          "affiliation-country": "China"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60106544",
+          "afid": "60106544",
+          "affilname": "Emperor Alexander I St. Petersburg State Transport University",
+          "affiliation-city": "Saint Petersburg",
+          "affiliation-country": "Russian Federation"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "6"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58248933800",
+          "authid": "58248933800",
+          "authname": "Gao Z.",
+          "surname": "Gao",
+          "given-name": "Zehui",
+          "initials": "Z.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60118696"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/56014784200",
+          "authid": "56014784200",
+          "authname": "Wang S.",
+          "surname": "Wang",
+          "given-name": "Shuhong",
+          "initials": "S.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60118696"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57699203600",
+          "authid": "57699203600",
+          "authname": "Yin H.",
+          "surname": "Yin",
+          "given-name": "Hong",
+          "initials": "H.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60118696"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "4",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58447026300",
+          "authid": "58447026300",
+          "authname": "Zhao Q.",
+          "surname": "Zhao",
+          "given-name": "Qianbai",
+          "initials": "Q.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60118696"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "5",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58249872900",
+          "authid": "58249872900",
+          "authname": "Vladimr P.",
+          "surname": "Vladimr",
+          "given-name": "Paramonov",
+          "initials": "P.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60106544"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "6",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57986507700",
+          "authid": "57986507700",
+          "authname": "Li Y.",
+          "surname": "Li",
+          "given-name": "Youming",
+          "initials": "Y.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60118696"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "rock joint | roughness coefficient | shear strength parameter | slope optimization",
+      "article-number": "5730",
+      "source-id": "21100829268",
+      "fund-acr": "NSFC",
+      "fund-no": "2019JH2-10100035",
+      "fund-sponsor": "National Natural Science Foundation of China",
+      "openaccess": "1",
+      "openaccessFlag": true,
+      "freetoread": {
+        "value": [
+          {
+            "$": "all"
+          },
+          {
+            "$": "publisherfullgold"
+          },
+          {
+            "$": "repository"
+          },
+          {
+            "$": "repositoryam"
+          }
+        ]
+      },
+      "freetoreadLabel": {
+        "value": [
+          {
+            "$": "All Open Access"
+          },
+          {
+            "$": "Gold"
+          },
+          {
+            "$": "Green"
+          }
+        ]
+      }
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85150779845"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85150779845?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85150779845&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85150779845&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "full-text",
+          "@href": "https://api.elsevier.com/content/article/eid/1-s2.0-S0957582023002161"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85150779845",
+      "dc:identifier": "SCOPUS_ID:85150779845",
+      "eid": "2-s2.0-85150779845",
+      "dc:title": "Ultimate pit optimization with environmental problem for open-pit coal mine",
+      "dc:creator": "Xu X.",
+      "prism:publicationName": "Process Safety and Environmental Protection",
+      "prism:issn": "09575820",
+      "prism:volume": "173",
+      "prism:pageRange": "366-372",
+      "prism:coverDate": "2023-05-01",
+      "prism:coverDisplayDate": "May 2023",
+      "prism:doi": "10.1016/j.psep.2023.03.024",
+      "pii": "S0957582023002161",
+      "dc:description": "Open pit mining is an effective way to extract valuable minerals from the earth's crust and generate significant profits for mining companies, however it also causes significant environmental harm to vast tracts of land and the surrounding ecosystems. However, the maximization of economic benefits is still the overall objective of optimizing open pit mine design, while environmental issues have been ignored in attempts to achieve more sustainable mine development. Therefore, estimating ecological costs of mining and considering such costs in the mine design process is an important step towards reducing ecological consequences at the design stage. The aim of the study is to calculate the ecological costs of open-pit coal mining and analyze how these costs affect the ultimate pit delineate. The ecological costs associated with coal mining are calculated according to the carbon emissons from energy consumption and the scope of grassland destroyed by resource extraction. There are three key components of ecological cost that have been identified: ecological service value loss, reclamation cost, and carbon emission cost. Necessary equations are provided for estimating these costs. An iterative optimization algorithm is described for ultimate pit optimization in coal deposits with near-horizontal coal seams. A case study is presented in which the ultimate pits are optimized by both with and without considering ecological costs, and compared to prove the impact of ecological costs on the ultimate pit design.",
+      "citedby-count": "25",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60022148",
+          "afid": "60022148",
+          "affilname": "University College London",
+          "affiliation-city": "London",
+          "affiliation-country": "United Kingdom"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60031863",
+          "afid": "60031863",
+          "affilname": "Northeastern University",
+          "affiliation-city": "Shenyang",
+          "affiliation-country": "China"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60118696",
+          "afid": "60118696",
+          "affilname": "College of Resources and Civil Engineering",
+          "affiliation-city": "Shenyang",
+          "affiliation-country": "China"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "7"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/55759379400",
+          "authid": "55759379400",
+          "authname": "Xu X.",
+          "surname": "Xu",
+          "given-name": "Xiaochuan",
+          "initials": "X.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60118696"
+            },
+            {
+              "@_fa": "true",
+              "$": "60031863"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/8724010600",
+          "authid": "8724010600",
+          "authname": "Gu X.",
+          "surname": "Gu",
+          "given-name": "Xiaowei",
+          "initials": "X.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60118696"
+            },
+            {
+              "@_fa": "true",
+              "$": "60031863"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57063827400",
+          "authid": "57063827400",
+          "authname": "Wang Q.",
+          "surname": "Wang",
+          "given-name": "Qing",
+          "initials": "Q.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60118696"
+            },
+            {
+              "@_fa": "true",
+              "$": "60031863"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "4",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57217201950",
+          "authid": "57217201950",
+          "authname": "Zhao Y.",
+          "surname": "Zhao",
+          "given-name": "Yunqi",
+          "initials": "Y.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60118696"
+            },
+            {
+              "@_fa": "true",
+              "$": "60031863"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "5",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57217233754",
+          "authid": "57217233754",
+          "authname": "Zhu Z.",
+          "surname": "Zhu",
+          "given-name": "Zhenguo",
+          "initials": "Z.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60118696"
+            },
+            {
+              "@_fa": "true",
+              "$": "60031863"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "6",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57964613200",
+          "authid": "57964613200",
+          "authname": "Wang F.",
+          "surname": "Wang",
+          "given-name": "Fengdan",
+          "initials": "F.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60118696"
+            },
+            {
+              "@_fa": "true",
+              "$": "60031863"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "7",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58002541000",
+          "authid": "58002541000",
+          "authname": "Zhang Z.",
+          "surname": "Zhang",
+          "given-name": "Zaolin",
+          "initials": "Z.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60022148"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "Ecological cost | Floating cone exclusion method | Iterative optimization algorithm | Open-pit coal mining | Ultimate pit optimization",
+      "source-id": "13754",
+      "fund-acr": "NSFC",
+      "fund-no": "51974060",
+      "fund-sponsor": "National Natural Science Foundation of China",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85149441107"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85149441107?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85149441107&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85149441107&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "full-text",
+          "@href": "https://api.elsevier.com/content/article/eid/1-s2.0-S1110016823001485"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85149441107",
+      "dc:identifier": "SCOPUS_ID:85149441107",
+      "eid": "2-s2.0-85149441107",
+      "dc:title": "Optimization of blasting parameters and prediction of vibration effects in open pit mines based on deep neural networks",
+      "dc:creator": "Bai R.",
+      "prism:publicationName": "Alexandria Engineering Journal",
+      "prism:issn": "11100168",
+      "prism:volume": "70",
+      "prism:pageRange": "261-271",
+      "prism:coverDate": "2023-05-01",
+      "prism:coverDisplayDate": "1 May 2023",
+      "prism:doi": "10.1016/j.aej.2023.02.043",
+      "pii": "S1110016823001485",
+      "dc:description": "Embedded systems in production equipment and Internet of Things (IoT) sensors on production lines are one of the elements that constitute an industrial cyber-physical system. In this paper, an in-depth study and analysis of the optimization of blasting parameters and prediction of vibration effects in open pit mines using deep neural network arithmetic are present. Based on the deep neural network research and analysis of the relationship between blasting parameters and rock fragmentation, a prediction model for blasting parameters and fragmentation for the East Open Pit Mine was established, and sensitivity analysis was performed on blasting parameters, and the unit consumption of explosives and the perforation rate were established. It was found that the average relative errors of both numerical simulation results and depth prediction results were no more than 10%, while the average relative errors of Sadowski's formula prediction results were more than 20%. The results show that the neural network optimized by a genetic algorithm and the numerical simulation has the highest accuracy in predicting the blasting result parameters. The research model and results obtained in this paper can be used as a reference guide for engineering practice.",
+      "citedby-count": "32",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60032758",
+          "afid": "60032758",
+          "affilname": "Liaoning Technical University",
+          "affiliation-city": "Fuxin",
+          "affiliation-country": "China"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60082529",
+          "afid": "60082529",
+          "affilname": "Long Dong University",
+          "affiliation-city": "Qingyang",
+          "affiliation-country": "China"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "8"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/8449383400",
+          "authid": "8449383400",
+          "authname": "Bai R.",
+          "surname": "Bai",
+          "given-name": "Runcai",
+          "initials": "R.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60032758"
+            },
+            {
+              "@_fa": "true",
+              "$": "60032758"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57383405200",
+          "authid": "57383405200",
+          "authname": "Zhang P.",
+          "surname": "Zhang",
+          "given-name": "Pengfei",
+          "initials": "P.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60032758"
+            },
+            {
+              "@_fa": "true",
+              "$": "60082529"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58130744300",
+          "authid": "58130744300",
+          "authname": "Zhang Z.",
+          "surname": "Zhang",
+          "given-name": "Zhiqiang",
+          "initials": "Z.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60032758"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "4",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57382744900",
+          "authid": "57382744900",
+          "authname": "Sun X.",
+          "surname": "Sun",
+          "given-name": "Xue",
+          "initials": "X.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60082529"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "5",
+          "author-url": "https://api.elsevier.com/content/author/author_id/26029060100",
+          "authid": "26029060100",
+          "authname": "Fei H.",
+          "surname": "Fei",
+          "given-name": "Honglu",
+          "initials": "H.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60032758"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "6",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57204137963",
+          "authid": "57204137963",
+          "authname": "Bao S.",
+          "surname": "Bao",
+          "given-name": "Shijie",
+          "initials": "S.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60032758"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "7",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58130499800",
+          "authid": "58130499800",
+          "authname": "Hu G.",
+          "surname": "Hu",
+          "given-name": "Gang",
+          "initials": "G.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60032758"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "8",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58130570700",
+          "authid": "58130570700",
+          "authname": "Li W.",
+          "surname": "Li",
+          "given-name": "Wenyan",
+          "initials": "W.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "60032758"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "Deep neural network | Open pit blasting | Parameter optimization | Vibration effect prediction",
+      "source-id": "13907",
+      "openaccess": "1",
+      "openaccessFlag": true,
+      "freetoread": {
+        "value": [
+          {
+            "$": "all"
+          },
+          {
+            "$": "publisherfullgold"
+          },
+          {
+            "$": "repository"
+          },
+          {
+            "$": "repositoryam"
+          }
+        ]
+      },
+      "freetoreadLabel": {
+        "value": [
+          {
+            "$": "All Open Access"
+          },
+          {
+            "$": "Gold"
+          },
+          {
+            "$": "Green"
+          }
+        ]
+      }
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85147572793"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85147572793?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85147572793&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85147572793&origin=inward"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85147572793",
+      "dc:identifier": "SCOPUS_ID:85147572793",
+      "eid": "2-s2.0-85147572793",
+      "dc:title": "A Case Study on Trim Blast Fragmentation Optimization Using the MBF Model and the MSW Blast Vibration Model at an Open Pit Mine in Canada",
+      "dc:creator": "Yang R.",
+      "prism:publicationName": "Rock Mechanics and Rock Engineering",
+      "prism:issn": "07232632",
+      "prism:eIssn": "1434453X",
+      "prism:volume": "56",
+      "prism:issueIdentifier": "5",
+      "prism:pageRange": "3641-3658",
+      "prism:coverDate": "2023-05-01",
+      "prism:coverDisplayDate": "May 2023",
+      "prism:doi": "10.1007/s00603-023-03237-y",
+      "dc:description": "A project for monitoring, analysis, and modelling trim blasting at an open pit copper/molybdenum mine in Canada in 2021 was conducted using Orica’s in-house developed proprietary tools, which includes the accelerometer near-field vibration monitoring system, the Multiple Seed Waveform near-field and far-field blast vibration model, and the multiple blasthole fragmentation model. Both models are built on the fundamentals and empirical aspects of blasting mechanics. They input full blast design parameters and site-specific information from the near-field signature hole blast vibration. The blast vibration at the highwall from trim blasts was predicted with multiple seed waveform blast vibration model. The effects of parameters from the trim blast design scenarios on fragmentation and vibration at the highwall were simulated at the mine site. Improved blast designs for finer fragmentation and controlled vibration were proposed based on the modelling. The multiple blasthole fragmentation model can simulate real blast designs in three dimensions with the actual geometry of the blasted overburden and free faces. The multiple blasthole fragmentation model can explicitly model all blast design parameters, including explosive properties, loading configuration, and delay timing of each explosive charge. The multiple seed waveform blast vibration model uses multiple seed waveforms at different distances from a blasthole and is suitable for near-field blast vibration at the highwalls. Through the application of the two models, various design scenarios can be explored, and rock fragmentation can be optimized while controlling blast vibration levels. These models have been successfully applied to several open pit mines and quarries around the world, including Canada, the United States, and Africa.",
+      "citedby-count": "16",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/129160523",
+          "afid": "129160523",
+          "affilname": "Orica Canada Inc.",
+          "affiliation-city": "Vancouver",
+          "affiliation-country": "Canada"
+        },
+        {
+          "@_fa": "true",
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/129160771",
+          "afid": "129160771",
+          "affilname": "Orica USA Inc.",
+          "affiliation-city": "Watkins",
+          "affiliation-country": "United States"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "author-count": {
+        "@limit": "100",
+        "$": "3"
+      },
+      "author": [
+        {
+          "@_fa": "true",
+          "@seq": "1",
+          "author-url": "https://api.elsevier.com/content/author/author_id/55224346800",
+          "authid": "55224346800",
+          "orcid": "0000-0003-4095-8486",
+          "authname": "Yang R.",
+          "surname": "Yang",
+          "given-name": "Ruilin",
+          "initials": "R.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "129160771"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "2",
+          "author-url": "https://api.elsevier.com/content/author/author_id/55595606700",
+          "authid": "55595606700",
+          "authname": "Pratt L.",
+          "surname": "Pratt",
+          "given-name": "Lee",
+          "initials": "L.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "129160523"
+            }
+          ]
+        },
+        {
+          "@_fa": "true",
+          "@seq": "3",
+          "author-url": "https://api.elsevier.com/content/author/author_id/55595977300",
+          "authid": "55595977300",
+          "authname": "Zhao G.",
+          "surname": "Zhao",
+          "given-name": "Gaichang",
+          "initials": "G.",
+          "afid": [
+            {
+              "@_fa": "true",
+              "$": "129160523"
+            }
+          ]
+        }
+      ],
+      "authkeywords": "Full-blast design models | Improved design options | Model calibration | Scenario modelling",
+      "source-id": "26268",
+      "openaccess": "0",
+      "openaccessFlag": false
+    }
+  ],
+  "completa": false,
+  "cuota_restante": "19776",
+  "fecha_guardado_utc": "2026-10-19T16:12:16.259655+00:00"
+}

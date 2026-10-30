@@ -1,0 +1,111 @@
+{
+  "fuente": "Scopus",
+  "fase": "02_cribado_multidimensional",
+  "protocolo_reglas_joaquin": "v6_2026_09_28",
+  "fecha_utc": "2026-10-30T02:36:04.852424+00:00",
+  "total_entrada": 4614,
+  "decisiones": {
+    "IN_FUERTE": 202,
+    "IN_SECUNDARIO": 250,
+    "DUDOSO": 1305,
+    "OUT": 2857
+  },
+  "nucleo_in_propuesto": 452,
+  "motivos": {
+    "mencion_incidental_de_operacion": 1129,
+    "evaluacion_directa_de_desempeno_sin_intervencion_explicita": 119,
+    "enlace_operacional_incompleto_en_resumen": 1197,
+    "foco_principal_geotecnia_talud": 337,
+    "sin_desempeno_ni_decision_operacional_demostrada": 881,
+    "vinculo_indirecto_o_documento_secundario": 202,
+    "foco_subterraneo_o_extraccion_no_minera": 98,
+    "foco_principal_efecto_voladura_no_operacional": 35,
+    "foco_principal_alternativo_con_enlace_posible": 108,
+    "foco_principal_ambiente_cierre": 63,
+    "foco_principal_geologia_exploracion": 136,
+    "foco_principal_metalurgia_procesamiento": 7,
+    "foco_principal_estrategia_vida_mina": 56,
+    "proceso_decision_y_desempeno_vinculados": 131,
+    "foco_principal_exposicion_ambiental": 67,
+    "foco_principal_seguridad_sin_desempeno": 16,
+    "foco_principal_deteccion_sin_resultado_tarea": 9,
+    "foco_principal_geologia_instrumental": 1,
+    "foco_principal_componente_aislado": 3,
+    "sin_contexto_cielo_abierto": 19
+  },
+  "procesos": {
+    "perforacion": 495,
+    "tronadura": 839,
+    "carguio": 1325,
+    "transporte": 1227,
+    "remocion_estéril": 632,
+    "riego_polvo": 44,
+    "desague_apoyo": 417,
+    "caminos_mina": 127,
+    "chancado_en_mina": 66,
+    "botaderos_operacionales": 118
+  },
+  "equipos": {
+    "haul_truck": 710,
+    "shovel": 365,
+    "loader": 75,
+    "surface_miner": 61,
+    "drill_rig": 41,
+    "dragline": 117,
+    "crusher_in_pit": 69,
+    "excavator": 261,
+    "conveyor": 223,
+    "grader": 7,
+    "dozer": 38,
+    "pump": 35,
+    "spreader": 49,
+    "bucket_wheel_excavator": 76,
+    "locomotive": 6
+  },
+  "contribuciones": {
+    "mantencion": 484,
+    "ejecucion_desempeno": 186,
+    "no_operacional": 2717,
+    "informacion_automatizacion": 300,
+    "planificacion_operativa": 76,
+    "auxiliares": 563,
+    "asignacion_optimizacion": 232,
+    "diseno_planificacion": 56
+  },
+  "muestra": {
+    "OUT": 50,
+    "DUDOSO_CENTRAL": 30,
+    "IN": 50
+  },
+  "marcos_de_muestra": {
+    "IN": 452,
+    "OUT": 2857,
+    "DUDOSO_CENTRAL": 1040
+  },
+  "alertas_y_pendientes": {
+    "aceptados_fase01_provisionales": 4614,
+    "filtro_fase01_validado_academicamente": false,
+    "retractacion_y_paratexto_pendientes_de_verificar": 9396,
+    "lengua_sin_informar_en_aceptados": 4614,
+    "quality_flags_no_vacios_en_aceptados": 2,
+    "auditoria_dirigida_48_heredada": false,
+    "reconciliacion_con_ids_openalex": false,
+    "correcciones_de_etiquetas_por_revisor": 0,
+    "filtro_fase02_validado_academicamente": false
+  },
+  "carpeta_fase01": "C:\\Users\\Dani\\Downloads\\Scopus_corregido_para_00_local\\IPRE_Scopus_codigo_y_datos_v9\\reproduccion_con_graficos_01\\filtro_amplio",
+  "sha256_manifest_fase01": "23aa37e00cc90d3134405ffaa847da0fb437ffd7dbc3fb439f2a47fc564b74ff",
+  "sha256_corpus_aceptado_fase01": "4670ad0f69655c1c6e6c96a6ca61b232ebc387335901065f79355f2572dcf240",
+  "sha256_fragmento_reglas_v6": "924b9e0ad681fe35fafc497d626f3b8cb98a7f0423b14267b9a209a7cb46aa2b",
+  "sha256_salidas_csv": {
+    "clave_muestra_130_NO_ENTREGAR_A_REVISORES.csv": "02230427dead85ce6e310bfc49f84d1d3fc104025c8dc0a9c91151ac22024b26",
+    "corpus_IN_propuesto_scopus.csv": "71449b3176aee38e82b7e4dac315804439f748d27d129944eeeebbd1521d5d15",
+    "DUDOSO_scopus.csv": "2a9df84868657a451f140c7b6cbffb89863e4e57f51f70d7842b2b4bef1d44eb",
+    "IN_FUERTE_scopus.csv": "72a0de7969fb0d0db4b0905aed387e226e57f891a0aec9b2457a22e307e3a26a",
+    "IN_SECUNDARIO_scopus.csv": "9f6743cee0797004d4f877dca8faa4da3b35fb78a6219014f3a447c61e49daec",
+    "muestra_humana_ciega_130_scopus.csv": "4492e873aea89f02856a85a91010f484c714363588c5cf90b427851a3262c3d3",
+    "OUT_scopus.csv": "2675be3c3b2f5b3ff6729150ab6802197d3cd88dd84caa3a6e307a5cdf36c456",
+    "screening_operacional_scopus_fase02.csv": "143375ac77b4ab5881fcfe5f1c605165fba7c23f69ad643dbde2af6243e0c810"
+  },
+  "alcance": "Clasificación automática preliminar sin validación humana. No es el cierre v9 de OpenAlex."
+}
