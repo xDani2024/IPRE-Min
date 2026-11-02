@@ -1,0 +1,175 @@
+{
+  "estado": "EXPORTACION_INCREMENTAL_VERIFICADA",
+  "nombres_y_rangos_correctos": true,
+  "cantidad_archivos": 10,
+  "filas_exportadas": 5071,
+  "uids_unicos": 5071,
+  "consultas": [
+    {
+      "id": "01",
+      "frase": "open pit mining",
+      "original": 1518,
+      "nuevos": 1518,
+      "equivalente_a": ""
+    },
+    {
+      "id": "02",
+      "frase": "open-pit mining",
+      "original": 1518,
+      "nuevos": 0,
+      "equivalente_a": "01"
+    },
+    {
+      "id": "03",
+      "frase": "open pit mine",
+      "original": 1711,
+      "nuevos": 1434,
+      "equivalente_a": ""
+    },
+    {
+      "id": "04",
+      "frase": "open-pit mine",
+      "original": 1711,
+      "nuevos": 0,
+      "equivalente_a": "03"
+    },
+    {
+      "id": "05",
+      "frase": "surface mining",
+      "original": null,
+      "nuevos": 1210,
+      "equivalente_a": ""
+    },
+    {
+      "id": "06",
+      "frase": "surface mine",
+      "original": 449,
+      "nuevos": 354,
+      "equivalente_a": ""
+    },
+    {
+      "id": "07",
+      "frase": "opencast mining",
+      "original": 318,
+      "nuevos": 305,
+      "equivalente_a": ""
+    },
+    {
+      "id": "08",
+      "frase": "open-cast mining",
+      "original": 207,
+      "nuevos": 194,
+      "equivalente_a": ""
+    },
+    {
+      "id": "09",
+      "frase": "open cut mining",
+      "original": 61,
+      "nuevos": 56,
+      "equivalente_a": ""
+    },
+    {
+      "id": "10",
+      "frase": "open-cut mining",
+      "original": 61,
+      "nuevos": 0,
+      "equivalente_a": "09"
+    }
+  ],
+  "archivos": [
+    {
+      "archivo": "01_open_pit_mining_0001-1000.xls",
+      "consulta": "01",
+      "desde": 1,
+      "hasta": 1000,
+      "filas": 1000,
+      "uids_unicos_lote": 1000,
+      "sha256": "4e2a8d4c91d72bf26d53b815a4c2465ee315939da8c0f9cbceb2ad398336395d"
+    },
+    {
+      "archivo": "01_open_pit_mining_1001-1518.xls",
+      "consulta": "01",
+      "desde": 1001,
+      "hasta": 1518,
+      "filas": 518,
+      "uids_unicos_lote": 518,
+      "sha256": "426e89321e9ce9436a8831fd983a33da354670a12d35034559731b0cca0dfee1"
+    },
+    {
+      "archivo": "03_open_pit_mine_SOLO_NUEVOS_0001-1000.xls",
+      "consulta": "03",
+      "desde": 1,
+      "hasta": 1000,
+      "filas": 1000,
+      "uids_unicos_lote": 1000,
+      "sha256": "9f768edccc56e90b42a6b76d31ca8ad6ce980fb76e205dece48e956b20247a19"
+    },
+    {
+      "archivo": "03_open_pit_mine_SOLO_NUEVOS_1001-1434.xls",
+      "consulta": "03",
+      "desde": 1001,
+      "hasta": 1434,
+      "filas": 434,
+      "uids_unicos_lote": 434,
+      "sha256": "9b483dd0c8f4ff426d967f194410d699fd8d7a573b6ded3127a4f44dff8d2e2f"
+    },
+    {
+      "archivo": "05_surface_mining_SOLO_NUEVOS_0001-1000.xls",
+      "consulta": "05",
+      "desde": 1,
+      "hasta": 1000,
+      "filas": 1000,
+      "uids_unicos_lote": 1000,
+      "sha256": "e9972079de9d21fafdd188f44173fe5209b23e7a15f094903e2c26316b663ca3"
+    },
+    {
+      "archivo": "05_surface_mining_SOLO_NUEVOS_1001-1210.xls",
+      "consulta": "05",
+      "desde": 1001,
+      "hasta": 1210,
+      "filas": 210,
+      "uids_unicos_lote": 210,
+      "sha256": "9506265bb6b748087d7b2ddc318ead5a4148a592227084526de46bcc4e5f1c6f"
+    },
+    {
+      "archivo": "06_surface_mine_SOLO_NUEVOS_0001-0354.xls",
+      "consulta": "06",
+      "desde": 1,
+      "hasta": 354,
+      "filas": 354,
+      "uids_unicos_lote": 354,
+      "sha256": "0de101300de57b3cdeebeaf64e9ae3e4581c4e7aef0fb22896e9acac9df2de3a"
+    },
+    {
+      "archivo": "07_opencast_mining_SOLO_NUEVOS_0001-0305.xls",
+      "consulta": "07",
+      "desde": 1,
+      "hasta": 305,
+      "filas": 305,
+      "uids_unicos_lote": 305,
+      "sha256": "21dc9ddeead24b74eacceb4cb9a561169f47b4c91a3a126e5e1fc2ee1bdeac50"
+    },
+    {
+      "archivo": "08_open_cast_mining_SOLO_NUEVOS_0001-0194.xls",
+      "consulta": "08",
+      "desde": 1,
+      "hasta": 194,
+      "filas": 194,
+      "uids_unicos_lote": 194,
+      "sha256": "c911acd116bde2854846bfa5df99af5e25d77460075ba29b52cd3d9bd7d784fe"
+    },
+    {
+      "archivo": "09_open_cut_mining_SOLO_NUEVOS_0001-0056.xls",
+      "consulta": "09",
+      "desde": 1,
+      "hasta": 56,
+      "filas": 56,
+      "uids_unicos_lote": 56,
+      "sha256": "a6d4a1c00f73c1794754796479fc6c35c6dc617285ae35b4324658a5e5d56a6f"
+    }
+  ],
+  "total_original_consulta_05_pendiente": true,
+  "consulta_filtro": "TI/AB Exact Search; Article o Review Article; sin límite de años ni idiomas",
+  "equivalencia_consultas": "02=01, 04=03, 10=09 según controles NOT de WoS",
+  "limite": "Las coincidencias acumuladas son registros de una extracción incremental. No equivalen a la suma de los totales de búsquedas independientes."
+}

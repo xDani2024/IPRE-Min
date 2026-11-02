@@ -1,0 +1,60 @@
+{
+  "version": "v8_criterio_ipre_transferido_wos_2026_11_01",
+  "criterio": "v8_calibrada_1",
+  "fecha": "2026-11-01",
+  "N_base_amplia_sin_alterar": 2238,
+  "conteos_v7": {
+    "OUT": 2017,
+    "IN": 221
+  },
+  "conteos_propuesta_v8": {
+    "OUT": 1179,
+    "TC": 917,
+    "IN": 142
+  },
+  "transiciones_v7_a_v8": {
+    "IN>IN": 101,
+    "IN>OUT": 19,
+    "IN>TC": 101,
+    "OUT>IN": 41,
+    "OUT>OUT": 1160,
+    "OUT>TC": 816
+  },
+  "reglas": {
+    "I01_TAREA_RESULTADO_EVALUADO": 142,
+    "O02_LITERATURA_SECUNDARIA": 46,
+    "O04_FOCO_ALTERNATIVO_IDENTIFICADO": 1004,
+    "O06_RESULTADO_DE_COMPONENTE": 3,
+    "O07_RESULTADO_DE_MINA_PROYECTO": 126,
+    "T02_DOCUMENTO_HIBRIDO": 1,
+    "T03_CONTEXTO_INSUFICIENTE": 8,
+    "T04_COMPONENTE_SIN_VINCULO_OPERACIONAL": 35,
+    "T05_RESULTADO_NO_ACREDITADO": 873
+  },
+  "N_cambios_propuestos": 977,
+  "N_desarrollo_unico": 0,
+  "piloto_humano_actual": {},
+  "propuestas_en_piloto": {},
+  "N_discrepancias_piloto_regla_v8": 0,
+  "disposicion_insuficientes_v7": {
+    "TC": 339,
+    "IN": 25,
+    "OUT": 58
+  },
+  "modelo_llm_ejecutado_en_corrida_v8": null,
+  "llamadas_API": 0,
+  "metodo": "reglas reproducibles y conservación identificada de auditorías IA de desarrollo previas",
+  "lectura_semantica_individual_nueva_4735": false,
+  "texto_completo_nuevo": 0,
+  "decision_humana_automatica": false,
+  "validacion_independiente_completada": false,
+  "entradas_sha256": {
+    "entrada/v7/salida/matriz_nucleo_provisional_4735_v7.csv": "af4f7ea762c7aea424afcb59847681e39238e33a349cdfe14bfdeea2ef6e5d5a",
+    "entrada/calibracion_piloto.json": "ca755bf1d9ff813cfdea695e2fb0fb0b8d26a75bf8f02e95cf97ccb86e778647",
+    "entrada/v7/entrada/alertas_metadata_ampliadas_v6.csv": "a294b32b0b4d83da5bf67edc82253660666eeaa506de40ec85a0de546dd9cea2",
+    "entrada/v7/auditoria_dirigida_de_reglas.psv": "7a7484b7dace3e605af9b5b71c9da6ecd908f39d884033a53e6ae0b10c131bdc",
+    "entrada/v7/salida/decisiones_dudosos_1241_v7.csv": "351a6062e1678aa65de5de3cb1f00de9d12de9faddf3799c310472790461d83b",
+    "entrada/v7/11_resolver_dudosos.py": "fba538bfe5aab208f9325e6f3d7210a5715f133b6e9aad02796b734fe712b9f0"
+  },
+  "codigo_sha256": "3b7fd5fa22ac853d666259fcb406e41b002cc099da9087a176211bda930b638c"
+}

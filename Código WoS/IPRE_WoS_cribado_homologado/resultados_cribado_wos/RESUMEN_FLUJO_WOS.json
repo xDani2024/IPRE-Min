@@ -1,0 +1,70 @@
+{
+  "fecha_ejecucion_utc": "2026-11-02T02:33:16.161226+00:00",
+  "fuente": "Web of Science Core Collection",
+  "metodo_extraccion": "manual incremental, 10 exportaciones WoS (Fase 1)",
+  "etapa_entrada": "04_base_amplia_provisional.csv de Fase 1",
+  "conteos_fase01": {
+    "total_uid": 5071,
+    "sin_resumen": 198,
+    "elegibles_filtro_amplio": 2238,
+    "excluidos_filtro_amplio": 2635
+  },
+  "v6": {
+    "DUDOSO": 690,
+    "IN_FUERTE": 92,
+    "IN_SECUNDARIO": 124,
+    "OUT": 1332
+  },
+  "v7": {
+    "IN": 221,
+    "OUT": 2017
+  },
+  "v8": {
+    "IN": 142,
+    "OUT": 1179,
+    "TC": 917
+  },
+  "v9_solo_reglas": {
+    "IN": 168,
+    "OUT": 2070
+  },
+  "tc_v8_procesados_solo_reglas": 917,
+  "alertas_documentales": 2,
+  "alertas_deduplicacion_grupos": 3,
+  "muestra_ciega_v6": 130,
+  "marcos_muestra_v6": {
+    "I": 216,
+    "O": 1332,
+    "D": 690
+  },
+  "verificaciones": {
+    "particion_fase01_por_UID": true,
+    "base_v6_v7_v8_v9_con_mismos_wos_id": true,
+    "sin_traspaso_juicios_humanos_openalex": true,
+    "sin_traspaso_auditorias_IA_openalex": true,
+    "sin_lectura_texto_completo": true,
+    "validacion_humana_completada": false
+  },
+  "sha256_entrada": {
+    "04_base_amplia_provisional.csv": "58087cdabc756def1005814472fa512eb2612a0bfc0de067d53502770c8592a7",
+    "05_excluidos_filtro_amplio.csv": "7b1400e24c2d5e489d3814781118376dcf033bb5f1f5c433d1f7fd84b74e5267",
+    "03_sin_abstract.csv": "c5e6f391557e5c62d31a5f5ef4b5f242410232d4c910ca912fcb670d79871cb4",
+    "01_registros_unicos_normalizados.csv": "ece171e6704af47f6804d5aed069ce736260e9c6b0e84c154a2399f1fba329a2"
+  },
+  "sha256_matrices": {
+    "v6": "70f7d2079365924534f014a6efd834a18640e18e245b194962566235873de7b7",
+    "v7": "af4f7ea762c7aea424afcb59847681e39238e33a349cdfe14bfdeea2ef6e5d5a",
+    "v8": "dd8513869b401fb3e14c6edb41203e38c09c49a49e94a35fad197927992ddce5",
+    "v9": "27e3810d4d61f61f098a6f42f280cc751e043ebe3e7d51f55d3746d8a113462f"
+  },
+  "observaciones": [
+    "La etiqueta openalex_id es un alias tecnico del wos_id, no una vinculacion a OpenAlex.",
+    "Las reglas de cribado provienen de IPRE_codigo v9 y se aplicaron a fichas WoS sin adaptar su contenido semantico.",
+    "v8 transfiere reglas calibradas en OpenAlex sin repetir el piloto humano en WoS.",
+    "v9 es una aplicacion automatica de reglas, sin las auditorias semanticas ni decisiones humanas especificas del v9 OpenAlex.",
+    "Las 198 fichas sin resumen y las 2635 excluidas del filtro amplio se conservaron en la Fase 1 para auditoria y sensibilidad.",
+    "IN/OUT en v9 no equivalen a validacion humana ni elegibilidad definitiva.",
+    "Revisar alertas de posibles retractaciones y duplicados por titulo-ano antes de integrar bases.",
+    "Pendiente total original consulta WoS 05 surface mining."
+  ]
+}
