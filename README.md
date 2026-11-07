@@ -1,6 +1,6 @@
 # IPRE-M-DCC
 
-Repositorio de código para la extracción y el procesamiento de datos bibliográficos provenientes de **OpenAlex** y **Scopus**, con futura incorporación de **Web of Science (WoS)**.
+Repositorio de código para la obtención y el procesamiento de datos bibliográficos provenientes de **OpenAlex**, **Scopus** y **Web of Science (WoS)**.
 
 ## Objetivo
 
@@ -8,23 +8,23 @@ Analizar la literatura sobre operaciones mineras a cielo abierto, con especial i
 
 ## Alcance del procesamiento
 
-El flujo contempla la extracción de metadatos, deduplicación, filtrado temático, cribado de publicaciones y generación de resultados descriptivos. Se conservan las decisiones y los motivos de clasificación para revisar su evolución.
+El flujo contempla la obtención y preparación de metadatos, deduplicación, filtrado temático, cribado de publicaciones y generación de resultados descriptivos, gráficos e informes. Se conservan las decisiones y los motivos de clasificación para revisar su evolución.
 
 ## Estado del proyecto
 
 - **OpenAlex:** flujo de referencia desarrollado por Joaquín.
 - **Scopus:** flujo adaptado y reproducción local comprobada. La validación humana independiente permanece pendiente.
-- **Web of Science:** pruebas de conexión realizadas. La extracción de registros completos con resúmenes permanece pendiente por restricciones de acceso o cuota.
+- **Web of Science:** exportación manual y procesamiento local realizados, con cribado automático y resultados descriptivos generados. La revisión humana independiente permanece pendiente y la extracción mediante API continúa en evaluación.
 
-Las cohortes se mantienen separadas. Las decisiones humanas de OpenAlex no se trasladan automáticamente a Scopus.
+Las cohortes se mantienen separadas y se utilizan criterios de cribado comparables. Las decisiones humanas de una fuente no se trasladan automáticamente a las demás.
 
 ## Ejecución y resultados
 
-Las instrucciones específicas de ejecución se encuentran en la documentación de cada paquete.
+Las instrucciones de ejecución se encuentran en la documentación de cada paquete.
 
-La reproducción local de Scopus utiliza páginas JSON previamente guardadas y no requiere una API key. Una nueva extracción requiere credenciales propias y puede generar conteos diferentes.
+Scopus utiliza páginas JSON previamente guardadas para su reproducción local. WoS utiliza los archivos exportados manualmente. Estos procesos locales no requieren nuevas consultas a las respectivas API.
 
-Las clasificaciones automáticas son propuestas preliminares. La reproducción técnica no equivale a validación académica ni a revisión de texto completo.
+Las clasificaciones automáticas son resultados preliminares. La reproducción técnica no equivale a validación académica ni a revisión de texto completo.
 
 ## Documentación y datos
 
