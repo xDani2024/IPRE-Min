@@ -1,0 +1,27 @@
+{
+  "version": "1.3.0",
+  "alertas_entrada": 791,
+  "registros_normalizados": 24152,
+  "pares_comparados": 911,
+  "recuentos_por_decision_sugerida": {
+    "MISMA_PUBLICACION": 428,
+    "REQUIERE_REVISION": 363
+  },
+  "recuentos_por_tipo_original": {
+    "DOI_TITULOS_O_ANIOS_DIVERGENTES": 67,
+    "MULTIPLES_IDS_MISMA_FUENTE_REVISAR": 3,
+    "TITULO_ANIO_DOI_CONFLICTIVOS": 36,
+    "TITULO_CON_ANIOS_DISTINTOS": 435,
+    "TITULO_VACIO": 250
+  },
+  "titulos_no_latinos_con_valor": 249,
+  "limitaciones": [
+    "Decisiones computacionales sugeridas: NINGUNA fusión o separación se aplica sobre el corpus.",
+    "MISMA_PUBLICACION significa coincidencia bibliográfica probable, no igualdad byte a byte de PDF.",
+    "Las comparaciones se realizan solo con metadatos archivados, no con Crossref ni PDFs.",
+    "Las 791 alertas no son un conjunto exhaustivo de todas las posibles parejas duplicadas.",
+    "El número de publicaciones únicas 15.412 NO se actualiza con sugerencias sin confirmar.",
+    "No se deben usar decisiones automáticas como evidencia de inclusión temática.",
+    "Un título no latino no es un título vacío. No descartar publicaciones por el normalizador latino anterior."
+  ]
+}

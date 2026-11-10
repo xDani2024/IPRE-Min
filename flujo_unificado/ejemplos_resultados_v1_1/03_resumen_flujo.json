@@ -1,0 +1,166 @@
+{
+  "alertas_integracion": 791,
+  "cribado": {
+    "clasificador": "reglas comunes con señales de dominio minero, procesos y objetivo; más diccionarios históricos solo para sugerir etiquetas, sin campos exclusivos de fuente",
+    "comparacion_con_anterior": {
+      "cambios": 12468,
+      "disponible": true,
+      "nota": "Los cambios no son mejoras confirmadas hasta la revisión humana.",
+      "total_registros_anteriores": 15412,
+      "transiciones": [
+        {
+          "cantidad": 12,
+          "desde": "CANDIDATO",
+          "hacia": "EXCLUSION_PROPUESTA"
+        },
+        {
+          "cantidad": 2146,
+          "desde": "CANDIDATO",
+          "hacia": "PENDIENTE_REVISION"
+        },
+        {
+          "cantidad": 1757,
+          "desde": "CANDIDATO",
+          "hacia": "REVISION_PRIORITARIA"
+        },
+        {
+          "cantidad": 476,
+          "desde": "EXCLUSION_PROPUESTA",
+          "hacia": "CANDIDATO"
+        },
+        {
+          "cantidad": 6674,
+          "desde": "EXCLUSION_PROPUESTA",
+          "hacia": "PENDIENTE_REVISION"
+        },
+        {
+          "cantidad": 1403,
+          "desde": "EXCLUSION_PROPUESTA",
+          "hacia": "REVISION_PRIORITARIA"
+        }
+      ]
+    },
+    "entradas": 15412,
+    "muestra_para_validacion": 183,
+    "recuentos_automaticos": {
+      "CANDIDATO": 3029,
+      "EXCLUSION_PROPUESTA": 183,
+      "PENDIENTE_REVISION": 9040,
+      "REVISION_PRIORITARIA": 3160
+    },
+    "revision_humana_realizada": false,
+    "solo_campos_para_decidir": [
+      "titulo",
+      "resumen",
+      "tipo_documento"
+    ],
+    "version_cribado": "1.1.0-calibracion-pendiente"
+  },
+  "fuentes": {
+    "OpenAlex": {
+      "ruta": "Código OpenAlex/IPRE_codigo_y_datos_v9/01_extraccion_y_filtro/datos_reconstruidos/universo_openalex.csv",
+      "sha256": "ab00259d1d00e93f43b32e27aece05ab279df74fb3e13d112f59983e4ed7de1a"
+    },
+    "Scopus": {
+      "ruta": "Código Scopus/IPRE_Scopus_codigo_y_datos_v9/01_extraccion_y_filtro/referencia_archivada/universo_scopus_deduplicado.csv",
+      "sha256": "9b61dfe6d57c50c522ccc3b77a71e8eafbdf712c89743eabd4ff36edb3f97adc"
+    },
+    "WoS": {
+      "ruta": "Código WoS/IPRE_WoS_cribado_homologado/entrada_fase01/01_registros_unicos_normalizados.csv",
+      "sha256": "645d2e4bc452cd7eb731edf6580982fd0a10390a11acce6073a08f813eb45a80"
+    }
+  },
+  "integracion": {
+    "alcance": "Registros únicos disponibles por fuente antes del cribado temático",
+    "alertas_por_tipo": {
+      "DOI_TITULOS_O_ANIOS_DIVERGENTES": 67,
+      "MULTIPLES_IDS_MISMA_FUENTE_REVISAR": 3,
+      "TITULO_ANIO_DOI_CONFLICTIVOS": 36,
+      "TITULO_CON_ANIOS_DISTINTOS": 435,
+      "TITULO_VACIO": 250
+    },
+    "entradas": {
+      "OpenAlex": {
+        "registros": 9534,
+        "ruta": "Código OpenAlex/IPRE_codigo_y_datos_v9/01_extraccion_y_filtro/datos_reconstruidos/universo_openalex.csv",
+        "sha256": "ab00259d1d00e93f43b32e27aece05ab279df74fb3e13d112f59983e4ed7de1a"
+      },
+      "Scopus": {
+        "registros": 9547,
+        "ruta": "Código Scopus/IPRE_Scopus_codigo_y_datos_v9/01_extraccion_y_filtro/referencia_archivada/universo_scopus_deduplicado.csv",
+        "sha256": "9b61dfe6d57c50c522ccc3b77a71e8eafbdf712c89743eabd4ff36edb3f97adc"
+      },
+      "WoS": {
+        "registros": 5071,
+        "ruta": "Código WoS/IPRE_WoS_cribado_homologado/entrada_fase01/01_registros_unicos_normalizados.csv",
+        "sha256": "645d2e4bc452cd7eb731edf6580982fd0a10390a11acce6073a08f813eb45a80"
+      }
+    },
+    "etapa": "universo",
+    "limites": [
+      "Vinculación automática conservadora. Los casos alertados no se resuelven sin revisión bibliográfica.",
+      "No se trasladan decisiones humanas ni etiquetas temáticas entre bases.",
+      "Las bases de origen ya tienen procesos propios de deduplicación y filtrado.",
+      "La extracción nueva por API no se ejecuta en este flujo local.",
+      "WoS corresponde a una exportación manual, y los archivos originales XLS no están en este paquete.",
+      "Corpus consolidado provisional: no equivale a conjunto final de estudios incluidos."
+    ],
+    "publicaciones_con_multiples_fuentes": 6116,
+    "publicaciones_por_cantidad_de_fuentes": {
+      "1": 9296,
+      "2": 3492,
+      "3": 2624
+    },
+    "publicaciones_unicas_provisionales": 15412,
+    "reduccion_en_grupos_multifuente": 8740,
+    "reduccion_por_vinculacion": 8740,
+    "registros_en_publicaciones_multifuente": 14856,
+    "registros_por_fuente": {
+      "OpenAlex": 9534,
+      "Scopus": 9547,
+      "WoS": 5071
+    },
+    "total_registros_entrada": 24152
+  },
+  "limitaciones": [
+    "Los universos archivados ya fueron deduplicados internamente por cada fuente antes de esta etapa.",
+    "La consulta y los filtros documentales de cada API/exportación no son equivalentes de forma automática.",
+    "Los archivos originales XLS de WoS no están incluidos en el repositorio analizado; sin ellos solo se reproduce la importación desde CSV existente.",
+    "La vinculación bibliográfica automática tiene alertas pendientes y los conteos son provisionales.",
+    "El cribado v1.1 es una propuesta computacional. Los casos centinela son pruebas de regresión, NO estimaciones de sensibilidad ni precisión.",
+    "CANDIDATO y EXCLUSION_PROPUESTA no son decisiones finales. REVISION_PRIORITARIA indica evidencia ambigua o parcial.",
+    "La muestra de validación requiere revisión humana independiente para evaluar errores por cada grupo.",
+    "Los resultados históricos v6-v9 por base se conservan como referencia, no se heredan como decisiones del corpus unificado.",
+    "Las etiquetas temáticas finales requieren revisión de papers seleccionados y acuerdo metodológico."
+  ],
+  "metodo_fuentes": {
+    "OpenAlex": "API, instantanea archivada",
+    "Scopus": "API, instantanea archivada",
+    "WoS": "exportaciones manuales"
+  },
+  "orden": [
+    "extraccion_independiente",
+    "normalizacion",
+    "unificacion",
+    "deduplicacion",
+    "cribado_automatico_comun_titulo_resumen",
+    "revision_humana_pendiente",
+    "clasificacion_tematica_pendiente"
+  ],
+  "sha256_resultados": {
+    "02_integracion_y_deduplicacion/01_registros_normalizados.csv": "79025eeba487863b9d163c93a1986c8890da53c7e5c9e7336a11f07f75c0ca5c",
+    "02_integracion_y_deduplicacion/02_corpus_consolidado_provisional.csv": "789d1974be85c3ac82d6861d21c9a4a2f8e699300dca7956e2c45419738dcc20",
+    "02_integracion_y_deduplicacion/03_correspondencias_procedencia.csv": "a71c26445e4e30088ccc0870df177711618749200f4da8de5385ab41d3bfc486",
+    "02_integracion_y_deduplicacion/04_alertas_revision.csv": "c10a8c9905acd8497b1a03c3bc02223ad25f5a50a4ab271a12dd18aaa2ce9b04",
+    "03_cribado_comun/01_matriz_cribado_automatico.csv": "33b695b90271debcf658ae538474a4420cf6cea83f0e8ac9c0308ddc0d27c36c",
+    "03_cribado_comun/02_candidatos_para_revision.csv": "9fe2838ea7b2d39245fe0de1b4fbb8f14c1d882324570f54312a56c31c2d45c5",
+    "03_cribado_comun/03_pendientes_de_revision.csv": "6c16ebbd3035fc5dac78f84a18e70498f253b458a465fae1a3df949968cc61c4",
+    "03_cribado_comun/04_exclusiones_propuestas.csv": "dc4e4b9f08a17b3b064b6485038888f239808b231334d8eda7b7887745ccdf01",
+    "03_cribado_comun/05_revision_prioritaria.csv": "83d22cfd678e7a76d44006776bc93c8b2ccbe3add6b6442b6ebec7a1fd74bc6d",
+    "04_revision_humana/01_plantilla_cribado_humano.csv": "abf307e982871bca8bc71832478f4639188873d44eb5427e4f2d6fbffbf27622",
+    "04_revision_humana/02_muestra_validacion.csv": "4ccf86c4dfedc0b11ef0d573c626490a6c118ab8186fb4b87e2e8c5667d15eef",
+    "05_clasificacion_posterior/01_plantilla_tematica_PENDIENTE.csv": "33952e7a44181f8d3d36559e0698a3ae67b098c889af0fa948dadc0e6029bd96",
+    "06_auditoria/01_cambios_vs_cribado_previo.csv": "9a84568fecbfb8f98749ba8cfad25b0468778fde1744cb3ae70a5a733485c6ba"
+  },
+  "version_flujo": "1.1.0"
+}

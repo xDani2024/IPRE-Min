@@ -1,0 +1,105 @@
+{
+  "identificacion": {
+    "registros_por_base_en_integracion": {
+      "Scopus": 9547,
+      "OpenAlex": 9534,
+      "WoS": 5071
+    },
+    "total_registros_integrados": 24152,
+    "nota_openalex": "Extracción OpenAlex: API informó 9.817; recuperados 9.844; 304 duplicados internos eliminados -> 9.540 únicos; 9.534 trazados en la integración (6 sin identificador reconstruible).",
+    "nota_scopus_wos": "Los conteos crudos previos a la deduplicación interna de Scopus y WoS no están en los archivos de integración entregados; no se estiman."
+  },
+  "deduplicacion": {
+    "registros_integrados": 24152,
+    "duplicados_eliminados": 8855,
+    "publicaciones_unicas": 15297,
+    "publicaciones_multifuente": 6165,
+    "entradas_segun_08_resumen_validacion": {
+      "OpenAlex": 9534,
+      "Scopus": 9547,
+      "WoS": 5071
+    }
+  },
+  "cribado": {
+    "publicaciones_evaluadas": 15297,
+    "etapa1_filtro_amplio": {
+      "aceptadas": 7473,
+      "excluidas": 7824,
+      "motivos_exclusion": {
+        "sin_foco_operacional_suficiente": 7231,
+        "tema_excluido_en_titulo": 1856,
+        "tema_periferico_en_titulo": 100,
+        "metodo_subterraneo_fuera_de_alcance": 111
+      }
+    },
+    "etapa2_pertinencia_operacional": {
+      "evaluadas": 7473,
+      "incluidas": 3865,
+      "excluidas": 3608,
+      "excluidas_por_etapa": {
+        "cribado_pertinencia_operacional": 3608
+      },
+      "motivos_exclusion": {
+        "F_GEO": 1672,
+        "F_AMB": 1018,
+        "F_VIB": 158,
+        "F_CTX": 150,
+        "F_ECO": 130,
+        "F_OTRO": 100,
+        "F_GEOL": 99,
+        "F_TELE": 94,
+        "F_SEG": 74,
+        "F_PROC": 57,
+        "F_SALUD": 30,
+        "F_COMP": 16,
+        "F_DOC": 10
+      }
+    },
+    "etapa3_cribado_desempeno_en_incluidas": {
+      "IN": 573,
+      "OUT": 3292
+    }
+  },
+  "incluidos": {
+    "total": 3865,
+    "por_base": {
+      "Scopus": 2570,
+      "WoS": 1090,
+      "OpenAlex": 2385
+    },
+    "revisiones_de_literatura": 108,
+    "sin_resumen": 40,
+    "requiere_revision_humana": 86
+  },
+  "nucleo_desempeno_por_base": {
+    "Scopus": 369,
+    "WoS": 175,
+    "OpenAlex": 403
+  },
+  "evaluadas_por_base": {
+    "Scopus": 9547,
+    "OpenAlex": 9533,
+    "WoS": 5069
+  },
+  "nota_por_base": "Conteos por base de publicaciones únicas; una publicación multifuente cuenta en cada base. Una publicación puede agrupar dos registros de la misma base, por eso OpenAlex suma 9.533 y WoS 5.069.",
+  "glosario_motivos_nivel2": {
+    "F_AMB": "Foco ambiental, hídrico, de emisiones, cierre o recuperación de terrenos, sin vínculo con la ejecución de la operación.",
+    "F_COMP": "Componente o material sin vínculo con un equipo de la operación del rajo.",
+    "F_CTX": "Contexto distinto de la operación a cielo abierto (subterráneo, otra industria u otra aplicación).",
+    "F_DOC": "Documento sin estudio propio (editorial, reseña, bibliografía, actas o publicación retractada).",
+    "F_ECO": "Foco económico agregado, social, legal, de política o educativo, sin objeto operacional.",
+    "F_GEO": "Foco geotécnico o de estabilidad sin vínculo operacional explícito (ciclo, costos, tiempos o equipos).",
+    "F_GEOL": "Foco geológico, geofísico, de exploración o estimación de recursos.",
+    "F_OTRO": "No trata procesos, equipos, actividades ni decisiones de la operación del rajo (tema general o de gestión).",
+    "F_PROC": "Procesamiento o planta fuera de la operación del rajo.",
+    "F_SALUD": "Salud o exposición ocupacional (vibración, ruido, polvo, calor) de los trabajadores.",
+    "F_SEG": "Seguridad ocupacional general, sin vínculo con la operación de equipos o procesos.",
+    "F_TELE": "Cartografía o teledetección del área minera sin objeto operacional.",
+    "F_VIB": "Efectos de la tronadura (vibraciones, onda aérea, proyecciones, daño) sin vínculo operacional."
+  },
+  "aceptadas_filtro_amplio_por_base": {
+    "OpenAlex": 4779,
+    "Scopus": 4838,
+    "WoS": 2387
+  }
+}

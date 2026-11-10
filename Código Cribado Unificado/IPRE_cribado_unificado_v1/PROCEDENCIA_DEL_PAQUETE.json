@@ -1,0 +1,103 @@
+{
+  "fecha": "2026-11-10",
+  "paquete": "IPRE_cribado_unificado_v1",
+  "ubicacion_esperada": "IPRE-Min-main/Código Cribado Unificado/IPRE_cribado_unificado_v1/ (las entradas se leen del repositorio; también puede indicarse --proyecto)",
+  "punto_de_inicio": "Corpus unificado validado de la integración OpenAlex + Scopus + WoS (universo)",
+  "registros_integrados": 24152,
+  "registros_por_base": {
+    "OpenAlex": 9534,
+    "Scopus": 9547,
+    "WoS": 5071
+  },
+  "duplicados_eliminados": 8855,
+  "publicaciones_unicas": 15297,
+  "entradas_sha256": {
+    "integracion_corpus/resultados_validados/universo/01_corpus_unificado_identidad.csv": "23cfdc559143ee1354129d8ee7efa91b0f1d8245d2894c605c9e6aa423079b14",
+    "integracion_corpus/resultados_validados/universo/02_procedencia_registros.csv": "30fc7b92daf2e7df5b7d23648fdc3bfdb7564348aca50717ac556c8de75df61c",
+    "integracion_corpus/resultados_validados/universo/08_resumen_validacion.json": "486807a72eeec86309cf7216b51552f5de4dbb38efe110816a2a5c2d9e496321",
+    "Código OpenAlex/IPRE_codigo_y_datos_v9/01_extraccion_y_filtro/datos_reconstruidos/universo_openalex.csv": "ab00259d1d00e93f43b32e27aece05ab279df74fb3e13d112f59983e4ed7de1a",
+    "Código Scopus/IPRE_Scopus_codigo_y_datos_v9/01_extraccion_y_filtro/referencia_archivada/universo_scopus_deduplicado.csv": "9b61dfe6d57c50c522ccc3b77a71e8eafbdf712c89743eabd4ff36edb3f97adc",
+    "Código WoS/IPRE_WoS_cribado_homologado/entrada_fase01/01_registros_unicos_normalizados.csv": "645d2e4bc452cd7eb731edf6580982fd0a10390a11acce6073a08f813eb45a80"
+  },
+  "entradas_coinciden_con_08_resumen_validacion": true,
+  "fuente_motores_originales": "IPRE_codigo.zip -> IPRE_codigo_y_datos_v9 (paquete del 8-oct-2026)",
+  "motores_originales_sha256": {
+    "01_extraccion_y_filtro/02_filtrar_y_unificar.py": "4e0a8ece2b9a278fc90fb1dcdc8a6897abc2463a928df34136566c85c63938d9",
+    "02_cribado_v6/codigo/06_screening_multidimensional.py": "b64e771041eef3564dd7dbf39fb07fe226dc050010704ac485227f7b7eba21b3",
+    "03_cribado_v8/15_aplicar_criterio_calibrado.py": "9f24d40bfa78d5e6aba70ca2e6d67ef6352ef08bd4ef223942c321292c053a91",
+    "03_cribado_v8/entrada/v7/11_resolver_dudosos.py": "fba538bfe5aab208f9325e6f3d7210a5715f133b6e9aad02796b734fe712b9f0",
+    "04_cierre_v9/22_cerrar_TC.py": "976b7e1af4fb4abf18a8f4531c3d1ab518af7913fd27305e16b2ec773c79a241"
+  },
+  "motores_originales_coinciden_con_su_MANIFIESTO_SHA256": true,
+  "motores_originales_modificados": false,
+  "auditorias_IA_previas_reutilizadas": false,
+  "decisiones_humanas_previas_reutilizadas": false,
+  "cifras_del_piloto_reutilizadas": false,
+  "lectura_dirigida": "Decisiones congeladas en 04_integracion_final/entrada/lectura_dirigida/ (lectura de título y resumen, no texto completo).",
+  "revision_humana": "Aplicada: 86 casos con información insuficiente (14 excluidos, 12 al núcleo) y muestra ciega de validación de 100 publicaciones. Planillas completadas por la autora con asistencia de un modelo de lenguaje que propuso una clasificación inicial; cada decisión fue verificada y modificada manualmente. Archivos: 05_cierre_revision/planillas/.",
+  "consulta_API_nueva_en_este_paquete": false,
+  "conteos_crudos_Scopus_WoS_previos_a_su_deduplicacion_interna_disponibles": false,
+  "extraccion_OpenAlex_reportada": {
+    "total_API": 9817,
+    "filas_recuperadas": 9844,
+    "unicas": 9540,
+    "trazadas_en_integracion": 9534
+  },
+  "traducciones": "Títulos y resúmenes de las planillas traducidos al español con IA (Claude) como apoyo a la lectura; entrada congelada en 05_cierre_revision/entrada/traducciones_es.json.",
+  "corpus_final": {
+    "ruta": "05_cierre_revision/salida_archivada/01_corpus_completo_cribado.csv",
+    "incluidas": 3851,
+    "excluidas": 11446,
+    "nucleo_IN": 584,
+    "pendientes_revision": 0
+  },
+  "concordancia_muestra": {
+    "kappa_inclusion": 0.78,
+    "kappa_nucleo": 0.522,
+    "acuerdo_inclusion_ponderado": 0.859
+  },
+  "entradas_sha256_lf": {
+    "integracion_corpus/resultados_validados/universo/01_corpus_unificado_identidad.csv": "df102161b8f024331ec969b6c78916af7274e9c2e49cc56944d74ad795aad110",
+    "integracion_corpus/resultados_validados/universo/02_procedencia_registros.csv": "81fb804ccf34c7ee7d7dd7bc3de289a359ccd905339d26c7269fb3820d5c7991",
+    "integracion_corpus/resultados_validados/universo/08_resumen_validacion.json": "486807a72eeec86309cf7216b51552f5de4dbb38efe110816a2a5c2d9e496321",
+    "Código OpenAlex/IPRE_codigo_y_datos_v9/01_extraccion_y_filtro/datos_reconstruidos/universo_openalex.csv": "02da157984acae982ea185ea882a2b69054591bb569e69f3586651b19035a882",
+    "Código Scopus/IPRE_Scopus_codigo_y_datos_v9/01_extraccion_y_filtro/referencia_archivada/universo_scopus_deduplicado.csv": "9b61dfe6d57c50c522ccc3b77a71e8eafbdf712c89743eabd4ff36edb3f97adc",
+    "Código WoS/IPRE_WoS_cribado_homologado/entrada_fase01/01_registros_unicos_normalizados.csv": "645d2e4bc452cd7eb731edf6580982fd0a10390a11acce6073a08f813eb45a80"
+  },
+  "motores_originales_sha256_lf": {
+    "01_extraccion_y_filtro/02_filtrar_y_unificar.py": "4e0a8ece2b9a278fc90fb1dcdc8a6897abc2463a928df34136566c85c63938d9",
+    "02_cribado_v6/codigo/06_screening_multidimensional.py": "b64e771041eef3564dd7dbf39fb07fe226dc050010704ac485227f7b7eba21b3",
+    "03_cribado_v8/15_aplicar_criterio_calibrado.py": "9f24d40bfa78d5e6aba70ca2e6d67ef6352ef08bd4ef223942c321292c053a91",
+    "03_cribado_v8/entrada/v7/11_resolver_dudosos.py": "fba538bfe5aab208f9325e6f3d7210a5715f133b6e9aad02796b734fe712b9f0",
+    "04_cierre_v9/22_cerrar_TC.py": "976b7e1af4fb4abf18a8f4531c3d1ab518af7913fd27305e16b2ec773c79a241"
+  },
+  "valores_usados_de_08_resumen_validacion": {
+    "registros_originales": 24152,
+    "publicaciones_unificadas": 15297,
+    "reduccion_total": 8855,
+    "publicaciones_multifuente": 6165,
+    "por_fuente": {
+      "OpenAlex": 9534,
+      "Scopus": 9547,
+      "WoS": 5071
+    },
+    "entradas": {
+      "OpenAlex": {
+        "registros": 9534,
+        "ruta": "Código OpenAlex/IPRE_codigo_y_datos_v9/01_extraccion_y_filtro/datos_reconstruidos/universo_openalex.csv",
+        "sha256": "ab00259d1d00e93f43b32e27aece05ab279df74fb3e13d112f59983e4ed7de1a"
+      },
+      "Scopus": {
+        "registros": 9547,
+        "ruta": "Código Scopus/IPRE_Scopus_codigo_y_datos_v9/01_extraccion_y_filtro/referencia_archivada/universo_scopus_deduplicado.csv",
+        "sha256": "9b61dfe6d57c50c522ccc3b77a71e8eafbdf712c89743eabd4ff36edb3f97adc"
+      },
+      "WoS": {
+        "registros": 5071,
+        "ruta": "Código WoS/IPRE_WoS_cribado_homologado/entrada_fase01/01_registros_unicos_normalizados.csv",
+        "sha256": "645d2e4bc452cd7eb731edf6580982fd0a10390a11acce6073a08f813eb45a80"
+      }
+    }
+  },
+  "verificacion_de_entradas": "Huella exacta; se toleran solo saltos de línea CRLF/LF y, en 08_resumen_validacion.json, campos que el cribado no usa."
+}

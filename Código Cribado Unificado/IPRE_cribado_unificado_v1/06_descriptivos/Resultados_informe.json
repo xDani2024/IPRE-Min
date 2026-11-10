@@ -1,0 +1,900 @@
+{
+  "fecha": "2026-11-09",
+  "sha256_corpus_cribado": "edc0fa0f26444c94623c47dc048aab837f6635874d43f5ad79b45f0f2f64a9ad",
+  "prisma": {
+    "identificacion": {
+      "registros_por_base_en_integracion": {
+        "Scopus": 9547,
+        "OpenAlex": 9534,
+        "WoS": 5071
+      },
+      "total_registros_integrados": 24152,
+      "nota_openalex": "Extracción OpenAlex: API informó 9.817; recuperados 9.844; 304 duplicados internos eliminados -> 9.540 únicos; 9.534 trazados en la integración (6 sin identificador reconstruible).",
+      "nota_scopus_wos": "Los conteos crudos previos a la deduplicación interna de Scopus y WoS no están en los archivos de integración entregados; no se estiman."
+    },
+    "deduplicacion": {
+      "registros_integrados": 24152,
+      "duplicados_eliminados": 8855,
+      "publicaciones_unicas": 15297,
+      "publicaciones_multifuente": 6165,
+      "entradas_segun_08_resumen_validacion": {
+        "OpenAlex": 9534,
+        "Scopus": 9547,
+        "WoS": 5071
+      }
+    },
+    "cribado": {
+      "publicaciones_evaluadas": 15297,
+      "etapa1_filtro_amplio": {
+        "aceptadas": 7473,
+        "excluidas": 7824,
+        "motivos_exclusion": {
+          "sin_foco_operacional_suficiente": 7231,
+          "tema_excluido_en_titulo": 1856,
+          "tema_periferico_en_titulo": 100,
+          "metodo_subterraneo_fuera_de_alcance": 111
+        }
+      },
+      "etapa2_pertinencia_operacional": {
+        "evaluadas": 7473,
+        "incluidas": 3851,
+        "excluidas": 3622,
+        "excluidas_por_etapa": {
+          "cribado_pertinencia_operacional": 3608,
+          "revision_humana": 14
+        },
+        "motivos_exclusion": {
+          "F_GEO": 1672,
+          "F_AMB": 1018,
+          "F_VIB": 158,
+          "F_CTX": 150,
+          "F_ECO": 130,
+          "F_OTRO": 100,
+          "F_GEOL": 99,
+          "F_TELE": 94,
+          "F_SEG": 74,
+          "F_PROC": 57,
+          "F_SALUD": 30,
+          "F_COMP": 16,
+          "REVISION_HUMANA": 14,
+          "F_DOC": 10
+        }
+      },
+      "etapa3_cribado_desempeno_en_incluidas": {
+        "IN": 584,
+        "OUT": 3267
+      }
+    },
+    "incluidos": {
+      "total": 3851,
+      "por_base": {
+        "Scopus": 2564,
+        "WoS": 1085,
+        "OpenAlex": 2380
+      },
+      "revisiones_de_literatura": 108,
+      "sin_resumen": 31,
+      "requiere_revision_humana": 0
+    },
+    "nucleo_desempeno_por_base": {
+      "Scopus": 371,
+      "WoS": 177,
+      "OpenAlex": 413
+    },
+    "evaluadas_por_base": {
+      "Scopus": 9547,
+      "OpenAlex": 9533,
+      "WoS": 5069
+    },
+    "nota_por_base": "Conteos por base de publicaciones únicas; una publicación multifuente cuenta en cada base. Una publicación puede agrupar dos registros de la misma base, por eso OpenAlex suma 9.533 y WoS 5.069.",
+    "glosario_motivos_nivel2": {
+      "F_AMB": "Foco ambiental, hídrico, de emisiones, cierre o recuperación de terrenos, sin vínculo con la ejecución de la operación.",
+      "F_COMP": "Componente o material sin vínculo con un equipo de la operación del rajo.",
+      "F_CTX": "Contexto distinto de la operación a cielo abierto (subterráneo, otra industria u otra aplicación).",
+      "F_DOC": "Documento sin estudio propio (editorial, reseña, bibliografía, actas o publicación retractada).",
+      "F_ECO": "Foco económico agregado, social, legal, de política o educativo, sin objeto operacional.",
+      "F_GEO": "Foco geotécnico o de estabilidad sin vínculo operacional explícito (ciclo, costos, tiempos o equipos).",
+      "F_GEOL": "Foco geológico, geofísico, de exploración o estimación de recursos.",
+      "F_OTRO": "No trata procesos, equipos, actividades ni decisiones de la operación del rajo (tema general o de gestión).",
+      "F_PROC": "Procesamiento o planta fuera de la operación del rajo.",
+      "F_SALUD": "Salud o exposición ocupacional (vibración, ruido, polvo, calor) de los trabajadores.",
+      "F_SEG": "Seguridad ocupacional general, sin vínculo con la operación de equipos o procesos.",
+      "F_TELE": "Cartografía o teledetección del área minera sin objeto operacional.",
+      "F_VIB": "Efectos de la tronadura (vibraciones, onda aérea, proyecciones, daño) sin vínculo operacional.",
+      "REVISION_HUMANA": "Excluida en la revisión humana de casos con información insuficiente (motivo individual en motivo_exclusion)"
+    },
+    "aceptadas_filtro_amplio_por_base": {
+      "OpenAlex": 4779,
+      "Scopus": 4838,
+      "WoS": 2387
+    }
+  },
+  "filtro_amplio": {
+    "aceptadas": 7473,
+    "excluidas": 7824,
+    "motivos": {
+      "sin_foco_operacional_suficiente": 7231,
+      "tema_excluido_en_titulo": 1856,
+      "metodo_subterraneo_fuera_de_alcance": 111,
+      "tema_periferico_en_titulo": 100
+    }
+  },
+  "nivel1": {
+    "incluidas": 3851,
+    "excluidas": 3622,
+    "motivos": {
+      "F_GEO": 1672,
+      "F_AMB": 1018,
+      "F_VIB": 158,
+      "F_CTX": 150,
+      "F_ECO": 130,
+      "F_OTRO": 100,
+      "F_GEOL": 99,
+      "F_TELE": 94,
+      "F_SEG": 74,
+      "F_PROC": 57,
+      "F_SALUD": 30,
+      "F_COMP": 16,
+      "REVISION_HUMANA": 14,
+      "F_DOC": 10
+    }
+  },
+  "procedencia": {
+    "EXCLUIDO|lectura_dirigida_titulo_resumen": 682,
+    "EXCLUIDO|regla_confirmada_por_lectura_de_titulo": 2926,
+    "EXCLUIDO|revision_humana": 14,
+    "INCLUIDO|lectura_dirigida_titulo_resumen": 1782,
+    "INCLUIDO|regla_confirmada_por_lectura_de_titulo": 1997,
+    "INCLUIDO|revision_humana": 72
+  },
+  "nucleo": {
+    "IN": 584,
+    "por_regla": {
+      "I01_EVIDENCIA_OPERACIONAL_EN_FICHA": 75,
+      "I01_TAREA_RESULTADO_EVALUADO": 376,
+      "RESCATE_LECTURA_DIRIGIDA": 121
+    },
+    "composicion": {
+      "IN por regla v8": {
+        "IN": 376,
+        "OUT_tras_lectura": 78
+      },
+      "TC que v9 propone IN": {
+        "IN": 75,
+        "OUT_tras_lectura": 62
+      },
+      "Control de omisiones": {
+        "IN": 121,
+        "OUT_tras_lectura": 257
+      },
+      "Revisión humana": {
+        "IN": 12,
+        "OUT_tras_lectura": 60
+      }
+    }
+  },
+  "incluidos_por_ano": {
+    "por_ano": {
+      "1940": 1,
+      "1944": 3,
+      "1948": 1,
+      "1949": 1,
+      "1957": 1,
+      "1958": 1,
+      "1959": 1,
+      "1960": 1,
+      "1965": 3,
+      "1966": 3,
+      "1967": 3,
+      "1968": 2,
+      "1969": 10,
+      "1970": 11,
+      "1971": 3,
+      "1972": 7,
+      "1973": 17,
+      "1974": 15,
+      "1975": 16,
+      "1976": 21,
+      "1977": 31,
+      "1978": 21,
+      "1979": 18,
+      "1980": 22,
+      "1981": 22,
+      "1982": 30,
+      "1983": 32,
+      "1984": 36,
+      "1985": 29,
+      "1986": 36,
+      "1987": 39,
+      "1988": 40,
+      "1989": 24,
+      "1990": 12,
+      "1991": 21,
+      "1992": 11,
+      "1993": 16,
+      "1994": 25,
+      "1995": 18,
+      "1996": 31,
+      "1997": 15,
+      "1998": 25,
+      "1999": 21,
+      "2000": 29,
+      "2001": 29,
+      "2002": 35,
+      "2003": 48,
+      "2004": 31,
+      "2005": 42,
+      "2006": 53,
+      "2007": 55,
+      "2008": 54,
+      "2009": 63,
+      "2010": 63,
+      "2011": 88,
+      "2012": 106,
+      "2013": 119,
+      "2014": 112,
+      "2015": 112,
+      "2016": 104,
+      "2017": 122,
+      "2018": 142,
+      "2019": 144,
+      "2020": 185,
+      "2021": 171,
+      "2022": 172,
+      "2023": 192,
+      "2024": 233,
+      "2025": 328,
+      "2026": 315,
+      "2027": 5
+    },
+    "antes_2000": 696,
+    "2000_2025": 2832,
+    "posterior_2025": 320,
+    "sin_ano": 3
+  },
+  "nucleo_por_ano": {
+    "por_ano": {
+      "1949": 1,
+      "1977": 3,
+      "1980": 1,
+      "1981": 1,
+      "1982": 1,
+      "1983": 5,
+      "1986": 2,
+      "1987": 5,
+      "1989": 1,
+      "1990": 1,
+      "1991": 1,
+      "1992": 1,
+      "1995": 1,
+      "1997": 3,
+      "1998": 1,
+      "1999": 1,
+      "2000": 1,
+      "2001": 4,
+      "2002": 4,
+      "2003": 4,
+      "2004": 6,
+      "2005": 4,
+      "2006": 6,
+      "2007": 3,
+      "2008": 3,
+      "2009": 6,
+      "2010": 9,
+      "2011": 14,
+      "2012": 16,
+      "2013": 12,
+      "2014": 11,
+      "2015": 17,
+      "2016": 18,
+      "2017": 25,
+      "2018": 24,
+      "2019": 28,
+      "2020": 42,
+      "2021": 46,
+      "2022": 24,
+      "2023": 39,
+      "2024": 45,
+      "2025": 64,
+      "2026": 79,
+      "2027": 1
+    },
+    "antes_2000": 29,
+    "2000_2025": 475,
+    "posterior_2025": 80,
+    "sin_ano": 0
+  },
+  "incluidos_revisiones": 108,
+  "incluidos_sin_resumen": 31,
+  "revision_humana": {
+    "resumen_compartido_con_otra_publicacion": 30,
+    "sin_resumen_en_las_tres_bases": 36,
+    "solo_titulo_y_resumen_no_ingles": 20
+  },
+  "revision_humana_resultado": {
+    "revisadas": 86,
+    "excluidas": 14,
+    "nucleo_IN": 12
+  },
+  "concordancia": {
+    "muestra_total": 100,
+    "muestra_revisada": 100,
+    "por_estrato": {
+      "E1_excluido_filtro_amplio": {
+        "tamano_estrato": 7824,
+        "revisadas": 25,
+        "acuerdo_inclusion": 0.84,
+        "ic95_inclusion": [
+          0.653,
+          0.936
+        ],
+        "revisor_incluye": 4,
+        "acuerdo_nucleo_entre_incluidas": null,
+        "ic95_nucleo": [
+          null,
+          null
+        ],
+        "n_nucleo": 0
+      },
+      "E2_excluido_pertinencia": {
+        "tamano_estrato": 3608,
+        "revisadas": 25,
+        "acuerdo_inclusion": 1.0,
+        "ic95_inclusion": [
+          0.867,
+          1.0
+        ],
+        "revisor_incluye": 0,
+        "acuerdo_nucleo_entre_incluidas": null,
+        "ic95_nucleo": [
+          null,
+          null
+        ],
+        "n_nucleo": 0
+      },
+      "E3_incluido_nucleo_OUT": {
+        "tamano_estrato": 3207,
+        "revisadas": 25,
+        "acuerdo_inclusion": 0.72,
+        "ic95_inclusion": [
+          0.524,
+          0.857
+        ],
+        "revisor_incluye": 18,
+        "acuerdo_nucleo_entre_incluidas": 0.722,
+        "ic95_nucleo": [
+          0.491,
+          0.875
+        ],
+        "n_nucleo": 18
+      },
+      "E4_incluido_nucleo_IN": {
+        "tamano_estrato": 572,
+        "revisadas": 25,
+        "acuerdo_inclusion": 1.0,
+        "ic95_inclusion": [
+          0.867,
+          1.0
+        ],
+        "revisor_incluye": 25,
+        "acuerdo_nucleo_entre_incluidas": 0.8,
+        "ic95_nucleo": [
+          0.609,
+          0.911
+        ],
+        "n_nucleo": 25
+      }
+    },
+    "kappa_inclusion_muestra": 0.78,
+    "kappa_nucleo_muestra": 0.522,
+    "acuerdo_inclusion_ponderado_corpus": 0.859,
+    "estimacion_falsos_excluidos_en_corpus": 1252,
+    "estimacion_falsos_incluidos_en_corpus": 898,
+    "discrepancias": [
+      {
+        "codigo": "M003",
+        "id_publicacion": "IPRE-U-973353B98334C5DDDA0F",
+        "estrato": "E3_incluido_nucleo_OUT",
+        "automatica": "INCLUIDO/OUT",
+        "revisor": "EXCLUIDO/NO_APLICA",
+        "comentario": "Nivel 1 EXCLUIDO: Automatización del levantamiento geológico, sin vínculo explícito con tiempos, costos o equipos de operación. Núcleo NO_APLICA al no superar Nivel 1."
+      },
+      {
+        "codigo": "M004",
+        "id_publicacion": "IPRE-U-6C5AC066CBD04660E4FC",
+        "estrato": "E3_incluido_nucleo_OUT",
+        "automatica": "INCLUIDO/OUT",
+        "revisor": "EXCLUIDO/NO_APLICA",
+        "comentario": "Nivel 1 EXCLUIDO: Homogeneización y reclamación de carbón en instalación de acopio posterior a la extracción; no se centra en la operación del rajo. Núcleo NO_APLICA al no superar Nivel 1."
+      },
+      {
+        "codigo": "M006",
+        "id_publicacion": "IPRE-U-25435EC992C7F0AFE11C",
+        "estrato": "E1_excluido_filtro_amplio",
+        "automatica": "EXCLUIDO/NO_APLICA",
+        "revisor": "INCLUIDO/OUT",
+        "comentario": "Nivel 1 INCLUIDO. Núcleo OUT: Solo se describen especificaciones de un ventilador (flujo y potencia), sin prueba de funcionamiento de una tarea."
+      },
+      {
+        "codigo": "M008",
+        "id_publicacion": "IPRE-U-E0DB6856BF1F94797C0C",
+        "estrato": "E3_incluido_nucleo_OUT",
+        "automatica": "INCLUIDO/OUT",
+        "revisor": "EXCLUIDO/NO_APLICA",
+        "comentario": "Nivel 1 EXCLUIDO: Catálogo de motores ofertados por fabricantes, sin investigación operacional propia. Núcleo NO_APLICA al no superar Nivel 1."
+      },
+      {
+        "codigo": "M009",
+        "id_publicacion": "IPRE-U-6243487A59D1E7B2EB17",
+        "estrato": "E1_excluido_filtro_amplio",
+        "automatica": "EXCLUIDO/NO_APLICA",
+        "revisor": "INCLUIDO/OUT",
+        "comentario": "Nivel 1 INCLUIDO. Núcleo OUT: Describe un esquema mejorado de extracción sin resultados comparativos propios suficientemente explícitos."
+      },
+      {
+        "codigo": "M016",
+        "id_publicacion": "IPRE-U-14A8B1EDD1584B3122FB",
+        "estrato": "E3_incluido_nucleo_OUT",
+        "automatica": "INCLUIDO/OUT",
+        "revisor": "INCLUIDO/IN",
+        "comentario": "Nivel 1 INCLUIDO. Núcleo IN (A+B+C): Evalúa geometría de bancos de acarreo respecto de capacidad de equipos y costos de transporte."
+      },
+      {
+        "codigo": "M032",
+        "id_publicacion": "IPRE-U-E9FEC025FEB7ACB6BA85",
+        "estrato": "E4_incluido_nucleo_IN",
+        "automatica": "INCLUIDO/IN",
+        "revisor": "INCLUIDO/OUT",
+        "comentario": "Nivel 1 INCLUIDO. Núcleo OUT: Analiza causas de fallas de neumáticos; no cuantifica el efecto sobre disponibilidad/productividad del camión completo."
+      },
+      {
+        "codigo": "M038",
+        "id_publicacion": "IPRE-U-1D7E4F066D5F0AC6B420",
+        "estrato": "E4_incluido_nucleo_IN",
+        "automatica": "INCLUIDO/IN",
+        "revisor": "INCLUIDO/OUT",
+        "comentario": "Nivel 1 INCLUIDO. Núcleo OUT: Describe oportunidad de mejorar gestión de auxiliares; el +1,9 veces corresponde a mejora histórica del sistema principal, no a evaluación de auxiliares."
+      },
+      {
+        "codigo": "M039",
+        "id_publicacion": "IPRE-U-4EAAB6677ED4B87F9119",
+        "estrato": "E3_incluido_nucleo_OUT",
+        "automatica": "INCLUIDO/OUT",
+        "revisor": "INCLUIDO/IN",
+        "comentario": "Nivel 1 INCLUIDO. Núcleo IN (A+B+C): Optimización de paredes de rajo comparada: menos estéril extraído, menos energía y NPV +34%."
+      },
+      {
+        "codigo": "M059",
+        "id_publicacion": "IPRE-U-2E13418F1C28EC07C599",
+        "estrato": "E4_incluido_nucleo_IN",
+        "automatica": "INCLUIDO/IN",
+        "revisor": "INCLUIDO/OUT",
+        "comentario": "Nivel 1 INCLUIDO. Núcleo OUT: Discute distancia de traslado de estación de trituración; no reporta valores finales evaluados."
+      },
+      {
+        "codigo": "M062",
+        "id_publicacion": "IPRE-U-1C7BBAA868A0E3B4519E",
+        "estrato": "E3_incluido_nucleo_OUT",
+        "automatica": "INCLUIDO/OUT",
+        "revisor": "INCLUIDO/IN",
+        "comentario": "Nivel 1 INCLUIDO. Núcleo IN (A+B+C): Ensayos industriales de herramienta de perforación: capacidad de perforar sección cuadrada y comportamiento de corte."
+      },
+      {
+        "codigo": "M064",
+        "id_publicacion": "IPRE-U-E3BF26E4504E996D1728",
+        "estrato": "E3_incluido_nucleo_OUT",
+        "automatica": "INCLUIDO/OUT",
+        "revisor": "EXCLUIDO/NO_APLICA",
+        "comentario": "Nivel 1 EXCLUIDO: Reseña de tendencias de productividad centrada en maquinaria y técnicas subterráneas. Núcleo NO_APLICA al no superar Nivel 1."
+      },
+      {
+        "codigo": "M067",
+        "id_publicacion": "IPRE-U-3215DDDFCE091A7D0EFD",
+        "estrato": "E3_incluido_nucleo_OUT",
+        "automatica": "INCLUIDO/OUT",
+        "revisor": "EXCLUIDO/NO_APLICA",
+        "comentario": "Nivel 1 EXCLUIDO: Visión computacional para medir volumen de pila de tronadura; reporta precisión de la medición, no efecto en operación. Núcleo NO_APLICA al no superar Nivel 1."
+      },
+      {
+        "codigo": "M069",
+        "id_publicacion": "IPRE-U-FA44B70353FDCF69F769",
+        "estrato": "E3_incluido_nucleo_OUT",
+        "automatica": "INCLUIDO/OUT",
+        "revisor": "INCLUIDO/IN",
+        "comentario": "Nivel 1 INCLUIDO. Núcleo IN (A+B+C): Comparación experimental de rutas de acarreo: disminución de costo de ruta optimizada."
+      },
+      {
+        "codigo": "M073",
+        "id_publicacion": "IPRE-U-E8F46077CDB111461B56",
+        "estrato": "E1_excluido_filtro_amplio",
+        "automatica": "EXCLUIDO/NO_APLICA",
+        "revisor": "INCLUIDO/OUT",
+        "comentario": "Nivel 1 INCLUIDO. Núcleo OUT: Describe mapas geológicos de apoyo en terreno sin medición de productividad/costos del trabajo."
+      },
+      {
+        "codigo": "M075",
+        "id_publicacion": "IPRE-U-3F5DCC2B9B7D4321123A",
+        "estrato": "E3_incluido_nucleo_OUT",
+        "automatica": "INCLUIDO/OUT",
+        "revisor": "INCLUIDO/IN",
+        "comentario": "Nivel 1 INCLUIDO. Núcleo IN (A+B+C): Modelo MILP probado con datos mineros: asignación de camiones/palas y cumplimiento de metas de producción."
+      },
+      {
+        "codigo": "M082",
+        "id_publicacion": "IPRE-U-7F2ACE24A97FB1A46B3D",
+        "estrato": "E3_incluido_nucleo_OUT",
+        "automatica": "INCLUIDO/OUT",
+        "revisor": "EXCLUIDO/NO_APLICA",
+        "comentario": "Nivel 1 EXCLUIDO: Visión estereoscópica para estimar fragmentación; resultado es precisión del sistema de medición sin efecto operacional observado. Núcleo NO_APLICA al no superar Nivel 1."
+      },
+      {
+        "codigo": "M086",
+        "id_publicacion": "IPRE-U-2BAD8BB84F7F5E1097DD",
+        "estrato": "E1_excluido_filtro_amplio",
+        "automatica": "EXCLUIDO/NO_APLICA",
+        "revisor": "INCLUIDO/IN",
+        "comentario": "Nivel 1 INCLUIDO. Núcleo IN (A+B+C): Modelo multicriterio aplicado a longitud de frente de trabajo: calcula longitud óptima ≥2.000 m."
+      },
+      {
+        "codigo": "M096",
+        "id_publicacion": "IPRE-U-68D5A1C62E0D00BD9AF3",
+        "estrato": "E4_incluido_nucleo_IN",
+        "automatica": "INCLUIDO/IN",
+        "revisor": "INCLUIDO/OUT",
+        "comentario": "Nivel 1 INCLUIDO. Núcleo OUT: Caso de tronadura y carguío señala beneficios, pero no reporta una medida o comparación operacional identificable."
+      },
+      {
+        "codigo": "M097",
+        "id_publicacion": "IPRE-U-3C4DDA9A693108C024E7",
+        "estrato": "E3_incluido_nucleo_OUT",
+        "automatica": "INCLUIDO/OUT",
+        "revisor": "EXCLUIDO/NO_APLICA",
+        "comentario": "Nivel 1 EXCLUIDO: Modelo CFD de circulación de aire y emisiones atmosféricas, sin indicador operacional. Núcleo NO_APLICA al no superar Nivel 1."
+      },
+      {
+        "codigo": "M098",
+        "id_publicacion": "IPRE-U-B41B4141B1630ACDAB5F",
+        "estrato": "E4_incluido_nucleo_IN",
+        "automatica": "INCLUIDO/IN",
+        "revisor": "INCLUIDO/OUT",
+        "comentario": "Nivel 1 INCLUIDO. Núcleo OUT: El modelo se prueba para predecir fragmentación, pero no mide la eficiencia de palas ni el efecto en su ciclo."
+      }
+    ],
+    "nota": "Acuerdo ponderado = suma de (tamaño del estrato x acuerdo del estrato) / corpus. Las estimaciones de falsos excluidos/incluidos extrapolan la proporción de discrepancias de cada estrato a su tamaño; con 25 casos por estrato el intervalo es amplio (ver ic95)."
+  },
+  "indicadores": {
+    "Publicaciones incluidas": "3851",
+    "Núcleo de desempeño (IN)": "584",
+    "Periodo": "1940–2027",
+    "Sin año": "3",
+    "Tasa de crecimiento anual compuesta 1990–2025 (%)": "9.91",
+    "Tasa de crecimiento anual compuesta 2000–2025 (%)": "10.19",
+    "Tasa de crecimiento anual compuesta 2015–2025 (%)": "11.34",
+    "Publicaciones con año posterior a 2025 (año en curso o en prensa)": "320",
+    "Revistas o fuentes distintas": "1094",
+    "Revistas en zona 1 de Bradford": "26",
+    "Autores distintos (normalizados)": "6293",
+    "Autores por publicación (media)": "2.96",
+    "Publicaciones de autoría única": "999",
+    "Publicaciones con país (OpenAlex)": "1399",
+    "Cobertura de país (%)": "36.3",
+    "Colaboración internacional sobre publicaciones con país (%)": "13.9",
+    "Publicaciones con palabras clave de autor (Scopus/WoS)": "1909",
+    "Cobertura de palabras clave de autor (%)": "49.6",
+    "Palabras clave distintas (normalizadas, sin términos de contexto)": "6127",
+    "Citas: media por publicación (máximo entre bases)": "7.37",
+    "Citas: mediana": "1",
+    "Revisiones de literatura": "108",
+    "Identificadores de base no encontrados en los universos": "0"
+  },
+  "bradford": [
+    {
+      "zona": "1",
+      "revistas": "26",
+      "publicaciones": "1236"
+    },
+    {
+      "zona": "2",
+      "revistas": "156",
+      "publicaciones": "1239"
+    },
+    {
+      "zona": "3",
+      "revistas": "912",
+      "publicaciones": "1232"
+    }
+  ],
+  "redes": {
+    "R1_coocurrencia_palabras_clave": {
+      "nodos": 244,
+      "enlaces": 1460,
+      "umbral_documentos": 5,
+      "componentes": 2
+    },
+    "R2_coautoria": {
+      "nodos": 819,
+      "enlaces": 3434,
+      "umbral_documentos": 3,
+      "componentes": 106
+    },
+    "R3_colaboracion_paises": {
+      "nodos": 55,
+      "enlaces": 129,
+      "umbral_documentos": 3,
+      "componentes": 6
+    }
+  },
+  "cobertura": {
+    "autores_por_fuente": {
+      "Scopus": 2544,
+      "OpenAlex": 1191,
+      "WoS": 86,
+      "sin_autores": 30
+    },
+    "palabras_clave_de_autor": {
+      "con": 1909,
+      "fuente": "Scopus y WoS (OpenAlex no entrega palabras clave de autor)"
+    },
+    "paises_e_instituciones": {
+      "con": 1399,
+      "fuente": "solo OpenAlex; los universos de Scopus y WoS no traen afiliaciones"
+    },
+    "citas": "máximo entre bases; las fechas de extracción de cada base difieren"
+  },
+  "top_revistas": [
+    {
+      "revista": "Gornyi Zhurnal",
+      "publicaciones": "107",
+      "porcentaje": "2.78",
+      "nucleo_desempeno_IN": "21",
+      "citas_totales": "366",
+      "zona_bradford": "1"
+    },
+    {
+      "revista": "Mining Informational and Analytical Bulletin",
+      "publicaciones": "92",
+      "porcentaje": "2.39",
+      "nucleo_desempeno_IN": "20",
+      "citas_totales": "318",
+      "zona_bradford": "1"
+    },
+    {
+      "revista": "Journal of Mines Metals and Fuels",
+      "publicaciones": "85",
+      "porcentaje": "2.21",
+      "nucleo_desempeno_IN": "11",
+      "citas_totales": "118",
+      "zona_bradford": "1"
+    },
+    {
+      "revista": "OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information)",
+      "publicaciones": "71",
+      "porcentaje": "1.84",
+      "nucleo_desempeno_IN": "5",
+      "citas_totales": "95",
+      "zona_bradford": "1"
+    },
+    {
+      "revista": "International Journal of Surface Mining Reclamation and Environment",
+      "publicaciones": "62",
+      "porcentaje": "1.61",
+      "nucleo_desempeno_IN": "8",
+      "citas_totales": "826",
+      "zona_bradford": "1"
+    },
+    {
+      "revista": "Ugol",
+      "publicaciones": "56",
+      "porcentaje": "1.45",
+      "nucleo_desempeno_IN": "7",
+      "citas_totales": "78",
+      "zona_bradford": "1"
+    },
+    {
+      "revista": "International Journal of Mining Reclamation and Environment",
+      "publicaciones": "55",
+      "porcentaje": "1.43",
+      "nucleo_desempeno_IN": "11",
+      "citas_totales": "1015",
+      "zona_bradford": "1"
+    },
+    {
+      "revista": "Meitan Xuebao Journal of the China Coal Society",
+      "publicaciones": "50",
+      "porcentaje": "1.3",
+      "nucleo_desempeno_IN": "7",
+      "citas_totales": "350",
+      "zona_bradford": "1"
+    },
+    {
+      "revista": "Mining Engineering",
+      "publicaciones": "50",
+      "porcentaje": "1.3",
+      "nucleo_desempeno_IN": "6",
+      "citas_totales": "132",
+      "zona_bradford": "1"
+    },
+    {
+      "revista": "Journal of the Southern African Institute of Mining and Metallurgy",
+      "publicaciones": "49",
+      "porcentaje": "1.27",
+      "nucleo_desempeno_IN": "9",
+      "citas_totales": "670",
+      "zona_bradford": "1"
+    }
+  ],
+  "top_paises": [
+    {
+      "pais_iso2": "CN",
+      "publicaciones": "370",
+      "porcentaje_sobre_con_pais": "26.4",
+      "publicaciones_un_solo_pais": "326",
+      "publicaciones_colaboracion_internacional": "44"
+    },
+    {
+      "pais_iso2": "RU",
+      "publicaciones": "142",
+      "porcentaje_sobre_con_pais": "10.2",
+      "publicaciones_un_solo_pais": "123",
+      "publicaciones_colaboracion_internacional": "19"
+    },
+    {
+      "pais_iso2": "CA",
+      "publicaciones": "112",
+      "porcentaje_sobre_con_pais": "8.0",
+      "publicaciones_un_solo_pais": "75",
+      "publicaciones_colaboracion_internacional": "37"
+    },
+    {
+      "pais_iso2": "ID",
+      "publicaciones": "111",
+      "porcentaje_sobre_con_pais": "7.9",
+      "publicaciones_un_solo_pais": "108",
+      "publicaciones_colaboracion_internacional": "3"
+    },
+    {
+      "pais_iso2": "US",
+      "publicaciones": "105",
+      "porcentaje_sobre_con_pais": "7.5",
+      "publicaciones_un_solo_pais": "64",
+      "publicaciones_colaboracion_internacional": "41"
+    },
+    {
+      "pais_iso2": "IR",
+      "publicaciones": "80",
+      "porcentaje_sobre_con_pais": "5.7",
+      "publicaciones_un_solo_pais": "62",
+      "publicaciones_colaboracion_internacional": "18"
+    },
+    {
+      "pais_iso2": "AU",
+      "publicaciones": "76",
+      "porcentaje_sobre_con_pais": "5.4",
+      "publicaciones_un_solo_pais": "55",
+      "publicaciones_colaboracion_internacional": "21"
+    },
+    {
+      "pais_iso2": "IN",
+      "publicaciones": "44",
+      "porcentaje_sobre_con_pais": "3.1",
+      "publicaciones_un_solo_pais": "32",
+      "publicaciones_colaboracion_internacional": "12"
+    },
+    {
+      "pais_iso2": "CL",
+      "publicaciones": "42",
+      "porcentaje_sobre_con_pais": "3.0",
+      "publicaciones_un_solo_pais": "21",
+      "publicaciones_colaboracion_internacional": "21"
+    },
+    {
+      "pais_iso2": "BR",
+      "publicaciones": "41",
+      "porcentaje_sobre_con_pais": "2.9",
+      "publicaciones_un_solo_pais": "34",
+      "publicaciones_colaboracion_internacional": "7"
+    }
+  ],
+  "top_palabras": [
+    {
+      "palabra_clave": "optimization",
+      "publicaciones": "90",
+      "nucleo_desempeno_IN": "12"
+    },
+    {
+      "palabra_clave": "mine planning",
+      "publicaciones": "55",
+      "nucleo_desempeno_IN": "3"
+    },
+    {
+      "palabra_clave": "production scheduling",
+      "publicaciones": "39",
+      "nucleo_desempeno_IN": "2"
+    },
+    {
+      "palabra_clave": "simulation",
+      "publicaciones": "37",
+      "nucleo_desempeno_IN": "11"
+    },
+    {
+      "palabra_clave": "blasting",
+      "publicaciones": "36",
+      "nucleo_desempeno_IN": "8"
+    },
+    {
+      "palabra_clave": "machine learning",
+      "publicaciones": "35",
+      "nucleo_desempeno_IN": "6"
+    },
+    {
+      "palabra_clave": "dump truck",
+      "publicaciones": "32",
+      "nucleo_desempeno_IN": "10"
+    },
+    {
+      "palabra_clave": "dragline",
+      "publicaciones": "32",
+      "nucleo_desempeno_IN": "8"
+    },
+    {
+      "palabra_clave": "reliability",
+      "publicaciones": "31",
+      "nucleo_desempeno_IN": "22"
+    },
+    {
+      "palabra_clave": "deep learning",
+      "publicaciones": "26",
+      "nucleo_desempeno_IN": "0"
+    },
+    {
+      "palabra_clave": "rock fragmentation",
+      "publicaciones": "24",
+      "nucleo_desempeno_IN": "3"
+    },
+    {
+      "palabra_clave": "modeling",
+      "publicaciones": "24",
+      "nucleo_desempeno_IN": "4"
+    },
+    {
+      "palabra_clave": "net present value",
+      "publicaciones": "24",
+      "nucleo_desempeno_IN": "3"
+    },
+    {
+      "palabra_clave": "productivity",
+      "publicaciones": "23",
+      "nucleo_desempeno_IN": "11"
+    },
+    {
+      "palabra_clave": "scheduling",
+      "publicaciones": "22",
+      "nucleo_desempeno_IN": "2"
+    },
+    {
+      "palabra_clave": "integer programming",
+      "publicaciones": "22",
+      "nucleo_desempeno_IN": "1"
+    },
+    {
+      "palabra_clave": "artificial intelligence",
+      "publicaciones": "21",
+      "nucleo_desempeno_IN": "3"
+    },
+    {
+      "palabra_clave": "fragmentation",
+      "publicaciones": "21",
+      "nucleo_desempeno_IN": "4"
+    },
+    {
+      "palabra_clave": "truck dispatching",
+      "publicaciones": "20",
+      "nucleo_desempeno_IN": "9"
+    },
+    {
+      "palabra_clave": "efficiency",
+      "publicaciones": "20",
+      "nucleo_desempeno_IN": "9"
+    }
+  ]
+}

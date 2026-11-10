@@ -1,0 +1,70 @@
+{
+  "alertas_deduplicacion_para_revisar": 791,
+  "comparacion_estado_nuevo_para_publicaciones_con_in_v9": {
+    "CANDIDATO": 481,
+    "PENDIENTE_REVISION": 32,
+    "REVISION_PRIORITARIA": 129
+  },
+  "discrepancias_metadatos_v9_vs_universo": 0,
+  "fuentes": {
+    "OpenAlex": {
+      "in_v9": 419,
+      "out_v9": 4316,
+      "total_v9": 4735
+    },
+    "Scopus": {
+      "in_v9": 390,
+      "out_v9": 4224,
+      "total_v9": 4614
+    },
+    "WoS": {
+      "in_v9": 168,
+      "out_v9": 2070,
+      "total_v9": 2238
+    }
+  },
+  "limitaciones": [
+    "IN y OUT históricos de v9 son propuestas computacionales; no se convierten en decisiones humanas.",
+    "Los historiales v9 cubren bases amplias, no todos los registros del universo bibliográfico.",
+    "El cruce se realiza por ID de fuente exacto, no mediante parecido textual ni inferencias.",
+    "Los identificadores IPRE-UNIVERSO-XXXXXX son ordinales y pueden cambiar al actualizar el corpus; relacionar mediante registro_uid.",
+    "Las alertas de deduplicación de la versión integrada todavía requieren revisión humana.",
+    "Las clasificaciones temáticas definitivas se elaboran después del cribado humano."
+  ],
+  "n_publicaciones_unicas_del_corpus": 15412,
+  "n_registros_provenientes_de_v9": 11587,
+  "prioridades": {
+    "ALTA": 203,
+    "MEDIA": 2701,
+    "NORMAL": 12508
+  },
+  "publicaciones_unicas_con_al_menos_un_in_v9": 642,
+  "publicaciones_unicas_con_in_v9_y_out_v9": 55,
+  "registros_in_v9_total": 977,
+  "registros_v9_sin_correspondencia": 0,
+  "resumen_diagnosticos": {
+    "CONTRADICCION_V9_ENTRE_FUENTES": 55,
+    "RESTO_SIN_CONTRADICCION_DIRECTA": 4561,
+    "SIN_DECISION_V9": 7947,
+    "V9_IN_ACTUAL_CANDIDATO": 439,
+    "V9_IN_ACTUAL_PENDIENTE_O_PRIORITARIA": 148,
+    "V9_OUT_ACTUAL_CANDIDATO": 2262
+  },
+  "sha256_entradas": {
+    "entrada_historial_v9/openalex_v9.csv": "a3615fae50e0d189c74a6fddbc7ad60d5c7c861f929be5e59fb885f1b8297124",
+    "entrada_historial_v9/scopus_v9.csv": "169eb01b94209bf75e6d1872cc46224e769571b9b1e562938a4157e96e53060f",
+    "entrada_historial_v9/wos_v9.csv": "51168c9b1dec1344af8e477086eeae003349d697db17b414f107fd202c7655ff",
+    "resultados_calibracion_v1_1/02_integracion_y_deduplicacion/01_registros_normalizados.csv": "79025eeba487863b9d163c93a1986c8890da53c7e5c9e7336a11f07f75c0ca5c",
+    "resultados_calibracion_v1_1/02_integracion_y_deduplicacion/02_corpus_consolidado_provisional.csv": "789d1974be85c3ac82d6861d21c9a4a2f8e699300dca7956e2c45419738dcc20",
+    "resultados_calibracion_v1_1/02_integracion_y_deduplicacion/03_correspondencias_procedencia.csv": "a71c26445e4e30088ccc0870df177711618749200f4da8de5385ab41d3bfc486",
+    "resultados_calibracion_v1_1/02_integracion_y_deduplicacion/04_alertas_revision.csv": "c10a8c9905acd8497b1a03c3bc02223ad25f5a50a4ab271a12dd18aaa2ce9b04",
+    "resultados_calibracion_v1_1/03_cribado_comun/01_matriz_cribado_automatico.csv": "33b695b90271debcf658ae538474a4420cf6cea83f0e8ac9c0308ddc0d27c36c"
+  },
+  "sha256_salidas": {
+    "01_cruce_por_registro.csv": "09e9295609c27e953f63c2a1d0a1baa7bccf8e652bf99491ff6d8c074e560130",
+    "02_cruce_por_publicacion.csv": "a5c33f44342ccd0738c725cac7bf7e8d866ea05f1e96972d5aba38c17cd539f3",
+    "03_casos_para_revisar.csv": "fbc33cf6acb02ff41adc6a4859a72712f1a4dc88998274c3dde818ee142bf2a0",
+    "06_alertas_deduplicacion_para_revisar.csv": "6a907f09c274d245aa4977c51fe7d1da60e285de6a472acfc35985761b6b7371"
+  },
+  "version_cruce": "1.0"
+}

@@ -1,0 +1,88 @@
+{
+  "estado": "VERIFICADO",
+  "resumen": {
+    "publicaciones": 15297,
+    "incluidas": 3851,
+    "excluidas": 11446,
+    "nucleo_IN": 584,
+    "requiere_revision_humana": 0,
+    "procedencia": {
+      "regla_filtro_amplio_original": 7824,
+      "regla_confirmada_por_lectura_de_titulo": 4923,
+      "lectura_dirigida_titulo_resumen": 2464,
+      "revision_humana": 86
+    }
+  },
+  "comprobaciones": [
+    {
+      "comprobacion": "Una fila por publicación del corpus unificado",
+      "resultado": "OK",
+      "detalle": "15297 filas"
+    },
+    {
+      "comprobacion": "Columnas originales conservadas sin cambios",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "comprobacion": "Partición incluidos/excluidos",
+      "resultado": "OK",
+      "detalle": "3851 + 11446"
+    },
+    {
+      "comprobacion": "02_corpus_incluido coincide",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "comprobacion": "03_corpus_excluido coincide",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "comprobacion": "04_nucleo coincide con decision_cribado_desempeno = IN",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "comprobacion": "Excluidos en filtro amplio no se evalúan después",
+      "resultado": "OK",
+      "detalle": "7824 publicaciones"
+    },
+    {
+      "comprobacion": "Núcleo IN siempre incluido",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "comprobacion": "Toda exclusión tiene etapa, motivo y justificación",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "comprobacion": "Toda decisión tiene procedencia",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "comprobacion": "Valores permitidos en decisiones",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "comprobacion": "Revisión humana solo marca incluidos",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "comprobacion": "Formato de los archivos de lectura dirigida",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "comprobacion": "PRISMA cuadra con el corpus",
+      "resultado": "OK",
+      "detalle": ""
+    }
+  ]
+}

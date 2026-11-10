@@ -1,0 +1,246 @@
+{
+  "muestra_total": 100,
+  "muestra_revisada": 100,
+  "por_estrato": {
+    "E1_excluido_filtro_amplio": {
+      "tamano_estrato": 7824,
+      "revisadas": 25,
+      "acuerdo_inclusion": 0.84,
+      "ic95_inclusion": [
+        0.653,
+        0.936
+      ],
+      "revisor_incluye": 4,
+      "acuerdo_nucleo_entre_incluidas": null,
+      "ic95_nucleo": [
+        null,
+        null
+      ],
+      "n_nucleo": 0
+    },
+    "E2_excluido_pertinencia": {
+      "tamano_estrato": 3608,
+      "revisadas": 25,
+      "acuerdo_inclusion": 1.0,
+      "ic95_inclusion": [
+        0.867,
+        1.0
+      ],
+      "revisor_incluye": 0,
+      "acuerdo_nucleo_entre_incluidas": null,
+      "ic95_nucleo": [
+        null,
+        null
+      ],
+      "n_nucleo": 0
+    },
+    "E3_incluido_nucleo_OUT": {
+      "tamano_estrato": 3207,
+      "revisadas": 25,
+      "acuerdo_inclusion": 0.72,
+      "ic95_inclusion": [
+        0.524,
+        0.857
+      ],
+      "revisor_incluye": 18,
+      "acuerdo_nucleo_entre_incluidas": 0.722,
+      "ic95_nucleo": [
+        0.491,
+        0.875
+      ],
+      "n_nucleo": 18
+    },
+    "E4_incluido_nucleo_IN": {
+      "tamano_estrato": 572,
+      "revisadas": 25,
+      "acuerdo_inclusion": 1.0,
+      "ic95_inclusion": [
+        0.867,
+        1.0
+      ],
+      "revisor_incluye": 25,
+      "acuerdo_nucleo_entre_incluidas": 0.8,
+      "ic95_nucleo": [
+        0.609,
+        0.911
+      ],
+      "n_nucleo": 25
+    }
+  },
+  "kappa_inclusion_muestra": 0.78,
+  "kappa_nucleo_muestra": 0.522,
+  "acuerdo_inclusion_ponderado_corpus": 0.859,
+  "estimacion_falsos_excluidos_en_corpus": 1252,
+  "estimacion_falsos_incluidos_en_corpus": 898,
+  "discrepancias": [
+    {
+      "codigo": "M003",
+      "id_publicacion": "IPRE-U-973353B98334C5DDDA0F",
+      "estrato": "E3_incluido_nucleo_OUT",
+      "automatica": "INCLUIDO/OUT",
+      "revisor": "EXCLUIDO/NO_APLICA",
+      "comentario": "Nivel 1 EXCLUIDO: Automatización del levantamiento geológico, sin vínculo explícito con tiempos, costos o equipos de operación. Núcleo NO_APLICA al no superar Nivel 1."
+    },
+    {
+      "codigo": "M004",
+      "id_publicacion": "IPRE-U-6C5AC066CBD04660E4FC",
+      "estrato": "E3_incluido_nucleo_OUT",
+      "automatica": "INCLUIDO/OUT",
+      "revisor": "EXCLUIDO/NO_APLICA",
+      "comentario": "Nivel 1 EXCLUIDO: Homogeneización y reclamación de carbón en instalación de acopio posterior a la extracción; no se centra en la operación del rajo. Núcleo NO_APLICA al no superar Nivel 1."
+    },
+    {
+      "codigo": "M006",
+      "id_publicacion": "IPRE-U-25435EC992C7F0AFE11C",
+      "estrato": "E1_excluido_filtro_amplio",
+      "automatica": "EXCLUIDO/NO_APLICA",
+      "revisor": "INCLUIDO/OUT",
+      "comentario": "Nivel 1 INCLUIDO. Núcleo OUT: Solo se describen especificaciones de un ventilador (flujo y potencia), sin prueba de funcionamiento de una tarea."
+    },
+    {
+      "codigo": "M008",
+      "id_publicacion": "IPRE-U-E0DB6856BF1F94797C0C",
+      "estrato": "E3_incluido_nucleo_OUT",
+      "automatica": "INCLUIDO/OUT",
+      "revisor": "EXCLUIDO/NO_APLICA",
+      "comentario": "Nivel 1 EXCLUIDO: Catálogo de motores ofertados por fabricantes, sin investigación operacional propia. Núcleo NO_APLICA al no superar Nivel 1."
+    },
+    {
+      "codigo": "M009",
+      "id_publicacion": "IPRE-U-6243487A59D1E7B2EB17",
+      "estrato": "E1_excluido_filtro_amplio",
+      "automatica": "EXCLUIDO/NO_APLICA",
+      "revisor": "INCLUIDO/OUT",
+      "comentario": "Nivel 1 INCLUIDO. Núcleo OUT: Describe un esquema mejorado de extracción sin resultados comparativos propios suficientemente explícitos."
+    },
+    {
+      "codigo": "M016",
+      "id_publicacion": "IPRE-U-14A8B1EDD1584B3122FB",
+      "estrato": "E3_incluido_nucleo_OUT",
+      "automatica": "INCLUIDO/OUT",
+      "revisor": "INCLUIDO/IN",
+      "comentario": "Nivel 1 INCLUIDO. Núcleo IN (A+B+C): Evalúa geometría de bancos de acarreo respecto de capacidad de equipos y costos de transporte."
+    },
+    {
+      "codigo": "M032",
+      "id_publicacion": "IPRE-U-E9FEC025FEB7ACB6BA85",
+      "estrato": "E4_incluido_nucleo_IN",
+      "automatica": "INCLUIDO/IN",
+      "revisor": "INCLUIDO/OUT",
+      "comentario": "Nivel 1 INCLUIDO. Núcleo OUT: Analiza causas de fallas de neumáticos; no cuantifica el efecto sobre disponibilidad/productividad del camión completo."
+    },
+    {
+      "codigo": "M038",
+      "id_publicacion": "IPRE-U-1D7E4F066D5F0AC6B420",
+      "estrato": "E4_incluido_nucleo_IN",
+      "automatica": "INCLUIDO/IN",
+      "revisor": "INCLUIDO/OUT",
+      "comentario": "Nivel 1 INCLUIDO. Núcleo OUT: Describe oportunidad de mejorar gestión de auxiliares; el +1,9 veces corresponde a mejora histórica del sistema principal, no a evaluación de auxiliares."
+    },
+    {
+      "codigo": "M039",
+      "id_publicacion": "IPRE-U-4EAAB6677ED4B87F9119",
+      "estrato": "E3_incluido_nucleo_OUT",
+      "automatica": "INCLUIDO/OUT",
+      "revisor": "INCLUIDO/IN",
+      "comentario": "Nivel 1 INCLUIDO. Núcleo IN (A+B+C): Optimización de paredes de rajo comparada: menos estéril extraído, menos energía y NPV +34%."
+    },
+    {
+      "codigo": "M059",
+      "id_publicacion": "IPRE-U-2E13418F1C28EC07C599",
+      "estrato": "E4_incluido_nucleo_IN",
+      "automatica": "INCLUIDO/IN",
+      "revisor": "INCLUIDO/OUT",
+      "comentario": "Nivel 1 INCLUIDO. Núcleo OUT: Discute distancia de traslado de estación de trituración; no reporta valores finales evaluados."
+    },
+    {
+      "codigo": "M062",
+      "id_publicacion": "IPRE-U-1C7BBAA868A0E3B4519E",
+      "estrato": "E3_incluido_nucleo_OUT",
+      "automatica": "INCLUIDO/OUT",
+      "revisor": "INCLUIDO/IN",
+      "comentario": "Nivel 1 INCLUIDO. Núcleo IN (A+B+C): Ensayos industriales de herramienta de perforación: capacidad de perforar sección cuadrada y comportamiento de corte."
+    },
+    {
+      "codigo": "M064",
+      "id_publicacion": "IPRE-U-E3BF26E4504E996D1728",
+      "estrato": "E3_incluido_nucleo_OUT",
+      "automatica": "INCLUIDO/OUT",
+      "revisor": "EXCLUIDO/NO_APLICA",
+      "comentario": "Nivel 1 EXCLUIDO: Reseña de tendencias de productividad centrada en maquinaria y técnicas subterráneas. Núcleo NO_APLICA al no superar Nivel 1."
+    },
+    {
+      "codigo": "M067",
+      "id_publicacion": "IPRE-U-3215DDDFCE091A7D0EFD",
+      "estrato": "E3_incluido_nucleo_OUT",
+      "automatica": "INCLUIDO/OUT",
+      "revisor": "EXCLUIDO/NO_APLICA",
+      "comentario": "Nivel 1 EXCLUIDO: Visión computacional para medir volumen de pila de tronadura; reporta precisión de la medición, no efecto en operación. Núcleo NO_APLICA al no superar Nivel 1."
+    },
+    {
+      "codigo": "M069",
+      "id_publicacion": "IPRE-U-FA44B70353FDCF69F769",
+      "estrato": "E3_incluido_nucleo_OUT",
+      "automatica": "INCLUIDO/OUT",
+      "revisor": "INCLUIDO/IN",
+      "comentario": "Nivel 1 INCLUIDO. Núcleo IN (A+B+C): Comparación experimental de rutas de acarreo: disminución de costo de ruta optimizada."
+    },
+    {
+      "codigo": "M073",
+      "id_publicacion": "IPRE-U-E8F46077CDB111461B56",
+      "estrato": "E1_excluido_filtro_amplio",
+      "automatica": "EXCLUIDO/NO_APLICA",
+      "revisor": "INCLUIDO/OUT",
+      "comentario": "Nivel 1 INCLUIDO. Núcleo OUT: Describe mapas geológicos de apoyo en terreno sin medición de productividad/costos del trabajo."
+    },
+    {
+      "codigo": "M075",
+      "id_publicacion": "IPRE-U-3F5DCC2B9B7D4321123A",
+      "estrato": "E3_incluido_nucleo_OUT",
+      "automatica": "INCLUIDO/OUT",
+      "revisor": "INCLUIDO/IN",
+      "comentario": "Nivel 1 INCLUIDO. Núcleo IN (A+B+C): Modelo MILP probado con datos mineros: asignación de camiones/palas y cumplimiento de metas de producción."
+    },
+    {
+      "codigo": "M082",
+      "id_publicacion": "IPRE-U-7F2ACE24A97FB1A46B3D",
+      "estrato": "E3_incluido_nucleo_OUT",
+      "automatica": "INCLUIDO/OUT",
+      "revisor": "EXCLUIDO/NO_APLICA",
+      "comentario": "Nivel 1 EXCLUIDO: Visión estereoscópica para estimar fragmentación; resultado es precisión del sistema de medición sin efecto operacional observado. Núcleo NO_APLICA al no superar Nivel 1."
+    },
+    {
+      "codigo": "M086",
+      "id_publicacion": "IPRE-U-2BAD8BB84F7F5E1097DD",
+      "estrato": "E1_excluido_filtro_amplio",
+      "automatica": "EXCLUIDO/NO_APLICA",
+      "revisor": "INCLUIDO/IN",
+      "comentario": "Nivel 1 INCLUIDO. Núcleo IN (A+B+C): Modelo multicriterio aplicado a longitud de frente de trabajo: calcula longitud óptima ≥2.000 m."
+    },
+    {
+      "codigo": "M096",
+      "id_publicacion": "IPRE-U-68D5A1C62E0D00BD9AF3",
+      "estrato": "E4_incluido_nucleo_IN",
+      "automatica": "INCLUIDO/IN",
+      "revisor": "INCLUIDO/OUT",
+      "comentario": "Nivel 1 INCLUIDO. Núcleo OUT: Caso de tronadura y carguío señala beneficios, pero no reporta una medida o comparación operacional identificable."
+    },
+    {
+      "codigo": "M097",
+      "id_publicacion": "IPRE-U-3C4DDA9A693108C024E7",
+      "estrato": "E3_incluido_nucleo_OUT",
+      "automatica": "INCLUIDO/OUT",
+      "revisor": "EXCLUIDO/NO_APLICA",
+      "comentario": "Nivel 1 EXCLUIDO: Modelo CFD de circulación de aire y emisiones atmosféricas, sin indicador operacional. Núcleo NO_APLICA al no superar Nivel 1."
+    },
+    {
+      "codigo": "M098",
+      "id_publicacion": "IPRE-U-B41B4141B1630ACDAB5F",
+      "estrato": "E4_incluido_nucleo_IN",
+      "automatica": "INCLUIDO/IN",
+      "revisor": "INCLUIDO/OUT",
+      "comentario": "Nivel 1 INCLUIDO. Núcleo OUT: El modelo se prueba para predecir fragmentación, pero no mide la eficiencia de palas ni el efecto en su ciclo."
+    }
+  ],
+  "nota": "Acuerdo ponderado = suma de (tamaño del estrato x acuerdo del estrato) / corpus. Las estimaciones de falsos excluidos/incluidos extrapolan la proporción de discrepancias de cada estrato a su tamaño; con 25 casos por estrato el intervalo es amplio (ver ic95)."
+}

@@ -1,0 +1,85 @@
+{
+  "alertas_originales_auditadas": 791,
+  "archivos_decisiones_sha256": {
+    "01_matriz_791_decisiones_aprobadas.csv": "37d99462b55179009cbdddb279caedd5681c777b63562914197103c5b33ca34a",
+    "02_bitacora_decisiones_chat.csv": "da72f1fd516d81defbfc166cecd16c36d4512f5cc9a43a4c292b7571440d7012",
+    "03_seguimientos_especiales.csv": "5a453c5afc67f5624dae54f8dfab12a209c66c47a2e74ceed904e8b0ea9f2aeb",
+    "04_auditoria_cobertura_105.csv": "414b721ea09101a9e9b6fe6c28894bdba9f31e7c0947a7534489255241fddd42",
+    "05_prioritarios_15_sin_dictamen.csv": "76b036cabc49e797957c805520c63dec2168cf1d3165121f9157e8c1dbc5c07b",
+    "06_pendientes_bibliograficos.csv": "08d6fc619cf903531c74fd874d1631ad9f200da9a32b0472f5d69c8ff9fa0165",
+    "07_cierre_unificacion_6_excepciones_aprobadas.csv": "06d75d19df3f28b6d275558edf852e76b179af6c04553d696396c3795174e020"
+  },
+  "archivos_sha256": {
+    "01_corpus_unificado_identidad.csv": "4f289e8f9b4def42f8c06ffe8d3602cf1f979e41aff43c0324468e4a6190ab2a",
+    "02_procedencia_registros.csv": "ac5e49cb26455dd19c70f51bbed19ceec0f2bc9da3637eb91fdd5fcc11b10835",
+    "03_bitacora_vinculos.csv": "d09f698db900df637d56896fe0876cde2a2fbededc9609300a5ccba772bb730b",
+    "04_restricciones_y_pendientes.csv": "2fd89af08e5c57aa5886db36a7688fb26f7dae32e087a02447dd43c9d969f814",
+    "05_relaciones_editoriales.csv": "3a3d1403b6834ab06cdd8aab35a4b8c12469344019b3760aa58afaa9e78b7a5c",
+    "06_pendientes_bibliograficos.csv": "6e64f14752dd40312d653bcfaf01a258017a3eae7fdc26c02ccd8d52a351aaf9",
+    "07_alertas_automaticas_unicode.csv": "2897121dee3339b43dca0a80c6683395098582b2839e924f3957cef84c0ba243"
+  },
+  "aristas_humanas_aprobadas_cargadas": 891,
+  "aristas_humanas_fuera_de_la_etapa": 439,
+  "aristas_humanas_procesadas_en_la_etapa": 452,
+  "cobertura_original_excluida_no_reincorporada": 105,
+  "codigo_unificacion_sha256": {
+    "deduplicacion.py": "06b5333bf9dbeace7ad4000666689be28d58ba9212dcb521a0abacfd8437c4ba",
+    "fuentes.py": "0d8971f4089602414ee9d7bec22a76b3f39aa01a91a297952a25631af058aa09",
+    "normalizacion.py": "d61afd14d6d7ec64b3e88a1cc0c9b3fb25a0036d52a899549b052b25200f017d",
+    "unificacion_validada.py": "3f13d080143a72ee64be8d0a2e4e3a761704731118054b931a4b69dabbdf625f"
+  },
+  "cribado_tematico_modificado": false,
+  "decisiones_cierre_aprobadas": [
+    "ALERTA-0111",
+    "ALERTA-0500",
+    "ALERTA-0529",
+    "ALERTA-0534",
+    "ALERTA-0467",
+    "ALERTA-0519"
+  ],
+  "entradas": {
+    "OpenAlex": {
+      "registros": 4735,
+      "ruta": "Código OpenAlex/IPRE_codigo_y_datos_v9/01_extraccion_y_filtro/referencia_archivada/corpus_general_aceptado.csv",
+      "sha256": "d2660f83a4fe720c255681129e799987326692d222532999bb3fceb26604b99e"
+    },
+    "Scopus": {
+      "registros": 4614,
+      "ruta": "Código Scopus/IPRE_Scopus_codigo_y_datos_v9/01_extraccion_y_filtro/referencia_archivada/corpus_general_aceptado_provisional.csv",
+      "sha256": "47a2d51928801ad60c61a161cbfc43fb838e69e7b337a8753558b23b7b3bf01f"
+    },
+    "WoS": {
+      "registros": 2238,
+      "ruta": "Código WoS/IPRE_WoS_cribado_homologado/entrada_fase01/04_base_amplia_provisional.csv",
+      "sha256": "44cea8415b6074f029b3058f2ad5ae1fd2f718c3fcb86dd93cd757ef5fcf81fa"
+    }
+  },
+  "etapa": "base_amplia",
+  "fuentes_originales_modificadas": false,
+  "fusiones_humanas_aplicadas_efecto_neto": 446,
+  "identificadores_humanos_aprobados_cargados": 891,
+  "normalizacion": "unicode_v2",
+  "pendientes_sin_dictamen": [],
+  "por_fuente": {
+    "OpenAlex": 4735,
+    "Scopus": 4614,
+    "WoS": 2238
+  },
+  "publicaciones_con_varios_doi": 15,
+  "publicaciones_multifuente": 2928,
+  "publicaciones_unificadas": 7422,
+  "reduccion_total": 4165,
+  "registros_originales": 11587,
+  "seguimientos_no_resueltos": [
+    "ALERTA-0467",
+    "ALERTA-0519"
+  ],
+  "separaciones_o_pendientes_respetados": 7,
+  "todos_los_registros_representados_una_vez": true,
+  "version": "unificacion_validada_v2_cierre",
+  "vinculos_automaticos_adicionales_efecto_neto": 3719,
+  "vinculos_automaticos_rechazados": {
+    "MISMA_FUENTE_SIN_AUTORIZACION": 1
+  },
+  "vinculos_automaticos_ya_aprobados": 399
+}

@@ -1,0 +1,75 @@
+{
+  "corpus_de_entrada": "corpus final con revisión humana",
+  "publicaciones": 3851,
+  "indicadores": {
+    "Publicaciones incluidas": 3851,
+    "Núcleo de desempeño (IN)": 584,
+    "Periodo": "1940–2027",
+    "Sin año": 3,
+    "Tasa de crecimiento anual compuesta 1990–2025 (%)": 9.91,
+    "Tasa de crecimiento anual compuesta 2000–2025 (%)": 10.19,
+    "Tasa de crecimiento anual compuesta 2015–2025 (%)": 11.34,
+    "Publicaciones con año posterior a 2025 (año en curso o en prensa)": 320,
+    "Revistas o fuentes distintas": 1094,
+    "Revistas en zona 1 de Bradford": 26,
+    "Autores distintos (normalizados)": 6293,
+    "Autores por publicación (media)": 2.96,
+    "Publicaciones de autoría única": 999,
+    "Publicaciones con país (OpenAlex)": 1399,
+    "Cobertura de país (%)": 36.3,
+    "Colaboración internacional sobre publicaciones con país (%)": 13.9,
+    "Publicaciones con palabras clave de autor (Scopus/WoS)": 1909,
+    "Cobertura de palabras clave de autor (%)": 49.6,
+    "Palabras clave distintas (normalizadas, sin términos de contexto)": 6127,
+    "Citas: media por publicación (máximo entre bases)": 7.37,
+    "Citas: mediana": 1,
+    "Revisiones de literatura": 108,
+    "Identificadores de base no encontrados en los universos": 0
+  },
+  "cobertura_metadatos": {
+    "autores_por_fuente": {
+      "Scopus": 2544,
+      "OpenAlex": 1191,
+      "WoS": 86,
+      "sin_autores": 30
+    },
+    "palabras_clave_de_autor": {
+      "con": 1909,
+      "fuente": "Scopus y WoS (OpenAlex no entrega palabras clave de autor)"
+    },
+    "paises_e_instituciones": {
+      "con": 1399,
+      "fuente": "solo OpenAlex; los universos de Scopus y WoS no traen afiliaciones"
+    },
+    "citas": "máximo entre bases; las fechas de extracción de cada base difieren"
+  },
+  "redes": {
+    "R1_coocurrencia_palabras_clave": {
+      "nodos": 244,
+      "enlaces": 1460,
+      "umbral_documentos": 5,
+      "componentes": 2
+    },
+    "R2_coautoria": {
+      "nodos": 819,
+      "enlaces": 3434,
+      "umbral_documentos": 3,
+      "componentes": 106
+    },
+    "R3_colaboracion_paises": {
+      "nodos": 55,
+      "enlaces": 129,
+      "umbral_documentos": 3,
+      "componentes": 6
+    }
+  },
+  "decisiones_de_normalizacion": {
+    "autores": "apellido + inicial del primer nombre, sin tildes; prioridad Scopus > WoS > OpenAlex; se omiten autores anónimos. Puede unir homónimos o separar variantes de apellidos compuestos.",
+    "palabras_clave": "minúsculas, sin tildes ni guiones, variantes ortográficas de la configuración, plural->singular si ambas formas existen; se excluyen términos que solo describen el contexto de la búsqueda. Detalle en T09b.",
+    "revistas": "agrupadas por nombre normalizado; etiqueta = variante más frecuente que no esté en mayúsculas."
+  },
+  "opcionales": {
+    "graficos": "omitidos: falta matplotlib (requirements_complementarios.txt)",
+    "libro_excel": "generado"
+  }
+}

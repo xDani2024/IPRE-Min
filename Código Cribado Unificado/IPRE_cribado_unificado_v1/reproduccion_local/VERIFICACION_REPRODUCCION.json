@@ -1,0 +1,332 @@
+{
+  "estado": "REPRODUCIDO",
+  "consulta_api": false,
+  "api_key_necesaria": false,
+  "punto_de_inicio": "Corpus unificado validado (15.297 publicaciones) e instantáneas por base registradas por la integración",
+  "corpus_final": "con revisión humana aplicada",
+  "resultado_cribado": {
+    "decision_final": {
+      "INCLUIDO": 3851,
+      "EXCLUIDO": 11446
+    },
+    "nucleo_desempeno_IN": 584,
+    "requiere_revision_humana": 0
+  },
+  "cierre_revision_humana": {
+    "revision_humana_aplicada": 86,
+    "cambios": {
+      "INCLUIDO->INCLUIDO": 72,
+      "INCLUIDO->EXCLUIDO": 14
+    },
+    "pendientes_revision_humana": 0,
+    "decision_final": {
+      "EXCLUIDO": 11446,
+      "INCLUIDO": 3851
+    },
+    "nucleo_IN": 584
+  },
+  "descriptivos_cotejados_con_archivo": true,
+  "cotejos": [
+    {
+      "etapa": "entradas",
+      "archivo": "integracion_corpus/resultados_validados/universo/01_corpus_unificado_identidad.csv",
+      "sha256": "23cfdc559143ee1354129d8ee7efa91b0f1d8245d2894c605c9e6aa423079b14",
+      "reproducido_identico": true,
+      "verificacion": "identica"
+    },
+    {
+      "etapa": "entradas",
+      "archivo": "integracion_corpus/resultados_validados/universo/02_procedencia_registros.csv",
+      "sha256": "30fc7b92daf2e7df5b7d23648fdc3bfdb7564348aca50717ac556c8de75df61c",
+      "reproducido_identico": true,
+      "verificacion": "identica"
+    },
+    {
+      "etapa": "entradas",
+      "archivo": "integracion_corpus/resultados_validados/universo/08_resumen_validacion.json",
+      "sha256": "486807a72eeec86309cf7216b51552f5de4dbb38efe110816a2a5c2d9e496321",
+      "reproducido_identico": true,
+      "verificacion": "identica_salvo_saltos_de_linea"
+    },
+    {
+      "etapa": "entradas",
+      "archivo": "Código OpenAlex/IPRE_codigo_y_datos_v9/01_extraccion_y_filtro/datos_reconstruidos/universo_openalex.csv",
+      "sha256": "ab00259d1d00e93f43b32e27aece05ab279df74fb3e13d112f59983e4ed7de1a",
+      "reproducido_identico": true,
+      "verificacion": "identica"
+    },
+    {
+      "etapa": "entradas",
+      "archivo": "Código Scopus/IPRE_Scopus_codigo_y_datos_v9/01_extraccion_y_filtro/referencia_archivada/universo_scopus_deduplicado.csv",
+      "sha256": "9b61dfe6d57c50c522ccc3b77a71e8eafbdf712c89743eabd4ff36edb3f97adc",
+      "reproducido_identico": true,
+      "verificacion": "identica"
+    },
+    {
+      "etapa": "entradas",
+      "archivo": "Código WoS/IPRE_WoS_cribado_homologado/entrada_fase01/01_registros_unicos_normalizados.csv",
+      "sha256": "645d2e4bc452cd7eb731edf6580982fd0a10390a11acce6073a08f813eb45a80",
+      "reproducido_identico": true,
+      "verificacion": "identica"
+    },
+    {
+      "etapa": "01_filtro_amplio",
+      "archivo": "etapa2_filtro_amplio.csv",
+      "sha256": "d5e86b760e2e400d627df4a9e0f94a81c2f3fbebe7d12c44cca751769318751b",
+      "reproducido_identico": true
+    },
+    {
+      "etapa": "01_filtro_amplio",
+      "archivo": "etapa2_resumen.json",
+      "sha256": "5665d7e978f8ccde2590c19166f701117687a8e09d8efe5c8e593508159eee47",
+      "reproducido_identico": true
+    },
+    {
+      "etapa": "02_nucleo_desempeno",
+      "archivo": "etapa3a_nucleo_reglas.csv",
+      "sha256": "8cc91e9d99789fbaa3701d75142cd7ee96b8dc23d27c2f0bb5e51cae11483dad",
+      "reproducido_identico": true
+    },
+    {
+      "etapa": "02_nucleo_desempeno",
+      "archivo": "etapa3a_resumen.json",
+      "sha256": "9ebe16e5f2fed03f885ea018110cebba1916f50f46590c05026f7dcbfc3f6e70",
+      "reproducido_identico": true
+    },
+    {
+      "etapa": "03_pertinencia_operacional",
+      "archivo": "etapa3b_nivel1_reglas.csv",
+      "sha256": "ab1563a82331cecfce2e8211adbd5f8d2dd497a7fde6f0cb0f5f102efb66222c",
+      "reproducido_identico": true
+    },
+    {
+      "etapa": "03_pertinencia_operacional",
+      "archivo": "etapa3b_resumen.json",
+      "sha256": "b74a23361f849a1adcffb882dea69d1c9f4310c930ae22d8ae4cc8673ea6e192",
+      "reproducido_identico": true
+    },
+    {
+      "etapa": "04_integracion_final",
+      "archivo": "01_corpus_completo_cribado.csv",
+      "sha256": "b5cedf8fdb5c7425bbf24332d392ba3e797f2272c617413bd6b3bfba46a80b1c",
+      "reproducido_identico": true
+    },
+    {
+      "etapa": "04_integracion_final",
+      "archivo": "02_corpus_incluido.csv",
+      "sha256": "7cd331d2a8f50515005bc78bb8c8e588772bf16f088866ebd3f5ed8806d1e551",
+      "reproducido_identico": true
+    },
+    {
+      "etapa": "04_integracion_final",
+      "archivo": "03_corpus_excluido.csv",
+      "sha256": "61e128edd8d8c2a8ced6d1b75cd74cb11851666465cce37d64ddac066c10d764",
+      "reproducido_identico": true
+    },
+    {
+      "etapa": "04_integracion_final",
+      "archivo": "04_nucleo_desempeno_IN.csv",
+      "sha256": "2fa9713620760493e7f07073a31fc6ce985a7cddae72efae8e3135322b76990f",
+      "reproducido_identico": true
+    },
+    {
+      "etapa": "04_integracion_final",
+      "archivo": "05_resumen_cribado.json",
+      "sha256": "6d8a09f114642b61008d73022b43e777131447ff3ecffdfbf4d34b6232300cba",
+      "reproducido_identico": true
+    },
+    {
+      "etapa": "04_integracion_final",
+      "archivo": "06_prisma.json",
+      "sha256": "4ea8435f1ad8c6777078926a333b7211a2b0c901443f2b0992e4c3010ea15f3b",
+      "reproducido_identico": true
+    },
+    {
+      "etapa": "04_integracion_final",
+      "archivo": "Verificacion_integridad.json",
+      "sha256": "e0b54babb8d796eadee8aedce964b75f9264906d9d53ce0bb000b784abad001d",
+      "reproducido_identico": true
+    },
+    {
+      "etapa": "05_cierre_revision",
+      "archivo": "03_clave_muestra_validacion.csv",
+      "sha256": "297f68d203a3d4e2dae7a48bc8651932eddec1b3a7ddf4863c678822bee1b513",
+      "reproducido_identico": true
+    },
+    {
+      "etapa": "05_cierre_revision",
+      "archivo": "01_corpus_completo_cribado.csv",
+      "sha256": "edc0fa0f26444c94623c47dc048aab837f6635874d43f5ad79b45f0f2f64a9ad",
+      "reproducido_identico": true
+    },
+    {
+      "etapa": "05_cierre_revision",
+      "archivo": "02_corpus_incluido.csv",
+      "sha256": "6b58d92b916df8a4335ea679eead6fcb282fa9b564911d0229460769a7ea7f35",
+      "reproducido_identico": true
+    },
+    {
+      "etapa": "05_cierre_revision",
+      "archivo": "03_corpus_excluido.csv",
+      "sha256": "d704ee1bceb92874b6bcfa6cd94f07650ad010bb0733e7d8332589facbdc4082",
+      "reproducido_identico": true
+    },
+    {
+      "etapa": "05_cierre_revision",
+      "archivo": "04_nucleo_desempeno_IN.csv",
+      "sha256": "aa757ad07449a2b2d5e3ca944aa76b2e1f593128d19903bd4f5b7e11477d8eaf",
+      "reproducido_identico": true
+    },
+    {
+      "etapa": "05_cierre_revision",
+      "archivo": "05_resumen_cierre.json",
+      "sha256": "ac1559deac44f75db514936b27a5d73e88ba1c19987182514ac27fb3d15a42c3",
+      "reproducido_identico": true
+    },
+    {
+      "etapa": "05_cierre_revision",
+      "archivo": "06_prisma.json",
+      "sha256": "50256d615af9d5ed0b4f534b24b427d21f088bb387cd96ac3b606b3bf41d2a3d",
+      "reproducido_identico": true
+    },
+    {
+      "etapa": "05_cierre_revision",
+      "archivo": "Verificacion_integridad.json",
+      "sha256": "333c121f9b92a0352205a1234700021db8e94afaed39575076c16c908b276a97",
+      "reproducido_identico": true
+    },
+    {
+      "etapa": "05_cierre_revision",
+      "archivo": "concordancia_muestra_validacion.json",
+      "sha256": "2a6108806b9d4ef1aa0104cde13f2352299ede6d5e12e4a7e367dc57844dcfd7",
+      "reproducido_identico": true
+    },
+    {
+      "etapa": "06_descriptivos",
+      "archivo": "tablas/T00_indicadores_generales.csv",
+      "sha256": "9b2e87d9d836793e7a28c99480b7397617107bbb4efcdb76621c9f9e3eff7c2a",
+      "reproducido_identico": true
+    },
+    {
+      "etapa": "06_descriptivos",
+      "archivo": "tablas/T01_produccion_anual.csv",
+      "sha256": "99791c5eb9b22c189e4ae8d7b37fa72dacfb42a5438e30e37b703ceed68b2156",
+      "reproducido_identico": true
+    },
+    {
+      "etapa": "06_descriptivos",
+      "archivo": "tablas/T02_tipo_documento.csv",
+      "sha256": "a80d39acfe8a064a94ec6392fc949add0a524548b7a351e2f06ff9164ac1d10e",
+      "reproducido_identico": true
+    },
+    {
+      "etapa": "06_descriptivos",
+      "archivo": "tablas/T03_bases_de_origen.csv",
+      "sha256": "17db1ffdd47ee74d7b03857c6e721bf1d70aff79fee2d7bf36c595eaf642fa79",
+      "reproducido_identico": true
+    },
+    {
+      "etapa": "06_descriptivos",
+      "archivo": "tablas/T04_revistas.csv",
+      "sha256": "3326ebf7694f9dc570e1fafa165e090510217cba9b80bc2a818cbe1859b240f9",
+      "reproducido_identico": true
+    },
+    {
+      "etapa": "06_descriptivos",
+      "archivo": "tablas/T04b_zonas_bradford.csv",
+      "sha256": "4ce5b078739a99a29fe3d2f810ccce50e71f39a9e2b9d668775b5bc67e798933",
+      "reproducido_identico": true
+    },
+    {
+      "etapa": "06_descriptivos",
+      "archivo": "tablas/T05_autores.csv",
+      "sha256": "44409e417da3916fa7a1cccea717ac1dd699cc44f5926cc8ae08bc3725ecd662",
+      "reproducido_identico": true
+    },
+    {
+      "etapa": "06_descriptivos",
+      "archivo": "tablas/T06_paises.csv",
+      "sha256": "0ad72ba7a0875449efac4babd96f28166e2ca94ffa7dee757200673e6b76f5e6",
+      "reproducido_identico": true
+    },
+    {
+      "etapa": "06_descriptivos",
+      "archivo": "tablas/T07_instituciones.csv",
+      "sha256": "8cf1c6db65d3acdb0d209bacceab5a3c5e3dca74cacd82dc9bf6e7074d52d1c2",
+      "reproducido_identico": true
+    },
+    {
+      "etapa": "06_descriptivos",
+      "archivo": "tablas/T08_mas_citadas.csv",
+      "sha256": "11bc6a688d35d6a901dc6305073780d94d38e6009d9499cc3164a8b3a86b8bc9",
+      "reproducido_identico": true
+    },
+    {
+      "etapa": "06_descriptivos",
+      "archivo": "tablas/T09_palabras_clave.csv",
+      "sha256": "0bc8e55db9b281cd17f26903381eb973ff885b281f96e3fe045a2c9e4b6f7f48",
+      "reproducido_identico": true
+    },
+    {
+      "etapa": "06_descriptivos",
+      "archivo": "tablas/T09b_normalizacion_palabras_clave.csv",
+      "sha256": "92f53410e6106a45e46904fd719481b462e32d0abb963a1bcf8ee77fe3ab347c",
+      "reproducido_identico": true
+    },
+    {
+      "etapa": "06_descriptivos",
+      "archivo": "redes/R1_coocurrencia_palabras_clave.graphml",
+      "sha256": "10166ee855b397896288d1aba296a612281fb2338f83de190a8a5c0ec0a373d0",
+      "reproducido_identico": true
+    },
+    {
+      "etapa": "06_descriptivos",
+      "archivo": "redes/R1_coocurrencia_palabras_clave_map.txt",
+      "sha256": "acf93ad91688b4b43a3a84d5156adc234a3fd37a34155b95a5eb1bd9d5f97135",
+      "reproducido_identico": true
+    },
+    {
+      "etapa": "06_descriptivos",
+      "archivo": "redes/R1_coocurrencia_palabras_clave_network.txt",
+      "sha256": "6f1aaeb7b5af58d1499b321b30896e2cbd80ea5efc119f9f5ce4a2e9900f12f0",
+      "reproducido_identico": true
+    },
+    {
+      "etapa": "06_descriptivos",
+      "archivo": "redes/R2_coautoria.graphml",
+      "sha256": "d55f28cf37ffe5ddc41bd0885301e9d81a1dce19a1d1a13a18441e4206971cab",
+      "reproducido_identico": true
+    },
+    {
+      "etapa": "06_descriptivos",
+      "archivo": "redes/R2_coautoria_map.txt",
+      "sha256": "d1811ce4b79519b74726e7a46fed666de0a4600f6525054abac979dd796764a0",
+      "reproducido_identico": true
+    },
+    {
+      "etapa": "06_descriptivos",
+      "archivo": "redes/R2_coautoria_network.txt",
+      "sha256": "8c0284f158f512ec139a468a3c46af06aad7ea5f57556d8be189ec9ba074915f",
+      "reproducido_identico": true
+    },
+    {
+      "etapa": "06_descriptivos",
+      "archivo": "redes/R3_colaboracion_paises.graphml",
+      "sha256": "621fb372fcab04c03720603c7e9d07d345b30ef3e41e44e694b085ee4ba2eb5b",
+      "reproducido_identico": true
+    },
+    {
+      "etapa": "06_descriptivos",
+      "archivo": "redes/R3_colaboracion_paises_map.txt",
+      "sha256": "0163ebec06d6290719fc8d33aa0eb2b423a69389007f30899d0227ddfe67c36f",
+      "reproducido_identico": true
+    },
+    {
+      "etapa": "06_descriptivos",
+      "archivo": "redes/R3_colaboracion_paises_network.txt",
+      "sha256": "1a719bcc47215b72c4d07dd94c2c0b03c9374a8902936dd94ed565d0d3219337",
+      "reproducido_identico": true
+    }
+  ],
+  "limite": "Las decisiones de lectura dirigida y de revisión humana son entradas congeladas; no se regeneran sus lecturas."
+}

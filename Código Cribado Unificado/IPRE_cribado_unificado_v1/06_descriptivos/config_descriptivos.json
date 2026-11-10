@@ -1,0 +1,104 @@
+{
+  "_nota": "Parámetros de 09_descripcion_bibliometrica.py. Las rutas de los universos se leen de 08_resumen_validacion.json de la integración.",
+  "anio_ultimo_completo": 2025,
+  "top_n_tablas": 30,
+  "top_n_figuras": 15,
+  "red_palabras_clave_min_documentos": 5,
+  "red_coautoria_min_documentos": 3,
+  "red_paises_min_documentos": 3,
+  "palabras_clave_de_contexto_excluidas": [
+    "open pit mining",
+    "open pit mine",
+    "open pit mines",
+    "open pit",
+    "open pits",
+    "surface mining",
+    "surface mine",
+    "surface mines",
+    "opencast mining",
+    "opencast mine",
+    "open cast mining",
+    "opencast",
+    "open cut mining",
+    "open cut mine",
+    "open cut",
+    "mining",
+    "mine",
+    "mines",
+    "mining industry",
+    "strip mining",
+    "quarry",
+    "quarrying"
+  ],
+  "variantes_ortograficas": {
+    "optimisation": "optimization",
+    "optimise": "optimize",
+    "utilisation": "utilization",
+    "modelling": "modeling",
+    "analyse": "analyze",
+    "behaviour": "behavior",
+    "artificial neural networks": "artificial neural network",
+    "ann": "artificial neural network",
+    "machine learning ml": "machine learning",
+    "discrete event simulation des": "discrete event simulation"
+  },
+  "tokens_de_contexto": [
+    "open",
+    "pit",
+    "pits",
+    "cast",
+    "opencast",
+    "cut",
+    "surface",
+    "strip",
+    "mine",
+    "mines",
+    "mining",
+    "quarry",
+    "quarries",
+    "quarrying",
+    "coal",
+    "metal",
+    "iron",
+    "copper",
+    "gold",
+    "lignite"
+  ],
+  "tokens_de_contexto_obligatorios": [
+    "pit",
+    "pits",
+    "opencast",
+    "cast",
+    "cut",
+    "surface",
+    "strip",
+    "mine",
+    "mines",
+    "mining",
+    "quarry",
+    "quarries",
+    "quarrying"
+  ],
+  "ventanas_crecimiento": [
+    [
+      1990,
+      2025
+    ],
+    [
+      2000,
+      2025
+    ],
+    [
+      2015,
+      2025
+    ]
+  ],
+  "autores_anonimos": [
+    "anon",
+    "anonymous",
+    "no author name available",
+    "no author",
+    "et al"
+  ],
+  "figura_produccion_desde": 1965
+}
